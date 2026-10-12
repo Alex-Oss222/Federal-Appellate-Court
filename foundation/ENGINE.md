@@ -6,7 +6,9 @@ Stone is commissioned and takes the required judicial oaths on December 1, 1993 
 
 Use real historical appeals as the starting cases. A selected case's actual caption, docket, lower-court record, and procedural posture must be verified. Declared panel substitutions and resulting appellate rulings are simulation events. Never represent invented facts, filings, quotations, or dockets as historical research.
 
-The character's prior district-court service and signature opinion remain supplied biography. No fictional earlier holding is automatically entered into circuit precedent. Admission of a specific prior fictional decision requires a user-established legal baseline identifying its holding and status. A possible later Supreme Court career mentioned in Stone's jurisprudence is not part of this project's current institutional history.
+The character's prior district-court service and signature opinion remain supplied biography. No fictional earlier holding is automatically entered into circuit precedent. Admission of a specific prior fictional decision requires a user-established legal baseline identifying its holding and status.
+
+`stone/JURISPRUDENCE.md` is archival storage only. The engine and its agents must never open, read, search, index, summarize, embed, import, validate, or otherwise process its contents. This boundary applies to preparation, research, generation, neutral modeling, reconciliation, assembly, validation, follow-up, rendering, and engine maintenance. Engine-generated summaries, embeddings, digests, cached extracts, and other archival derivatives are equally excluded, even if created earlier. Use explicit allowed-file lists for all source access; the archive and engine-generated archival derivatives are never eligible inputs. Its presence in the repository grants no permission to use it. The user's expressly supplied case-specific brief is an authorized input; hypothetical provenance does not disqualify it. Do not compare that brief with the archive or reconstruct the archive to enforce this exclusion.
 
 ## 2. Legal and documentary authority
 
@@ -17,7 +19,7 @@ At each event, identify the date, the record, the issue properly before the cour
 - A selected appeal's historical opinion is its comparator, not a second live disposition alongside the simulation's replacement decision. If an earlier stage of the same case remains effective, identify it separately.
 - Historical decisions outside selected appeals can remain background law when compatible with this timeline. If one depends materially on a replaced ruling or on an impossible panel, assess and record the compatibility problem before relying on it. Do not automatically erase all later cases, but do not invent replacement reasoning, authorship, or votes to repair one.
 - Final simulation event records establish this circuit's changed holdings, judgments, and procedure. Their legal effect depends on court authority, publication status, actual joins, dates, and later treatment.
-- Stone's jurisprudence is personal reasoning material. His approved case proposal is his position, not binding law or another judge's view.
+- The latest user-approved case brief `stone.md` is the sole source of Stone's case-specific disposition and reasoning. It is his position, not binding law or another judge's view. `stone/CHARACTER.md` supplies biography only; the jurisprudence archive supplies nothing to the engine.
 - [Standing State](../state/STANDING_STATE.md) tracks present institutional and procedural status. [Precedent](../state/PRECEDENT.md) indexes controlling propositions. Neither overrides its source record.
 
 No separate Holdings or Standards and Tests register is required. State the operative holding, applied test, review standard, burdens, and material qualifications in the final event record. The precedent index remains a concise pointer and subsequent-treatment aid; historical law is researched from its actual sources.
@@ -61,7 +63,7 @@ Research may use a historical opinion's recitation of facts, with attribution. E
 
 ## 6. Separated adjudication
 
-The user controls Stone's case-specific position. Drafts remain drafts until approved or covered by a genuine existing delegation. Neither biography nor jurisprudence silently supplies a missing choice. There is no inherited Supreme Court standing fallback.
+The user controls Stone's case-specific position through `stone.md`. Prepare proposals from the user's case-specific instructions and the legal packet, never from the jurisprudence archive or engine-generated archival derivatives. Drafts remain drafts until approved or covered by a genuine existing delegation. Record choices made within that delegation in `stone.md` without seeking duplicate approval. Ask for the user's case-specific input only when neither the approved brief nor a genuine existing delegation covers a required choice; do not infer it from biography or an old project permission. There is no inherited Supreme Court standing fallback.
 
 ### Neutral modeling
 
@@ -141,3 +143,4 @@ Annual close checks selected-case coverage, records, effective precedent treatme
 Check source identity and date; panel eligibility; preserved questions and review standards; disposition and join arithmetic; controlling status; remedy and mandate consistency; historical compatibility; and links between final records, state, and public output. Identify limitations specifically. Never claim an unsupported source, a fresh context that did not exist, a user approval that was not given, or a legal conclusion established by a script.
 
 If a defect affects only one issue or case, preserve the remaining valid work. Do not erase completed decisions to tidy a directory. File cleanup preserves the single current version and uses repository history for superseded content.
+

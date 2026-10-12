@@ -4,6 +4,8 @@ Create a case folder under `years/YYYY/cases/<case-slug>/`. Fill the forms below
 
 The brief prepares a case; it does not adjudicate it. Governing tests and review standards are researched here and preserved in the final decision when applied. No separate Holdings or Standards and Tests document is required.
 
+The latest user-approved `stone.md` is the sole source of Stone's case-specific disposition and reasoning. `stone/JURISPRUDENCE.md` is archival storage and must never be read, searched, imported, summarized, embedded, validated, or otherwise used in preparing or processing this brief or any later stage. Do not use engine-generated summaries, cached extracts, embeddings, digests, or other archival derivatives, including existing ones. Use explicit allowed-file lists that exclude the archive and engine-generated archival derivatives. The user's expressly supplied case-specific brief remains an authorized input under the engine's archive exclusion.
+
 ## File: neutral.md
 
 ### Identity and assignment
@@ -75,7 +77,7 @@ Repeat this block for each genuinely distinct issue:
 
 Give primary-source links and pinpoints sufficient to verify the material propositions. When facts were extracted from the historical opinion under simulation, identify their provenance without handing that opinion's result to the modeler. Supply a sanitized extract rather than directing the modeler to read the full comparator. Separate lower-court rulings that are legitimately part of the record from the current appellate outcome that must remain withheld.
 
-Exclude Stone's private proposal, personal jurisprudence and biography, the selected appellate event's historical result and voting alignment, and later Supreme Court events. Case identity may permit latent familiarity; do not claim the model has no prior knowledge. The enforced boundary is the material supplied or retrieved during the scoped stage.
+Exclude Stone's private proposal and biography, the selected appellate event's historical result and voting alignment, and later Supreme Court events. The archive exclusion above applies to every stage, not only this neutral handoff. Case identity may permit latent familiarity; do not claim the model has no prior knowledge. The enforced boundary is the material supplied or retrieved during the scoped stage.
 
 ## File: stone.md
 
@@ -104,7 +106,7 @@ Repeat for each separable issue or judgment component:
 **Acceptable narrower join or fallback:** [Only if approved; otherwise not supplied].
 **Separate writing:** [Approved substance and conditions, if any].
 
-Distinguish what binding law requires, what is open to this court, and what Stone would urge another court to change. His personal view does not authorize ignoring precedent. Do not infer a missing user-controlled position from the jurisprudence document or an old project permission.
+Distinguish what binding law requires, what is open to this court, and what Stone would urge another court to change. His personal view does not authorize ignoring precedent. Prepare proposals only from the user's case-specific instructions and the legal packet, and preserve the approval requirement. Record choices covered by a genuine existing delegation without seeking duplicate approval. Ask for user input only when neither the approved brief nor a genuine existing delegation covers a required choice; do not infer it from biography, the archive or engine-generated archival derivatives, or an old project permission.
 
 ## File: history.md
 
@@ -133,3 +135,4 @@ Put later historical rehearing and Supreme Court outcomes in a separate optional
 Record preparation or execution identifiers internally and accurately. Do not claim a context was isolated merely because the corresponding files exist. Do not create empty Run outputs to imply that a case has been adjudicated.
 
 Maintain the live tracker using the [Standing State template](templates/STANDING_STATE.md). Holdings and applied tests stay in final decision records, with navigation and later treatment in the precedent index.
+
