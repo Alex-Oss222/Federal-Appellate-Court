@@ -53,4 +53,6 @@ None. Completed event records retain the procedural history. At annual close, re
 
 ## Maintenance boundary
 
+Use the [Standing State template](../foundation/templates/STANDING_STATE.md) for future updates while preserving the live data above.
+
 Update this file after each final event or verified material institutional change. Event records and primary sources control if a summary is wrong. This tracker may record petitions, grants or denials, merits decisions, and resulting remands when verified and compatible; it never creates those events, a Supreme Court holding, or an undisclosed vote. It contains no Stone private proposals, judicial commitments, or legal digests. Legal treatment is indexed separately in Precedent.

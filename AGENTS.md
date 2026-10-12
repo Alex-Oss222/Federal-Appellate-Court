@@ -6,11 +6,11 @@ This repository runs selected historical Second Circuit appeals beginning July 2
 
 - The engine controls simulation procedure and source roles. Governing historical law still comes from verified legal sources, not from a character document.
 - [Case selection](foundation/CASE_SELECTION.md) controls six coverage groups, three historical cases per group, and eighteen-case cycles across calendar years. Use the [case-list template](foundation/templates/CASE_LIST.md); keep one canonical row per case. Audit each completed cycle and carry unfinished group slots in Standing State.
-- [Standing State](state/STANDING_STATE.md) identifies the current date and pending work. [The roster](foundation/COURT_ROSTER.md) supplies dated institutional facts. Future roster entries are scheduling information only.
-- [Precedent](state/PRECEDENT.md) is an index. Final event records and effective historical authorities control legal substance.
+- [Standing State](state/STANDING_STATE.md) identifies the current date and pending work. Maintain it with the [Standing State template](foundation/templates/STANDING_STATE.md), preserving existing live entries. [The roster](foundation/COURT_ROSTER.md) supplies dated institutional facts. Future roster entries are scheduling information only.
+- [Precedent](state/PRECEDENT.md) is an index. Final event records and effective historical authorities control legal substance. Do not create separate Holdings or Standards and Tests registers; preserve holdings and applied tests in each final record.
 - [Character](stone/CHARACTER.md) controls biography. [Jurisprudence](stone/JURISPRUDENCE.md) guides drafting Stone's position. Neither supplies a court holding, a colleague's agreement, or an approved case-specific choice.
 - The latest user-approved `stone.md` controls Stone within the law and its stated scope. Do not assume the old Supreme Court fallback applies or silently fill a missing vote. A conflict with binding authority must be identified and resolved before assembly.
-- [Render rules](foundation/RENDER_CONTRACT.md) govern presentation only.
+- [Render rules](foundation/RENDER_CONTRACT.md) and the [render template](foundation/templates/RENDER.md) govern presentation only. All reusable forms are linked in the [template index](foundation/templates/README.md).
 
 Read only the sources needed for the stage. Do not preload Stone's files, the historical case result, or future legal developments into a neutral modeling context.
 
@@ -22,7 +22,7 @@ Use [the brief template](foundation/CASE_BRIEF_TEMPLATE.md) and these separate f
 2. A **fresh neutral context** sees only the neutral packet, its date-eligible authorities, relevant public prior decisions, and procedural engine rules. It models the participating judges other than Stone and saves `commitments.md`.
 3. A **separate reconciliation context** sees the neutral material, frozen commitments, and historical comparison, but never Stone's private material. It saves `reconciled.md`.
 4. Assembly receives the frozen reconciled positions and the approved Stone proposal. It determines actual agreement on judgment, reasoning, remedy, authorship, and separate writings. Save a dated final event record.
-5. Render receives only the final record's public decision and the render contract. Update Standing State and the precedent index from final records.
+5. Render receives only the final record's public decision, render contract, and render template. Update Standing State from final records using its template, and update the precedent index without duplicating a legal treatise.
 
 Delegate the substantive neutral and reconciliation stages to separate scoped agents or equivalent fresh executions when running a case. Pass an explicit allowed-file list and no inherited conversation containing Stone or the comparator. A new filename, prompt section, or instruction to forget is not isolation. If fresh contexts are unavailable, finish preparation and report that specific limitation; do not claim an isolated Run occurred. These requirements do not call for agents when merely editing infrastructure.
 

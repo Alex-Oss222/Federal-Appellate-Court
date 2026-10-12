@@ -1,6 +1,6 @@
 # Appellate decision presentation
 
-Render only the final record's Public decision section. Read this contract and the authorized final public material, not Stone's private input, historical comparison, frozen commitments, or later case history. Presentation cannot determine or revise legal substance.
+Render only the final record's Public decision section. Read this contract, the [render template](templates/RENDER.md), and the authorized final public material, not Stone's private input, historical comparison, frozen commitments, or later case history. Presentation cannot determine or revise legal substance. Use the template's merits form or procedural-event form as appropriate and remove unused instructions and placeholders.
 
 Use the form the decision needs, ordinarily:
 

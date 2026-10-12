@@ -4,6 +4,8 @@
 
 Historical law supplies the starting legal world. Relevant historical Supreme Court decisions, Second Circuit authority, statutes, rules, and other governing sources are researched for each event. This file is not an exhaustive restatement of 1994 law and imports nothing from `scotus-career`.
 
+No separate Holdings or Standards and Tests document is maintained. Final event records retain the holdings, applied tests, review standards, burdens, and qualifications. This file links to them and tracks later treatment; it does not replace those records.
+
 No simulation holdings have been entered. The fictional background opinion described in the character sheet has not been admitted as a separate controlling legal baseline.
 
 ## Indexed propositions

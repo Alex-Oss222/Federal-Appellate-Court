@@ -20,6 +20,8 @@ At each event, identify the date, the record, the issue properly before the cour
 - Stone's jurisprudence is personal reasoning material. His approved case proposal is his position, not binding law or another judge's view.
 - [Standing State](../state/STANDING_STATE.md) tracks present institutional and procedural status. [Precedent](../state/PRECEDENT.md) indexes controlling propositions. Neither overrides its source record.
 
+No separate Holdings or Standards and Tests register is required. State the operative holding, applied test, review standard, burdens, and material qualifications in the final event record. The precedent index remains a concise pointer and subsequent-treatment aid; historical law is researched from its actual sources.
+
 Distinguish a disagreement with precedent from authority to depart from it. A panel cannot exercise the Supreme Court's overruling power. Apply the Second Circuit's date-specific prior-panel, intervening-authority, en banc, mandate, and law-of-the-case rules. Check publication and citation rules as of the relevant date. A nonprecedential disposition may still bind the parties and matter for preclusion or the same litigation; lack of precedential force does not mean no legal effect.
 
 ## 3. Calendar and scope
@@ -87,6 +89,8 @@ Separate circuit precedent, party-specific relief, dicta, and separate opinions.
 
 A final record is authoritative once validated and saved. Update the precedent index and Standing State immediately after it, preserving the correct effective date. A render cannot add a holding or repair an unsupported vote. Corrections are explicit, user-authorized changes with internal lineage and Git history; public decision prose need not narrate the editing workflow.
 
+Use the [render template](templates/RENDER.md) under the [render contract](RENDER_CONTRACT.md) after locking the record. The record's Public decision section must contain the public case identity, dates, panel, and every substantive item needed for that presentation. Internal metadata and historical comparison are not renderer inputs.
+
 ## 8. Historical Supreme Court and later proceedings
 
 The Supreme Court's actual composition, holdings, and dates remain historical. Do not import `scotus-career` holdings or model a new Supreme Court vote, certiorari choice, merits result, or remand. Its historical decisions govern later circuit events according to their actual scope and temporal effect, even when this circuit reached a different view earlier.
@@ -105,6 +109,8 @@ The circuit may independently simulate its own rehearing, mandate, and remand pr
 ## 9. Standing State and annual close
 
 Standing State is a living tracker here, not a copy of the Supreme Court project's narrower opening-term document. It contains the current institutional snapshot, case-list pointers, and open rehearings, petitions, mandates, remand returns, dependencies, and specific follow-up blockers. Link every change to a dated final event record or a verified source. Keep private positions, frozen deliberative material, and future historical outcomes outside it.
+
+Maintain it using the [Standing State template](templates/STANDING_STATE.md). Replace placeholders with sourced current information, preserve existing unresolved entries and cycle counts, and remove only reconciled terminal items. The form is not authorization to reset the live tracker or create an annual duplicate.
 
 Separate a **research task** from a known pending proceeding. Unknown petition status is not proof a petition exists. Record only evidenced deadlines and identify any unresolved date calculation. Retain a succinct terminal entry until annual close, then preserve its source in the case record and carry forward only live matters. A year may close with explicitly carried pending cases.
 
