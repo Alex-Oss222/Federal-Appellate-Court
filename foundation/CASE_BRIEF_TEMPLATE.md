@@ -7,7 +7,7 @@ Create a case folder under `years/YYYY/cases/<case-slug>/`. This template descri
 ### Identity and assignment
 
 - Historical case caption, docket, and source citation.
-- Primary subject and optional secondary tags; selection reason.
+- Coverage cycle, primary group from the [selection policy](CASE_SELECTION.md), and secondary subjects; principal question, selection reason, and reference to the canonical annual case-list entry. Do not include that entry's Departure column or other outcome-revealing material in the neutral packet.
 - Lower tribunal, judgment or order under review, and requested appellate relief.
 - Historical argument/submission date; simulation argument/submission date; proposed event date; basis for any difference.
 - Historical panel, each judge's status, and source proving membership. Put the panel's result, author, and joins only in `history.md`.

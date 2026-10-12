@@ -5,6 +5,7 @@ This repository runs selected historical Second Circuit appeals beginning July 2
 ## Authority and reading boundaries
 
 - The engine controls simulation procedure and source roles. Governing historical law still comes from verified legal sources, not from a character document.
+- [Case selection](foundation/CASE_SELECTION.md) controls six coverage groups, three historical cases per group, and eighteen-case cycles across calendar years. Use the [case-list template](foundation/templates/CASE_LIST.md); keep one canonical row per case. Audit each completed cycle and carry unfinished group slots in Standing State.
 - [Standing State](state/STANDING_STATE.md) identifies the current date and pending work. [The roster](foundation/COURT_ROSTER.md) supplies dated institutional facts. Future roster entries are scheduling information only.
 - [Precedent](state/PRECEDENT.md) is an index. Final event records and effective historical authorities control legal substance.
 - [Character](stone/CHARACTER.md) controls biography. [Jurisprudence](stone/JURISPRUDENCE.md) guides drafting Stone's position. Neither supplies a court holding, a colleague's agreement, or an approved case-specific choice.
@@ -28,7 +29,7 @@ Delegate the substantive neutral and reconciliation stages to separate scoped ag
 ## Working rules
 
 - Supreme Court membership and decisions remain historical. Never generate a replacement Supreme Court vote, holding, grant, denial, or remand.
-- Select real historical appeals. A case-specific panel substitution is a declared simulation premise, not a discovered historical fact.
+- Select real historical Second Circuit appeals under the case-selection policy. Preserve their historical parties, dispute, material facts, claims, and pre-simulation procedure. A case-specific panel substitution is a declared simulation premise, not a discovered historical fact. Case-list departures and future outcomes are not neutral inputs.
 - Keep the two supplied Stone documents substantively unchanged unless the user requests edits. Never revise an approved Stone proposal silently.
 - Validate chronology, panel eligibility, vote and join arithmetic, authority status, record links, and follow-up continuity. Scripts may check bookkeeping but may not choose legal meaning or judicial votes.
 - Use primary sources for legal propositions and the relevant date's statutes and rules. Do not transplant modern appellate rules into 1994.

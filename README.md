@@ -8,6 +8,7 @@ The Supreme Court remains historical. Its actual decisions become governing auth
 
 - [Operating instructions](AGENTS.md)
 - [Appellate engine](foundation/ENGINE.md)
+- [Case-selection policy](foundation/CASE_SELECTION.md) and [case-list template](foundation/templates/CASE_LIST.md)
 - [Court roster](foundation/COURT_ROSTER.md)
 - [Character](stone/CHARACTER.md) and [jurisprudence](stone/JURISPRUDENCE.md)
 - [Standing State](state/STANDING_STATE.md): current date, institutional setting, and pending proceedings
@@ -18,11 +19,11 @@ The character and jurisprudence documents retain their supplied content. The cha
 
 ## Work cycle
 
-1. **Prepare the [year] case list.** Select real historical Second Circuit appeals and record the case-specific panel substitution. The annual number and subject rotation are selected separately; no quota or invented case is supplied by this scaffold.
+1. **Prepare the [year] case list.** Select real historical Second Circuit appeals under the six-group policy: three cases per group, eighteen per cycle. Record each case once using the case-list template, and establish its case-specific panel substitution in the linked packet. Historical availability controls timing; cycles may span years.
 2. **Prepare [case].** Use the [case brief template](foundation/CASE_BRIEF_TEMPLATE.md) to make separate neutral, Stone, and historical-comparison files. A proposed Stone position is not an approved vote.
 3. **Run [case].** Model the other judges from neutral materials in a fresh context, reconcile against history in a separate context, then introduce Stone's approved proposal in assembly. Save the final event under the [decision-record template](foundation/templates/DECISION_RECORD.md).
 4. **Render [case].** Present the completed decision under the [render contract](foundation/RENDER_CONTRACT.md), without changing it. This can follow Run once the decision is locked.
-5. **Update follow-up / close [year].** Record verified subsequent proceedings and carry open matters forward in Standing State. Closing a year does not close an unresolved appeal or delay the effectiveness of its holdings.
+5. **Update follow-up / close [year].** Record verified subsequent proceedings and carry open matters and unfinished coverage cycles forward in Standing State. Audit each completed eighteen-case cycle separately. Closing a year does not close an unresolved appeal or delay the effectiveness of its holdings.
 
 Folders named `years/` are simulation bookkeeping periods, not an assertion that the circuit follows Supreme Court October Terms. The initial period is July 21 through December 31, 1994. No case has been selected or adjudicated yet.
 

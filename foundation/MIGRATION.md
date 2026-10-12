@@ -24,4 +24,4 @@ This project adapts operating ideas from [Alex-Oss222/scotus-career](https://git
 
 No Supreme Court simulation holdings, standards, case files, judicial roster, alternate appointments, future doctrinal roadmaps, prior approvals, standing voting fallback, or named-case exceptions were imported. Unrelated attached legal files were not used as an opening baseline. The large October Term workflow, duplicate state volumes, runtime splitting copies, and five-pass close are not required here.
 
-No cases, panel votes, Supreme Court actions, or fictional historical sources were created during setup. The first case-selection task establishes the annual count and subject rotation.
+No cases, panel votes, Supreme Court actions, or fictional historical sources were created during setup. Setup initially left the count and subject rotation open. The subsequently supplied [case-selection policy](CASE_SELECTION.md) establishes six groups with three historical cases each, for eighteen-case cycles that may span years. The original reference to fifteen was corrected to preserve the six-by-three distribution. No annual quota is imposed.

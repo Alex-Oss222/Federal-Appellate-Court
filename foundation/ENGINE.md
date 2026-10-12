@@ -24,7 +24,9 @@ Distinguish a disagreement with precedent from authority to depart from it. A pa
 
 ## 3. Calendar and scope
 
-Use calendar-year folders for convenience. The first period begins July 21, 1994; it is not a retroactive appointment or an October Term. Selected cases are a sample of Stone's work, not his entire annual judicial workload. Set the count and subject rotation in that year's case list. Use one primary subject for counting and secondary tags for overlaps. Do not fabricate a case to meet a quota.
+Use calendar-year folders for convenience. The first period begins July 21, 1994; it is not a retroactive appointment or an October Term. Selected cases are a sample of Stone's work, not his entire annual judicial workload. Follow [the case-selection policy](CASE_SELECTION.md): six groups, three real historical Second Circuit cases per group, eighteen cases per cycle. A cycle is a coverage unit, not an annual deadline. Keep one canonical row per case under [the case-list template](templates/CASE_LIST.md), with one primary group and secondary tags for overlaps. Carry unfilled group slots across years without moving historical disputes backward, duplicating cases, or fabricating facts. Preserve the historical parties, dispute, claims, material facts, and procedure up to the simulation's entry point.
+
+A later opinion can support research into an earlier proceeding, but only date-eligible facts, arguments, and authorities enter the neutral packet. Administrative case-list columns recording departures and subsequent history are not inputs to the neutral modeler. Cases and events remain chronological even when coverage cycles overlap; follow-up to an already counted case does not supply an additional quota entry.
 
 Process adjudicative and material institutional events in date order, including intervening historical Supreme Court decisions. Record submission or argument separately from decision and mandate dates. Stone cannot participate in a pre-appointment submission simply because the historical opinion was released later; a lawful reargument, resubmission, or replacement procedure needs a supported basis and a clearly identified simulation premise.
 
@@ -106,7 +108,7 @@ Standing State is a living tracker here, not a copy of the Supreme Court project
 
 Separate a **research task** from a known pending proceeding. Unknown petition status is not proof a petition exists. Record only evidenced deadlines and identify any unresolved date calculation. Retain a succinct terminal entry until annual close, then preserve its source in the case record and carry forward only live matters. A year may close with explicitly carried pending cases.
 
-Annual close checks selected-case coverage, records, effective precedent treatment, chronology, roster updates, and all carryovers. It does not rerun merits, create new law, or require copying the entire body of historical law. There is no five-pass close or mandatory duplicate tracker set.
+Annual close checks selected-case coverage, records, effective precedent treatment, chronology, roster updates, and all carryovers, including unfinished coverage cycles. Each completed eighteen-case cycle separately receives the selection policy's coverage and source audit, with exactly three cases in each group. Neither close process reruns merits, creates new law, or requires copying the entire body of historical law. There is no five-pass close or mandatory duplicate tracker set.
 
 ## 10. Validation and failures
 

@@ -16,8 +16,23 @@ Senior judges remain separately listed in the roster and require case-specific p
 ## Work inventory
 
 - [1994 case list](../years/1994/case-list.md): no selected cases.
-- Annual case count and subject rotation: not yet fixed in this repository.
+- Coverage follows the [case-selection policy](../foundation/CASE_SELECTION.md): six groups, three historical cases per group, eighteen cases per cycle. No separate annual quota applies.
 - [Precedent index](PRECEDENT.md): no simulation holdings.
+
+## Open coverage cycles
+
+Cycle 001 is open for selection, with no admitted or played cases. Historical availability controls completion; unfinished slots carry across calendar years. These totals summarize the canonical case-list rows and do not create case entries.
+
+| Cycle | Primary group | Target | Admitted, including played | Played | Unfilled admission slots |
+|---|---|---|---|---|---|
+| 001 | 1. Criminal law, sentencing, and post-conviction review | 3 | 0 | 0 | 3 |
+| 001 | 2. Constitutional rights, civil rights, and elections | 3 | 0 | 0 | 3 |
+| 001 | 3. Labor, employment, and employee benefits | 3 | 0 | 0 | 3 |
+| 001 | 4. Government powers, administrative law, and public regulation | 3 | 0 | 0 | 3 |
+| 001 | 5. Business, property, and private civil litigation | 3 | 0 | 0 | 3 |
+| 001 | 6. Federal courts, civil procedure, and remedies | 3 | 0 | 0 | 3 |
+
+Cycle 001 totals: 0 admitted, 0 played, 18 unfilled admission slots. No cycle audit is due yet. Audit a cycle when all eighteen selected events are played, three per group; pending later proceedings remain in the procedural tracker. If cycles overlap to preserve chronology, retain each open cycle's remaining slots. Preserve completed-cycle audit links for later subject rotation.
 
 ## Pending proceedings
 
