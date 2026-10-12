@@ -7,7 +7,7 @@ The [render template](templates/RENDER.md) supports an eight-section court repor
 Form A presents a dated overview at `years/YYYY/output/YYYY-MM-DD-court-report.md`. Before rendering, prepare an explicit allowed-input packet of sourced extracts limited to:
 
 - Current administrative facts from Standing State and the dated roster.
-- Coverage counts and case identities from canonical case lists, excluding future outcomes and historical-result commentary.
+- Current-session case identities, docket numbers, event dates and types, statuses, and areas of law from canonical case lists and supported case records, excluding future outcomes and historical-result commentary.
 - Verified identity, record, procedural status, assignment, and open questions for current cases from their neutral preparation material.
 - The Public decision sections of finalized event records for completed decisions and operative legal developments.
 - Scoped compatibility conclusions from Standing State or final-record follow-up notes, without private proposals, frozen positions, or raw historical-comparator material.
@@ -15,7 +15,7 @@ Form A presents a dated overview at `years/YYYY/output/YYYY-MM-DD-court-report.m
 
 The renderer does not independently research or browse linked raw files. A source link is attribution, not permission to open a document containing excluded material. The preparer must extract and date-check the allowed content. If a preparation field is absent, mark the gap; do not assume the event or assignment exists.
 
-Use exactly the eight main report sections in the template. Section 5 includes decision summaries and actual written appellate opinions. Section 8 covers Supreme Court cases awaiting argument, awaiting decision, and already decided, including summaries of published reasoning. There is no section 9 or period-close presentation. Omitting that presentation does not change the engine's bookkeeping or annual-close rules.
+Use exactly the eight main report sections in the template. Section 3 lists the session's cases using No., Caption, Docket(s), Event date, Event type, Status, and Area of law. Do not display chunks, generic MERITS categories, or coverage quota tables; retain selection classifications and counts in their existing background records. Section 5 includes decision summaries and actual written appellate opinions. Section 8 covers Supreme Court cases awaiting argument, awaiting decision, and already decided, including summaries of published reasoning. There is no section 9 or period-close presentation. Omitting that presentation does not change the engine's bookkeeping or annual-close rules.
 
 The report is a dated presentation, not a second editable Standing State or precedent register. It cannot advance time, admit a case, change counts, finalize a decision, or create a pending proceeding. It is not handed wholesale to a neutral modeler. Select only authorized, date-eligible case material and relevant public prior authority for that separate stage.
 

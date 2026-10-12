@@ -16,7 +16,7 @@ Follow the [render contract](../RENDER_CONTRACT.md). A preparer supplies dated, 
 
 **Simulation date:** [Exact date].
 **Calendar year:** [1994–2020].
-**Current coverage cycle:** [Number or open cycle numbers].
+**Session:** [Session label or covered date range].
 **Last completed event:** [Case or institutional event, date, and record reference].
 **Current activity:** [Preparing a case / awaiting Stone's position / adjudication / follow-up / advancing the calendar].
 
@@ -45,24 +45,19 @@ Include relevant participation restrictions and supported recusals without inven
 
 Do not include ideological ratings, allies or opponents, predicted votes, favorable-panel probabilities, or speculative retirements and nominations.
 
-## 3. Selected docket and coverage
+## 3. Cases for this session
 
-The coverage cycle contains eighteen selected historical cases, three from each group, and may cross calendar years. This is the selected workload receiving detailed play, not the court's entire docket.
+List the cases being handled in the current session in chronological order. Use the existing case identities and link each caption to its case record.
 
-| Group | Admitted, including completed | Completed | Unfilled admission slots |
-|---|---:|---:|---:|
-| Criminal law, sentencing, and post-conviction review | [0–3] | [0–3] | [0–3] |
-| Constitutional rights, civil rights, and elections | [0–3] | [0–3] | [0–3] |
-| Labor, employment, and employee benefits | [0–3] | [0–3] | [0–3] |
-| Government powers, administrative law, and public regulation | [0–3] | [0–3] | [0–3] |
-| Business, property, and private civil litigation | [0–3] | [0–3] | [0–3] |
-| Federal courts, civil procedure, and remedies | [0–3] | [0–3] | [0–3] |
+| No. | Caption | Docket(s) | Event date | Event type | Status | Area of law |
+|---|---|---|---|---|---|---|
+| [1] | [Case caption and record link] | [Verified docket number(s)] | [Date and whether actual, scheduled, or proposed] | [Argument / submission on briefs / panel decision / rehearing / remand return / other specified event] | [In preparation / scheduled / submitted, awaiting decision / decided / on hold] | [Specific subject or subjects] |
 
-**Canonical case list:** [Reference].
-**Subjects awaiting coverage:** [Subfields identified from the actual selection record].
-**Historical availability constraints:** [Specific gaps, or none identified].
+Use one row per case event included in this session. The event type states what is being handled; the status states its present stage as of the report date. Give only supported dates, and use "not yet established" when necessary. A proposed simulation date must be identified as a proposal, not a verified court setting.
 
-Repeat the table per open cycle when necessary. Use existing counts and case identities; do not create a second selection ledger or invent a projected routine caseload.
+Do not include a Chunk column, generic MERITS category, category totals, or quota tables. Area of law describes the case; it does not reassign the case's primary selection group. Coverage groups and cycle counts remain in the canonical case list and Standing State. A follow-up row does not count as another selected case.
+
+Keep the detailed dispute and procedural explanation in section 4 and completed opinions in section 5. Do not reveal a future historical result in the status field. If no cases have been selected for this session, say so without creating example proceedings.
 
 ## 4. Current case or proceeding
 
@@ -269,7 +264,7 @@ A Supreme Court entry reports an actual historical action admitted as compatible
 
 Operator guidance, not output:
 
-- Match the report date, status, case identities, counts, and administrative facts to the scoped source packet.
+- Match the report date, session cases, event dates, statuses, and administrative facts to the scoped source packet.
 - Match every disposition, name, join, holding, qualification, opinion passage, and remedial instruction to the finalized public record.
 - Keep future outcomes, ideological forecasts, private proposals, frozen commitments, and comparator files out of render inputs.
 - Remove placeholders, unused forms, drafting instructions, internal approval and context identifiers, and unsupported predictions.
