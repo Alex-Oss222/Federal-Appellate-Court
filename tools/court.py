@@ -385,15 +385,16 @@ def md_files():
 
 def cmd_check(args):
     errors, warns = [], []
-    for p in md_files():
-        for m in re.finditer(r"\]\(([^)\s]+)\)", read(p)):
-            t = m.group(1).split("#")[0]
-            if t and not re.match(r"[a-z]+:", t) and not (p.parent / t).exists():
-                errors.append(f"{p.relative_to(ROOT)}: broken link {m.group(1)}")
-
     ss = standing()
     cases, problems = load_cases()
     errors += problems
+    # an admitted case has no folder until the prepare stage creates it, so its case-list link is not broken
+    pending = {c.folder for c in cases if c.status == "admitted"}
+    for p in md_files():
+        for m in re.finditer(r"\]\(([^)\s]+)\)", read(p)):
+            t = m.group(1).split("#")[0]
+            if t and not re.match(r"[a-z]+:", t) and not (p.parent / t).exists() and (p.parent / t).resolve() not in pending:
+                errors.append(f"{p.relative_to(ROOT)}: broken link {m.group(1)}")
 
     seen = {}
     for c in cases:
