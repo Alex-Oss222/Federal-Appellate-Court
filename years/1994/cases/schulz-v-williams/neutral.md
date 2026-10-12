@@ -10,7 +10,7 @@ Canonical written-opinion date: December 27, 1994
 
 **Lower tribunal/order:** Northern District of New York, Judge Con G. Cholakis; October 27, 1994 permanent injunction following an evidentiary hearing. **Requested relief:** The intervenors seek reversal; plaintiffs seek preservation of relief. The state board did not appeal. **Historical argument:** November 1, 1994. The court issued its operative disposition November 2 and supplied its explanatory opinion December 27. **Simulation premise:** Enter before the November 1 argument and use November 2 as the proposed operative event. December 27 is not treated as though the case remained undecided through the election. ([openjurist.org](https://openjurist.org/44/f3d/48/schulz-v-williams))
 
-**Historical panel:** Roger J. Miner, Joseph M. McLaughlin, and José A. Cabranes, all active Second Circuit judges. **Replacement:** Cabranes under the fixed rotation. **Resulting panel:** Miner, McLaughlin, Stone. **Checks:** Cabranes’s August 10, 1994 commission precedes the November submission. Stone’s qualification and recusal records remain missing. **Further departure:** None; no Calabresi assignment is involved. ([OpenJurist](https://openjurist.org/44/f3d/48/schulz-v-williams))
+**Historical panel:** Roger J. Miner, Joseph M. McLaughlin, and José A. Cabranes, all active Second Circuit judges. **Replacement:** Cabranes under the fixed rotation. **Resulting panel:** Miner, McLaughlin, Stone. **Checks:** Cabranes’s August 10, 1994 commission precedes the November submission. Stone’s recusal records remain missing. **Further departure:** None; no Calabresi assignment is involved. ([OpenJurist](https://openjurist.org/44/f3d/48/schulz-v-williams))
 
 ## Record and issues
 

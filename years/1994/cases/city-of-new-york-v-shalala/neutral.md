@@ -8,7 +8,7 @@ Cycle 001 · Administrative · No. 93-6069 · Proposed event: September 13, 1994
 
 **Lower tribunal/order:** Southern District of New York, Judge Robert W. Sweet; January 1993 summary judgment setting aside approximately $3 million in disallowances and $1.7 million in interest. Exact entry date remains unverified. **Requested relief:** HHS seeks reversal; the City seeks affirmance or preservation of its accounting objections. **Argument:** January 25, 1994, retained. **Proposed event:** September 13, 1994. ([law.justia.com](https://law.justia.com/cases/federal/appellate-courts/F3/34/1161/552099/))
 
-**Historical panel:** John M. Walker Jr. and Dennis Jacobs, active Second Circuit judges, and T. F. Gilroy Daly, active District of Connecticut judge by designation. **Replacement:** Jacobs under the fixed rotation. **Resulting panel:** Walker, Stone, Daly. **Checks:** Daly was an active judge, not a senior judge. Stone’s qualification and recusal records remain missing. **Further departure:** None. ([Justia Law](https://law.justia.com/cases/federal/appellate-courts/F3/34/1161/552099/))
+**Historical panel:** John M. Walker Jr. and Dennis Jacobs, active Second Circuit judges, and T. F. Gilroy Daly, active District of Connecticut judge by designation. **Replacement:** Jacobs under the fixed rotation. **Resulting panel:** Walker, Stone, Daly. **Checks:** Daly was an active judge, not a senior judge. Stone’s recusal records remain missing. **Further departure:** None. ([Justia Law](https://law.justia.com/cases/federal/appellate-courts/F3/34/1161/552099/))
 
 ## Record and issues
 

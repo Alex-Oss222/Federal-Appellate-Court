@@ -8,7 +8,7 @@ Cycle 001 · Post-conviction · No. 93-2169 · Proposed event: June 29, 1994
 
 **Lower tribunal/order:** Southern District of New York, Judge Robert J. Ward. The appellate account identifies an order entered June 17, 1992, while citing a district opinion dated June 18, 1992. That discrepancy is unresolved. **Requested relief:** Romero seeks a new trial and correction of the characterization of his motion; the government seeks affirmance. **Historical and simulation submission:** June 24, 1994, on the papers. **Proposed event:** June 29, 1994. ([Justia Law](https://law.justia.com/cases/federal/appellate-courts/F3/28/267/581121/))
 
-**Historical panel:** Wilfred Feinberg, senior Second Circuit judge; John D. Mahoney, active Second Circuit judge; and Shirley Wohl Kram, senior Southern District judge by designation. **Replacement:** Mahoney under the fixed rotation. **Resulting panel:** Feinberg, Stone, Kram. **Checks:** Kram took senior status in 1993. Stone’s qualification and recusal documentation remain unavailable. **Further departure:** None. ([Justia Law](https://law.justia.com/cases/federal/appellate-courts/F3/28/267/581121/))
+**Historical panel:** Wilfred Feinberg, senior Second Circuit judge; John D. Mahoney, active Second Circuit judge; and Shirley Wohl Kram, senior Southern District judge by designation. **Replacement:** Mahoney under the fixed rotation. **Resulting panel:** Feinberg, Stone, Kram. **Checks:** Kram took senior status in 1993. Stone’s recusal documentation remains unavailable. **Further departure:** None. ([Justia Law](https://law.justia.com/cases/federal/appellate-courts/F3/28/267/581121/))
 
 ## Record and issues
 

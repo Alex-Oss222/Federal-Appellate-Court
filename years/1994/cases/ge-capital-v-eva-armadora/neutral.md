@@ -8,7 +8,7 @@ Cycle 001 · Contract · No. 93-9282 · Proposed event: September 22, 1994
 
 **Lower tribunal/judgment:** Southern District of New York, Judge Constance Baker Motley, after a bench trial reported at 821 F. Supp. 1530 (1993). GECC received $492,418.50 in principal, interest, and fees, but was denied more than $2 million in additional special interest. Exact final-entry date remains unverified. **Requested relief:** GECC seeks the additional contractual recovery and associated relief; Armadora seeks affirmance. **Argument:** April 26, 1994, retained. **Proposed event:** September 22, 1994. ([Law Resource](https://law.resource.org/pub/us/case/reporter/F3/037/37.F3d.41.93-9282.1573.html))
 
-**Historical panel:** Feinberg and Van Graafeiland, senior Second Circuit judges, and Ralph K. Winter Jr., active Second Circuit judge. **Replacement:** Winter under the fixed rotation. **Resulting panel:** Feinberg, Van Graafeiland, Stone. **Checks:** Historical status verified; Stone’s qualification and recusals remain undocumented. **Further departure:** None. ([Law Resource](https://law.resource.org/pub/us/case/reporter/F3/037/37.F3d.41.93-9282.1573.html))
+**Historical panel:** Feinberg and Van Graafeiland, senior Second Circuit judges, and Ralph K. Winter Jr., active Second Circuit judge. **Replacement:** Winter under the fixed rotation. **Resulting panel:** Feinberg, Van Graafeiland, Stone. **Checks:** Historical status verified; Stone’s recusals remain undocumented. **Further departure:** None. ([Law Resource](https://law.resource.org/pub/us/case/reporter/F3/037/37.F3d.41.93-9282.1573.html))
 
 ## Record and issues
 

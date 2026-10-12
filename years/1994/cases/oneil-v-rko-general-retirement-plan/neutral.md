@@ -8,7 +8,7 @@ Cycle 001 · Benefits · No. 93-9038 · Proposed event: September 26, 1994
 
 **Lower tribunal/order:** Southern District of New York, Judge John S. Martin Jr.; judgment dismissing the claims after a four-day bench trial on April 6, 1993. **Requested relief:** Participants seek inclusion and recalculated benefits; plans seek affirmance. **Argument:** March 21, 1994, retained. **Proposed event:** September 26, 1994. ([Law Resource](https://law.resource.org/pub/us/case/reporter/F3/037/37.F3d.55.93-9038.html))
 
-**Historical panel:** James L. Oakes and Thomas J. Meskill, senior Second Circuit judges, and Frank X. Altimari, active Second Circuit judge. **Replacement:** Altimari under the fixed rotation. **Resulting panel:** Oakes, Meskill, Stone. **Checks:** Oakes became senior in 1992 and Meskill in 1993; Stone’s qualification and recusal documents remain absent. **Further departure:** None. ([Federal Judicial Center](https://www.fjc.gov/history/judges/oakes-james-lowell))
+**Historical panel:** James L. Oakes and Thomas J. Meskill, senior Second Circuit judges, and Frank X. Altimari, active Second Circuit judge. **Replacement:** Altimari under the fixed rotation. **Resulting panel:** Oakes, Meskill, Stone. **Checks:** Oakes became senior in 1992 and Meskill in 1993; Stone’s recusal documents remain absent. **Further departure:** None. ([Federal Judicial Center](https://www.fjc.gov/history/judges/oakes-james-lowell))
 
 ## Record and issues
 

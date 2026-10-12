@@ -8,7 +8,7 @@ Cycle 001 · Government · No. 93-4205 · Proposed event: May 27, 1994
 
 **Lower tribunal and order:** Immigration Judge Jeffrey Zlatow and the Board of Immigration Appeals. The IJ entered an in absentia order on November 16, 1992; reopening was sought in April 1993, denied in June, and the denial affirmed by the BIA in August. Exact dates of the latter rulings were not established. **Requested relief:** Romero-Morales seeks reopening or remand; the INS seeks denial of the petition. ([Law Resource](https://law.resource.org/pub/us/case/reporter/F3/025/25.F3d.125.93-4205.1214.html))
 
-**Argument:** March 9, 1994, retained. **Proposed event:** May 27, 1994. **Historical panel:** Wilfred Feinberg, senior Second Circuit judge; Roger J. Miner, active Second Circuit judge; and Whitman Knapp, senior Southern District judge by designation. **Replacement:** Miner under the fixed rotation. **Resulting panel:** Feinberg, Stone, Knapp. **Checks:** Historical service and designation are reported; Stone’s qualification and recusals remain unverified. **Further departure:** None. ([Law Resource](https://law.resource.org/pub/us/case/reporter/F3/025/25.F3d.125.93-4205.1214.html))
+**Argument:** March 9, 1994, retained. **Proposed event:** May 27, 1994. **Historical panel:** Wilfred Feinberg, senior Second Circuit judge; Roger J. Miner, active Second Circuit judge; and Whitman Knapp, senior Southern District judge by designation. **Replacement:** Miner under the fixed rotation. **Resulting panel:** Feinberg, Stone, Knapp. **Checks:** Historical service and designation are reported; Stone’s recusals remain unverified. **Further departure:** None. ([Law Resource](https://law.resource.org/pub/us/case/reporter/F3/025/25.F3d.125.93-4205.1214.html))
 
 ## Record and issues
 

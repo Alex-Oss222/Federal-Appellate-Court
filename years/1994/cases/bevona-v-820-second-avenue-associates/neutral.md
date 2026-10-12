@@ -8,7 +8,7 @@ Cycle 001 · Labor · No. 94-7094 · Proposed event: June 16, 1994
 
 **Lower tribunal/order:** Southern District of New York, Judge John S. Martin Jr., vacating an ex parte award and denying reconsideration. Exact entry dates were not established. **Requested relief:** The union seeks restoration of the award or reconsideration; the owner seeks affirmance. **Argument:** June 14, 1994, retained. **Proposed event:** June 16, 1994. ([Justia Law](https://law.justia.com/cases/federal/appellate-courts/F3/27/37/541697/))
 
-**Historical panel:** Joseph M. McLaughlin and Dennis Jacobs, active Second Circuit judges, and Jack B. Weinstein, senior Eastern District judge by designation. **Replacement:** Jacobs, under the fixed rotation. **Resulting panel:** McLaughlin, Stone, Weinstein. **Checks:** Weinstein’s senior status began March 1, 1993. Stone’s qualification and recusal checks remain undocumented. **Further departure:** None. ([Justia Law](https://law.justia.com/cases/federal/appellate-courts/F3/27/37/541697/))
+**Historical panel:** Joseph M. McLaughlin and Dennis Jacobs, active Second Circuit judges, and Jack B. Weinstein, senior Eastern District judge by designation. **Replacement:** Jacobs, under the fixed rotation. **Resulting panel:** McLaughlin, Stone, Weinstein. **Checks:** Weinstein’s senior status began March 1, 1993. Stone’s recusal checks remain undocumented. **Further departure:** None. ([Justia Law](https://law.justia.com/cases/federal/appellate-courts/F3/27/37/541697/))
 
 ## Record and issues
 

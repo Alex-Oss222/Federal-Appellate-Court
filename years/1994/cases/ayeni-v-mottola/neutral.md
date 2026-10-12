@@ -8,7 +8,7 @@ Cycle 001 · Constitutional · Nos. 94-6041(L) and 94-6047 · Proposed event: Se
 
 **Lower tribunal/order:** Eastern District of New York, Judge Jack B. Weinstein; February 10, 1994 order denying dismissal on qualified-immunity grounds, reported at 848 F. Supp. 362. **Requested relief:** Mottola seeks dismissal; the Ayenis seek continued proceedings. **Argument:** April 8, 1994, retained. **Proposed event:** September 12, 1994. ([Law Resource](https://law.resource.org/pub/us/case/reporter/F3/035/35.F3d.680.94-6047.94-6041.1789.html))
 
-**Historical panel:** Chief Judge Newman, senior Judge Pierce, and active Judge Leval. **Replacement:** Leval under the fixed rotation. **Resulting panel:** Newman, Pierce, Stone. **Checks:** Historical service verified; Stone’s qualification and recusal records remain missing. **Further departure:** None. ([Law Resource](https://law.resource.org/pub/us/case/reporter/F3/035/35.F3d.680.94-6047.94-6041.1789.html))
+**Historical panel:** Chief Judge Newman, senior Judge Pierce, and active Judge Leval. **Replacement:** Leval under the fixed rotation. **Resulting panel:** Newman, Pierce, Stone. **Checks:** Historical service verified; Stone’s recusal records remain missing. **Further departure:** None. ([Law Resource](https://law.resource.org/pub/us/case/reporter/F3/035/35.F3d.680.94-6047.94-6041.1789.html))
 
 ## Record and issues
 

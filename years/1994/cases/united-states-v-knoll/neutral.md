@@ -8,9 +8,9 @@ Cycle 001 · Criminal · Nos. 92-1580 and 92-1586 · Proposed event: February 14
 
 **Lower tribunal and judgment:** Western District of New York, Judge William M. Skretny. Judgments entered September 28, 1992, following sentencing on September 25. Gleave was convicted on counts three and four; Knoll on counts four and eight. Each received concurrent 27-month sentences, with all but three months suspended; Gleave also received a $5,000 fine. **Requested relief:** Defendants seek relief from their convictions on the grounds below; the government seeks affirmance. ([OpenJurist](https://openjurist.org/16/f3d/1313))
 
-**Historical argument:** June 17, 1993. **Simulation submission:** Proposed January 18, 1994 resubmission on the existing record, conditional on Stone’s qualification. **Proposed event:** February 14, 1994.
+**Historical argument:** June 17, 1993. **Simulation submission:** Proposed January 18, 1994 resubmission on the existing record. **Proposed event:** February 14, 1994.
 
-**Historical panel:** Richard J. Cardamone, John D. Mahoney, and Southern District Judge Miriam Goldman Cedarbaum, sitting by designation. Cardamone was active at the historical argument and took senior status November 13, 1993; Mahoney and Cedarbaum were active. **Replacement:** Mahoney, under the fixed last-listed Second Circuit-member rotation. **Resulting panel:** Cardamone, Stone, and Cedarbaum. **Participation gaps:** Stone’s qualification and recusal records and a designation covering resubmission remain unverified. **Further departure:** None. ([OpenJurist](https://openjurist.org/16/f3d/1313))
+**Historical panel:** Richard J. Cardamone, John D. Mahoney, and Southern District Judge Miriam Goldman Cedarbaum, sitting by designation. Cardamone was active at the historical argument and took senior status November 13, 1993; Mahoney and Cedarbaum were active. **Replacement:** Mahoney, under the fixed last-listed Second Circuit-member rotation. **Resulting panel:** Cardamone, Stone, and Cedarbaum. **Participation gaps:** Stone’s recusal records and a designation covering resubmission remain unverified. **Further departure:** None. ([OpenJurist](https://openjurist.org/16/f3d/1313))
 
 ## Record and issues
 

@@ -8,7 +8,7 @@ Cycle 001 · Copyright · No. 93-7687 · Proposed event: December 5, 1994
 
 **Lower tribunal/order:** District of Connecticut, Judge Alan H. Nevas, adopting Magistrate Judge Arthur H. Latimer’s recommendation granting CCC summary judgment. The exact entry date was not established. **Requested relief:** Maclean seeks reversal and judgment on infringement; CCC seeks affirmance based on lack of protection and its defenses. **Argument:** March 2, 1994, retained. **Proposed event:** December 5, 1994. ([Law Resource](https://law.resource.org/pub/us/case/reporter/F3/044/44.F3d.61.93-7687.1312.html))
 
-**Historical panel:** Amalya Kearse, active; Lawrence Pierce, senior; and Pierre Leval, active. **Replacement:** Leval under the fixed rotation. **Resulting panel:** Kearse, Pierce, Stone. **Checks:** Historical qualifications fit the argument date; Stone’s qualification and recusals remain undocumented. **Further departure:** None. ([Law Resource](https://law.resource.org/pub/us/case/reporter/F3/044/44.F3d.61.93-7687.1312.html))
+**Historical panel:** Amalya Kearse, active; Lawrence Pierce, senior; and Pierre Leval, active. **Replacement:** Leval under the fixed rotation. **Resulting panel:** Kearse, Pierce, Stone. **Checks:** Historical qualifications fit the argument date; Stone’s recusals remain undocumented. **Further departure:** None. ([Law Resource](https://law.resource.org/pub/us/case/reporter/F3/044/44.F3d.61.93-7687.1312.html))
 
 ## Record and issues
 

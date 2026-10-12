@@ -10,7 +10,7 @@ Cycle 001 · Procedure · Nos. 94-8014 and 94-3082 · Proposed event: October 12
 
 **Entry and submission:** On September 12, 1994, a prior procedural order treated the leave petition as presenting mandamus and invited the district judge’s response. The selected submission occurred September 28, 1994, retained for the simulation. **Proposed event:** October 12, 1994. The September 12 procedural order remains part of the pre-entry history, not a new simulated holding. ([OpenJurist](https://openjurist.org/38/f3d/67/mclee-v-chrysler-corporation))
 
-**Historical panel:** Chief Judge Newman, active Judge Amalya L. Kearse, and senior Judge Cardamone. **Replacement:** Cardamone under the fixed rotation. **Resulting panel:** Newman, Kearse, Stone. **Checks:** The historical statuses are compatible with the submission date; Stone’s qualification and recusal records remain missing. **Further departure:** None. ([OpenJurist](https://openjurist.org/38/f3d/67/mclee-v-chrysler-corporation))
+**Historical panel:** Chief Judge Newman, active Judge Amalya L. Kearse, and senior Judge Cardamone. **Replacement:** Cardamone under the fixed rotation. **Resulting panel:** Newman, Kearse, Stone. **Checks:** The historical statuses are compatible with the submission date; Stone’s recusal records remain missing. **Further departure:** None. ([OpenJurist](https://openjurist.org/38/f3d/67/mclee-v-chrysler-corporation))
 
 ## Record and issues
 

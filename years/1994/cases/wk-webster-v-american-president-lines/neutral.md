@@ -8,7 +8,7 @@ Cycle 001 · Remedies · No. 93-9040 · Proposed event: August 2, 1994
 
 **Lower tribunal/order:** Southern District of New York, Judge Griesa; opinion September 3, 1993, judgment September 15, and subsequent reconsideration proceedings. The court confirmed the cargo-loss award and imposed $2,000 in fees and costs. **Requested relief:** APL seeks vacatur and removal of sanctions; Webster seeks affirmance. **Argument:** March 9, 1994, retained. **Proposed event:** August 2, 1994. ([Law Resource](https://law.resource.org/pub/us/case/reporter/F3/032/32.F3d.665.93-9040.1251.html))
 
-**Historical panel:** Feinberg, senior; Miner, active; and Knapp, senior Southern District visitor. **Replacement:** Miner under the fixed rotation. **Resulting panel:** Feinberg, Stone, Knapp. **Participation gaps:** Stone’s qualification and recusal checks; no additional replacement or scheduling departure is proposed. ([Law Resource](https://law.resource.org/pub/us/case/reporter/F3/032/32.F3d.665.93-9040.1251.html))
+**Historical panel:** Feinberg, senior; Miner, active; and Knapp, senior Southern District visitor. **Replacement:** Miner under the fixed rotation. **Resulting panel:** Feinberg, Stone, Knapp. **Participation gaps:** Stone’s recusal checks; no additional replacement or scheduling departure is proposed. ([Law Resource](https://law.resource.org/pub/us/case/reporter/F3/032/32.F3d.665.93-9040.1251.html))
 
 ## Record and issues
 

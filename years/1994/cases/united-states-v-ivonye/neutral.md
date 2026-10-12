@@ -8,7 +8,7 @@ Cycle 001 · Sentencing · No. 93-1720 · Proposed event: July 8, 1994
 
 **Lower tribunal/judgment:** Eastern District of New York, Judge Raymond J. Dearie; judgment October 21, 1993, imposing 30 months following a guilty plea to importation under 21 U.S.C. § 952(a). **Requested relief:** Ivonye seeks resentencing; the government seeks affirmance. **Argument:** June 24, 1994, retained. **Proposed event:** July 8, 1994. ([Justia Law](https://law.justia.com/cases/federal/appellate-courts/F3/30/275/471763/))
 
-**Historical panel:** Chief Judge Jon O. Newman, senior Judge Lawrence W. Pierce, and active Judge Pierre N. Leval. **Replacement:** Leval under the fixed rotation. **Resulting panel:** Newman, Pierce, Stone. **Checks:** Leval joined the circuit in 1993; Pierce had been senior since 1990. Stone’s qualification and recusals are not independently documented. **Further departure:** None. ([Justia Law](https://law.justia.com/cases/federal/appellate-courts/F3/30/275/471763/))
+**Historical panel:** Chief Judge Jon O. Newman, senior Judge Lawrence W. Pierce, and active Judge Pierre N. Leval. **Replacement:** Leval under the fixed rotation. **Resulting panel:** Newman, Pierce, Stone. **Checks:** Leval joined the circuit in 1993; Pierce had been senior since 1990. Stone’s recusals are not independently documented. **Further departure:** None. ([Justia Law](https://law.justia.com/cases/federal/appellate-courts/F3/30/275/471763/))
 
 ## Record and issues
 

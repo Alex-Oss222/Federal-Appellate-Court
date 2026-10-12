@@ -1,6 +1,6 @@
 # United States v. Knoll
 
-**Status:** Version 1; user-approved. **Baseline:** February 14, 1994 packet. **Approval reference:** User instruction of 2026-10-12 approving all eighteen Cycle 001 briefs as written ("all ... approved - change"), subject to each brief’s stated conditions. **Conditions:** Qualification and resubmission checks above. **Approved fallback or separate writing:** None.
+**Status:** Version 1; user-approved. **Baseline:** February 14, 1994 packet. **Approval reference:** User instruction of 2026-10-12 approving all eighteen Cycle 001 briefs as written ("all ... approved - change"), subject to each brief’s stated conditions. **Conditions:** Resubmission checks above. **Approved fallback or separate writing:** None.
 
 **Component: Count four.**  
 Under § 1291 and de novo statutory review, propose reversal and dismissal for both defendants. Section 3284’s continuing-offense treatment should remain confined to the offense it names. The government’s evidence cannot enlarge a completed false-declaration charge into a different continuing offense.

@@ -8,7 +8,7 @@ Cycle 001 · Tax regulation · No. 94-4027 · Proposed event: November 2, 1994
 
 **Lower tribunal/judgment:** United States Tax Court, Judge Fay, T.C. Memo. 1993-480. The determination sustained a $34,581 deficiency, negligence additions, a substantial-understatement addition, and enhanced interest. The final decision-entry date was not independently retrieved. **Requested relief:** The Goldmans seek relief based on settlement and absence of negligence; the Commissioner seeks affirmance. **Argument:** September 8, 1994, retained. **Proposed event:** November 2, 1994. ([Law Resource](https://law.resource.org/pub/us/case/reporter/F3/039/39.F3d.402.94-4027.242.html))
 
-**Historical panel:** Thomas J. Meskill, senior; John D. Mahoney and John M. Walker Jr., active. **Replacement:** Walker under the fixed rotation. **Resulting panel:** Meskill, Mahoney, Stone. **Checks:** Historical service is verified; Stone’s qualification and recusal records remain absent. **Further departure:** None. ([Law Resource](https://law.resource.org/pub/us/case/reporter/F3/039/39.F3d.402.94-4027.242.html))
+**Historical panel:** Thomas J. Meskill, senior; John D. Mahoney and John M. Walker Jr., active. **Replacement:** Walker under the fixed rotation. **Resulting panel:** Meskill, Mahoney, Stone. **Checks:** Historical service is verified; Stone’s recusal records remain absent. **Further departure:** None. ([Law Resource](https://law.resource.org/pub/us/case/reporter/F3/039/39.F3d.402.94-4027.242.html))
 
 ## Record and issues
 
