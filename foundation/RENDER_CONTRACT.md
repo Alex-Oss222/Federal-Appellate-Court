@@ -14,6 +14,14 @@ Prepare enough sourced public material upstream to support those explanations. T
 
 Preserve all eight main sections while keeping unchanged or empty sections short. Do not reprint the entire judicial history or all earlier opinions on every turn. A preparation turn explains what awaits decision; a decision turn gives the result and reasoning; a follow-up turn explains the supported procedural development and its effect. No new decision means no fabricated outcome or opinion.
 
+## Rolling review in each turn's output
+
+Before preparing the report packet, the engine performs its automatic follow-up check through the authorized event cutoff. Rendering itself does not advance time or decide what the Supreme Court does. If a check was incomplete, report the specific limitation instead of declaring the review history current.
+
+Standing State keeps the origin-year and docket links. Section 7 presents open proceedings for the current year, the previous two decision years, and every older unresolved matter. Section 8 explains new verified filings, grants or denials, arguments, actual decisions, and resulting mandates or remands for those cases, whether or not they appear in this session's selected docket. Identify the original circuit case and year so a 1996 reader can recognize an update to a 1994 decision.
+
+The three-year view is organizational. Apply actual historical dates, release no future outcomes early, and carry a case longer when necessary. A denial may resolve a petition without a merits decision; a merits disposition may leave mandate or remand work open. Incompatible historical paths remain unresolved under the engine, while historical Supreme Court holdings enter as general law on their actual dates.
+
 ## Court report inputs and boundaries
 
 Form A presents the turn's dated overview at `years/YYYY/output/YYYY-MM-DD-court-report.md`. Further turns on the same simulation date update that date's report, with prior versions preserved in Git; always display the current turn output in the response. Before rendering, prepare an explicit allowed-input packet of sourced extracts limited to:

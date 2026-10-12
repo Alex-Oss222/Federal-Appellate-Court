@@ -34,12 +34,22 @@ Cycle 001 is open for selection, with no admitted or played cases. Historical av
 
 Cycle 001 totals: 0 admitted, 0 played, 18 unfilled admission slots. No cycle audit is due yet. Audit a cycle when all eighteen selected events are played, three per group; pending later proceedings remain in the procedural tracker. If cycles overlap to preserve chronology, retain each open cycle's remaining slots. Preserve completed-cycle audit links for later subject rotation.
 
+## Rolling Supreme Court follow-up
+
+**Primary review years:** 1994 opening year; no selected circuit decisions yet.
+**Older open matters:** None.
+**Latest follow-up check:** Not yet performed; no selected decision requires review follow-up.
+**Check limitations:** None identified at this empty opening baseline.
+**New review events this turn:** None.
+
+As the calendar advances, check the current year and previous two decision years plus every older unresolved matter. Historical event dates control; a three-year view does not guarantee a result two years after a circuit decision. Link new review events to their original case and carry pending mandates and remands until resolved. This configuration does not advance the current simulation date.
+
 ## Pending proceedings
 
 No rehearing, certiorari proceeding, mandate issue, or remand return has been established yet. Add a row only on supported procedural information; unknown status belongs under research tasks.
 
-| Case and docket | Latest effective event and source | Current stage | Live action, mandate, or relief | Verified deadline or next event | Dependency or blocker |
-|---|---|---|---|---|---|
+| Origin year | Case and circuit docket | Supreme Court docket, if established | Latest effective event and source | Current stage | Live action, mandate, or relief | Verified deadline or next event | Dependency or blocker |
+|---|---|---|---|---|---|---|---|
 
 Use precise stages such as petition for panel rehearing filed, rehearing en banc pending, mandate stayed, certiorari petition filed, certiorari granted, certiorari denied, Supreme Court merits disposition verified, remanded, awaiting proceedings below, or unresolved: historical path incompatible. Do not write a stage merely because it occurred in the historical version of the case.
 

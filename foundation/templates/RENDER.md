@@ -173,9 +173,14 @@ Explain actual legal developments without predicting judicial votes. Do not intr
 
 ## 7. Follow-up proceedings and historical compatibility
 
-| Matter | Latest supported event | Present status | Next supported step or date | Dependency or uncertainty |
-|---|---|---|---|---|
-| [Case] | [Event, date, source] | [Precise status] | [Verified step, or unknown] | [Specific issue] |
+Report the current year and previous two origin-year groups, together with all older unresolved cases. Derive this view from Standing State; do not create a new ledger or omit an older case because it is outside the current session docket. An origin year is the year of the first selected circuit decision, not a predicted review date.
+
+| Origin year | Matter and docket references | Latest supported event | Present status | Next supported step or date | Dependency or uncertainty |
+|---|---|---|---|---|---|
+| [Year] | [Original case; circuit and Supreme Court dockets where established] | [Event, date, source] | [Precise status] | [Verified step, or unknown] | [Specific issue] |
+
+**Follow-up checked through:** [Cutoff and any limits from the actual check].
+**Older carryovers:** [Unresolved references, or None].
 
 For a historical follow-up affected by a simulated decision, include the scoped compatibility conclusion prepared under the engine:
 
@@ -194,7 +199,21 @@ This section is administrative reporting, not a court order or an input to neutr
 
 **Information current through:** [Simulation date].
 
-Use verified historical Supreme Court events. A case may matter as governing law without its procedural outcome transferring to a changed simulated appeal.
+Use verified historical Supreme Court events released by the engine's automatic follow-up check for this turn. Include updates to earlier-year cases even when this session concerns newer appeals. A case may matter as governing law without its procedural outcome transferring to a changed simulated appeal. The three-year view does not move any event's historical date or remove older pending work.
+
+### Review updates for our circuit cases
+
+**Origin-year case:** [Original circuit case, decision year, and final-record reference].
+**Review identifiers:** [Linked Supreme Court caption and docket, if verified].
+**Event this turn:** [Petition filed / review granted / review denied / argument / merits decision / vacatur / mandate / remand / other verified event, with date and source].
+**What changed:** [Plain-language explanation of this event and its effect on the case].
+**Published reason, if any:** [Supported explanation; if the source supplies none, say no explanation is supplied rather than inventing one].
+**Remaining work:** [Pending review, mandate, remand, supported closure, or a specific uncertainty].
+**Compatibility:** [Admitted compatible event or reference to the unresolved issue in section 7].
+
+Give a short update here for filings, grants, denials, and other review developments. Use the detailed blocks below for arguments and merits decisions without duplicating the same explanation. A denial is reported when it occurs; it is not held until the third year and does not promise a later merits decision. Do not place unverified petitions in the awaiting-argument block.
+
+When there are no new verified review events, say so briefly and point to any pending or unresolved matter in section 7. Do not repeat a past event as though it happened again this turn.
 
 ### Cases awaiting oral argument
 
@@ -280,6 +299,7 @@ Operator guidance, not output:
 - Confirm that the simulation turn ends with the report displayed to the user, not only a saved-file link or completion notice.
 - Confirm that the current case, any completed outcome, the reasons, and supported practical effects receive readable explanation; keep unchanged sections brief.
 - Match the report date, session cases, event dates, statuses, and administrative facts to the scoped source packet.
+- Confirm the engine's follow-up check occurred, with limitations disclosed, and include newly due review events for earlier-year cases. Preserve older unresolved carryovers and avoid reporting an old event as new.
 - Match every disposition, name, join, holding, qualification, opinion passage, and remedial instruction to the finalized public record.
 - Keep future outcomes, ideological forecasts, private proposals, frozen commitments, and comparator files out of render inputs.
 - Remove placeholders, unused forms, drafting instructions, internal approval and context identifiers, and unsupported predictions.
