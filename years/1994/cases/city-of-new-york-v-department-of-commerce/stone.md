@@ -1,0 +1,23 @@
+# City of New York v. United States Department of Commerce
+
+**Status:** Version 1; proposed, not user-approved. **Approval reference:** None. The source brief states that every Stone position, alternative, and negotiating limit is a proposal pending approval.
+
+## Stone's proposed judicial position
+
+Stone should propose a limited vacatur and remand for a distinct constitutional determination, without adopting automatic heightened racial scrutiny or directing use of the PES. The proposed holding is that review of the census's constitutional function cannot end solely with the conclusion that the Secretary's decision survives ordinary administrative review. The court must determine whether the choice reflects a good-faith performance of the representative task, while respecting genuine technical uncertainty and the difference between numerical and distributive accuracy. This application to the present census-choice problem is a proposed circuit development, not a quotation of a Supreme Court census-adjustment rule.
+
+The remand should identify the unresolved work precisely. The district court should assess whether the requirement of improved accuracy at every geographic level was an actual, technically supportable decision criterion; whether the competing loss-function analyses support the stated distributive rationale; and whether the treatment of future manipulation and cooperation concerns rationally served the present constitutional task rather than displacing it. Its existing findings remain findings. The court need not conduct a new census, adopt plaintiffs' statistics, count expert votes, or infer partisan intent from the mere fact that particular states would gain or lose seats.
+
+The strongest objection is that this simply renames a demand for stricter administrative review. Stone should answer it by limiting the inquiry to the constitutional objective and declining to add a least-restrictive-means requirement, an across-the-board government burden of persuasion, or a mandatory methodological checklist. Plaintiffs retain the burden of establishing a constitutional defect. The Secretary may prevail despite a method that is less accurate for some purposes if the record supports a good-faith choice among genuinely competing constitutional and statistical considerations. A court's belief that adjustment would be wiser is insufficient.
+
+At the same time, the finding that plaintiffs made a compelling attack cannot be treated as immaterial solely because the Secretary possesses discretion. The district court should explain whether its findings establish more than disagreement over wisdom under the independent constitutional standard. Because it framed the dispositive inquiry as whether the decision was sufficiently unreasonable to be arbitrary or capricious, a targeted remand is preferable to an appellate finding of bad faith or an appellate endorsement of every rationale.
+
+Stone should reserve the disputed statutory scope unless a correction is otherwise warranted. Before ordering any particular adjustment, the district court must address §§ 141 and 195 for each affected use and the remedial implications of *Franklin*. This preserves his commitments to equal political membership, genuine review, statutory limits, and no conversion of disparate impact into discriminatory purpose. Master Jurisprudence §§ 6, 8, 15, 25; Elections and Democratic Participation; Administrative Law.
+
+## Proposed negotiating limits
+
+**Preferred and broadest defensible holding:** independent constitutional review of the government's good-faith census judgment, with a focused remand on the actual accuracy rationale and no predetermined adjustment. He may explain why an unsupported demand for superiority everywhere would not automatically answer demonstrated improvements affecting most people.
+
+**Acceptable narrower proposal:** remand requiring explicit findings and conclusions under *Montana* and *Franklin*, reserving a more comprehensive census standard and every disputed statistical determination. Affirmance would become acceptable if the necessary findings and correct constitutional analysis establish a lawful choice; it is not presently an approved fallback based merely on administrative deference.
+
+**Non-join limits:** automatic strict scrutiny from minority undercount, conclusive constitutional preference for numerical over distributive accuracy, an assumption that the Secretary acted from racial or partisan hostility, disregard of § 195, or an immediate judicial order reallocating congressional seats without the necessary statutory and remedial analysis.
