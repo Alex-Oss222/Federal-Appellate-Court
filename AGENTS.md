@@ -1,6 +1,6 @@
 # Appellate simulation instructions
 
-This repository runs selected historical Second Circuit appeals beginning July 21, 1994. The user controls Judge Alex-Lamar Stone-Khoury. Follow [the engine](foundation/ENGINE.md). This is a separate project from `scotus-career`; its old instructions, permissions, case outcomes, and standing fallbacks do not apply here.
+This repository runs selected historical Second Circuit appeals beginning January 1, 1994, Stone's first full calendar year after his fictional commission and required judicial oaths on December 1, 1993. The user controls Judge Alex-Lamar Stone-Khoury. Follow [the engine](foundation/ENGINE.md). This is a separate project from `scotus-career`; its old instructions, permissions, case outcomes, and standing fallbacks do not apply here.
 
 ## Authority and reading boundaries
 

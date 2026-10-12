@@ -1,6 +1,6 @@
 # Second Circuit roster
 
-## Opening snapshot: July 21, 1994
+## Opening snapshot: January 1, 1994
 
 This is the institutional starting roster, not a panel-assignment list. Stone replaces the appointment historically given to Guido Calabresi. Calabresi never joins this simulation court; neither his historical judgeship nor his votes may be silently retained. Thomas J. Meskill remains a senior judge.
 
@@ -22,7 +22,7 @@ The opening snapshot has eleven active judges, including Stone, and two vacancie
 | Joseph M. McLaughlin | 1990-10-17 | Active circuit judge | [FJC](https://www.fjc.gov/history/judges/mclaughlin-joseph-michael) |
 | Dennis Jacobs | 1992-10-02 | Active circuit judge | [FJC](https://www.fjc.gov/history/judges/jacobs-dennis-g) |
 | Pierre N. Leval | 1993-10-20 | Active circuit judge | [FJC](https://www.fjc.gov/history/judges/leval-pierre-nelson) |
-| Alex-Lamar Stone-Khoury | 1994-07-21 | New active circuit judge; Meskill vacancy | [Character](../stone/CHARACTER.md); historical appointment slot: [Calabresi, FJC](https://www.fjc.gov/history/judges/calabresi-guido) |
+| Alex-Lamar Stone-Khoury | 1993-12-01 (fictional) | Active circuit judge; required oaths taken that date; first full year begins 1994 | [Character](../stone/CHARACTER.md); vacancy source: [Meskill, FJC](https://www.fjc.gov/history/judges/meskill-thomas-joseph); historical eventual appointee: [Calabresi, FJC](https://www.fjc.gov/history/judges/calabresi-guido) |
 
 ### Senior judges still in federal judicial service
 
@@ -47,7 +47,7 @@ Senior status is not retirement. These names form a research pool, not a finding
 | James L. Oakes | 1992-06-30 | Vacant; a senior Oakes can still sit on an eligible panel |
 | Richard J. Cardamone | 1993-11-13 | Vacant; a senior Cardamone can still sit on an eligible panel |
 
-Sources are the Oakes and Cardamone biographies above. The Meskill vacancy is filled by Stone on the project's opening date.
+Sources are the Oakes and Cardamone biographies above. Meskill assumed senior status on June 30, 1993, as his linked FJC biography records. In the simulation, Stone fills that vacancy on December 1, 1993, before the January 1, 1994 opening. The earlier Stone appointment is a declared fictional premise, not a change to Meskill's historical service dates.
 
 ## Dated changes for later application
 

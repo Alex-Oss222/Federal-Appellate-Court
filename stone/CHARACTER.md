@@ -1,7 +1,7 @@
 # JUDGE ALEX-LAMAR STONE-KHOURY
-## Character Sheet, July 1994
+## Character Sheet, January 1994
 
-Opening state: July 21, 1994, the day he is commissioned to the U.S. Court of Appeals for the Second Circuit. Only credentials held by that date appear at start; later degrees enter the sheet when conferred.
+Opening state: January 1, 1994, the beginning of his first full calendar year on the U.S. Court of Appeals for the Second Circuit. In this fictional appointment timeline, Clinton nominated him in October 1993, the Senate confirmed him in November, and he was commissioned and took the required judicial oaths on December 1, 1993. Only credentials held by the opening date appear at start; later degrees enter the sheet when conferred.
 
 ---
 
@@ -12,15 +12,16 @@ Opening state: July 21, 1994, the day he is commissioned to the U.S. Court of Ap
 | Full legal name | Alex-Lamar Stone-Khoury |
 | Birth name | Alex-Lamar Stone |
 | Born | September 18, 1955, Orlando, Florida |
-| Age at nomination (Feb. 1994) | 38 |
-| Age at commission (July 1994) | 38; turns 39 on September 18 |
+| Age at nomination (Oct. 1993) | 38 |
+| Age at commission (Dec. 1993) | 38 |
+| Age at opening (Jan. 1994) | 38; turns 39 on September 18, 1994 |
 | Race and nationality | Black American |
 | Height and build | 6'4", 220 lb; broad, muscular, athletic |
 | Religion | Raised Baptist; culturally Baptist, personally nonreligious |
 | Spouse | Hana Emiko Stone-Khoury, clinical social worker and psychotherapist |
 | Children | None, by mutual choice |
 | Military | U.S. Army, 1973–1975; infantry radio-telephone operator; Korean DMZ |
-| Prior judicial service | U.S. District Court for the District of Connecticut, 1989–1994 |
+| Prior judicial service | U.S. District Court for the District of Connecticut, 1989–1993 |
 | Current office | Circuit Judge, U.S. Court of Appeals for the Second Circuit |
 | Seat | Connecticut seat vacated by Thomas J. Meskill (historically Guido Calabresi's) |
 | Home and chambers | New Haven, Connecticut; sits with the court in Manhattan |
@@ -36,14 +37,14 @@ Opening state: July 21, 1994, the day he is commissioned to the U.S. Court of Ap
 | 1982–1983 | Law clerk to Justice Lewis F. Powell Jr. |
 | 1983–1985 | NAACP Legal Defense and Educational Fund, New York |
 | 1985–1989 | Office of the Solicitor General, Washington |
-| 1989–1994 | U.S. District Judge, District of Connecticut (Bush appointee) |
-| 1994– | U.S. Circuit Judge, Second Circuit (Clinton appointee) |
+| 1989–1993 | U.S. District Judge, District of Connecticut (Bush appointee) |
+| December 1993– | U.S. Circuit Judge, Second Circuit (Clinton appointee); first full calendar year is 1994 |
 
 ---
 
 ## EDUCATION
 
-Held in July 1994:
+Held in January 1994:
 1. Jones High School, Orlando. Diploma, 1973; near the top of his class.
 2. Morehouse College. B.A., History and Sociology (double major), 1979; magna cum laude.
 3. Yale Law School. J.D., 1982; Yale Law Journal; moot court.
@@ -96,17 +97,18 @@ Later (each appears when conferred):
 - LDF, 1983–1985: employment discrimination, voting rights, police misconduct. Depositions, record-building, appellate briefs and arguments. Lessons: a right no one can enforce is useless, and winning a case does not change the institution that produced it.
 - Solicitor General's Office, 1985–1989: Assistant to the Solicitor General. Argued five Supreme Court cases in federal jurisdiction, administrative law, official immunity, and criminal procedure. Known for answering the question asked and conceding weak points early.
 - Anderson v. Creighton (1987): helped shape the government's position for the FBI agent who joined a warrantless search of an innocent family's home. Believes the immunity doctrine was stated correctly. Regrets letting the doctrinal question push the family's fear and humiliation outside the case. His clearest example of institutional lawyering narrowing a moral field without a lie.
-- District of Connecticut, 1989–1994: Bush appointed him in 1989; commissioned that November at 34; moved to New Haven. Controlled courtroom without humiliating lawyers. Patient with witnesses and self-represented litigants; hard on government lawyers who substitute status for evidence.
+- District of Connecticut, 1989–1993: Bush appointed him in 1989; commissioned that November at 34; moved to New Haven. Controlled courtroom without humiliating lawyers. Patient with witnesses and self-represented litigants; hard on government lawyers who substitute status for evidence.
 - Signature opinion: Deputy U.S. Marshals, following a Marshals Service fugitive-apprehension directive, entered the wrong family's home without a search warrant. He granted the deputies qualified immunity under Anderson because the law was unsettled at the time of entry, but refused to let their immunity shield the directive. He held it was final agency action reviewable for prospective relief, ordered the administrative record, and required revision of the provisions he could not reconcile with the Fourth Amendment. The Second Circuit affirmed unanimously. Neither side could reduce the opinion to a slogan, and it gave his future court its first close look at him.
 - Record: ideologically mixed. Sometimes rejected civil-rights claims on jurisdictional or evidentiary grounds; ruled against agencies that could not explain the gap between stated rule and actual practice. Conservatives noticed the first, liberals the second.
 
-## 1994 ELEVATION
+## 1993 ELEVATION
 
-- Clinton nominated him on February 9, 1994, at 38. Senate confirmed him July 18; commissioned July 21.
+- Clinton nominated him in October 1993, at 38. The Senate confirmed him in November; his commission and required judicial oaths followed on December 1, 1993. These are fictional appointment dates set for this simulation.
+- He fills the Meskill vacancy, which opened in June 1993. Calabresi never receives this appointment in the simulation. December is the transition into appellate service; detailed play begins January 1, 1994. No December case, panel assignment, or new precedent is implied by the biography.
 - Protection: the credential pairing of enlisted DMZ service and a Powell clerkship, plus a Bush appointment that made the pick hard to call partisan.
 - Doubts: conservatives distrusted LDF and the Marshals opinion; liberals distrusted his immunity work, the SG years, and a Republican president's approval. Both found him hard to predict, and both noted his age.
 - He did not soften his appearance for the hearing. Beard, frame, and gold hoop all present.
-- Asked by a senator whether his military service had ever impaired his judgment, he answered: "I have been in therapy for nine years. Seeking treatment did not weaken my service, my judgment, or my fitness for office. It made me more responsible for all three."
+- Asked by a senator whether his military service had ever impaired his judgment, he answered: "I have been in therapy for eight years. Seeking treatment did not weaken my service, my judgment, or my fitness for office. It made me more responsible for all three."
 - He and Hana agreed beforehand that evasion would make the stigma worse. The disclosure drew admiration and opposition in roughly equal measure.
 
 ## MARRIAGE
@@ -148,6 +150,6 @@ Later (each appears when conferred):
 - Rearranges work immediately for a genuine family crisis; no patience for manufactured urgency.
 - Worst habit: taking work back rather than waiting for someone to finish it differently. Hana and senior staff both push back on it.
 
-## OPENING STATE, JULY 1994
+## OPENING STATE, JANUARY 1994
 
-Thirty-eight years old and newly elevated, years ahead of the usual schedule for a federal appellate judge. Bush made him a judge; Clinton elevated him. He has represented civil-rights plaintiffs and the United States, helped defend qualified immunity, and written the opinion that kept immunity from becoming agency-wide impunity. Married three years, child-free by choice, close to his mother and brother, estranged from his living father. Compassionate but intimidating, egalitarian but controlling, pragmatic but exacting, publicly unreadable but privately attentive. Those tensions are the character, not problems to resolve.
+Thirty-eight years old and one month into appellate service, beginning his first full calendar year on the Second Circuit. Bush made him a judge; Clinton elevated him. He has represented civil-rights plaintiffs and the United States, helped defend qualified immunity, and written the opinion that kept immunity from becoming agency-wide impunity. Married since 1991, child-free by choice, close to his mother and brother, estranged from his living father. Compassionate but intimidating, egalitarian but controlling, pragmatic but exacting, publicly unreadable but privately attentive. Those tensions are the character, not problems to resolve.

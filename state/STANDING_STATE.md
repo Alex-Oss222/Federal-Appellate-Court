@@ -1,10 +1,10 @@
 # Second Circuit Standing State
 
-**Current simulation date:** 1994-07-21.
+**Current simulation date:** 1994-01-01.
 **Posture:** Opening institutional baseline; no selected appeal has been prepared or adjudicated.
-**Current bookkeeping period:** 1994-07-21 through 1994-12-31.
+**Current bookkeeping period:** 1994-01-01 through 1994-12-31, Stone's first full calendar year.
 **Last completed simulation event:** None.
-**Controlled judge:** Alex-Lamar Stone-Khoury, newly commissioned circuit judge in the Meskill vacancy.
+**Controlled judge:** Alex-Lamar Stone-Khoury, circuit judge in the Meskill vacancy; fictional commission and required judicial oaths dated 1993-12-01.
 **Supreme Court setting:** Historical membership and actual decisions. No separate Supreme Court simulation law is admitted.
 
 ## Current court

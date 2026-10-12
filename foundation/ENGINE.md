@@ -2,7 +2,7 @@
 
 ## 1. Project boundary
 
-Stone joins the Second Circuit on July 21, 1994 in the Meskill vacancy, instead of Calabresi. He is a new circuit judge, not chief judge, and inherits neither Meskill's seniority nor his former chief position. Selected appeals may differ because Stone sits on their panels. The Supreme Court remains historical; this project imports none of the separate Supreme Court simulation's law or institutional changes.
+Stone is commissioned and takes the required judicial oaths on December 1, 1993 in the Meskill vacancy, instead of Calabresi. These are fictional appointment dates established by the character sheet. Detailed play opens January 1, 1994, making 1994 his first full calendar year on the court. He is a new circuit judge, not chief judge, and inherits neither Meskill's seniority nor his former chief position. Selected appeals may differ because Stone sits on their panels. The Supreme Court remains historical; this project imports none of the separate Supreme Court simulation's law or institutional changes.
 
 Use real historical appeals as the starting cases. A selected case's actual caption, docket, lower-court record, and procedural posture must be verified. Declared panel substitutions and resulting appellate rulings are simulation events. Never represent invented facts, filings, quotations, or dockets as historical research.
 
@@ -26,7 +26,7 @@ Distinguish a disagreement with precedent from authority to depart from it. A pa
 
 ## 3. Calendar and scope
 
-Use calendar-year folders for convenience. The first period begins July 21, 1994; it is not a retroactive appointment or an October Term. Selected cases are a sample of Stone's work, not his entire annual judicial workload. Follow [the case-selection policy](CASE_SELECTION.md): six groups, three real historical Second Circuit cases per group, eighteen cases per cycle. A cycle is a coverage unit, not an annual deadline. Keep one canonical row per case under [the case-list template](templates/CASE_LIST.md), with one primary group and secondary tags for overlaps. Carry unfilled group slots across years without moving historical disputes backward, duplicating cases, or fabricating facts. Preserve the historical parties, dispute, claims, material facts, and procedure up to the simulation's entry point.
+Use calendar-year folders for convenience. The first period is January 1 through December 31, 1994, Stone's first full calendar year after his December 1, 1993 appointment and oaths. The December transition is background only; no unplayed 1993 appellate case, panel assignment, or simulation holding is automatically created. The period is not a Supreme Court October Term. Selected cases are a sample of Stone's work, not his entire annual judicial workload. Follow [the case-selection policy](CASE_SELECTION.md): six groups, three real historical Second Circuit cases per group, eighteen cases per cycle. A cycle is a coverage unit, not an annual deadline. Keep one canonical row per case under [the case-list template](templates/CASE_LIST.md), with one primary group and secondary tags for overlaps. Carry unfilled group slots across years without moving historical disputes backward, duplicating cases, or fabricating facts. Preserve the historical parties, dispute, claims, material facts, and procedure up to the simulation's entry point.
 
 A later opinion can support research into an earlier proceeding, but only date-eligible facts, arguments, and authorities enter the neutral packet. Administrative case-list columns recording departures and subsequent history are not inputs to the neutral modeler. Cases and events remain chronological even when coverage cycles overlap; follow-up to an already counted case does not supply an additional quota entry.
 
@@ -36,7 +36,7 @@ A late-discovered earlier event requires an assessment of affected completed dec
 
 ## 4. Court and panel assignment
 
-Read the roster as of the relevant participation date. Verify actual qualification to sit, recusal, designation, active or senior status, and any change before decision. A commission date alone is not proof of an oath, a first sitting, or assignment to an already-submitted case.
+Read the roster as of the relevant participation date. Verify actual qualification to sit, recusal, designation, active or senior status, and any change before decision. A commission date alone is not proof of an oath, a first sitting, or assignment to an already-submitted case. Stone's required oaths are expressly established on December 1, 1993 by the fictional character timeline; his participation in any particular case still requires the assignment and timing checks.
 
 Every selected appeal identifies:
 

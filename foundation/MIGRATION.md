@@ -8,17 +8,21 @@ This project adapts operating ideas from [Alex-Oss222/scotus-career](https://git
 | `foundation/ENGINE.md` | Neutral modeling, historical reconciliation, assembly, chronology, supported joins | Second Circuit engine with historical Supreme Court authority and case-specific panel substitutions |
 | `foundation/CASE_BRIEF_TEMPLATE.md` | Physically separable neutral, Stone, and comparator inputs | Separate files from intake; appellate jurisdiction, preservation, review standards, assignment, and remedies |
 | `foundation/RENDER_CONTRACT.md` | Presentation projects a locked decision | Compact standalone render contract; no mandatory duplicate render-input layer |
-| `foundation/COURT_COMPOSITION.md` | Dated, sourced institutional membership | Independently researched July 1994 Second Circuit roster, seniors, vacancies, and near-term changes |
+| `foundation/COURT_COMPOSITION.md` | Dated, sourced institutional membership | Sourced Second Circuit roster, seniors, vacancies, and near-term changes; opening snapshot revised to January 1994 |
 | `foundation/templates/STANDING_STATE_TEMPLATE.md` | Institutional state and carryover continuity | Living Standing State explicitly extended to rehearing, petitions, mandates, remands, and follow-up blockers |
 | Holdings and standards templates | Distinguish controlling law from personal positions | One precedent index pointing to complete final records, alongside historical legal sources |
 | Validation tools | Mechanical consistency checks do not adjudicate | Integrity checks during setup; no copied Supreme Court-dependent scripts or new runtime dependency |
 
 ## Existing appellate documents
 
-- `CHARACTER SHEET (1994) - ALEX-LAMAR STONE-KHOURY.txt` becomes `stone/CHARACTER.md`, preserving the original content.
+- `CHARACTER SHEET (1994) - ALEX-LAMAR STONE-KHOURY.txt` became `stone/CHARACTER.md`, preserving the original content at import. Its appointment chronology was subsequently revised at the user's request as recorded below.
 - `Master Jurisprudence Judge Stone, Court of Appeals.md` becomes `stone/JURISPRUDENCE.md`, preserving the original content.
 - The supplied age of 38 is unchanged. The previous wish for 40 remains a separate character-edit decision, not an implicit infrastructure correction.
 - References to later Supreme Court service in the personal jurisprudence do not override this project's historical Supreme Court setting.
+
+## First full year revision
+
+The user requested 1994 as Stone's first full year. The fictional timeline now places nomination in October 1993, confirmation in November, and commission plus required judicial oaths on December 1, 1993. Detailed play opens January 1, 1994. Meskill's June 30, 1993 senior-status date provides the existing vacancy; other judges retain their historical dates. Stone remains 38. The district-service dates, hearing reference to time in therapy, and opening biographical wording were adjusted for consistency. No pre-opening case or holding is created, and case-specific panel eligibility still requires verification.
 
 ## Excluded material
 
