@@ -1,317 +1,254 @@
 # Appellate render template
 
-Render after every simulation turn without waiting for a separate Render request. Display the readable report directly in the response and save it; a completion notice or file link alone is not the turn output. This applies to turns that prepare or advance a case, adjudicate it, process follow-up, or advance the simulation calendar. Repository maintenance and standalone explanatory questions do not themselves require a simulated court report.
+Follow the [render contract](../RENDER_CONTRACT.md). Rendering presents established material; it cannot adjudicate, approve a proposal, create proceedings, or advance time.
 
-Choose the form:
+- **Form A: Court report.** Display automatically after each simulation turn and save at `years/YYYY/output/YYYY-MM-DD-court-report.md`. A file link or completion notice alone is insufficient. Further turns on the same date update that report, with earlier versions retained in Git.
+- **Form B: Individual appellate decision.** Use when specifically requested; save at `years/YYYY/cases/<case-slug>/output/YYYY-MM-DD-<event>.md`.
+- **Form C: Procedural or subsequent-review event.** Use for an individual completed action at the same case output location.
 
-- **Form A: Court report.** The default output after every simulation turn. Use the eight-section overview below, emphasizing the case and developments handled in that turn. Save at `years/YYYY/output/YYYY-MM-DD-court-report.md`.
-- **Form B: Individual appellate decision.** A decision summary followed by the actual written opinion and any supported separate opinions. Save at `years/YYYY/cases/<case-slug>/output/YYYY-MM-DD-<event>.md`.
-- **Form C: Procedural or subsequent-review event.** A compact report of a completed action at the same case output location.
+Forms B and C do not replace the automatic court report unless the user expressly requests a different output.
 
-Limit case entries to the user's selected cases and their connected review or remand proceedings, including earlier-year carryovers. Do not create entries for other Supreme Court or circuit cases merely because they are important or were decided that year. Other authorities may be cited only as context directly needed to explain a selected case or its applicable law.
+## Instructions for preparing the report
 
-Write for a reader who wants to understand the case, the outcome, and realistically relevant context. Use developed, accessible prose for substantive case explanations; explain necessary legal terms, connect the governing rule to the decisive facts, and describe the supported practical effect and limits. Do not reduce the output to labels, a status table, or bookkeeping. Keep unchanged institutional sections brief. Present new decisions and their supported written opinions in detail, without reprinting every earlier case.
+Produce this report after each simulation turn that prepares, decides, or advances a selected case. A turn may cover one event, several cases, or part of a year. Do not advance time merely to fill the template. Ordinary questions and project editing do not trigger a report.
 
-A preparation turn explains the dispute, each side's position, and what remains to be decided. A decision turn explains the completed outcome and reasoning and includes the actual supported opinion text. A follow-up turn explains the verified action and its effect. When no decision was issued, say so; do not fill the opinion section with a prediction.
+For Form A, use only the preparer's scoped, sourced, date-eligible packet authorized by the render contract. It contains the basic character extract, administrative state, selected-case facts and assignments, finalized Public decision material, and permitted comparison and follow-up extracts. Do not browse linked raw files or independently research during rendering. Forms B and C receive only the final record's Public decision material, this template, and the contract. Report what has happened as of the simulation date; do not make new decisions.
 
-These are presentations, not new sources of authority or additional editable state registers. Replace bracketed fields, remove drafting instructions, and omit inapplicable repeated blocks. For a court report, retain the eight main sections and say when no supported entry exists. Do not add a section 9, period-close report, ideological court climate, voting forecast, or strategic-career narrative.
+- Include only user-selected historical cases and proceedings arising from them. An unselected case may appear as necessary legal authority or background for a selected case, never as a separate docket entry. Do not invent cases.
+- Keep neutral analysis, Stone's proposal, and historical comparison separate in the underlying work. The renderer does not receive private proposals, frozen commitments, or raw comparator files. An approved proposal is not an adopted holding. Never feed the combined report, character snapshot, or comparison extract into neutral modeling.
+- Preserve the distinction between a simulated appellate decision and verified historical events. Label simulated opinions as simulation text. Never present them as authentic historical quotations.
+- Use only information and law available by the applicable event date. Preserve established simulated circuit holdings and their later treatment. Do not import holdings from a separate Supreme Court simulation.
+- Follow the established simulation roster and case-specific assignment. Calabresi never joins this court. Taking an institutional seat does not automatically place Stone on every historical panel.
+- Do not add ideological classifications, allies or opponents, relationship scores, influence ratings, speculative coalitions, predictions of review, invented conversations, or national political scenery.
+- Use ordinary explanatory prose for the case, reasoning, and consequences. Use tables for the docket, roster changes, and actual procedural updates. Do not turn every paragraph into a rating or checklist.
+- Display the report directly in chat. Retain all eight main Form A sections; keep unchanged or empty sections to one line and omit their optional detail. Remove instructions and placeholders. Give each event one substantive account and refer back to it elsewhere. Do not add a section 9 or period-close presentation.
 
-Follow the [render contract](../RENDER_CONTRACT.md). A preparer supplies dated, scoped source extracts for Form A; Forms B and C use the final event record's Public decision material. The renderer does not independently research, decide a case, invent a procedural event, or read private proposals and historical-comparator files.
+Before presenting the report, check dates, panel eligibility, votes and joins, holdings, remedies, and procedural status. Explain only material gaps that prevent a reliable account. Use “Not established” for an unknown fact and “None” only for a confirmed absence. Do not print the internal checklist or manufacture a result to make the report look complete.
+
+---
 
 ## Form A: Court report
 
 # Second Circuit court report
 
-**Simulation date:** [Exact date].
-**Calendar year:** [1994–2020].
-**Session:** [Session label or covered date range].
-**Last completed event:** [Case or institutional event, date, and record reference].
-**Current activity:** [Preparing a case / awaiting Stone's position / adjudication / follow-up / advancing the calendar].
-
 ## 1. Current position
 
-[Lead with what happened in this turn and the resulting position of the case or court. Identify the most recent completed work, the matters presently before the court, and what remains open. Make clear whether a decision was issued, preparation was completed, a subsequent event occurred, or time advanced. Do not imply that a preparation step changed the judicial result or simulation date.]
+Simulation date: [Date through which events have actually occurred]  
+This turn: [Events or period covered; completed work and any unresolved matter]
 
-**Next supported event:** [Event and date, or not yet established].
-**Outstanding preparation:** [Specific work needed].
-**Open uncertainty:** [What is unknown and whether it affects the next event].
+Character snapshot: [Name] | [Age, if established] | [Current judicial position] | [Time served on this court]
 
-Do not predict a result, promise a doctrinal development, or assign Stone a narrative role.
+Keep the snapshot to this line. Do not repeat the biography, jurisprudence, temperament, relationships, personal life, or a narrative of professional growth. Update these basics only from established information. Mention seniority or an administrative role elsewhere only when it affects the current work.
 
 ## 2. Court composition and administration
 
-**Chief judge:** [Name, source, and effective date].
-**Roster reference:** [Dated roster reference].
-**Verified vacancies:** [Seats and effective dates, or none].
-**Changes since the previous report:** [Verified appointments, departures, senior status, or other material developments].
+Chief judge: [Name]  
+Court status: [Verified active membership and vacancies, if available]
 
-| Judge relevant to current work | Status on event date | Participation or administrative role | Source or limitation |
+[Briefly identify appointments, departures, senior-status changes, or administrative changes effective during this turn. On the opening turn, include a compact established roster; thereafter report changes only. Do not assume every senior judge is available to sit.]
+
+| Judge | Change | Effective date | Relevant consequence |
 |---|---|---|---|
-| [Name] | [Active / senior / visiting] | [Assigned panel member, chief judge, etc.] | [Source; any unresolved qualification or designation issue] |
+| [Name] | [Established change] | [Date] | [Effect on eligibility, administration, or a selected case] |
 
-Include relevant participation restrictions and supported recusals without inventing reasons. Calabresi never joins this simulation court. Appointment to his historical seat does not establish Stone's assignment to every appeal.
+[If unchanged: “No relevant change in court composition or administration.”]
 
-Do not include ideological ratings, allies or opponents, predicted votes, favorable-panel probabilities, or speculative retirements and nominations.
+Do not add judicial profiles, appointing-party summaries, ideological balance estimates, or predictions about future panel votes.
 
 ## 3. Cases for this session
 
-List the cases being handled in the current session in chronological order. Use the existing case identities and link each caption to its case record.
+List the selected cases or follow-up events being handled in this session in chronological order, linking each caption to its existing case record. Include earlier selected cases only when carried forward for current work. A follow-up does not count as another selected case.
 
 | No. | Caption | Docket(s) | Event date | Event type | Status | Area of law |
 |---|---|---|---|---|---|---|
-| [1] | [Case caption and record link] | [Verified docket number(s)] | [Date and whether actual, scheduled, or proposed] | [Argument / submission on briefs / panel decision / rehearing / remand return / other specified event] | [In preparation / scheduled / submitted, awaiting decision / decided / on hold] | [Specific subject or subjects] |
+| [No.] | [Caption] | [Verified number(s)] | [Date and historical/simulated/scheduled status where needed] | [Submission, decision, rehearing, review, remand, etc.] | [Actual current stage] | [Plain-language subject] |
 
-Use one row per case event included in this session. The event type states what is being handled; the status states its present stage as of the report date. Give only supported dates, and use "not yet established" when necessary. A proposed simulation date must be identified as a proposal, not a verified court setting.
+An unknown date remains unknown. A scheduled event is not a completed event. Record historical and simulated dates separately when they differ.
 
-Do not include a Chunk column, generic MERITS category, category totals, or quota tables. Area of law describes the case; it does not reassign the case's primary selection group. Coverage groups and cycle counts remain in the canonical case list and Standing State. A follow-up row does not count as another selected case.
-
-Keep the detailed dispute and procedural explanation in section 4 and completed opinions in section 5. Do not reveal a future historical result in the status field. If no cases have been selected for this session, say so without creating example proceedings.
+Do not include chunks, generic MERITS categories, category quotas, or statistics for the court's unplayed docket. Any totals refer only to selected cases and distinguish cases from procedural events. Area of law describes the case, not a reassignment of its primary coverage group; selection counts remain in the canonical case list and Standing State.
 
 ## 4. Current case or proceeding
 
-Repeat for each matter requiring present attention. A candidate awaiting verification must be identified as such, not presented as an assigned or pending proceeding.
+Use this section for a selected matter that remains pending or was only prepared this turn. Repeat only for pending matters needing a substantive update. A case decided this turn receives its full account in Section 5 instead.
 
-**Case:** [Historical caption].
-**Docket or citation:** [Verified identifier].
-**Case-list and brief references:** [References].
-**Current procedural stage:** [Exact stage and date].
+### [Case name]
 
-### What the case concerns
+- What the dispute is: [Material facts, parties, and relief sought, distinguishing allegations from established findings.]
+- How it reached this court: [Relevant lower-court or agency action, reasoning below, and present procedural posture.]
+- What the court must decide: [Material questions, including threshold issues where relevant.]
+- Each side's position: [The strongest material arguments, stated fairly.]
+- Current status: [Work completed, established next step, and any missing information that actually matters.]
 
-[Explain the actual dispute as connected prose: who the parties are, what happened, how the dispute reached this stage, and what each side seeks. Include the material factual and procedural background needed to understand the case. Distinguish allegations, findings, agreed facts, and disputed evidence.]
+Identify the historical panel and proposed or established simulation panel when relevant to this stage. State any unresolved assignment issue. Do not forecast votes, reveal the historical disposition, or treat Stone's proposal as the pending court's result.
 
-### The parties' positions and relevant context
-
-[Explain each side's principal supported argument and the governing legal question in accessible language. Include sourced context when it helps explain the dispute, such as the statute, agency action, trial ruling, or existing doctrine at issue. Explain what turns on the question for these parties. This is an account of the available record and arguments, not a forecast of the judges' votes or the result. Leave unsupported details unspecified.]
-
-### Why it is before this court
-
-**Decision or action under review:** [What the lower tribunal did].
-**Basis for this proceeding:** [Verified appeal, petition, remand return, or other event, with source].
-**Question presently before the court:** [Issue at this stage].
-**Jurisdictional or procedural dispute:** [Any live dispute, or none identified].
-
-A jurisdictional dispute can itself be an issue for adjudication. Missing research is not a judicial finding.
-
-### Panel and assignment
-
-**Historical panel:** [Names, status, and source].
-**Member Stone replaces:** [Name].
-**Assignment basis:** [Recorded method and timing].
-**Resulting panel:** [Names].
-**Participation issues:** [Specific unresolved matters, or none].
-
-### What must happen next
-
-[Supported procedural or preparation step. Identify any source gap beside the affected matter. Do not forecast votes or disclose the historical result of the selected event before adjudication.]
+[If no matter needs this account: one brief status line.]
 
 ## 5. Completed appellate decisions and written opinions
 
-Give the decisions completed in this turn substantive treatment, including the supported written opinions below. For multiple completed decisions, use a separate case block for each. Briefly cross-reference earlier decisions when necessary to understand current work; do not reprint the entire accumulated docket on every turn. If no decision was completed in this turn, state that clearly and use a short reference for any earlier decision that remains relevant.
+Give one complete account for each selected appellate decision finalized this turn, including an en banc merits decision. Do not repeat earlier opinions unless they have materially changed.
 
-**Case:** [Caption and docket or citation].
-**Decision date:** [Date].
-**Argued or submitted:** [Date and mode, when relevant].
-**Panel:** [Participating judges and relevant roles].
-**Disposition status:** [Precedential / nonprecedential / other supported status].
-**Opinion author and joins:** [Author and exact joins for each writing].
-**Final decision record:** [Reference; distinguish any historical source citation from the simulated opinion].
+### [Case name]
 
-### Decision summary
+Decision date: [Simulation date; identify a different historical date if relevant]  
+Docket(s): [Verified number(s)]  
+Decision type: [Panel/en banc; established precedential or nonprecedential status]  
+Final decision record: [Reference]
 
-**What the dispute concerned:** [Underlying dispute and route to this court].
-**What the court decided:** [Exact result for each issue or claim and relief ordered].
-**Why the court decided that way:** [Governing law, material facts, and controlling application; identify any threshold ground preventing a merits decision].
-**Where the judges disagreed:** [Actual disagreements over judgment, reasoning, or remedy; say when there was no separate opinion].
-**Practical effect and limits:** [What the judgment and remedy actually change for the parties; any established effect on governing circuit law; and what remains undecided. Distinguish a supported legal consequence from an uncertain downstream possibility.]
-**What happens next:** [Mandate status, remand instructions, or another supported procedural step].
+Historical panel: [Names]  
+Simulation panel: [Names]  
+Stone replaces: [Historical member]  
+Assignment basis: [Established method and reason this assignment is eligible for this case and date]
 
-Develop these explanations in paragraphs proportionate to the case. Connect the rule to the decisive facts and explain why it yields this outcome; a bare disposition or citation is insufficient. Give realistically relevant detail supported by the final public record, without inventing reactions, political effects, litigation, or future consequences.
+For en banc decisions, give the participating court and relevant exclusions instead of forcing a three-judge replacement format. Historical-panel replacement details are prepared administrative context, outside the opinion and Form B.
 
-Name the judges supporting each materially different component. Use a component or opinion-join table only when mixed dispositions or partial joins are clearer that way.
+#### The case and the result
 
-### Opinion of the court
+[Explain the dispute, material facts, procedural route, reasoning below, and the question presented. Summarize the material arguments from each side. Use enough detail for the reader to understand why the result matters without reproducing the entire brief.]
 
-**Author:** [Judge].
-**Joined by:** [Judges and precise limits on their joins].
+[State what the court actually decided, which parts of the judgment changed, and the immediate effect on the parties.]
 
-[Write the opinion itself in judicial prose, not merely an outline or summary. Include relevant background, issues, jurisdiction where material, the standard of review, governing authorities, operative tests and burdens, application to the record, and the precise disposition. Explain the principal contrary argument and the reason it does not control. Preserve qualifications, treatment of prior authority, questions left open, publication status, remedy, and mandate limits.]
+Judgment: [Exact disposition and affected claims or orders]  
+Vote: [Actual recorded division on the judgment]  
+Opinion and joins: [Author; who joins the reasoning, joins only the judgment, or writes separately]
 
-All substance must be supplied by the final record's Public decision material. Prose may explain supplied reasoning but cannot add findings, authorities, arguments, holdings, joins, or remedial instructions. If the record lacks enough material for a requested passage, report that gap rather than authoring a new judicial position.
+When judges differ by issue, explain those differences. Use a component table only if it makes a genuinely divided result clearer. Do not assume that agreement on the judgment means agreement on every rationale.
 
-If no rationale has majority support, label the actual plurality or separate writings and state their support accurately. Do not manufacture an opinion of the court.
+#### Opinion of the court
 
-### Concurring opinion, if any
+*Simulated judicial opinion based on the finalized decision.*
 
-**Author:** [Judge].
-**Joined by:** [Judges and scope, if any].
+[Provide the actual written opinion in judicial prose, not an abstract or an outline. Explain the relevant record, threshold rulings, governing authority, standard of review, burdens and tests where material, application, substantial contrary arguments, and disposition.]
 
-[Write the concurrence in judicial prose. Explain what the author joins, what they decline to join, and the supported alternative or additional reasoning.]
+[All substantive content must come from the final record's Public decision material. Preserve the reasoning actually adopted and its limits. Do not add facts, findings, authorities, quotations, arguments, holdings, joins, or relief. Return a material source gap for correction rather than supplying new reasoning. Identify matters expressly left open.]
 
-### Dissenting opinion, if any
+If no majority supports a single opinion, use the correct description for the actual writings and identify any supported common ground without inventing a unified rationale.
 
-**Author:** [Judge].
-**Joined by:** [Judges and scope, if any].
+#### Separate opinions
 
-[Write the dissent in judicial prose. Identify the disagreement, its legal and factual basis, and the disposition or remedy the author would order.]
+[Include each established concurrence or dissent as a written opinion with its author and exact joins. State what it agrees or disagrees with, its reasoning, and the alternative judgment or approach where applicable.]
 
-Use accurate labels for writings concurring and dissenting in part. Stone may author the court's opinion, a concurrence, or a dissent only as established by the finalized adjudication. Do not create a separate opinion merely to fill the template. Do not present a dissent as controlling circuit law.
+Omit this subsection if there is no separate writing. Do not invent one for variety or make Stone the author by default.
 
-### Public source notes, if supplied
+#### What the decision does
 
-[References intended for publication in the final record. Do not present the generated simulation opinion as the verbatim historical reporter text.]
+- Controlling holding: [Concise operative rule, necessary conditions, important exceptions, and limits. Distinguish binding reasoning from dicta or separate views. Note when the case simply applies settled law.]
+- Effect on the parties: [Relief granted or denied and what remains unresolved.]
+- Mandate and remand: [Current established status, instructions, and any verified next step. Do not infer that a mandate has issued.]
 
-## 6. Current legal developments
+#### Historical comparison
 
-Include only effective legal developments directly affecting a selected case, its operative holding, or its pending review. Identify the affected selected case first, then explain the relevant rule and consequence. Cite other decisions as necessary authority without giving them independent case entries or a general Supreme Court roundup. Full holdings and tests remain in their source decisions.
+[After the simulated decision is settled, briefly state the historical appellate disposition and material similarities or differences, with its source. Distinguish a changed judgment from changed reasoning producing the same judgment. Identify any concrete consequence for later procedural compatibility.]
 
-**Affected selected case:** [Case and record reference].
-**Authority and effective date:** [Source].
-**Operative proposition:** [Rule and material qualifications].
-**Affected earlier authority:** [What changed, if anything].
-**Known relevance to pending work:** [Specific issue or dependency].
-**Precedent-index reference:** [Reference where applicable].
+Use only the preparer's short comparison extract authorized by the render contract, after finalization and only once the historical disposition itself has occurred by the report date. Omit it if not date-eligible. Keep it outside the judicial opinion and Forms B and C. Do not open raw comparator files or reveal later historical proceedings. The historical ruling is not a second live judgment.
 
-Explain actual legal developments without predicting judicial votes. Do not introduce future decisions or assume that a new precedent automatically disposes of another case or reopens a final judgment.
+#### Public source notes, if supplied
+
+[References intended for publication in the final record. Keep comparison sources with the separate comparison.]
+
+## 6. Legal developments affecting selected cases
+
+Include only a development that changes the law, posture, or available relief for a selected case.
+
+[Name the affected selected case, identify the authority or finalized simulated holding and its effective date, and explain the specific effect. State whether an earlier rule remains operative, is limited, or has been superseded.]
+
+A historical Supreme Court decision may be relevant authority even when that Supreme Court case is not a selected case. Explain only its effect on the selected matter. Do not add a general Supreme Court roundup or repeat Section 5's holdings.
+
+[If none: “No additional legal development affecting the selected cases.”]
 
 ## 7. Follow-up proceedings and historical compatibility
 
-Report the current year and previous two origin-year groups, together with all older unresolved cases. Derive this view from Standing State; do not create a new ledger or omit an older case because it is outside the current session docket. An origin year is the year of the first selected circuit decision, not a predicted review date.
+Cover actual non-Supreme Court developments in selected cases, including prior-year cases. Do not invent a petition or deadline because one would be procedurally possible.
 
-| Origin year | Matter and docket references | Latest supported event | Present status | Next supported step or date | Dependency or uncertainty |
-|---|---|---|---|---|---|
-| [Year] | [Original case; circuit and Supreme Court dockets where established] | [Event, date, source] | [Precise status] | [Verified step, or unknown] | [Specific issue] |
+| Selected case | Date | Event and source | Effect on judgment or relief | Current status or established next step |
+|---|---|---|---|---|
+| [Case and original decision year] | [Date] | [Verified historical event admitted to this timeline, or finalized simulated action] | [Specific effect] | [Known next step, pending question, or closure] |
 
-**Follow-up checked through:** [Cutoff and any limits from the actual check].
-**Older carryovers:** [Unresolved references, or None].
+[Add a short explanation when the table cannot convey the reasoning or practical effect. A substantive en banc opinion belongs in Section 5; refer to it here.]
 
-For a historical follow-up affected by a simulated decision, include the scoped compatibility conclusion prepared under the engine:
+When a simulated departure changes the posture of later historical proceedings, identify the affected proceeding and the specific incompatibility. Do not silently reuse its historical result.
 
-**Historical event assessed:** [Event and source; only when chronologically appropriate].
-**Relevant simulation change:** [Final-record reference].
-**What the change affects:** [Governing law / judgment / relief / party seeking review / questions presented / procedural posture / timing].
-**Compatibility conclusion:** [Compatible / compatible in specified respects / unresolved / incompatible].
-**Reason:** [The connection between this change and this event].
-**Supported next step or open question:** [Action or specific research gap].
+### Open matters and compatibility
 
-An incompatible historical event does not establish what happened instead. Retain `unresolved: historical path incompatible` where required by the engine. Do not invent a petition, grant, denial, finality, reversal, or remand. Unknown filing status is a research question, not proof of a pending proceeding.
+Derive this compact view from Standing State, covering the current year, previous two origin years, and every older unresolved selected case. Do not create another ledger. Supreme Court events receive their substantive explanation in section 8.
 
-This section is administrative reporting, not a court order or an input to neutral vote modeling. Do not reproduce private deliberations or future comparator material.
+| Origin year | Selected case and docket links | Last established event | Present status | Known next step or specific blocker |
+|---|---|---|---|---|
+| [Year of first selected circuit decision] | [Original case; connected review identifiers] | [Date and source] | [Actual stage] | [Verified step or unresolved question] |
+
+Follow-up checked through: [Actual cutoff and any coverage limitation]
+
+For a new or changed compatibility issue, identify the historical event, the relevant simulation change, the affected judgment, relief, party, question, posture, or date, and the specific reason the event does or does not fit. Use the preparer's scoped assessment. Preserve `unresolved: historical path incompatible` where required. An incompatible historical event does not establish what happened instead. Unchanged matters need only a status reference.
+
+Unknown filing status is a research gap, not proof of a pending petition. Do not close matters merely because they are old or the year ends. These administrative notes are not court orders or neutral modeling inputs.
+
+[If there are no events or open matters: one brief line.]
 
 ## 8. Supreme Court review of selected cases
 
-**Information current through:** [Simulation date].
+Report only review connected to selected circuit cases. Carry the original case and decision year through any changed caption or Supreme Court docket.
 
-Show only Supreme Court proceedings linked to a case in the user's selected docket, including selected cases from earlier years. Require a reference to that selected circuit case for every entry below, even if its Supreme Court caption or docket differs. Use verified historical events released by the engine's follow-up check; do not add unrelated petitions, arguments, or decisions to fill this section. Other Supreme Court law may inform a selected case under section 6 without becoming a review entry here. The three-year view does not move historical dates or remove older pending work.
+Track current-year and previous-two-year selected decisions, plus every older unresolved matter. This is a tracking window, not a mandatory three-year schedule. Events appear on their actual applicable dates. Do not force a grant in the next year or a decision in the year after that.
 
-### Review updates for our circuit cases
+### Updates this turn
 
-**Origin-year case:** [Original circuit case, decision year, and final-record reference].
-**Review identifiers:** [Linked Supreme Court caption and docket, if verified].
-**Event this turn:** [Petition filed / review granted / review denied / argument / merits decision / vacatur / mandate / remand / other verified event, with date and source].
-**Our circuit decision:** [What the finalized simulated judgment ordered, with record reference].
-**What changed:** [What this Supreme Court event does to that judgment, its reasoning, the parties' relief, and any remand obligations; distinguish what remains effective from what is displaced or unresolved].
-**Published reason, if any:** [Supported explanation; if the source supplies none, say no explanation is supplied rather than inventing one].
-**Remaining work:** [Pending review, mandate, remand, supported closure, or a specific uncertainty].
-**Compatibility:** [Admitted compatible event or reference to the unresolved issue in section 7].
+| Original selected case and year | Supreme Court caption/docket | Date | Actual review event | Effect on the simulated appellate judgment |
+|---|---|---|---|---|
+| [Original case/year] | [Verified caption and number, or Not established] | [Date] | [Petition filed, grant, denial, argument, disposition, mandate, etc.] | [Compatible effect or specific unresolved incompatibility] |
 
-Give a short update here for filings, grants, denials, and other review developments. Use the detailed blocks below for arguments and merits decisions without duplicating the same explanation. A denial is reported when it occurs; it is not held until the third year and does not promise a later merits decision. Do not place unverified petitions in the awaiting-argument block.
+Include only historically verified Supreme Court events compatible with this timeline. Do not invent Supreme Court votes, opinions, citations to Stone, grants, denials, or alternative outcomes. A changed appellate judgment requires a compatibility check; the historical review path does not automatically carry over.
 
-When there are no new verified review events for selected cases, say so briefly and point to any pending or unresolved selected matter in section 7. If none has established Supreme Court proceedings, say that directly. Do not substitute other cases or repeat a past event as though it happened again this turn.
+For a Supreme Court decision actually applicable to a selected case, explain:
 
-### Selected cases awaiting oral argument
+- The question reviewed and the Court's disposition.
+- Its holding and principal reasoning, with material separate views where useful.
+- Which parts of the simulated appellate judgment or reasoning survive, change, or fall.
+- The resulting relief and any established mandate or remand work.
 
-**Selected circuit case:** [Original case, year, and final-record reference].
-**Supreme Court case:** [Linked historical caption and docket].
-**Review status:** [Verified grant of review and date].
-**Argument date:** [Scheduled date only if the scheduling information is available by the report date; otherwise not yet established].
-**Question presented:** [Question accepted for review].
-**Simulation judgment under review:** [The selected circuit judgment, relief, and reasoning supported by its final record and admitted review path].
-**Principal arguments:** [Neutral account of positions available by the report date].
-**Relevance to the Second Circuit:** [Potentially affected issue or rule, without predicting the result].
-**Source:** [Supporting record].
+Report a denial without treating it as approval of the appellate reasoning. If the Court provides no explanation for an order, do not supply one.
 
-Identify a petition awaiting a grant as a pending petition in section 7 when relevant, not as a case scheduled to be heard. If this is the historical version of a selected simulated appeal, apply section 7 before attaching the grant, hearing, or other event to the live appeal. Keep an incompatible comparator outside the report.
+If the historical path is incompatible, say so plainly and identify what remains unresolved. The historical Supreme Court opinion may still become governing law on its actual date; that does not make it a disposition of this altered case.
 
-### Selected cases argued and awaiting decision
+### Selected cases awaiting argument or decision
 
-**Selected circuit case:** [Original case, year, and final-record reference].
-**Supreme Court case:** [Linked caption and docket].
-**Argument date:** [Verified date].
-**Question before the Court:** [Issue].
-**Status:** Awaiting decision.
-**Relevant argument developments:** [Supported clarification of questions or positions, if useful].
-**Affected circuit matters:** [Specific matters or legal questions, if any].
-**Source:** [Supporting record].
+[For newly granted or materially changed review, identify the original selected case, Supreme Court caption and docket, accepted question, simulation judgment under review, neutral account of available principal arguments, and current stage. Distinguish a pending petition from granted review, and a granted case awaiting argument from an argued case awaiting decision.]
 
-Do not turn oral-argument questions into predicted votes. Do not disclose the eventual historical result before its decision date.
+Give an argument date only when its scheduling was established by the report date. Describe material argument developments only from supported public sources; questions from the bench do not establish votes. Do not reveal the eventual outcome early.
 
-### Supreme Court decisions on selected cases
+Use short references to section 7 for unchanged pending petitions and mandate/remand work, including older carryovers. Do not repeat full case briefs.
 
-**Selected circuit case:** [Original case, year, and final-record reference].
-**Supreme Court case and citation:** [Verified linked identity].
-**Decision date:** [Date].
-**Disposition:** [Exact result].
-**Opinion author and joins:** [Actual writing structure].
+[If there are no updates, say so briefly and list only genuinely open matters. Do not fill this section with unrelated cases, forecasts, or future outcomes.]
 
-**Holding:** [What the Court established and its material limits].
-**Summary of the Court's reasoning:** [The legal rule, application, and explanation supporting the judgment].
-**Concurrences and dissents:** [Actual reasoning and disagreements, if present].
-**Effect on circuit law:** [Rule confirmed, displaced, narrowed, or left unresolved].
-**Effect on our circuit judgment:** [What is affirmed, reversed, vacated, left effective, or otherwise affected, with the admitted case-specific order and its limits].
-**Effect on relief and next proceedings:** [What changes for the parties and any remaining mandate or remand work, with sources].
-**Effect on other selected cases, if any:** [Supported consequence for identified selected cases only; distinguish governing law from a case-specific order].
-**Historical-path compatibility:** [Section 7 assessment if relevant before attaching a disposition or remand to a selected appeal].
-**Sources:** [Opinion and relevant orders].
-
-Report actual Supreme Court holdings and published explanations. Do not generate a replacement Supreme Court opinion, vote, certiorari decision, or procedural history.
+---
 
 ## Form B: Individual appellate decision
 
 # [Case caption]
 
-**Court:** United States Court of Appeals for the Second Circuit.
-**Docket:** [Verified docket or consolidated dockets].
-**Argued or submitted:** [Date and actual mode].
-**Decided:** [Date].
-**Panel:** [Names and relevant roles].
-**Disposition status:** [Supported status].
-**Final record:** [Reference].
+Court: United States Court of Appeals for the Second Circuit  
+Docket(s): [Verified identifiers]  
+Argued or submitted: [Established date and mode, when relevant]  
+Decided: [Date]  
+Panel or en banc court: [Participants]  
+Disposition status: [Supported status]  
+Final record: [Reference]
 
-Use the content blocks from Form A, section 5: Decision summary; Opinion of the court or accurately labeled other writings; supported Concurring and Dissenting opinions; Public source notes if supplied. Include the full supported written opinions, not only summaries. For a short nonprecedential disposition, use its proper form and proportionate length without inventing a full published opinion.
+Use section 5's case-and-result account, written opinion, established separate opinions, controlling holding, relief, mandate status, and public source notes. Identify authors and exact joins, including agreement only with the judgment. Use a proportionate form for a short nonprecedential disposition without inventing a full published opinion.
 
-This individual decision receives only the final record's Public decision material, this template, and the render contract. Do not append the report's administrative sections, historical compatibility assessment, or future Supreme Court outcome.
+Read only the finalized Public decision material, this template, and the contract. Do not append the character snapshot, historical panel-replacement context, historical comparison, other administrative sections, or future Supreme Court developments.
 
 ## Form C: Procedural or subsequent-review event
 
 # [Case caption: event]
 
-**Court:** [Court taking the action].
-**Docket:** [Verified docket].
-**Date:** [Effective event date].
-**Stage:** [Panel rehearing, en banc consideration, mandate, certiorari, Supreme Court disposition, or remand].
+Court: [Court taking action]  
+Docket: [Verified identifier]  
+Effective date: [Date]  
+Stage: [Rehearing, mandate, review, disposition, remand, etc.]
 
-**Action:** [What the verified historical event or authorized simulated circuit order actually does].
-**Ground or published explanation:** [Only what the final record supplies; omit if none is public].
-**Participation or separate statement:** [Only disclosed names, votes, or writings; omit if unknown].
-**Effect on this case:** [Operative change to judgment, relief, mandate, or next stage].
-**Next step:** [Established step and date if known; do not invent a filing or deadline].
+Action: [What the finalized action does]  
+Published ground: [Supplied explanation; omit if none disclosed]  
+Participation or separate statement: [Established names, votes, and writings only]  
+Effect on this case: [Change to judgment, relief, mandate, or stage]  
+Next step: [Established action or deadline, not an assumed filing]
 
-Include a written simulated circuit order or separate statement when the finalized public material supports it. A short procedural order does not require a merits opinion.
-
-A Supreme Court entry reports an actual historical action admitted as compatible with this case. An incompatible historical path is a follow-up problem, not a fictional Supreme Court order. A denial of certiorari does not become an endorsement of the reasoning below.
-
-## Render check
-
-Operator guidance, not output:
-
-- Confirm that the simulation turn ends with the report displayed to the user, not only a saved-file link or completion notice.
-- Confirm that the current case, any completed outcome, the reasons, and supported practical effects receive readable explanation; keep unchanged sections brief.
-- Match the report date, session cases, event dates, statuses, and administrative facts to the scoped source packet.
-- Confirm every Supreme Court review entry links to a selected circuit case and accounts for the actual simulated judgment. Do not include independent entries for unselected cases.
-- Confirm the engine's follow-up check occurred, with limitations disclosed, and include newly due review events for earlier-year cases. Preserve older unresolved carryovers and avoid reporting an old event as new.
-- Match every disposition, name, join, holding, qualification, opinion passage, and remedial instruction to the finalized public record.
-- Keep future outcomes, ideological forecasts, private proposals, frozen commitments, and comparator files out of render inputs.
-- Remove placeholders, unused forms, drafting instructions, internal approval and context identifiers, and unsupported predictions.
-- Keep a court report separate from the input for an undecided case. Its final opinions and administrative compatibility notes do not become a combined neutral packet.
-- Raise a material source gap beside the affected report entry or to the operator for an individual decision. Do not invent a judicial finding to fill it.
+Include a written simulated circuit order or separate statement only when supported by the finalized Public decision material. A procedural order does not require a merits opinion. A Supreme Court entry reports a verified historical action admitted as compatible with this case, never a substitute simulated order.
