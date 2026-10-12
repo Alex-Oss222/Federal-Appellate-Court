@@ -1,6 +1,6 @@
 # Ayeni v. Mottola
 
-**Status:** Version 1; proposed, not approved. **Baseline:** September 12, 1994 packet, with March 1992 immunity notice. **Approved fallback/separate writing:** None.
+**Status:** Version 1; user-approved. **Approval reference:** User instruction of 2026-10-12 approving all eighteen Cycle 001 briefs as written ("all ... approved - change"), subject to each brief’s stated conditions. **Baseline:** September 12, 1994 packet, with March 1992 immunity notice. **Approved fallback/separate writing:** None.
 
 **Component: Media intrusion.**  
 Propose affirmance of the denial of qualified-immunity dismissal. Apply existing home-search and warrant-scope law to nonassisting outsiders invited for an unrelated broadcasting purpose. The proposed holding would not depend on a new statutory damages action or a rule requiring a prior case with a television crew.

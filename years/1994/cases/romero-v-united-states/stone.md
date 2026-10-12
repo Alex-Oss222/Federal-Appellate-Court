@@ -1,6 +1,6 @@
 # Romero v. United States
 
-**Status:** Version 1; proposed, not approved. **Cutoff:** June 29, 1994. **Approval reference:** Preparation request. **Approved fallback/separate writing:** None.
+**Status:** Version 1; user-approved. **Cutoff:** June 29, 1994. **Approval reference:** User instruction of 2026-10-12 approving all eighteen Cycle 001 briefs as written ("all ... approved - change"), subject to each brief’s stated conditions. **Approved fallback/separate writing:** None.
 
 **Component: Timing and characterization.**  
 Propose recognizing the newly discovered evidence claim as a timely Rule 33 motion. The legal relationship is resolution of the historical finality question in agreement with the established persuasive consensus. State the characterization expressly rather than allowing a mistaken time calculation to determine the procedural identity of the claim.

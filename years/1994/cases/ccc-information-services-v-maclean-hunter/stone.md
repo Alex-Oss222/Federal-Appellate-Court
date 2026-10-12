@@ -1,6 +1,6 @@
 # CCC Information Services, Inc. v. Maclean Hunter Market Reports, Inc.
 
-**Status:** Version 1; proposed, not approved. **Baseline:** December 5, 1994. **Approval reference:** Preparation request. **Approved fallback/separate writing:** None.
+**Status:** Version 1; user-approved. **Baseline:** December 5, 1994. **Approval reference:** User instruction of 2026-10-12 approving all eighteen Cycle 001 briefs as written ("all ... approved - change"), subject to each brief’s stated conditions. **Approved fallback/separate writing:** None.
 
 **Component: Protectability and challenged defenses.**  
 Propose reversal of CCC’s summary judgment. Apply *Feist* and *Kregos* to the original evaluative and compilation contributions actually copied. Reject a blanket public-domain rule triggered by the regulatory references shown here. Reserve facts, independent estimates, valuation methods, limited copying, and materially different incorporation arrangements.

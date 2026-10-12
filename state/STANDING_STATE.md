@@ -1,7 +1,7 @@
 # Second Circuit Standing State
 
 **Current simulation date:** 1994-01-01.
-**Posture:** Cycle 001 selected: eighteen appeals admitted and prepared (neutral packets, proposed Stone briefs, and historical comparisons). None has been adjudicated, and no Stone brief is yet user-approved.
+**Posture:** Cycle 001 selected: eighteen appeals admitted and prepared (neutral packets, proposed Stone briefs, and historical comparisons). None has been adjudicated.
 **Current bookkeeping period:** 1994-01-01 through 1994-12-31, Stone's first full calendar year.
 **Last completed simulation event:** None.
 **Controlled judge:** Alex-Lamar Stone-Khoury, circuit judge in the Meskill vacancy; fictional commission and required judicial oaths dated 1993-12-01.

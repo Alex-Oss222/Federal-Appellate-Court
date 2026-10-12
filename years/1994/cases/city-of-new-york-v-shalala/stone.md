@@ -1,6 +1,6 @@
 # City of New York v. Shalala
 
-**Status:** Version 1; proposed, not approved. **Baseline:** September 13, 1994. **Approval reference:** Preparation request. **Approved fallback/separate writing:** None.
+**Status:** Version 1; user-approved. **Baseline:** September 13, 1994. **Approval reference:** User instruction of 2026-10-12 approving all eighteen Cycle 001 briefs as written ("all ... approved - change"), subject to each brief’s stated conditions. **Approved fallback/separate writing:** None.
 
 **Component: Year 16.**  
 Propose reversing the district judgment setting aside the disallowance. Audit closure did not forgive unresolved receivables, and unverified internal offsets did not satisfy the applicable accounting requirements.

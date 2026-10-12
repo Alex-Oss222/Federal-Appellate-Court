@@ -1,6 +1,6 @@
 # United States v. Ivonye
 
-**Status:** Version 1; proposed, not approved. **Baseline:** July 8, 1994. **Approval reference:** Preparation only. **Approved fallback/separate writing:** None.
+**Status:** Version 1; user-approved. **Baseline:** July 8, 1994. **Approval reference:** User instruction of 2026-10-12 approving all eighteen Cycle 001 briefs as written ("all ... approved - change"), subject to each brief’s stated conditions. **Approved fallback/separate writing:** None.
 
 **Component: Guideline calculation.**  
 Propose affirmance of the actual-drug calculation under § 3742. Apply binding circuit law to personally imported drugs rather than using a foreseeability limitation designed for another person’s conduct.

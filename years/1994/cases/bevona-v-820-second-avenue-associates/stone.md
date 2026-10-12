@@ -1,6 +1,6 @@
 # Bevona v. 820 Second Avenue Associates
 
-**Status:** Version 1; proposed, not approved. **Baseline:** June 16, 1994. **Approval reference:** Preparation request. **Approved fallback/separate writing:** None.
+**Status:** Version 1; user-approved. **Baseline:** June 16, 1994. **Approval reference:** User instruction of 2026-10-12 approving all eighteen Cycle 001 briefs as written ("all ... approved - change"), subject to each brief’s stated conditions. **Approved fallback/separate writing:** None.
 
 **Component: Arbitrability and reconsideration.**  
 Propose affirmance under § 1291. Apply *AT&T Technologies* and the contract’s actual allocation rather than enlarging arbitration because the union’s objective is understandable. The newly identified employees do not establish coverage where their undisputed work differs materially from the contractor work.

@@ -1,6 +1,6 @@
 # Karibian v. Columbia University
 
-**Status:** Version 1; proposed, not user-approved. The present request authorizes preparation, not approval of a case-specific vote. **Baseline:** The January 25, 1994 neutral packet. **Conditions:** The participation conditions above. **Approved narrower join, fallback, or separate writing:** None supplied.
+**Status:** Version 1; user-approved. **Approval reference:** User instruction of 2026-10-12 approving all eighteen Cycle 001 briefs as written ("all ... approved - change"), subject to each brief’s stated conditions. **Baseline:** The January 25, 1994 neutral packet. **Conditions:** The participation conditions above. **Approved narrower join, fallback, or separate writing:** None supplied.
 
 **Component: Federal harassment claims.**  
 **Jurisdiction and reach:** The preserved Title VII claims under § 1291, excluding abandoned retaliation. **Proposed vote:** Reverse summary judgment and remand. **Legal relationship:** Apply *Meritor*, *Harris*, and the circuit’s agency cases; resolve the open application to submission obtained through supervisory authority.

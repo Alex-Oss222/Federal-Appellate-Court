@@ -1,6 +1,6 @@
 # Schulz v. Williams
 
-**Status:** Version 1; proposed, not approved. **Baseline:** November 2, 1994 packet. **Approval reference:** Preparation request. **Approved fallback/separate writing:** None.
+**Status:** Version 1; user-approved. **Baseline:** November 2, 1994 packet. **Approval reference:** User instruction of 2026-10-12 approving all eighteen Cycle 001 briefs as written ("all ... approved - change"), subject to each brief’s stated conditions. **Approved fallback/separate writing:** None.
 
 **Component: Thresholds.**  
 Propose recognizing Long’s supported competitive standing, applying claim preclusion to Schulz, and declining to extend preclusion to the remaining plaintiffs without the required party or privity showing. Each conclusion rests on its own doctrine.

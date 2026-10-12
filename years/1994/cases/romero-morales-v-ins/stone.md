@@ -1,6 +1,6 @@
 # Romero-Morales v. INS
 
-**Status:** Version 1; proposed, not approved. **Baseline:** May 27, 1994. **Approval reference:** Preparation request. **Approved fallback/separate writing:** None.
+**Status:** Version 1; user-approved. **Baseline:** May 27, 1994. **Approval reference:** User instruction of 2026-10-12 approving all eighteen Cycle 001 briefs as written ("all ... approved - change"), subject to each brief’s stated conditions. **Approved fallback/separate writing:** None.
 
 **Component: Reopening.**  
 Under the former statutory petition-for-review route, propose granting the petition, vacating the BIA’s denial, and remanding for a reasoned determination on developed facts. Apply the exceptional-circumstances burden without inventing a categorical indigence exemption. The agency must address the counsel and filing circumstances that bear on whether the failure to appear was beyond Romero-Morales’s control.

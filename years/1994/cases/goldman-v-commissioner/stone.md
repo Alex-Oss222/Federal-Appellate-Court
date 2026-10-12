@@ -1,6 +1,6 @@
 # Goldman v. Commissioner of Internal Revenue
 
-**Status:** Version 1; proposed, not approved. **Baseline:** November 2, 1994. **Approval reference:** Preparation request. **Approved fallback/separate writing:** None.
+**Status:** Version 1; user-approved. **Baseline:** November 2, 1994. **Approval reference:** User instruction of 2026-10-12 approving all eighteen Cycle 001 briefs as written ("all ... approved - change"), subject to each brief’s stated conditions. **Approved fallback/separate writing:** None.
 
 **Component: Settlement.**  
 Propose affirmance. Apply the settlement’s actual terms and the official’s authority, not a generalized preference against tax liability. An agreement resolving 1981 did not eliminate 1982 liability.
