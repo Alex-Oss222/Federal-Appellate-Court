@@ -16,9 +16,9 @@ This project adapts operating ideas from [Alex-Oss222/scotus-career](https://git
 ## Existing appellate documents
 
 - `CHARACTER SHEET (1994) - ALEX-LAMAR STONE-KHOURY.txt` became `stone/CHARACTER.md`, preserving the original content at import. Its appointment chronology was subsequently revised at the user's request as recorded below.
-- `Master Jurisprudence Judge Stone, Court of Appeals.md` becomes `stone/JURISPRUDENCE.md`, preserving the original content.
+- `Master Jurisprudence Judge Stone, Court of Appeals.md` became `stone/JURISPRUDENCE.md` for archival storage only, with its content preserved. It is excluded from all engine reads, searches, imports, indexing, generation, validation, and rendering. This exclusion also covers existing engine-generated summaries, embeddings, digests, and other archival derivatives.
 - The supplied age of 38 is unchanged. The previous wish for 40 remains a separate character-edit decision, not an implicit infrastructure correction.
-- References to later Supreme Court service in the personal jurisprudence do not override this project's historical Supreme Court setting.
+- Stone's case-specific disposition and reasoning come only from the latest user-approved case brief `stone.md`. Choices covered by a genuine existing delegation are recorded there without duplicate approval. Ask for user input only when neither the approved brief nor a genuine existing delegation covers a required choice; neither the archive nor biography is a fallback.
 
 ## First full year revision
 
@@ -29,3 +29,4 @@ The user requested 1994 as Stone's first full year. The fictional timeline now p
 No Supreme Court simulation holdings, standards, case files, judicial roster, alternate appointments, future doctrinal roadmaps, prior approvals, standing voting fallback, or named-case exceptions were imported. Unrelated attached legal files were not used as an opening baseline. The large October Term workflow, duplicate state volumes, runtime splitting copies, and five-pass close are not required here.
 
 No cases, panel votes, Supreme Court actions, or fictional historical sources were created during setup. Setup initially left the count and subject rotation open. The subsequently supplied [case-selection policy](CASE_SELECTION.md) establishes six groups with three historical cases each, for eighteen-case cycles that may span years. The original reference to fifteen was corrected to preserve the six-by-three distribution. No annual quota is imposed.
+
