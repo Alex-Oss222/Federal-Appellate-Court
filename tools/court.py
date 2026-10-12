@@ -21,8 +21,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 ISO = re.compile(r"\d{4}-\d{2}-\d{2}")
 STATUSES = {"admitted", "prepared", "blocked", "played", "withdrawn"}
-OPENING = "1994-07-21"
-SKIP_DIRS = {".git", "node_modules"}
+OPENING = "1994-01-01"
+DOC_ROOTS = ["AGENTS.md", "README.md", "foundation", "state", "years", ".claude"]
 
 
 def read(path):
@@ -118,6 +118,14 @@ def final_events(folder):
     return out
 
 
+def brief_state(folder):
+    """missing, proposed, or approved: the user's case-specific brief (stone.md)."""
+    stone = folder / "stone.md"
+    if not stone.is_file():
+        return "missing"
+    return "approved" if approval(stone)[0] else "proposed"
+
+
 def approval(stone):
     """(approved, reference) from stone.md; a placeholder naming both states is unapproved."""
     if not stone.is_file():
@@ -142,14 +150,12 @@ def next_stage(c):
         return "blocked"
     if not (d / "neutral.md").is_file() or not (d / "history.md").is_file():
         return "prepare"
-    if not (d / "stone.md").is_file():
-        return "propose"
     if not (d / "commitments.md").is_file():
         return "neutral"
     if not (d / "reconciled.md").is_file():
         return "reconcile"
     if not final_events(d):
-        return "assemble" if approval(d / "stone.md")[0] else "approve"
+        return "assemble" if brief_state(d) == "approved" else "brief"
     if not list((d / "output").glob("*.md")):
         return "render"
     if c.status != "played" or c.departure.lower().startswith("not yet assessed"):
@@ -211,18 +217,22 @@ def cmd_plan(args):
         print(f"Session: no unfinished case; admit one batch, at most one case each for groups {batch}")
 
     print(f"Unfinished cases: {len(open_cases)}")
-    waiting = []
+    missing, proposed = [], []
     for i, c in enumerate(open_cases, 1):
         stage = next_stage(c)
-        appr, _ = approval(c.folder / "stone.md")
+        brief = brief_state(c.folder)
         earlier = [e.slug for e in ordered(unfinished(cases)) if e is not c and (event_date(e) or "9999") < (event_date(c) or "9999")]
         hold = f" held-by={','.join(earlier)}" if stage in {"assemble", "render", "finalize"} and earlier else ""
         print(f" {i}. {event_date(c) or 'no-date':10} {c.slug} cycle={c.cycle} group={c.group} "
-              f"stage={stage} approved={'yes' if appr else 'no'}{hold}")
-        if (c.folder / "stone.md").is_file() and not appr:
-            waiting.append(c.slug)
-    if waiting:
-        print("Awaiting Stone approval: " + ", ".join(waiting))
+              f"stage={stage} brief={brief}{hold}")
+        if brief == "missing":
+            missing.append(c.slug)
+        elif brief == "proposed":
+            proposed.append(c.slug)
+    if missing:
+        print("Needs the user's Stone brief (stone.md): " + ", ".join(missing))
+    if proposed:
+        print("Awaiting the user's approval of stone.md: " + ", ".join(proposed))
     if args.scope == "year":
         if open_cases:
             print("Annual close: not yet; unfinished cases remain")
@@ -326,9 +336,10 @@ def cmd_draw(args):
 # ---------------------------------------------------------------- check
 
 def md_files():
-    for p in sorted(ROOT.rglob("*.md")):
-        if not SKIP_DIRS & set(p.relative_to(ROOT).parts):
-            yield p
+    """Explicit allowlist of roots. stone/ is never opened: it holds biography and the archived jurisprudence."""
+    for root in DOC_ROOTS:
+        base = ROOT / root
+        yield from ([base] if base.is_file() else sorted(base.rglob("*.md")))
 
 
 def cmd_check(args):

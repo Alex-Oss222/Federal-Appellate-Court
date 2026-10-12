@@ -29,7 +29,7 @@ Delegate the substantive neutral and reconciliation stages to separate scoped ag
 
 ## Chat commands
 
-"Run this year" (`/run-year`) and "run this session" (`/run-session`) start the orchestrated run in [the runbook](foundation/RUN.md). The year is the simulation year in Standing State, not the real date. The command authorizes the run, not Stone's positions: stop at each `stone.md` that is not user-approved unless the user's own words delegate approval. Resume from the file ledger with `python3 tools/court.py plan`. The script checks bookkeeping and stages isolated inputs; it never chooses legal meaning or votes.
+"Run this year" (`/run-year`) and "run this session" (`/run-session`) start the orchestrated run in [the runbook](foundation/RUN.md). The year is the simulation year in Standing State, not the real date. The command authorizes the run, not Stone's positions: `stone.md` is the user's case-specific brief, so stop that case until it exists and is user-approved, except for choices the user's own words delegate. Resume from the file ledger with `python3 tools/court.py plan`. The script checks bookkeeping and stages isolated inputs; it never chooses legal meaning or votes.
 
 ## Working rules
 

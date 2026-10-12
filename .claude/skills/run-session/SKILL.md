@@ -8,7 +8,7 @@ Run the **session** scope of [the runbook](../../../foundation/RUN.md) for this 
 
 1. Read `foundation/RUN.md` and `AGENTS.md`, then follow the runbook from "Before every run".
 2. A session covers the admitted, unfinished cases in event-date order. If none is open, admit one batch as the runbook's Selection section describes. Annual close is not part of a session.
-3. This command starts the run; it does not approve Stone's positions. Stop at each `stone.md` that is not user-approved unless the arguments below delegate approval in the user's own words.
+3. This command starts the run; it does not supply or approve Stone's positions. `stone.md` is the user's case-specific brief: stop that case until it exists and is user-approved, except for choices the arguments below delegate in the user's own words. Never open `stone/JURISPRUDENCE.md`.
 4. End the turn with the Form A court report.
 
 Arguments: $ARGUMENTS

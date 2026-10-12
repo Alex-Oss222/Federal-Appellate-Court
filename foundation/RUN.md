@@ -9,14 +9,14 @@ Chat commands that drive the stages in [AGENTS.md](../AGENTS.md) and the [engine
 | run this year | `/run-year` | The current simulation year, from case selection through annual close. |
 | run this session | `/run-session` | The admitted, unfinished cases. If none is open, first admit one batch (see Selection). |
 
-The year is the calendar year of **Current simulation date** in [Standing State](../state/STANDING_STATE.md), never the real-world date. A later year cannot run until the current one is closed or its open matters are explicitly carried. A session is a working batch; the report labels it by the date range of its events. Words after the command can only narrow it (a case count, one group, one case) or delegate Stone's approval as described under Gates. A run never continues into the next year on its own.
+The year is the calendar year of **Current simulation date** in [Standing State](../state/STANDING_STATE.md), never the real-world date. A later year cannot run until the current one is closed or its open matters are explicitly carried. A session is a working batch; the report labels it by the date range of its events. Words after the command can only narrow it (a case count, one group, one case) or delegate a stated kind of Stone choice as described under Gates. A run never continues into the next year on its own.
 
 ## Before every run
 
 1. `python3 tools/court.py check`. Fix bookkeeping errors inside the scope; report the rest.
 2. `python3 tools/court.py plan year` or `plan session`. The plan is derived from the files. After an interruption or a context reset, run it again and continue from it instead of relying on memory of earlier turns.
 
-The plan lists each case in event-date order with its next stage: prepare, propose, neutral, reconcile, approve, assemble, render, finalize, done, or blocked and withdrawn.
+The plan lists each case in event-date order with its next stage: prepare, neutral, reconcile, brief, assemble, render, finalize, done, or blocked and withdrawn. It also shows each case's brief as missing, proposed, or approved.
 
 ## Stages
 
@@ -24,15 +24,16 @@ The plan lists each case in event-date order with its next stage: prepare, propo
 |---|---|---|---|---|
 | select | Case-list row with a verified source ([rule 6](CASE_SELECTION.md)) | One research agent per group with an open slot | Selection policy, case lists, primary sources | Row, status `admitted` |
 | prepare | `neutral.md` and `history.md` exist | Preparer agent; it may read the historical opinion and returns only paths and gaps, never a disposition or rationale | [Brief template](CASE_BRIEF_TEMPLATE.md), engine sections 3 to 5, primary sources | `neutral.md`, `history.md`, optional `historical-follow-up.md` |
-| propose | `stone.md` exists, marked Proposed | This context | `neutral.md` and `stone/`; never `history.md` | `stone.md`, status `prepared` |
 | neutral | `commitments.md` exists | Fresh agent | Staged inputs | `commitments.md`, committed alone |
 | reconcile | `reconciled.md` exists | A second fresh agent | Staged inputs | `reconciled.md`, committed alone |
-| approve | `stone.md` shows user-approved with a reference | The user | | Approval fields in `stone.md` |
+| brief | `stone.md` exists and shows user-approved with a reference | The user supplies and approves it; this context may only format the user's case-specific instructions into the template, marked Proposed | The user's instructions and `neutral.md`; never `history.md` | `stone.md` |
 | assemble | A final event record exists and validates | Fresh agent | Staged inputs | `events/YYYY-MM-DD-<event>.md` |
 | render | The case's `output/` holds the individual decision | Fresh agent | Staged Public decision section | `output/YYYY-MM-DD-<event>.md` |
 | finalize | Status `played`; Departure cell written; Standing State and [precedent index](../state/PRECEDENT.md) updated | This context, plus a comparator agent for the Departure cell and follow-up compatibility | Public decision section; `history.md` and `historical-follow-up.md` for the comparator only | Case list, `state/` files |
 
-Before accepting an assembled record, run `check` and read the judgment, joins, and remedy for arithmetic and consistency; send defects back to the assembling agent. Finalize updates the simulation date to the decision date, the last-event pointer, the cycle table from the case list, and pending proceedings only for events the engine supports ([section 8](ENGINE.md)).
+Neutral and reconcile never read the brief, so they proceed while the user supplies or approves it. No stage, agent, or script opens `stone/JURISPRUDENCE.md`, which is archival storage, and `stone/CHARACTER.md` supplies biography only; neither appears in any allowed-file list.
+
+Before accepting an assembled record, run `check` and read the judgment, joins, and remedy for arithmetic and consistency; send defects back to the assembling agent. Finalize updates the simulation date to the decision date, the last-event pointer, the cycle table from the case list, and the final record's origin year and review follow-up reference, and adds pending proceedings only for events the engine supports ([section 8](ENGINE.md)).
 
 ## Isolation
 
@@ -48,7 +49,7 @@ Launch independent agents in one message and wait for their completion notices r
 
 ## Selection
 
-- Year scope: fill the unfilled slots of the lowest cycle that has any. Open a new cycle only when every existing cycle is fully admitted, and never more than one per run. The search window is the simulation date through December 31 of the year.
+- Year scope: fill the unfilled slots of the lowest cycle that has any. Open a new cycle only when every existing cycle is fully admitted, and never more than one per run. The search window is the simulation date through December 31 of the year. Admit only a case Stone could lawfully have heard: Stone took his oaths on 1993-12-01, so a submission before that date needs a supported reargument or resubmission premise recorded in `neutral.md` ([engine section 3](ENGINE.md)).
 - Session scope with no open case: admit at most one case for each group with an unfilled slot in that cycle, earliest verified dates first.
 - Research agents return row fields and sources only. A candidate that fails rule 6 leaves its slot unfilled with the gap noted; never invent a replacement.
 - Write ISO dates in the row's historical stage cell, set Departure to `Not yet assessed`, and keep rows in chronological order.
@@ -75,25 +76,26 @@ supreme.justia.com, openjurist.org, www.congress.gov, and babel.hathitrust.org a
 
 ## Order and chronology
 
-- Process cases by event date. Prepare, propose, neutral, and reconcile for different cases may run in parallel.
+- Process cases by event date. Prepare, neutral, and reconcile for different cases may run in parallel.
 - Before the neutral stage of a case that has earlier-dated unfinished cases, compare principal questions in the case list only. If a legal question overlaps, hold the neutral stage until the earlier case is final, then place a sanitized extract of its Public decision in `neutral.md`.
-- Assemble and finalize strictly in event-date order. A case waiting on approval or an earlier stage holds the finalization of later cases but not their earlier stages. A `blocked` or `withdrawn` case holds nothing.
+- Assemble and finalize strictly in event-date order. A case waiting on its brief, its approval, or an earlier stage holds the finalization of later cases but not their earlier stages. A `blocked` or `withdrawn` case holds nothing.
 - The simulation date moves only to the date of a finalized event, or at annual close to the start of the next period. A folder, a draft, or an approval never moves it.
+- Run the rolling Supreme Court follow-up check ([engine section 8](ENGINE.md)) before the date moves to a later event date, and again before the report. A follow-up agent works from `historical-follow-up.md` and returns only verified events due on or before the new date. This context admits each event once, in date order and before any later circuit adjudication, and updates the Standing State review fields: origin year, docket links, latest check, and its limits. A source gap blocks only that matter.
 
 ## Gates
 
-**Stone's position.** After propose, show each pending proposal as a short summary: caption, docket, event date, vote and disposition, proposed holding, remedy, limits, and a link to `stone.md`. Ask for approval, revision, or a different position. To record approval, set `Approval status: user-approved` and quote the user's words and the date in `Approval reference`. Edit a proposal only as the user directs. Never fill a missing position from the jurisprudence, the character sheet, or an earlier case. Approval may arrive before neutral and reconcile finish, but assembly never starts before `reconciled.md` is committed.
+**Stone's position.** `stone.md` is the user's case-specific brief and the only source of Stone's disposition and reasoning. If the user has given case-specific instructions, format them into the [brief template](CASE_BRIEF_TEMPLATE.md), marked Proposed. If a case has no brief, or a required choice is covered neither by an approved brief nor by a delegation recorded in it, stop that case and ask the user for the missing input, covering all such cases in one message. Show each proposed brief as a short summary (caption, docket, event date, vote and disposition, holding, remedy, limits, link to `stone.md`) and ask for approval or revision. To record approval, set `Approval status: user-approved` and quote the user's words and the date in `Approval reference`. Edit a brief only as the user directs. Assembly never starts before the brief is approved and `reconciled.md` is committed.
 
-**Delegation.** Only the user's own words delegate approval, for example "approve Stone's proposals as drafted". Quote them in `Conditions or delegated choices` and `Approval reference`, limit the delegation to the cases and conditions named, and say in the report that approval rested on delegation. A bare "run this year" is not a delegation, and a delegation does not carry into later runs.
+**Delegation.** Only the user's own words delegate a choice, whether in the brief or in the command, for example "where the panel splits, join the narrower ground". Record the delegated choice in `stone.md` under `Conditions or delegated choices`, quoting the words, and do not ask about it again. A delegation covers only the kind of choice it names and never supplies a disposition or reasoning the user has not given. Say in the report when a choice rested on delegation. A bare "run this year" delegates nothing.
 
 **Other stops.** A material gap (an unverifiable source, an ineligible panel, a missing record) sets that case to `blocked: <specific gap>`, adds a research task to Standing State, and the run continues with other cases. A late-discovered earlier event, or any change to a completed record, waits for the user's authorization ([engine section 3](ENGINE.md)). New neutral evidence or a decisive new legal premise found in assembly returns that issue to new neutral and reconcile agents. If a source cannot be reached, follow Research sources; do not substitute memory for a primary source.
 
 ## Annual close
 
-Year scope only, once every admitted case of the year is final, blocked, withdrawn, or carried at the user's explicit instruction. Follow [engine section 9](ENGINE.md): check coverage, records, precedent treatment, chronology, and carryovers; apply dated roster changes through December 31 and no later; write `cycles/NNN/audit.md` for any cycle that just reached eighteen played; mark the year's case list `annually reconciled`; and set Standing State to the next period, with unresolved matters carried. The closing turn is a simulation turn and gets a report.
+Year scope only, once every admitted case of the year is final, blocked, withdrawn, or carried at the user's explicit instruction. Follow [engine section 9](ENGINE.md): run the follow-up check through December 31; check coverage, records, precedent treatment, chronology, and carryovers, including older unresolved review matters; apply dated roster changes through December 31 and no later; write `cycles/NNN/audit.md` for any cycle that just reached eighteen played; mark the year's case list `annually reconciled`; and set Standing State to the next period, with unresolved matters carried. The closing turn is a simulation turn and gets a report.
 
 ## Turn output and commits
 
-Every run turn ends with the eight-section Form A report, displayed in the response and saved at `years/YYYY/output/YYYY-MM-DD-court-report.md` under the [render contract](RENDER_CONTRACT.md). Build the allowed-input packet in scratch from permitted sources only; it never contains `stone.md`, `history.md`, `commitments.md`, or `reconciled.md`. Refresh section 8 only for the interval since the previous report. When approvals are pending, put the approval request first and close with the report, which says only that Stone's position is awaited.
+Every run turn ends with the eight-section Form A report, displayed in the response and saved at `years/YYYY/output/YYYY-MM-DD-court-report.md` under the [render contract](RENDER_CONTRACT.md). Build the allowed-input packet in scratch from permitted sources only; it never contains `stone.md`, `history.md`, `commitments.md`, or `reconciled.md`. Sections 7 and 8 come from the follow-up check and cover only selected circuit cases and their review proceedings; add nothing for unrelated Supreme Court cases. When a brief or approval is pending, put that request first and close with the report, which says only that Stone's position is awaited.
 
 Commit after each stage group with a message naming the case and stage, following the session's attribution instructions. Push the working branch at the end of every turn and before waiting at a gate, because the container is ephemeral. Do not open a pull request unless asked.

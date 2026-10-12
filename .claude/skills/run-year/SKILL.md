@@ -8,7 +8,7 @@ Run the **year** scope of [the runbook](../../../foundation/RUN.md) for this rep
 
 1. Read `foundation/RUN.md` and `AGENTS.md`, then follow the runbook from "Before every run".
 2. The year is the one in `state/STANDING_STATE.md`, not today's date.
-3. This command starts the run; it does not approve Stone's positions. Stop at each `stone.md` that is not user-approved unless the arguments below delegate approval in the user's own words.
+3. This command starts the run; it does not supply or approve Stone's positions. `stone.md` is the user's case-specific brief: stop that case until it exists and is user-approved, except for choices the arguments below delegate in the user's own words. Never open `stone/JURISPRUDENCE.md`.
 4. End the turn with the Form A court report.
 
 Arguments: $ARGUMENTS
