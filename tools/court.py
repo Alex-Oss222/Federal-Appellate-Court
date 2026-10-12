@@ -16,6 +16,7 @@ import shutil
 import subprocess
 import sys
 from dataclasses import dataclass
+from datetime import datetime
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -30,9 +31,24 @@ def read(path):
 
 
 def field(text, label):
-    """Value of a 'Label:' line in either '**Label:** v' or '- Label: v' form."""
+    """Value of '**Label:** v' (anywhere on a line, ending at the next bold label) or of a '- Label: v' line."""
+    m = re.search(rf"\*\*{re.escape(label)}:\*\*[ \t]*(.*?)(?=[ \t]+\*\*[A-Z][^*\n]*?:\*\*|$)", text, re.I | re.M)
+    if m:
+        return m.group(1).strip()
     m = re.search(rf"^[ \t>*-]*{re.escape(label)}[ \t]*:?\**[ \t]*:?[ \t]*(.*)$", text, re.I | re.M)
     return m.group(1).strip() if m else ""
+
+
+MONTHS = "January|February|March|April|May|June|July|August|September|October|November|December"
+
+
+def parse_date(s):
+    """First ISO date or 'Month D, YYYY' in s, as ISO; else None."""
+    m = ISO.search(s or "")
+    if m:
+        return m.group()
+    m = re.search(rf"({MONTHS})\s+(\d{{1,2}}),\s+(\d{{4}})", s or "")
+    return datetime.strptime(" ".join(m.groups()), "%B %d %Y").strftime("%Y-%m-%d") if m else None
 
 
 # ---------------------------------------------------------------- state
@@ -101,13 +117,19 @@ def load_cases():
 
 
 def event_date(c):
+    """The case's proposed event date: neutral.md first, then the case-list stage cell."""
     neutral = c.folder / "neutral.md"
     if neutral.is_file():
-        m = ISO.search(field(read(neutral), "Proposed event date"))
-        if m:
-            return m.group()
-    m = ISO.search(c.stage_text)
-    return m.group() if m else None
+        text = read(neutral)
+        for label in ("Proposed event date", "Proposed event", "Proposed operative event"):
+            d = parse_date(field(text, label))
+            if d:
+                return d
+    m = re.search(r"proposed (?:decision |operative )?event (\d{4}-\d{2}-\d{2})", c.stage_text, re.I)
+    if m:
+        return m.group(1)
+    dates = ISO.findall(c.stage_text)
+    return dates[-1] if dates else None
 
 
 def final_events(folder):
@@ -127,12 +149,16 @@ def brief_state(folder):
 
 
 def approval(stone):
-    """(approved, reference) from stone.md; a placeholder naming both states is unapproved."""
+    """(approved, reference) from stone.md. Reads 'Approval status' or the brief's own 'Status' field.
+
+    A status that says proposed, pending, or "not ... approved" is unapproved; only a plain
+    approved / user-approved status counts.
+    """
     if not stone.is_file():
         return False, ""
     text = read(stone)
-    status = field(text, "Approval status").lower()
-    ok = "user-approved" in status and "proposed" not in status
+    status = (field(text, "Approval status") or field(text, "Status")).lower()
+    ok = bool(re.search(r"\b(?:user-)?approved\b", status)) and not re.search(r"\b(?:not|proposed|pending|unapproved|awaiting)\b", status)
     return ok, field(text, "Approval reference")
 
 
@@ -184,14 +210,26 @@ def slot_counts(cases):
 
 
 def target_cycle(cases, table):
+    """(cycle, unfilled-by-group) for new admissions, or (None, {}) when none is due.
+
+    The lowest cycle with an unfilled slot is the target. A new cycle opens only when every
+    existing cycle is fully played (or none exists); a fully admitted but unplayed cycle is not
+    a reason to select more cases.
+    """
     counts = slot_counts(cases)
     seen = sorted(set(counts) | {k[0] for k in table})
     for cyc in seen:
         have = counts.get(cyc, {g: 0 for g in range(1, 7)})
         if any(v < 3 for v in have.values()):
             return cyc, {g: 3 - v for g, v in have.items() if v < 3}
-    nxt = f"{int(seen[-1]) + 1:03d}" if seen else "001"
-    return nxt, {g: 3 for g in range(1, 7)}
+
+    def played(cyc, g):
+        return sum(1 for c in cases if c.cycle == cyc and c.group == g and c.status == "played")
+
+    if all(played(cyc, g) >= 3 for cyc in seen for g in range(1, 7)):
+        nxt = f"{int(seen[-1]) + 1:03d}" if seen else "001"
+        return nxt, {g: 3 for g in range(1, 7)}
+    return None, {}
 
 
 # ---------------------------------------------------------------- plan
@@ -206,8 +244,11 @@ def cmd_plan(args):
         print(f"PROBLEM {p}")
     open_cases = ordered(unfinished(cases))
     cyc, gaps = target_cycle(cases, ss["table"])
-    slots = ", ".join(f"group {g}: {n}" for g, n in gaps.items())
-    print(f"Admission target: cycle {cyc}, unfilled {sum(gaps.values())} ({slots})")
+    if cyc is None:
+        print("Admission target: none; every existing cycle is fully admitted and awaits play")
+    else:
+        slots = ", ".join(f"group {g}: {n}" for g, n in gaps.items())
+        print(f"Admission target: cycle {cyc}, unfilled {sum(gaps.values())} ({slots})")
 
     if args.scope == "year":
         print(f"Selection window: {ss['date']} through {year}-12-31")

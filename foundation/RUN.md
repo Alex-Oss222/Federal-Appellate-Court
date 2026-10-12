@@ -49,7 +49,7 @@ Launch independent agents in one message and wait for their completion notices r
 
 ## Selection
 
-- Year scope: fill the unfilled slots of the lowest cycle that has any. Open a new cycle only when every existing cycle is fully admitted, and never more than one per run. The search window is the simulation date through December 31 of the year. Admit only a case Stone could lawfully have heard: Stone took his oaths on 1993-12-01, so a submission before that date needs a supported reargument or resubmission premise recorded in `neutral.md` ([engine section 3](ENGINE.md)).
+- Year scope: fill the unfilled slots of the lowest cycle that has any. Open a new cycle only when every existing cycle is fully played or the user asks; a fully admitted cycle that still awaits play is not a reason to select more cases. The search window is the simulation date through December 31 of the year. Admit only a case Stone could lawfully have heard: Stone took his oaths on 1993-12-01, so a submission before that date needs a supported reargument or resubmission premise recorded in `neutral.md` ([engine section 3](ENGINE.md)).
 - Session scope with no open case: admit at most one case for each group with an unfilled slot in that cycle, earliest verified dates first.
 - Research agents return row fields and sources only. A candidate that fails rule 6 leaves its slot unfilled with the gap noted; never invent a replacement.
 - Write ISO dates in the row's historical stage cell, set Departure to `Not yet assessed`, and keep rows in chronological order.
@@ -63,7 +63,7 @@ Research and preparation agents use these hosts, which `.claude/settings.json` p
 | Host | Use |
 |---|---|
 | www.courtlistener.com | Second Circuit opinions, dockets, and citations through its API (`/api/rest/v4/`); its HTML pages refuse automated requests |
-| static.case.law | Reporter text (F.2d, F.3d) |
+| static.case.law | Reporter text and metadata (F.3d under `/f3d/<volume>/`, for example `CasesMetadata.json`) |
 | www.supremecourt.gov | Supreme Court opinions, orders, and dockets |
 | www.oyez.org | Supreme Court argument dates, decision dates, and questions presented |
 | www.law.cornell.edu | U.S. Code, federal rules, Supreme Court opinions |
@@ -84,7 +84,7 @@ supreme.justia.com, openjurist.org, www.congress.gov, and babel.hathitrust.org a
 
 ## Gates
 
-**Stone's position.** `stone.md` is the user's case-specific brief and the only source of Stone's disposition and reasoning. If the user has given case-specific instructions, format them into the [brief template](CASE_BRIEF_TEMPLATE.md), marked Proposed. If a case has no brief, or a required choice is covered neither by an approved brief nor by a delegation recorded in it, stop that case and ask the user for the missing input, covering all such cases in one message. Show each proposed brief as a short summary (caption, docket, event date, vote and disposition, holding, remedy, limits, link to `stone.md`) and ask for approval or revision. To record approval, set `Approval status: user-approved` and quote the user's words and the date in `Approval reference`. Edit a brief only as the user directs. Assembly never starts before the brief is approved and `reconciled.md` is committed.
+**Stone's position.** `stone.md` is the user's case-specific brief and the only source of Stone's disposition and reasoning. If the user has given case-specific instructions, format them into the [brief template](CASE_BRIEF_TEMPLATE.md), marked Proposed. If a case has no brief, or a required choice is covered neither by an approved brief nor by a delegation recorded in it, stop that case and ask the user for the missing input, covering all such cases in one message. Show each proposed brief as a short summary (caption, docket, event date, vote and disposition, holding, remedy, limits, link to `stone.md`) and ask for approval or revision. To record approval, change the brief's `Status` (or `Approval status`) to read `user-approved` and quote the user's words and the date in `Approval reference`; keep the wording plain, because `tools/court.py` treats any status containing "not", "proposed", or "pending" as unapproved. Edit a brief only as the user directs. Assembly never starts before the brief is approved and `reconciled.md` is committed.
 
 **Delegation.** Only the user's own words delegate a choice, whether in the brief or in the command, for example "where the panel splits, join the narrower ground". Record the delegated choice in `stone.md` under `Conditions or delegated choices`, quoting the words, and do not ask about it again. A delegation covers only the kind of choice it names and never supplies a disposition or reasoning the user has not given. Say in the report when a choice rested on delegation. A bare "run this year" delegates nothing.
 
