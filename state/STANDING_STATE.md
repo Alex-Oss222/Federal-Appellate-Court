@@ -1,7 +1,7 @@
 # Second Circuit Standing State
 
 **Current simulation date:** 1994-01-01.
-**Posture:** Eighteen appeals admitted from the user's revised 1994 brief (thirteen in Cycle 001, five in Cycle 002): thirteen prepared and five blocked on an unset resubmission premise. None has been adjudicated.
+**Posture:** Eighteen appeals admitted from the user's revised 1994 brief (thirteen in Cycle 001, five in Cycle 002): all eighteen prepared. None has been adjudicated.
 **Current bookkeeping period:** 1994-01-01 through 1994-12-31, Stone's first full calendar year.
 **Last completed simulation event:** None.
 **Controlled judge:** Alex-Lamar Stone-Khoury, circuit judge in the Meskill vacancy; fictional commission and required judicial oaths dated 1993-12-01.
@@ -15,7 +15,7 @@ Senior judges remain separately listed in the roster and require case-specific p
 
 ## Work inventory
 
-- [1994 case list](../years/1994/case-list.md): eighteen appeals admitted (thirteen in Cycle 001, five in Cycle 002); thirteen prepared, five blocked; none played.
+- [1994 case list](../years/1994/case-list.md): eighteen appeals admitted (thirteen in Cycle 001, five in Cycle 002); all eighteen prepared; none played.
 - Coverage follows the [case-selection policy](../foundation/CASE_SELECTION.md): six groups, three historical cases per group, eighteen cases per cycle. No separate annual quota applies.
 - [Precedent index](PRECEDENT.md): no simulation holdings.
 
@@ -61,11 +61,7 @@ Use precise stages such as petition for panel rehearing filed, rehearing en banc
 
 ## Follow-up research tasks
 
-One task is open. A task records the question to verify and its source gap, not an invented pending filing. If a historical Supreme Court disposition no longer fits a changed appellate judgment, record the exact incompatibility here and cross-reference the live matter. Keep the actual later outcome in its segregated historical follow-up file until the simulation date and procedural scope permit its use.
-
-| Origin year, if applicable | Case or institutional matter | Question to verify | Missing source or fact | Last checked and coverage | Affected next step |
-|---|---|---|---|---|---|
-| Not applicable | Castillo (92-1279), Anderson (93-1097), Whalen (93-7457), DeWeerth (93-7144, 93-7146), and American Geophysical Union v. Texaco (92-9341), all argued in 1993 | What lawful 1994 resubmission or reargument premise, with date and basis, applies to each? | The briefs say a resubmission would be required but state no date or basis, and none was invented | Briefs reviewed 2026-10-12; no premise found | Neutral stage and panel eligibility for these five cases (status `blocked`) |
+None yet. A task records the question to verify and its source gap, not an invented pending filing. If a historical Supreme Court disposition no longer fits a changed appellate judgment, record the exact incompatibility here and cross-reference the live matter. Keep the actual later outcome in its segregated historical follow-up file until the simulation date and procedural scope permit its use.
 
 ## Terminal matters awaiting annual reconciliation
 

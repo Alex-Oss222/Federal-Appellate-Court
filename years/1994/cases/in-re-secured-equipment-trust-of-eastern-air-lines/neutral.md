@@ -1,12 +1,56 @@
 # In re Secured Equipment Trust of Eastern Air Lines, Inc.
 
-## Case identification and simulation point
+## Identity and assignment
 
-**Dockets:** 94-5015 and 94-5017. **Decision date:** October 17, 1994. **Citation:** 38 F.3d 86. **Courts below:** Southern District of New York, Judge John E. Sprizzo, reviewing Bankruptcy Judge Burton R. Lifland. **Historical argument:** June 30, 1994. The appeal concerns the Trust's eligibility as a business trust, not whether every condition for involuntary Chapter 11 relief has been established. [Opinion and record account](https://law.justia.com/cases/federal/appellate-courts/F3/38/86/635981/).
+**Historical caption:** In re Secured Equipment Trust of Eastern Air Lines, Inc.; Shawmut Bank Connecticut, National Association, LNC Investments, Charter National Life Insurance Company, and Magten Asset Management Corporation v. First Fidelity Bank as collateral trustee, United Jersey Bank, and the Trust; Midlantic National Bank is also named.
 
-## Material facts and proceedings below
+**Circuit:** Second Circuit.
 
-Eastern created the Secured Equipment Trust to raise $500 million through certificates secured by part of its aircraft fleet. The transaction formally involved sale of certificates, purchase of aircraft with the proceeds, and leaseback to Eastern. The parties agreed that its economic substance was secured financing. Three certificate series had different priority levels, interest rates, and maturities. First Fidelity served as collateral trustee; separate series trustees represented the certificateholders' interests.
+**Docket or citation:** 94-5015, 94-5017; 38 F.3d 86 (2d Cir. 1994).
+
+**Admission source:** [Sanitized primary-source header](#admission), identifying the Second Circuit, caption, docket, and submission in 38 F.3d 86. The selected appellate result is confined to the `history.md` section.
+
+**Coverage cycle:** 002.
+
+**Primary group:** 5. Business, property, and private civil litigation.
+
+**Secondary subjects:** Bankruptcy eligibility; commercial trusts; secured finance; statutory interpretation.
+
+**Principal question:** Whether the aircraft-financing trust qualifies as a business trust and hence a person eligible for the invoked bankruptcy proceeding.
+
+**Selection reason:** Expressly included in the user’s 1994 canonical case request. No outcome-based selection or additional rotation rationale is asserted; policy rotation cannot be audited without CASE_SELECTION.md.
+
+**Canonical case-list reference:** [1994 case list, entry 013](../../case-list.md), In re Secured Equipment Trust of Eastern Air Lines, Inc., docket 94-5015, 94-5017.
+
+**Lower tribunal:** U.S. District Court, Southern District of New York, John E. Sprizzo, District Judge, reviewing Bankruptcy Judge Burton R. Lifland.
+
+**Judgment or order under review:** District-court affirmance of dismissal of the involuntary petition because the Trust was not a qualifying business trust. Exact order-entry dates not independently verified. Source: 38 F.3d at 87-89.
+
+**Requested appellate relief:** Petitioning creditors seek reinstatement of the involuntary proceeding. The Trust and opposing trustees seek affirmance of the eligibility dismissal.
+
+**Historical entry stage and date:** Post-submission appellate consideration on 1994-10-17, immediately before the selected event. The argument/submission history remains as stated below; the event date is not proof of an earlier assignment.
+
+**Historical argument or submission:** Oral argument on 1994-06-30. Source: selected proceeding’s header, reproduced without its disposition in the local admission extract.
+
+**Simulation argument or submission:** Retain 1994-06-30 as the proposed argument date, subject to confirmation of Stone’s assignment to the panel. His exact qualification date is not supplied. A later opinion date does not establish earlier eligibility; otherwise a lawful resubmission must be documented before Run.
+
+**Proposed event date:** 1994-10-17, retained from the expressly selected historical event as a scheduling reference. No disposition is selected in this neutral form.
+
+**Historical panel:** Amalya L. Kearse (Active Circuit Judge); Frank X. Altimari (Active Circuit Judge); Allen G. Schwartz (Active District Judge, S.D.N.Y., sitting by designation). Source: the [admission and service extract](#source-extract).
+
+**Member Stone replaces:** Allen G. Schwartz; proposed seat substitution only, not user-approved.
+
+**Assignment method and reason:** Retain the earlier packet’s disclosed third-listed-seat convention uniformly across these eighteen cases. This provisional mechanical method is not based on an expected vote and is fixed before any future vote modeling. It must yield to an applicable approved selection/roster rule when supplied; it does not purport to reproduce a historical assignment order or remove the replaced judge from the roster.
+
+**Resulting panel:** Amalya L. Kearse (Active Circuit Judge); Frank X. Altimari (Active Circuit Judge); Judge Stone (proposed circuit member; assignment must be confirmed).
+
+**Participation checks:** The historical members’ service at submission is supported by the header and Federal Judicial Center extracts. No adverse recusal fact is established, but conflict disclosures and the actual designation/assignment orders were not supplied. The proposed three-member configuration supplies the intended panel count; lawful participation under 28 U.S.C. §§ 46 and 292 and a valid quorum must be confirmed from the missing orders. No 1993 eligibility is inferred from a 1994 decision. Calabresi is not a member of this proposed panel.
+
+**Further panel departure:** None proposed. Any additional substitution would require an independently documented reason.
+
+## Record and issues
+
+**Material record:** Eastern created the Secured Equipment Trust to raise $500 million through certificates secured by part of its aircraft fleet. The transaction formally involved sale of certificates, purchase of aircraft with the proceeds, and leaseback to Eastern. The parties agreed that its economic substance was secured financing. Three certificate series had different priority levels, interest rates, and maturities. First Fidelity served as collateral trustee; separate series trustees represented the certificateholders' interests.
 
 Eastern's rental payments were designed to service the certificates' principal, premium, and interest. The indenture required any excess to return to Eastern. After full payment, the equipment would be reconveyed to Eastern and the Trust dissolved. Upon default, however, the collateral trustee had authority to possess, hold, lease, and sell the equipment. Thus the documents provided both a payment mechanism during performance and an extensive asset-management function upon default.
 
@@ -14,15 +58,37 @@ Eastern entered Chapter 11 on March 9, 1989 and stopped making timely payments. 
 
 LNC Investments, Charter National Life Insurance, and Magten Asset Management, holders of $54.2 million in second- and third-priority certificates, filed an involuntary Chapter 11 petition against the Trust on March 28, 1991. The Resolution Trust Corporation later joined. The matter was transferred from New Jersey to the Southern District of New York. The collateral trustee and United Jersey Bank sought dismissal; the petitioning holders and Shawmut, the third-series trustee, opposed it. Judge Lifland held that the Trust was not an eligible business trust, and Judge Sprizzo affirmed. *In re Secured Equipment Trust*, 153 B.R. 409 (Bankr. S.D.N.Y. 1993); 38 F.3d at 87-89.
 
-## Questions, jurisdiction, preservation, and review
+38 F.3d 86 (2d Cir. 1994), at 87-89, factual and lower-proceeding portions; see the supplied [sanitized record extract](#source-extract).
 
-The district court's final disposition of the bankruptcy appeal is reviewable under 28 U.S.C. § 158(d). The court of appeals reviews the bankruptcy court's legal conclusions independently and its factual findings for clear error. *In re Ionosphere Clubs, Inc.*, 922 F.2d 984, 988-89 (2d Cir. 1990). A legal definition does not become insulated merely because its application depends on a detailed financial arrangement.
+**Appellate jurisdiction:** The district court's final disposition of the bankruptcy appeal is reviewable under 28 U.S.C. § 158(d). The court of appeals reviews the bankruptcy court's legal conclusions independently and its factual findings for clear error. *In re Ionosphere Clubs, Inc.*, 922 F.2d 984, 988-89 (2d Cir. 1990). A legal definition does not become insulated merely because its application depends on a detailed financial arrangement.
 
 The petitioning parties bear the burden of establishing debtor eligibility. Their appeal presents both the legal significance of the Trust's purposes and the effect of its authorized and actual operations. The panel should not resolve contested creditor qualifications, grounds for an order for relief, priorities, or eventual plan treatment that were not decided through the eligibility ruling.
 
 The existence of alternative remedies is relevant to the parties' practical arguments, but does not itself establish or defeat statutory coverage. The series trustees had already filed claims in Eastern's bankruptcy, and ordinary proceedings could address actionable trustee misconduct. Neither the desirability of consolidating disputes nor the presence of another forum rewrites the definition of the proposed debtor.
 
-## Governing law and independent neutral analysis
+The full appellate briefs, appendix, trial or hearing transcripts, notices of appeal and docket-entry receipts were not supplied as independent documents. The reported opinion supplies a bounded account, not a substitute for every underlying document. The exact appellate-filing timeliness record therefore remains unverified unless specifically stated.
+
+**Claims and issues raised:** Business-trust eligibility for an involuntary bankruptcy case. Preservation and the limits of reach are identified separately below. Party positions are reconstructed from the reported record where the underlying briefs were not supplied; no verbatim party quotation is claimed.
+
+**Related proceedings or dependencies:** Eastern’s bankruptcy and surrender of equipment triggered the Trust’s activities; they do not automatically establish the Trust’s own eligibility.
+
+**Missing facts, documents, or findings:** The complete trust instrument, distributions, and remaining § 303 predicates were not supplied. Eligibility does not establish that an order for relief must issue. The full appellate briefs, appendix, trial or hearing transcripts, notices of appeal and docket-entry receipts were not supplied as independent documents. The reported opinion supplies a bounded account, not a substitute for every underlying document. The exact appellate-filing timeliness record therefore remains unverified unless specifically stated. CASE_SELECTION.md and its six-group definitions, the coverage-cycle register, the approved simulation roster, and any effective earlier simulation final records were not supplied.
+
+**Bounded reconstruction or scheduling premise:** Retain 1994-06-30 as the proposed argument date, subject to confirmation of Stone’s assignment to the panel. His exact qualification date is not supplied. A later opinion date does not establish earlier eligibility; otherwise a lawful resubmission must be documented before Run. No reconstruction decides a disputed fact, supplies a missing finding, approves a case-specific position, or invents an earlier simulation holding.
+
+## Law entering the event
+
+**Legal cutoff:** 1994-10-17, immediately before the selected event. The dated authorities below and the selected source’s historical record were checked for their relation to this cutoff. The event under preparation is not treated as its own precedent. Source verification in 2026 does not introduce 2026 law; no exhaustive citator certification is asserted.
+
+**Effective earlier simulation records:** None supplied or verified in the authorized inputs. This is a source gap, not a finding that none exist. Historical circuit authorities remain the baseline unless an applicable approved final simulation record is supplied.
+
+### Issue 1: Business-trust eligibility for an involuntary bankruptcy case
+
+**Preservation and reach:** The preserved question is the Trust’s statutory eligibility, decided below. Other § 303 conditions, creditor qualification, priorities, and eventual relief were not resolved through that ruling.
+
+**Standard of review:** Independent review of legal classification; clear error for bankruptcy findings. In re Ionosphere Clubs, Inc., 922 F.2d 984, 988-89 (2d Cir. 1990).
+
+**Governing test and burdens:** Petitioners must establish an eligible person under § 303(a). Sections 101(41) and 101(9)(A)(v) include a business trust through the definition of corporation. The undefined term requires examination of the trust’s formation, purposes, investment structure, and authorized operations. The presence of some businesslike conduct does not alone decide classification.
 
 Section 303(a) permits involuntary proceedings against an eligible “person.” Section 101(41) includes a corporation within that term, and § 101(9)(A)(v) includes a business trust within corporation. The Code does not separately define business trust. This is a genuinely open circuit question in October 1994, rather than an invitation to disobey an earlier controlling circuit definition.
 
@@ -36,6 +102,72 @@ The petitioners' strongest response is that financing and leasing are themselves
 
 Profit purpose is relevant, but the court need not decide whether all nonprofit benefit trusts fall outside the Code. Nor should it announce that the mere absence of residual profits is dispositive. The federal classification is the governing question; New York's treatment of an association operating under a trust instrument with certificate interests can inform the analysis without conclusively controlling the federal statute.
 
-## Panel and proposed assignment
+**Historical Supreme Court authority:** No directly controlling Supreme Court holding defining business trust for this Code eligibility question is identified. Analogies from other statutory settings do not replace the Bankruptcy Code.
 
-The historical panel was Amalya L. Kearse, Frank X. Altimari, and Allen G. Schwartz, a Southern District of New York district judge sitting by designation. Stone provisionally replaces Schwartz, yielding Kearse, Altimari, and Stone. The visitor's historical eligibility is established by the opinion's designation; Stone's substitution remains conditional on the simulation's lawful roster.
+**Other governing authority:** 11 U.S.C. §§ 101(9)(A)(v), 101(41), 303(a); predecessor Bankruptcy Act definition and relevant 1978 legislative history; In re St. Augustine Trust, 109 B.R. 494, 496 (Bankr. M.D. Fla. 1990), persuasive only.
+
+**Applicable simulation holding:** None supplied or verified. No proposed position in these briefs is an adopted holding.
+
+**Open question or conflict:** The Second Circuit has not fixed a governing definition for this arrangement. The significance of fixed returns and default operations is open, but other debtor and creditor requirements remain independent.
+
+**Appellant's strongest supported position:** The Trust raised capital through certificates, owned and leased equipment, and authorized continuing commercial fleet operations. Fixed interest is an investment return; lack of residual profit does not eliminate business.
+
+**Appellee's strongest supported position:** The parties stipulated to secured-financing economics. The Trust preserves collateral for an obligation, returns surplus to Eastern, and liquidates after default rather than pursuing an independent enterprise for its own profit.
+
+**Additional material position:** No independently verified additional amicus position is supplied. Counsel or amicus names alone are not evidence of an argument.
+
+**Error and remedy constraints:** Eligibility is distinct from every other § 303 condition, dismissal or abstention ground, contractual priority, and plan consequence. The court cannot use the classification ruling to predecide those unadjudicated questions.
+
+**Lawful paths:** These alternatives are unranked and imply no vote or order of decision.
+
+Alternative: Affirm dismissal if the whole arrangement is a collateral-holding trust rather than a business trust.
+
+Alternative: Reverse eligibility dismissal if the institutional financing and authorized commercial operations satisfy the federal category, leaving the other statutory conditions for further proceedings.
+
+## Sources and neutral handoff
+
+**Primary sources supplied:** 38 F.3d 86 (2d Cir. 1994), at 87-89, factual and lower-proceeding portions; see the supplied [sanitized record extract](#source-extract). The statutes, rules, and dated decisions identified issue by issue are the legal authorities for the stated propositions, with their pinpoints where available. The full selected comparator is cited only in the `history.md` section. Separately verified, issue-linked extracts of other pre-cutoff writings by each participating judge have not been assembled; no individual voting position may be inferred from this omission or from a case citation’s mere existence.
+
+**Unavailable material and consequence:** The full appellate briefs, appendix, trial or hearing transcripts, notices of appeal and docket-entry receipts were not supplied as independent documents. The reported opinion supplies a bounded account, not a substitute for every underlying document. The exact appellate-filing timeliness record therefore remains unverified unless specifically stated. The complete trust instrument, distributions, and remaining § 303 predicates were not supplied. Eligibility does not establish that an order for relief must issue. The missing selection policy prevents assignment of a numbered primary group or cycle. The missing simulation final records prevent a complete simulation-precedent check. The missing judge-specific writing extracts limit any later individual modeling. These are unresolved preparation gaps, not permission to supply results from recollection.
+
+**Date-eligibility check:** The operative record and legal propositions are limited to the stated cutoff; contemporaneous lower-court decisions remain legitimate input. Later reporting is used only for identity, version, and service verification. The selected appellate outcome, writing alignment, later rehearing and Supreme Court events, and private proposed positions are excluded from the `neutral.md` section. This combined brief is a reader document, not an isolated neutral-modeler execution or a neutral-only input.
+
+## Source extract
+
+**Source identity:** 38 F.3d 86 (2d Cir. 1994), court header and pre-entry factual/procedural account. This is an editorial extract and paraphrase, not a verbatim trial transcript. The full selected appellate opinion is cited in the `history.md` section.
+
+### Admission
+
+**Court:** United States Court of Appeals for the Second Circuit
+
+**Docket:** 94-5015, 94-5017
+
+**Caption:** In re Secured Equipment Trust of Eastern Air Lines, Inc.; Shawmut Bank Connecticut, National Association, LNC Investments, Charter National Life Insurance Company, and Magten Asset Management Corporation v. First Fidelity Bank as collateral trustee, United Jersey Bank, and the Trust; Midlantic National Bank is also named.
+
+**Selected event date:** 1994-10-17
+
+**Argument or submission:** Oral argument on 1994-06-30. Source: selected proceeding’s header, reproduced without its disposition in the local admission extract.
+
+**Panel shown in the header:** Amalya L. Kearse, Frank X. Altimari, Allen G. Schwartz
+
+### Record
+
+Eastern created the Secured Equipment Trust to raise $500 million through certificates secured by part of its aircraft fleet. The transaction formally involved sale of certificates, purchase of aircraft with the proceeds, and leaseback to Eastern. The parties agreed that its economic substance was secured financing. Three certificate series had different priority levels, interest rates, and maturities. First Fidelity served as collateral trustee; separate series trustees represented the certificateholders' interests.
+
+Eastern's rental payments were designed to service the certificates' principal, premium, and interest. The indenture required any excess to return to Eastern. After full payment, the equipment would be reconveyed to Eastern and the Trust dissolved. Upon default, however, the collateral trustee had authority to possess, hold, lease, and sell the equipment. Thus the documents provided both a payment mechanism during performance and an extensive asset-management function upon default.
+
+Eastern entered Chapter 11 on March 9, 1989 and stopped making timely payments. A January 1991 stipulation returned aircraft and $230 million in equipment proceeds to the Trust. The trustee thereafter actively maintained, marketed, leased, and sold aircraft, retaining legal, accounting, and aviation assistance. It took possession of sixty-seven commercial jets and 165 engines; forty-seven jets remained under management two years later. These activities were not a proposed future enterprise invented by petitioners; they were operations recognized in the bankruptcy court's account.
+
+LNC Investments, Charter National Life Insurance, and Magten Asset Management, holders of $54.2 million in second- and third-priority certificates, filed an involuntary Chapter 11 petition against the Trust on March 28, 1991. The Resolution Trust Corporation later joined. The matter was transferred from New Jersey to the Southern District of New York. The collateral trustee and United Jersey Bank sought dismissal; the petitioning holders and Shawmut, the third-series trustee, opposed it. Judge Lifland held that the Trust was not an eligible business trust, and Judge Sprizzo affirmed. *In re Secured Equipment Trust*, 153 B.R. 409 (Bankr. S.D.N.Y. 1993); 38 F.3d at 87-89.
+
+**Provenance pinpoint:** 38 F.3d 86, at 87-89, factual and lower-proceeding portions. Lower-court rulings here are part of the input record, not the selected appellate result.
+
+### Panel service
+
+**Amalya L. Kearse:** Active Circuit Judge. Circuit commission issued June 21, 1979; active at the relevant submissions. [Federal Judicial Center, Federal Judicial Service](https://www.fjc.gov/history/judges/kearse-amalya-lyle). The modern directory is used only to verify service at the stated historical dates.
+
+**Frank X. Altimari:** Active Circuit Judge. Circuit commission issued December 17, 1985; active throughout 1994. [Federal Judicial Center, Federal Judicial Service](https://www.fjc.gov/history/judges/altimari-frank-x). The modern directory is used only to verify service at the stated historical dates.
+
+**Allen G. Schwartz:** Active District Judge, S.D.N.Y., sitting by designation. District commission issued November 22, 1993, before the June 30, 1994 argument. He was not a senior judge at this event. The case header identifies designation; its order was not supplied. [Federal Judicial Center, Federal Judicial Service](https://www.fjc.gov/history/judges/schwartz-allen-g). The modern directory is used only to verify service at the stated historical dates.
+
+**Record limits:** The full appellate briefs, appendix, trial or hearing transcripts, notices of appeal and docket-entry receipts were not supplied as independent documents. The reported opinion supplies a bounded account, not a substitute for every underlying document. The exact appellate-filing timeliness record therefore remains unverified unless specifically stated. The complete trust instrument, distributions, and remaining § 303 predicates were not supplied. Eligibility does not establish that an order for relief must issue.
