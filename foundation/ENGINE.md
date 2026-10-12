@@ -89,7 +89,7 @@ Separate circuit precedent, party-specific relief, dicta, and separate opinions.
 
 A final record is authoritative once validated and saved. Update the precedent index and Standing State immediately after it, preserving the correct effective date. A render cannot add a holding or repair an unsupported vote. Corrections are explicit, user-authorized changes with internal lineage and Git history; public decision prose need not narrate the editing workflow.
 
-Use the [render template](templates/RENDER.md) under the [render contract](RENDER_CONTRACT.md) after locking the record. The record's Public decision section must contain the public case identity, dates, panel, and every substantive item needed for that presentation. Internal metadata and historical comparison are not renderer inputs.
+Use the [render template](templates/RENDER.md) under the [render contract](RENDER_CONTRACT.md) after locking the record. An individual decision includes a summary and the actual written opinion, plus supported separate writings; the record's Public decision section must contain the identity, dates, panel, joins, and every substantive item needed. Internal metadata and historical comparison are not inputs to that decision render. A requested eight-section court report instead uses the contract's scoped, dated administrative and public-source packet, including completed public opinions and verified historical Supreme Court developments. A report is presentation only: it cannot alter state, invent a proceeding, or become the combined input for neutral modeling. Do not include future outcomes or ideological forecasts.
 
 ## 8. Historical Supreme Court and later proceedings
 
