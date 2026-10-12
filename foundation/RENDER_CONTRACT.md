@@ -14,6 +14,14 @@ Prepare enough sourced public material upstream to support those explanations. T
 
 Preserve all eight main sections while keeping unchanged or empty sections short. Do not reprint the entire judicial history or all earlier opinions on every turn. A preparation turn explains what awaits decision; a decision turn gives the result and reasoning; a follow-up turn explains the supported procedural development and its effect. No new decision means no fabricated outcome or opinion.
 
+## Selected-case scope
+
+The report covers only the user's chosen cases and their connected review or remand proceedings, including earlier-year carryovers. Every Supreme Court entry must link to an original selected circuit case; a changed caption or docket does not break that link. Do not include unrelated Supreme Court petitions, arguments, or decisions as independent entries or fill an empty section with a general court roundup.
+
+The engine still researches and applies relevant historical law. In the render, another case may appear as authority needed to explain a selected case, not as an additional case report. Section 6 starts with the affected selected case and explains the relevant legal change; section 8 is reserved for review of selected cases.
+
+Each review update must account for the finalized simulated appellate judgment: what that judgment ordered, what the admitted Supreme Court event changes or leaves effective, its published reasoning where available, and the effect on relief and further proceedings. An incompatible historical outcome cannot be represented as a reversal or affirmance of our changed judgment. State the unresolved compatibility issue without inventing a replacement Supreme Court decision.
+
 ## Rolling review in each turn's output
 
 Before preparing the report packet, the engine performs its automatic follow-up check through the authorized event cutoff. Rendering itself does not advance time or decide what the Supreme Court does. If a check was incomplete, report the specific limitation instead of declaring the review history current.
@@ -31,11 +39,11 @@ Form A presents the turn's dated overview at `years/YYYY/output/YYYY-MM-DD-court
 - Verified identity, record, procedural status, assignment, parties' positions, sourced date-eligible explanatory context, and open questions for current cases from their neutral preparation material.
 - The Public decision sections of finalized event records for completed decisions and operative legal developments.
 - Scoped compatibility conclusions from Standing State or final-record follow-up notes, without private proposals, frozen positions, or raw historical-comparator material.
-- Verified historical Supreme Court events and public reasoning available by the simulation date, with sources and any case-specific compatibility restriction.
+- Verified historical Supreme Court proceedings linked to selected circuit cases, with public reasoning available by the simulation date, sources, and case-specific compatibility restrictions. Supply other Supreme Court authority only as necessary legal context tied to a selected case, not as independent case-report material.
 
 The renderer does not independently research or browse linked raw files. A source link is attribution, not permission to open a document containing excluded material. The preparer must extract and date-check the allowed content. If a preparation field is absent, mark the gap; do not assume the event or assignment exists.
 
-Use exactly the eight main report sections in the template. Section 3 lists the session's cases using No., Caption, Docket(s), Event date, Event type, Status, and Area of law. Do not display chunks, generic MERITS categories, or coverage quota tables; retain selection classifications and counts in their existing background records. Section 5 includes decision summaries and actual written appellate opinions. Section 8 covers Supreme Court cases awaiting argument, awaiting decision, and already decided, including summaries of published reasoning. There is no section 9 or period-close presentation. Omitting that presentation does not change the engine's bookkeeping or annual-close rules.
+Use exactly the eight main report sections in the template. Section 3 lists the session's cases using No., Caption, Docket(s), Event date, Event type, Status, and Area of law. Do not display chunks, generic MERITS categories, or coverage quota tables; retain selection classifications and counts in their existing background records. Section 5 includes decision summaries and actual written appellate opinions. Section 8 covers Supreme Court review of selected circuit cases awaiting argument, awaiting decision, and already decided, including summaries of published reasoning and the effect on the simulated appellate judgment. There is no section 9 or period-close presentation. Omitting that presentation does not change the engine's bookkeeping or annual-close rules.
 
 The report is a dated presentation, not a second editable Standing State or precedent register. It cannot advance time, admit a case, change counts, finalize a decision, or create a pending proceeding. It is not handed wholesale to a neutral modeler. Select only authorized, date-eligible case material and relevant public prior authority for that separate stage.
 

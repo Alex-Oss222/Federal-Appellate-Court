@@ -95,6 +95,8 @@ For a completed judicial event, use the [render template](templates/RENDER.md) u
 
 The Supreme Court's actual composition, holdings, and dates remain historical. Do not import `scotus-career` holdings or model a new Supreme Court vote, certiorari choice, merits result, or remand. Its historical decisions govern later circuit events according to their actual scope and temporal effect, even when this circuit reached a different view earlier.
 
+The render shows only the user's selected cases and their connected review proceedings, including earlier-year carryovers. Every Supreme Court review entry must link to a selected circuit case and explain its effect on the finalized simulated judgment. Do not add independent entries for other Supreme Court cases. Continue researching and applying relevant historical law; mention other cases in the render only as authority directly needed to explain a selected case or its applicable law.
+
 Keep two questions separate:
 
 1. **What historical Supreme Court law now binds this circuit?** Research and apply the real authority, including its temporal reach. Record any effect on an indexed circuit holding.
