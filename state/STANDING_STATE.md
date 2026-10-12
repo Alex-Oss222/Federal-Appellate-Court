@@ -1,7 +1,7 @@
 # Second Circuit Standing State
 
 **Current simulation date:** 1994-01-01.
-**Posture:** Cycle 001 selected: eighteen appeals admitted and prepared (neutral packets, proposed Stone briefs, and historical comparisons). None has been adjudicated.
+**Posture:** Eighteen appeals admitted (seventeen in Cycle 001, one in Cycle 002): sixteen prepared and two awaiting preparation. None has been adjudicated.
 **Current bookkeeping period:** 1994-01-01 through 1994-12-31, Stone's first full calendar year.
 **Last completed simulation event:** None.
 **Controlled judge:** Alex-Lamar Stone-Khoury, circuit judge in the Meskill vacancy; fictional commission and required judicial oaths dated 1993-12-01.
@@ -15,24 +15,30 @@ Senior judges remain separately listed in the roster and require case-specific p
 
 ## Work inventory
 
-- [1994 case list](../years/1994/case-list.md): eighteen Cycle 001 appeals admitted and prepared; none played.
+- [1994 case list](../years/1994/case-list.md): eighteen appeals admitted (seventeen in Cycle 001, one in Cycle 002); sixteen prepared, two awaiting preparation; none played.
 - Coverage follows the [case-selection policy](../foundation/CASE_SELECTION.md): six groups, three historical cases per group, eighteen cases per cycle. No separate annual quota applies.
 - [Precedent index](PRECEDENT.md): no simulation holdings.
 
 ## Open coverage cycles
 
-Cycle 001 is fully admitted: eighteen selected appeals, none played. Historical availability controls completion of any later cycle; unfinished slots carry across calendar years. These totals summarize the canonical case-list rows and do not create case entries.
+Cycle 001 has seventeen of eighteen slots admitted and none played; group 3 has one unfilled slot, carried forward. Cycle 002 opened with one admission in group 2, because that group was already full in Cycle 001. Historical availability controls completion of any later cycle; unfinished slots carry across calendar years. These totals summarize the canonical case-list rows and do not create case entries.
 
 | Cycle | Primary group | Target | Admitted, including played | Played | Unfilled admission slots |
 |---|---|---|---|---|---|
 | 001 | 1. Criminal law, sentencing, and post-conviction review | 3 | 3 | 0 | 0 |
 | 001 | 2. Constitutional rights, civil rights, and elections | 3 | 3 | 0 | 0 |
-| 001 | 3. Labor, employment, and employee benefits | 3 | 3 | 0 | 0 |
+| 001 | 3. Labor, employment, and employee benefits | 3 | 2 | 0 | 1 |
 | 001 | 4. Government powers, administrative law, and public regulation | 3 | 3 | 0 | 0 |
 | 001 | 5. Business, property, and private civil litigation | 3 | 3 | 0 | 0 |
 | 001 | 6. Federal courts, civil procedure, and remedies | 3 | 3 | 0 | 0 |
+| 002 | 1. Criminal law, sentencing, and post-conviction review | 3 | 0 | 0 | 3 |
+| 002 | 2. Constitutional rights, civil rights, and elections | 3 | 1 | 0 | 2 |
+| 002 | 3. Labor, employment, and employee benefits | 3 | 0 | 0 | 3 |
+| 002 | 4. Government powers, administrative law, and public regulation | 3 | 0 | 0 | 3 |
+| 002 | 5. Business, property, and private civil litigation | 3 | 0 | 0 | 3 |
+| 002 | 6. Federal courts, civil procedure, and remedies | 3 | 0 | 0 | 3 |
 
-Cycle 001 totals: 18 admitted, 0 played, 0 unfilled admission slots. No cycle audit is due yet. Audit a cycle when all eighteen selected events are played, three per group; pending later proceedings remain in the procedural tracker. If cycles overlap to preserve chronology, retain each open cycle's remaining slots. Preserve completed-cycle audit links for later subject rotation.
+Cycle 001 totals: 17 admitted, 0 played, 1 unfilled admission slot (group 3). Cycle 002 totals: 1 admitted, 0 played, 17 unfilled admission slots. No cycle audit is due yet. Audit a cycle when all eighteen selected events are played, three per group; pending later proceedings remain in the procedural tracker. If cycles overlap to preserve chronology, retain each open cycle's remaining slots. Preserve completed-cycle audit links for later subject rotation.
 
 ## Rolling Supreme Court follow-up
 
