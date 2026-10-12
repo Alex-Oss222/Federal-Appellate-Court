@@ -67,7 +67,7 @@ Repeat this block for each genuinely distinct issue:
 **Appellee's strongest supported position:** [Argument, material evidence, and relief].
 **Additional material position:** [Amicus or other party only when relevant].
 **Error and remedy constraints:** [Applicable harmless/plain-error analysis or other remedial limit; omit if irrelevant].
-**Lawful paths:** [Supported threshold, merits, or remand alternatives; no vote predictions].
+**Lawful paths:** [Supported threshold, merits, or remand alternatives; no vote predictions. List the alternatives symmetrically, with no sequencing, order of reach, or preferred route].
 
 ### Sources and neutral handoff
 
@@ -119,7 +119,7 @@ Distinguish what binding law requires, what is open to this court, and what Ston
 **Separate opinions:** [Authors, joins, and substantive differences; or None].
 **Remedy and mandate:** [Verified scope and date/status; unknown if not established].
 **Sources:** [Primary links and pinpoints supporting the above].
-**Known differences in premises:** [Differences from the neutral facts, law, posture, or requested relief; do not predict new votes].
+**Known differences in premises:** [Differences from the neutral facts, law, posture, or requested relief; do not predict new votes. Do not describe, characterize, or refer to `stone.md` or Stone's proposal].
 
 This file is introduced only after neutral commitments are frozen, in a separate reconciliation context that never sees `stone.md`. It supplies evidence for comparison, not a command to copy history.
 
