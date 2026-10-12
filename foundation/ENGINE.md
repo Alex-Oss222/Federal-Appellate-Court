@@ -2,11 +2,13 @@
 
 ## 1. Project boundary
 
-Stone joins the Second Circuit on July 21, 1994 in the Meskill vacancy, instead of Calabresi. He is a new circuit judge, not chief judge, and inherits neither Meskill's seniority nor his former chief position. Selected appeals may differ because Stone sits on their panels. The Supreme Court remains historical; this project imports none of the separate Supreme Court simulation's law or institutional changes.
+Stone is commissioned and takes the required judicial oaths on December 1, 1993 in the Meskill vacancy, instead of Calabresi. These are fictional appointment dates established by the character sheet. Detailed play opens January 1, 1994, making 1994 his first full calendar year on the court. He is a new circuit judge, not chief judge, and inherits neither Meskill's seniority nor his former chief position. Selected appeals may differ because Stone sits on their panels. The Supreme Court remains historical; this project imports none of the separate Supreme Court simulation's law or institutional changes.
 
 Use real historical appeals as the starting cases. A selected case's actual caption, docket, lower-court record, and procedural posture must be verified. Declared panel substitutions and resulting appellate rulings are simulation events. Never represent invented facts, filings, quotations, or dockets as historical research.
 
-The character's prior district-court service and signature opinion remain supplied biography. No fictional earlier holding is automatically entered into circuit precedent. Admission of a specific prior fictional decision requires a user-established legal baseline identifying its holding and status. A possible later Supreme Court career mentioned in Stone's jurisprudence is not part of this project's current institutional history.
+The character's prior district-court service and signature opinion remain supplied biography. No fictional earlier holding is automatically entered into circuit precedent. Admission of a specific prior fictional decision requires a user-established legal baseline identifying its holding and status.
+
+`stone/JURISPRUDENCE.md` is archival storage only. The engine and its agents must never open, read, search, index, summarize, embed, import, validate, or otherwise process its contents. This boundary applies to preparation, research, generation, neutral modeling, reconciliation, assembly, validation, follow-up, rendering, and engine maintenance. Engine-generated summaries, embeddings, digests, cached extracts, and other archival derivatives are equally excluded, even if created earlier. Use explicit allowed-file lists for all source access; the archive and engine-generated archival derivatives are never eligible inputs. Its presence in the repository grants no permission to use it. The user's expressly supplied case-specific brief is an authorized input; hypothetical provenance does not disqualify it. Do not compare that brief with the archive or reconstruct the archive to enforce this exclusion.
 
 ## 2. Legal and documentary authority
 
@@ -17,7 +19,7 @@ At each event, identify the date, the record, the issue properly before the cour
 - A selected appeal's historical opinion is its comparator, not a second live disposition alongside the simulation's replacement decision. If an earlier stage of the same case remains effective, identify it separately.
 - Historical decisions outside selected appeals can remain background law when compatible with this timeline. If one depends materially on a replaced ruling or on an impossible panel, assess and record the compatibility problem before relying on it. Do not automatically erase all later cases, but do not invent replacement reasoning, authorship, or votes to repair one.
 - Final simulation event records establish this circuit's changed holdings, judgments, and procedure. Their legal effect depends on court authority, publication status, actual joins, dates, and later treatment.
-- Stone's jurisprudence is personal reasoning material. His approved case proposal is his position, not binding law or another judge's view.
+- The latest user-approved case brief `stone.md` is the sole source of Stone's case-specific disposition and reasoning. It is his position, not binding law or another judge's view. `stone/CHARACTER.md` supplies biography only; the jurisprudence archive supplies nothing to the engine.
 - [Standing State](../state/STANDING_STATE.md) tracks present institutional and procedural status. [Precedent](../state/PRECEDENT.md) indexes controlling propositions. Neither overrides its source record.
 
 No separate Holdings or Standards and Tests register is required. State the operative holding, applied test, review standard, burdens, and material qualifications in the final event record. The precedent index remains a concise pointer and subsequent-treatment aid; historical law is researched from its actual sources.
@@ -26,7 +28,7 @@ Distinguish a disagreement with precedent from authority to depart from it. A pa
 
 ## 3. Calendar and scope
 
-Use calendar-year folders for convenience. The first period begins July 21, 1994; it is not a retroactive appointment or an October Term. Selected cases are a sample of Stone's work, not his entire annual judicial workload. Follow [the case-selection policy](CASE_SELECTION.md): six groups, three real historical Second Circuit cases per group, eighteen cases per cycle. A cycle is a coverage unit, not an annual deadline. Keep one canonical row per case under [the case-list template](templates/CASE_LIST.md), with one primary group and secondary tags for overlaps. Carry unfilled group slots across years without moving historical disputes backward, duplicating cases, or fabricating facts. Preserve the historical parties, dispute, claims, material facts, and procedure up to the simulation's entry point.
+Use calendar-year folders for convenience. The first period is January 1 through December 31, 1994, Stone's first full calendar year after his December 1, 1993 appointment and oaths. The December transition is background only; no unplayed 1993 appellate case, panel assignment, or simulation holding is automatically created. The period is not a Supreme Court October Term. Selected cases are a sample of Stone's work, not his entire annual judicial workload. Follow [the case-selection policy](CASE_SELECTION.md): six groups, three real historical Second Circuit cases per group, eighteen cases per cycle. A cycle is a coverage unit, not an annual deadline. Keep one canonical row per case under [the case-list template](templates/CASE_LIST.md), with one primary group and secondary tags for overlaps. Carry unfilled group slots across years without moving historical disputes backward, duplicating cases, or fabricating facts. Preserve the historical parties, dispute, claims, material facts, and procedure up to the simulation's entry point.
 
 A later opinion can support research into an earlier proceeding, but only date-eligible facts, arguments, and authorities enter the neutral packet. Administrative case-list columns recording departures and subsequent history are not inputs to the neutral modeler. Cases and events remain chronological even when coverage cycles overlap; follow-up to an already counted case does not supply an additional quota entry.
 
@@ -36,7 +38,7 @@ A late-discovered earlier event requires an assessment of affected completed dec
 
 ## 4. Court and panel assignment
 
-Read the roster as of the relevant participation date. Verify actual qualification to sit, recusal, designation, active or senior status, and any change before decision. A commission date alone is not proof of an oath, a first sitting, or assignment to an already-submitted case.
+Read the roster as of the relevant participation date. Verify actual qualification to sit, recusal, designation, active or senior status, and any change before decision. A commission date alone is not proof of an oath, a first sitting, or assignment to an already-submitted case. Stone's required oaths are expressly established on December 1, 1993 by the fictional character timeline; his participation in any particular case still requires the assignment and timing checks.
 
 Every selected appeal identifies:
 
@@ -61,7 +63,7 @@ Research may use a historical opinion's recitation of facts, with attribution. E
 
 ## 6. Separated adjudication
 
-The user controls Stone's case-specific position. Drafts remain drafts until approved or covered by a genuine existing delegation. Neither biography nor jurisprudence silently supplies a missing choice. There is no inherited Supreme Court standing fallback.
+The user controls Stone's case-specific position through `stone.md`. Prepare proposals from the user's case-specific instructions and the legal packet, never from the jurisprudence archive or engine-generated archival derivatives. Drafts remain drafts until approved or covered by a genuine existing delegation. Record choices made within that delegation in `stone.md` without seeking duplicate approval. Ask for the user's case-specific input only when neither the approved brief nor a genuine existing delegation covers a required choice; do not infer it from biography or an old project permission. There is no inherited Supreme Court standing fallback.
 
 ### Neutral modeling
 
@@ -95,6 +97,8 @@ For a completed judicial event, use the [render template](templates/RENDER.md) u
 
 The Supreme Court's actual composition, holdings, and dates remain historical. Do not import `scotus-career` holdings or model a new Supreme Court vote, certiorari choice, merits result, or remand. Its historical decisions govern later circuit events according to their actual scope and temporal effect, even when this circuit reached a different view earlier.
 
+The render shows only the user's selected cases and their connected review proceedings, including earlier-year carryovers. Every Supreme Court review entry must link to a selected circuit case and explain its effect on the finalized simulated judgment. Do not add independent entries for other Supreme Court cases. Continue researching and applying relevant historical law; mention other cases in the render only as authority directly needed to explain a selected case or its applicable law.
+
 Keep two questions separate:
 
 1. **What historical Supreme Court law now binds this circuit?** Research and apply the real authority, including its temporal reach. Record any effect on an indexed circuit holding.
@@ -106,11 +110,29 @@ When a historical follow-up's predicates no longer fit, preserve it in the segre
 
 The circuit may independently simulate its own rehearing, mandate, and remand proceedings when properly before it, using the historical Supreme Court law then in effect. Verify whether relief is available in the actual procedural posture; a new precedent does not automatically reopen a closed judgment.
 
+### Rolling review across calendar years
+
+Supreme Court follow-up is part of every simulation turn and calendar advance, not a separate task the user must remember to request. Organize review by the year of each case's first selected circuit decision. Retain that origin year through later petitions, renamed captions, new Supreme Court docket numbers, rehearings, and remands; keep supported links between those identifiers.
+
+The default review view emphasizes the current calendar year and the previous two years. Thus the 1996 view includes 1994, 1995, and 1996 cases, and the 1997 view includes 1995, 1996, and 1997 cases. Also include every older unresolved matter. This is a rolling tracking window, not a three-year procedural schedule or an expiration rule. Actual historical event dates control: do not delay an early grant, denial, or decision, or manufacture a result at origin year plus two. Do not remove open matters at the end of the repository's 2020 folder range.
+
+Apply this sequence:
+
+1. After a selected circuit decision is finalized, establish its origin year and review follow-up reference in the final record. Carry any supported pending proceeding in Standing State. If petition status is not established, create a specific research task instead of inventing a pending petition.
+2. Before advancing from the current date to the next authorized event date, check all unresolved review proceedings and research tasks, including older carryovers, and relevant intervening Supreme Court law. A full-year advance must process intervening events in date order before any later circuit adjudication, rather than postponing all review to year-end.
+3. The follow-up preparer may research historical chronology, using segregated `historical-follow-up.md` material where needed. Release only verified events due on or before the current processing cutoff. Future outcomes stay outside Standing State, the render packet, and neutral adjudication. A future argument date may appear only when its scheduling was already established by that cutoff.
+4. For each due event, verify the source, exact event date, linked appellate judgment, Supreme Court docket or other identifier, and compatibility with the simulated case. Process verified filings, grants, denials, arguments, merits dispositions, vacaturs, mandates, and remands when they occur; do not require every case to pass through every stage. A denial or other terminal event does not generate a later merits decision.
+5. Record each admitted event once, using its case identity, docket, date, event type, and source to avoid applying it again on repeated turns. Save the dated final event record, then update the existing Standing State row and any affected precedent-index entry. Recheck compatibility when an intervening change affects the judgment or posture. A historical Supreme Court opinion's effect as general law is recorded separately from any incompatible case-specific path.
+6. Before the turn's render, summarize new review events and all still-open matters. Link each update to its origin-year case, even when the current session's selected docket contains only newer cases. Section 8 reports newly filed petitions, grants or denials, arguments, and actual results, with published reasoning when available; section 7 carries the outstanding procedural status and blockers. If nothing changed, say so briefly, without implying that an unverified filing does not exist.
+7. Preserve unresolved proceedings and research gaps at year-end, beyond the three-year view, and after a Supreme Court disposition if mandate or remand work remains. Archive only a supported terminal matter whose remaining obligations have been reconciled. A late-discovered event affecting completed decisions follows the explicit-correction rule; never silently rewrite those decisions.
+
+Standing State records the latest completed follow-up check and its coverage limitations. The check date is not evidence of a petition, denial, or finality. Do not mark an unperformed or incomplete check as complete. A source gap blocks only the affected issue or case; continue independent work when consistent with the chronology rules.
+
 ## 9. Standing State and annual close
 
 Standing State is a living tracker here, not a copy of the Supreme Court project's narrower opening-term document. It contains the current institutional snapshot, case-list pointers, and open rehearings, petitions, mandates, remand returns, dependencies, and specific follow-up blockers. Link every change to a dated final event record or a verified source. Keep private positions, frozen deliberative material, and future historical outcomes outside it.
 
-Maintain it using the [Standing State template](templates/STANDING_STATE.md). Replace placeholders with sourced current information, preserve existing unresolved entries and cycle counts, and remove only reconciled terminal items. The form is not authorization to reset the live tracker or create an annual duplicate.
+Maintain it using the [Standing State template](templates/STANDING_STATE.md). Preserve origin years and review identifiers, check unresolved review automatically before calendar advances and renders, and carry older open cases alongside the three-year view. Replace placeholders with sourced current information, preserve existing unresolved entries and cycle counts, and remove only reconciled terminal items. The form is not authorization to reset the live tracker or create an annual duplicate.
 
 Separate a **research task** from a known pending proceeding. Unknown petition status is not proof a petition exists. Record only evidenced deadlines and identify any unresolved date calculation. Retain a succinct terminal entry until annual close, then preserve its source in the case record and carry forward only live matters. A year may close with explicitly carried pending cases.
 
@@ -121,3 +143,4 @@ Annual close checks selected-case coverage, records, effective precedent treatme
 Check source identity and date; panel eligibility; preserved questions and review standards; disposition and join arithmetic; controlling status; remedy and mandate consistency; historical compatibility; and links between final records, state, and public output. Identify limitations specifically. Never claim an unsupported source, a fresh context that did not exist, a user approval that was not given, or a legal conclusion established by a script.
 
 If a defect affects only one issue or case, preserve the remaining valid work. Do not erase completed decisions to tidy a directory. File cleanup preserves the single current version and uses repository history for superseded content.
+

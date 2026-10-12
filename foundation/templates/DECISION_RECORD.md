@@ -48,7 +48,9 @@ Include only public-source references intended for publication. Private approval
 
 ## Internal follow-up and state changes
 
-- Link the current Standing State row or state that no further proceeding is known.
+- Link the current Standing State row or state that no further proceeding is known. Record the origin year of the first selected circuit decision and retain it through review and remand.
+- Link verified Supreme Court captions and docket numbers to the original circuit case. Identify each follow-up event by case, docket, date, type, and source so a later turn does not apply it twice.
+- State the follow-up check cutoff and its source limitations. If petition status is unknown, create or retain a research task; do not infer that a petition is pending or that review is over.
 - State any actual deadline and its source, or a research task if status is unknown.
 - For historical follow-up, document whether the changed judgment, review-seeking party, questions, posture, relief, and timing support retaining the event.
 - Record incompatible historical events separately and describe the unresolved live path. No substitute Supreme Court result may be generated.

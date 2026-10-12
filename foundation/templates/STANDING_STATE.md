@@ -53,11 +53,25 @@ Repeat the six rows for each open cycle, using the group names from the selectio
 
 An admitted case with follow-up pending may already count as played once its selected appellate event is resolved. Rehearing, petitions, remands, and corrections do not count as extra cases. Unfinished cycles carry across calendar years.
 
+## Rolling Supreme Court follow-up
+
+**Primary review years:** [Current calendar year and previous two years, limited to years with simulation decisions].
+**Older open matters:** [References to unresolved older entries below; or None].
+**Latest follow-up check:** [Date/cutoff and whether complete; or not yet performed].
+**Check limitations:** [Specific unresolved source or compatibility gaps; or None].
+**New review events this turn:** [Dated final-record references; or no new verified event].
+
+This is a rolling view of cases grouped by their first selected circuit decision year. It is not a fixed deadline for Supreme Court action. Preserve all unresolved older entries and research tasks; never drop them because three years elapsed. The origin year stays attached to a case through later docket or caption changes.
+
+Before each authorized calendar advance, check due events in chronological order; before rendering, update this tracker from the admitted event records. Do not put a future grant, denial, or merits result here. Future scheduling information is permitted only if already established at the current cutoff. Unknown petition status remains a research task.
+
+The tables below are the canonical live entries; do not create a second year-by-year status ledger.
+
 ## Pending proceedings
 
-| Case and docket | Latest effective event and source | Current stage | Live action, mandate, or relief | Verified deadline or next event | Dependency or blocker |
-|---|---|---|---|---|---|
-| [Canonical case reference] | [Dated event; final record or primary source] | [Precise present stage] | [Operative relief or mandate status] | [Sourced date; or not established] | [Dependency, specific gap, or None] |
+| Origin year | Case and circuit docket | Supreme Court docket, if established | Latest effective event and source | Current stage | Live action, mandate, or relief | Verified deadline or next event | Dependency or blocker |
+|---|---|---|---|---|---|---|---|
+| [First selected circuit decision year] | [Canonical case reference] | [Verified identifier; otherwise not established] | [Dated event; final record or primary source] | [Precise present stage] | [Operative relief or mandate status] | [Sourced date; or not established] | [Dependency, specific gap, or None] |
 
 Use a precise status: panel rehearing pending; en banc consideration pending; mandate stayed or issued; certiorari petition filed; certiorari granted or denied; Supreme Court merits disposition verified; remanded; proceedings below pending; return appeal pending; or unresolved: historical path incompatible. Include another status when the source supports it. A stage label never supplies evidence that the event occurred.
 
@@ -65,17 +79,17 @@ For Supreme Court follow-up, identify the actual historical event and whether it
 
 ## Follow-up research tasks
 
-| Case or institutional matter | Question to verify | Missing source or fact | Affected next step |
-|---|---|---|---|
-| [Reference] | [Specific question] | [Exact gap] | [Affected event or issue] |
+| Origin year, if applicable | Case or institutional matter | Question to verify | Missing source or fact | Last checked and coverage | Affected next step |
+|---|---|---|---|---|---|
+| [Year; or not applicable] | [Reference] | [Specific question] | [Exact gap] | [Cutoff, sources examined, and limits; or not yet checked] | [Affected event or issue] |
 
 Unknown petition status belongs here until a filing is established. Do not turn a research task into a fictional pending proceeding or infer a denial from silence. Preserve independent work when only one matter is blocked.
 
 ## Terminal matters awaiting annual reconciliation
 
-| Case | Terminal event and date | Final-record link | Remaining action, if any |
-|---|---|---|---|
-| [Reference] | [Verified closure] | [Link] | [Index update or None] |
+| Origin year | Case | Terminal event and date | Final-record link | Remaining action, if any |
+|---|---|---|---|---|
+| [Year] | [Reference] | [Verified closure] | [Link] | [Index update or None] |
 
 At annual close, remove reconciled terminal rows from the live tracker once the final records preserve them. Carry unresolved proceedings and coverage slots forward. Closing a year does not terminate a case.
 
@@ -85,4 +99,4 @@ This tracker is current through the stated simulation date. Final records, effec
 
 ## Operator check before saving
 
-This last section is template guidance, not a required block in the live tracker. Check the date and last-event pointer, current roster, case-list links, six-group totals, operative relief, supported deadlines, all unresolved follow-ups, and removal of placeholders. Confirm that no later historical event or private proposal has entered the current state. Preserve the existing live data rather than resetting counts or pending matters.
+This last section is template guidance, not a required block in the live tracker. Check the date and last-event pointer, current roster, case-list links, six-group totals, operative relief, supported deadlines, review origin years and docket links, the actual follow-up check coverage, all unresolved follow-ups including older cases, duplicate event prevention, and removal of placeholders. Confirm that no later historical event or private proposal has entered the current state. Preserve the existing live data rather than resetting counts or pending matters.

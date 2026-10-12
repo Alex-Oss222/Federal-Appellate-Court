@@ -8,6 +8,8 @@ Choose the form:
 - **Form B: Individual appellate decision.** A decision summary followed by the actual written opinion and any supported separate opinions. Save at `years/YYYY/cases/<case-slug>/output/YYYY-MM-DD-<event>.md`.
 - **Form C: Procedural or subsequent-review event.** A compact report of a completed action at the same case output location.
 
+Limit case entries to the user's selected cases and their connected review or remand proceedings, including earlier-year carryovers. Do not create entries for other Supreme Court or circuit cases merely because they are important or were decided that year. Other authorities may be cited only as context directly needed to explain a selected case or its applicable law.
+
 Write for a reader who wants to understand the case, the outcome, and realistically relevant context. Use developed, accessible prose for substantive case explanations; explain necessary legal terms, connect the governing rule to the decisive facts, and describe the supported practical effect and limits. Do not reduce the output to labels, a status table, or bookkeeping. Keep unchanged institutional sections brief. Present new decisions and their supported written opinions in detail, without reprinting every earlier case.
 
 A preparation turn explains the dispute, each side's position, and what remains to be decided. A decision turn explains the completed outcome and reasoning and includes the actual supported opinion text. A follow-up turn explains the verified action and its effect. When no decision was issued, say so; do not fill the opinion section with a prediction.
@@ -161,8 +163,9 @@ Use accurate labels for writings concurring and dissenting in part. Stone may au
 
 ## 6. Current legal developments
 
-Include effective simulation holdings and historical legal developments that have occurred by the report's simulation date. Full holdings and tests remain in their source decisions.
+Include only effective legal developments directly affecting a selected case, its operative holding, or its pending review. Identify the affected selected case first, then explain the relevant rule and consequence. Cite other decisions as necessary authority without giving them independent case entries or a general Supreme Court roundup. Full holdings and tests remain in their source decisions.
 
+**Affected selected case:** [Case and record reference].
 **Authority and effective date:** [Source].
 **Operative proposition:** [Rule and material qualifications].
 **Affected earlier authority:** [What changed, if anything].
@@ -173,9 +176,14 @@ Explain actual legal developments without predicting judicial votes. Do not intr
 
 ## 7. Follow-up proceedings and historical compatibility
 
-| Matter | Latest supported event | Present status | Next supported step or date | Dependency or uncertainty |
-|---|---|---|---|---|
-| [Case] | [Event, date, source] | [Precise status] | [Verified step, or unknown] | [Specific issue] |
+Report the current year and previous two origin-year groups, together with all older unresolved cases. Derive this view from Standing State; do not create a new ledger or omit an older case because it is outside the current session docket. An origin year is the year of the first selected circuit decision, not a predicted review date.
+
+| Origin year | Matter and docket references | Latest supported event | Present status | Next supported step or date | Dependency or uncertainty |
+|---|---|---|---|---|---|
+| [Year] | [Original case; circuit and Supreme Court dockets where established] | [Event, date, source] | [Precise status] | [Verified step, or unknown] | [Specific issue] |
+
+**Follow-up checked through:** [Cutoff and any limits from the actual check].
+**Older carryovers:** [Unresolved references, or None].
 
 For a historical follow-up affected by a simulated decision, include the scoped compatibility conclusion prepared under the engine:
 
@@ -190,28 +198,45 @@ An incompatible historical event does not establish what happened instead. Retai
 
 This section is administrative reporting, not a court order or an input to neutral vote modeling. Do not reproduce private deliberations or future comparator material.
 
-## 8. Supreme Court cases awaiting hearing or decision, and cases decided
+## 8. Supreme Court review of selected cases
 
 **Information current through:** [Simulation date].
 
-Use verified historical Supreme Court events. A case may matter as governing law without its procedural outcome transferring to a changed simulated appeal.
+Show only Supreme Court proceedings linked to a case in the user's selected docket, including selected cases from earlier years. Require a reference to that selected circuit case for every entry below, even if its Supreme Court caption or docket differs. Use verified historical events released by the engine's follow-up check; do not add unrelated petitions, arguments, or decisions to fill this section. Other Supreme Court law may inform a selected case under section 6 without becoming a review entry here. The three-year view does not move historical dates or remove older pending work.
 
-### Cases awaiting oral argument
+### Review updates for our circuit cases
 
-**Case:** [Historical caption and docket].
+**Origin-year case:** [Original circuit case, decision year, and final-record reference].
+**Review identifiers:** [Linked Supreme Court caption and docket, if verified].
+**Event this turn:** [Petition filed / review granted / review denied / argument / merits decision / vacatur / mandate / remand / other verified event, with date and source].
+**Our circuit decision:** [What the finalized simulated judgment ordered, with record reference].
+**What changed:** [What this Supreme Court event does to that judgment, its reasoning, the parties' relief, and any remand obligations; distinguish what remains effective from what is displaced or unresolved].
+**Published reason, if any:** [Supported explanation; if the source supplies none, say no explanation is supplied rather than inventing one].
+**Remaining work:** [Pending review, mandate, remand, supported closure, or a specific uncertainty].
+**Compatibility:** [Admitted compatible event or reference to the unresolved issue in section 7].
+
+Give a short update here for filings, grants, denials, and other review developments. Use the detailed blocks below for arguments and merits decisions without duplicating the same explanation. A denial is reported when it occurs; it is not held until the third year and does not promise a later merits decision. Do not place unverified petitions in the awaiting-argument block.
+
+When there are no new verified review events for selected cases, say so briefly and point to any pending or unresolved selected matter in section 7. If none has established Supreme Court proceedings, say that directly. Do not substitute other cases or repeat a past event as though it happened again this turn.
+
+### Selected cases awaiting oral argument
+
+**Selected circuit case:** [Original case, year, and final-record reference].
+**Supreme Court case:** [Linked historical caption and docket].
 **Review status:** [Verified grant of review and date].
 **Argument date:** [Scheduled date only if the scheduling information is available by the report date; otherwise not yet established].
 **Question presented:** [Question accepted for review].
-**Decision under review:** [Lower court, disposition, and existing reasoning].
+**Simulation judgment under review:** [The selected circuit judgment, relief, and reasoning supported by its final record and admitted review path].
 **Principal arguments:** [Neutral account of positions available by the report date].
 **Relevance to the Second Circuit:** [Potentially affected issue or rule, without predicting the result].
 **Source:** [Supporting record].
 
 Identify a petition awaiting a grant as a pending petition in section 7 when relevant, not as a case scheduled to be heard. If this is the historical version of a selected simulated appeal, apply section 7 before attaching the grant, hearing, or other event to the live appeal. Keep an incompatible comparator outside the report.
 
-### Cases argued and awaiting decision
+### Selected cases argued and awaiting decision
 
-**Case:** [Caption and docket].
+**Selected circuit case:** [Original case, year, and final-record reference].
+**Supreme Court case:** [Linked caption and docket].
 **Argument date:** [Verified date].
 **Question before the Court:** [Issue].
 **Status:** Awaiting decision.
@@ -221,9 +246,10 @@ Identify a petition awaiting a grant as a pending petition in section 7 when rel
 
 Do not turn oral-argument questions into predicted votes. Do not disclose the eventual historical result before its decision date.
 
-### Decisions issued by the current simulation date
+### Supreme Court decisions on selected cases
 
-**Case and citation:** [Verified identity].
+**Selected circuit case:** [Original case, year, and final-record reference].
+**Supreme Court case and citation:** [Verified linked identity].
 **Decision date:** [Date].
 **Disposition:** [Exact result].
 **Opinion author and joins:** [Actual writing structure].
@@ -232,7 +258,9 @@ Do not turn oral-argument questions into predicted votes. Do not disclose the ev
 **Summary of the Court's reasoning:** [The legal rule, application, and explanation supporting the judgment].
 **Concurrences and dissents:** [Actual reasoning and disagreements, if present].
 **Effect on circuit law:** [Rule confirmed, displaced, narrowed, or left unresolved].
-**Effect on pending simulation cases:** [Supported consequence; distinguish governing law from a case-specific order].
+**Effect on our circuit judgment:** [What is affirmed, reversed, vacated, left effective, or otherwise affected, with the admitted case-specific order and its limits].
+**Effect on relief and next proceedings:** [What changes for the parties and any remaining mandate or remand work, with sources].
+**Effect on other selected cases, if any:** [Supported consequence for identified selected cases only; distinguish governing law from a case-specific order].
 **Historical-path compatibility:** [Section 7 assessment if relevant before attaching a disposition or remand to a selected appeal].
 **Sources:** [Opinion and relevant orders].
 
@@ -280,6 +308,8 @@ Operator guidance, not output:
 - Confirm that the simulation turn ends with the report displayed to the user, not only a saved-file link or completion notice.
 - Confirm that the current case, any completed outcome, the reasons, and supported practical effects receive readable explanation; keep unchanged sections brief.
 - Match the report date, session cases, event dates, statuses, and administrative facts to the scoped source packet.
+- Confirm every Supreme Court review entry links to a selected circuit case and accounts for the actual simulated judgment. Do not include independent entries for unselected cases.
+- Confirm the engine's follow-up check occurred, with limitations disclosed, and include newly due review events for earlier-year cases. Preserve older unresolved carryovers and avoid reporting an old event as new.
 - Match every disposition, name, join, holding, qualification, opinion passage, and remedial instruction to the finalized public record.
 - Keep future outcomes, ideological forecasts, private proposals, frozen commitments, and comparator files out of render inputs.
 - Remove placeholders, unused forms, drafting instructions, internal approval and context identifiers, and unsupported predictions.

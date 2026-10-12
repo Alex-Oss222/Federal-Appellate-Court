@@ -1,6 +1,6 @@
 # Effective simulation precedent index
 
-**Current through:** Opening baseline, 1994-07-21; no simulated appeal decided.
+**Current through:** Opening baseline, 1994-01-01; no simulated appeal decided.
 
 Historical law supplies the starting legal world. Relevant historical Supreme Court decisions, Second Circuit authority, statutes, rules, and other governing sources are researched for each event. This file is not an exhaustive restatement of 1994 law and imports nothing from `scotus-career`.
 
