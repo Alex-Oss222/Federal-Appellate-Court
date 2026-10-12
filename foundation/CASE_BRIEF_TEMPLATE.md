@@ -71,7 +71,7 @@ Repeat this block for each genuinely distinct issue:
 
 ### Sources and neutral handoff
 
-**Primary sources supplied:** [Links or extracted material and pinpoints].
+**Primary sources supplied:** [Links or extracted material and pinpoints. Include relevant date-eligible writings by the participating judges other than Stone, with usable extracts tied to the issues; identify material gaps below].
 **Unavailable material and consequence:** [Specific limitation; or None].
 **Date-eligibility check:** [Confirm that the operative facts, arguments, and authorities were available at this simulated stage].
 
@@ -100,7 +100,7 @@ Repeat for each separable issue or judgment component:
 **Governing law:** [Binding rule, review standard, and material burdens].
 **Legal relationship:** [Applying binding law / resolving an open question / following a binding rule while urging lawful reconsideration].
 **Proposed holding:** [Precise proposition, application, and material qualifications].
-**Supporting reasoning:** [Authorities and record application].
+**Supporting reasoning:** [Connect the governing rule, review standard, and material burdens to the decisive record facts. Explain why they support the proposed disposition and answer the strongest material contrary argument; identify any unresolved point rather than supplying an unsupported answer].
 **Remedy and remand:** [Operative relief and instructions].
 **Limits and reserved questions:** [Scope].
 **Acceptable narrower join or fallback:** [Only if approved; otherwise not supplied].
