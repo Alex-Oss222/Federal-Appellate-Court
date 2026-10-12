@@ -1,10 +1,16 @@
 # Appellate render template
 
-Choose the requested output:
+Render after every simulation turn without waiting for a separate Render request. Display the readable report directly in the response and save it; a completion notice or file link alone is not the turn output. This applies to turns that prepare or advance a case, adjudicate it, process follow-up, or advance the simulation calendar. Repository maintenance and standalone explanatory questions do not themselves require a simulated court report.
 
-- **Form A: Court report.** The eight-section overview agreed with the user. Save at `years/YYYY/output/YYYY-MM-DD-court-report.md`.
+Choose the form:
+
+- **Form A: Court report.** The default output after every simulation turn. Use the eight-section overview below, emphasizing the case and developments handled in that turn. Save at `years/YYYY/output/YYYY-MM-DD-court-report.md`.
 - **Form B: Individual appellate decision.** A decision summary followed by the actual written opinion and any supported separate opinions. Save at `years/YYYY/cases/<case-slug>/output/YYYY-MM-DD-<event>.md`.
 - **Form C: Procedural or subsequent-review event.** A compact report of a completed action at the same case output location.
+
+Write for a reader who wants to understand the case, the outcome, and realistically relevant context. Use developed, accessible prose for substantive case explanations; explain necessary legal terms, connect the governing rule to the decisive facts, and describe the supported practical effect and limits. Do not reduce the output to labels, a status table, or bookkeeping. Keep unchanged institutional sections brief. Present new decisions and their supported written opinions in detail, without reprinting every earlier case.
+
+A preparation turn explains the dispute, each side's position, and what remains to be decided. A decision turn explains the completed outcome and reasoning and includes the actual supported opinion text. A follow-up turn explains the verified action and its effect. When no decision was issued, say so; do not fill the opinion section with a prediction.
 
 These are presentations, not new sources of authority or additional editable state registers. Replace bracketed fields, remove drafting instructions, and omit inapplicable repeated blocks. For a court report, retain the eight main sections and say when no supported entry exists. Do not add a section 9, period-close report, ideological court climate, voting forecast, or strategic-career narrative.
 
@@ -22,7 +28,7 @@ Follow the [render contract](../RENDER_CONTRACT.md). A preparer supplies dated, 
 
 ## 1. Current position
 
-[Explain where the simulation stands in a factual paragraph. Identify the most recent completed work, the matters presently before the court, and the immediate work remaining.]
+[Lead with what happened in this turn and the resulting position of the case or court. Identify the most recent completed work, the matters presently before the court, and what remains open. Make clear whether a decision was issued, preparation was completed, a subsequent event occurred, or time advanced. Do not imply that a preparation step changed the judicial result or simulation date.]
 
 **Next supported event:** [Event and date, or not yet established].
 **Outstanding preparation:** [Specific work needed].
@@ -70,7 +76,11 @@ Repeat for each matter requiring present attention. A candidate awaiting verific
 
 ### What the case concerns
 
-[Explain the actual dispute, parties, material facts, and requested relief in ordinary language. Distinguish allegations, findings, agreed facts, and disputed evidence.]
+[Explain the actual dispute as connected prose: who the parties are, what happened, how the dispute reached this stage, and what each side seeks. Include the material factual and procedural background needed to understand the case. Distinguish allegations, findings, agreed facts, and disputed evidence.]
+
+### The parties' positions and relevant context
+
+[Explain each side's principal supported argument and the governing legal question in accessible language. Include sourced context when it helps explain the dispute, such as the statute, agency action, trial ruling, or existing doctrine at issue. Explain what turns on the question for these parties. This is an account of the available record and arguments, not a forecast of the judges' votes or the result. Leave unsupported details unspecified.]
 
 ### Why it is before this court
 
@@ -95,7 +105,7 @@ A jurisdictional dispute can itself be an issue for adjudication. Missing resear
 
 ## 5. Completed appellate decisions and written opinions
 
-Repeat for the completed decisions included in this report. Link earlier reports or final records when needed; a court report need not reproduce the entire accumulated docket.
+Give the decisions completed in this turn substantive treatment, including the supported written opinions below. For multiple completed decisions, use a separate case block for each. Briefly cross-reference earlier decisions when necessary to understand current work; do not reprint the entire accumulated docket on every turn. If no decision was completed in this turn, state that clearly and use a short reference for any earlier decision that remains relevant.
 
 **Case:** [Caption and docket or citation].
 **Decision date:** [Date].
@@ -111,7 +121,10 @@ Repeat for the completed decisions included in this report. Link earlier reports
 **What the court decided:** [Exact result for each issue or claim and relief ordered].
 **Why the court decided that way:** [Governing law, material facts, and controlling application; identify any threshold ground preventing a merits decision].
 **Where the judges disagreed:** [Actual disagreements over judgment, reasoning, or remedy; say when there was no separate opinion].
+**Practical effect and limits:** [What the judgment and remedy actually change for the parties; any established effect on governing circuit law; and what remains undecided. Distinguish a supported legal consequence from an uncertain downstream possibility.]
 **What happens next:** [Mandate status, remand instructions, or another supported procedural step].
+
+Develop these explanations in paragraphs proportionate to the case. Connect the rule to the decisive facts and explain why it yields this outcome; a bare disposition or citation is insufficient. Give realistically relevant detail supported by the final public record, without inventing reactions, political effects, litigation, or future consequences.
 
 Name the judges supporting each materially different component. Use a component or opinion-join table only when mixed dispositions or partial joins are clearer that way.
 
@@ -264,6 +277,8 @@ A Supreme Court entry reports an actual historical action admitted as compatible
 
 Operator guidance, not output:
 
+- Confirm that the simulation turn ends with the report displayed to the user, not only a saved-file link or completion notice.
+- Confirm that the current case, any completed outcome, the reasons, and supported practical effects receive readable explanation; keep unchanged sections brief.
 - Match the report date, session cases, event dates, statuses, and administrative facts to the scoped source packet.
 - Match every disposition, name, join, holding, qualification, opinion passage, and remedial instruction to the finalized public record.
 - Keep future outcomes, ideological forecasts, private proposals, frozen commitments, and comparator files out of render inputs.

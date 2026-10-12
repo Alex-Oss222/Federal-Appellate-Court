@@ -2,13 +2,25 @@
 
 The [render template](templates/RENDER.md) supports an eight-section court report, an individual appellate decision, and a compact procedural-event report. Rendering explains established material; it never determines or revises legal substance.
 
+## Default output after each simulation turn
+
+After each turn that prepares or advances a case, adjudicates it, processes follow-up, or advances the simulation calendar, render Form A automatically. Present the report directly to the user and save it. A file link, terse completion message, or case table alone does not fulfill the turn output. A standalone individual opinion or event report is available when specifically requested; it does not otherwise replace the default turn report.
+
+Repository maintenance and explanatory questions do not themselves constitute simulation turns. Rendering does not supply permission to advance the calendar, approve Stone's position, skip isolation stages, or finalize an undecided case.
+
+Make the current case and completed outcome the substantive focus. Explain the dispute, material facts, procedural history, the parties' positions, and the relevant legal framework in ordinary language. After a decision, explain the controlling reasoning, actual disagreements, judgment, remedy, practical consequences established by the record, and remaining questions. Include the supported written opinions for decisions completed in that turn.
+
+Prepare enough sourced public material upstream to support those explanations. The renderer may clarify and connect supplied material, but cannot invent missing case facts or judicial reasoning. Additional context must be date-eligible, relevant, and sourced in the allowed packet; it cannot silently amend a final record. Do not fill the report with speculative reactions, political narratives, or predictions merely because they sound realistic.
+
+Preserve all eight main sections while keeping unchanged or empty sections short. Do not reprint the entire judicial history or all earlier opinions on every turn. A preparation turn explains what awaits decision; a decision turn gives the result and reasoning; a follow-up turn explains the supported procedural development and its effect. No new decision means no fabricated outcome or opinion.
+
 ## Court report inputs and boundaries
 
-Form A presents a dated overview at `years/YYYY/output/YYYY-MM-DD-court-report.md`. Before rendering, prepare an explicit allowed-input packet of sourced extracts limited to:
+Form A presents the turn's dated overview at `years/YYYY/output/YYYY-MM-DD-court-report.md`. Further turns on the same simulation date update that date's report, with prior versions preserved in Git; always display the current turn output in the response. Before rendering, prepare an explicit allowed-input packet of sourced extracts limited to:
 
 - Current administrative facts from Standing State and the dated roster.
 - Current-session case identities, docket numbers, event dates and types, statuses, and areas of law from canonical case lists and supported case records, excluding future outcomes and historical-result commentary.
-- Verified identity, record, procedural status, assignment, and open questions for current cases from their neutral preparation material.
+- Verified identity, record, procedural status, assignment, parties' positions, sourced date-eligible explanatory context, and open questions for current cases from their neutral preparation material.
 - The Public decision sections of finalized event records for completed decisions and operative legal developments.
 - Scoped compatibility conclusions from Standing State or final-record follow-up notes, without private proposals, frozen positions, or raw historical-comparator material.
 - Verified historical Supreme Court events and public reasoning available by the simulation date, with sources and any case-specific compatibility restriction.
