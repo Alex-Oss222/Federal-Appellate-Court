@@ -55,6 +55,24 @@ Launch independent agents in one message and wait for their completion notices r
 
 Panel substitution when the user has supplied no method: if Calabresi sat on the historical panel, Stone takes that seat. Otherwise run `python3 tools/court.py draw --docket "<docket>" --panel "<A>;<B>;<C>"` before any vote is modeled. The first seat in its output is replaced; if that seat cannot lawfully be replaced for a reason unrelated to votes or authorship, record the reason and take the next. Record the method, inputs, and result in `neutral.md` as a declared simulation premise. Never redraw for any other reason.
 
+## Research sources
+
+Research and preparation agents use these hosts, which `.claude/settings.json` pre-approves for WebFetch. Last tested 2026-10-12.
+
+| Host | Use |
+|---|---|
+| www.courtlistener.com | Second Circuit opinions, dockets, and citations through its API (`/api/rest/v4/`); its HTML pages refuse automated requests |
+| static.case.law | Reporter text (F.2d, F.3d) |
+| www.supremecourt.gov | Supreme Court opinions, orders, and dockets |
+| www.oyez.org | Supreme Court argument dates, decision dates, and questions presented |
+| www.law.cornell.edu | U.S. Code, federal rules, Supreme Court opinions |
+| www.govinfo.gov | Dated editions of the U.S. Code, Statutes at Large, CFR, Federal Register |
+| www.loc.gov | U.S. Reports volumes and Statutes at Large |
+| www.uscourts.gov, www.ca2.uscourts.gov | Federal and Second Circuit rules and court information |
+| www.fjc.gov | Judge biographies and service dates cited in the [roster](COURT_ROSTER.md) |
+
+supreme.justia.com, openjurist.org, www.congress.gov, and babel.hathitrust.org answer automated requests with a Cloudflare challenge even though the network allows them, so adding them to an allowlist does not help. web.archive.org failed in testing. When a needed source sits on a host that fails, record the gap under the case's missing material; do not fill it from memory. A host denied by the network policy itself is reported to the user, who changes the environment's allowed domains.
+
 ## Order and chronology
 
 - Process cases by event date. Prepare, propose, neutral, and reconcile for different cases may run in parallel.
@@ -68,7 +86,7 @@ Panel substitution when the user has supplied no method: if Calabresi sat on the
 
 **Delegation.** Only the user's own words delegate approval, for example "approve Stone's proposals as drafted". Quote them in `Conditions or delegated choices` and `Approval reference`, limit the delegation to the cases and conditions named, and say in the report that approval rested on delegation. A bare "run this year" is not a delegation, and a delegation does not carry into later runs.
 
-**Other stops.** A material gap (an unverifiable source, an ineligible panel, a missing record) sets that case to `blocked: <specific gap>`, adds a research task to Standing State, and the run continues with other cases. A late-discovered earlier event, or any change to a completed record, waits for the user's authorization ([engine section 3](ENGINE.md)). New neutral evidence or a decisive new legal premise found in assembly returns that issue to new neutral and reconcile agents. If a source host is blocked, read the environment's network documentation and report the gap; do not substitute memory for a primary source.
+**Other stops.** A material gap (an unverifiable source, an ineligible panel, a missing record) sets that case to `blocked: <specific gap>`, adds a research task to Standing State, and the run continues with other cases. A late-discovered earlier event, or any change to a completed record, waits for the user's authorization ([engine section 3](ENGINE.md)). New neutral evidence or a decisive new legal premise found in assembly returns that issue to new neutral and reconcile agents. If a source cannot be reached, follow Research sources; do not substitute memory for a primary source.
 
 ## Annual close
 
