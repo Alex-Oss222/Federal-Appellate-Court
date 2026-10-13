@@ -42,10 +42,10 @@ Cycle 001 totals: 13 admitted, 1 played, 5 unfilled admission slots (group 3: 3,
 
 ## Rolling Supreme Court follow-up
 
-**Primary review years:** 1994 opening year; no selected circuit decisions yet.
+**Primary review years:** 1994 (selected circuit decisions finalized from 1994-01-28 onward).
 **Older open matters:** None.
-**Latest follow-up check:** Not yet performed; no selected decision requires review follow-up.
-**Check limitations:** None identified at this empty opening baseline.
+**Latest follow-up check:** Performed before each date advance, most recently through 1994-01-28; no review event had come due by then. Sources are the segregated historical follow-up files and each case's comparison.
+**Check limitations:** The historical follow-up files are partial for every case (filing dates, rehearing and mandate dates are mostly not established); an unverified filing is a research gap, not a pending proceeding.
 **New review events this turn:** None.
 
 As the calendar advances, check the current year and previous two decision years plus every older unresolved matter. Historical event dates control; a three-year view does not guarantee a result two years after a circuit decision. Link new review events to their original case and carry pending mandates and remands until resolved. This configuration does not advance the current simulation date.
