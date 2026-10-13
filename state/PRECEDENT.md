@@ -1,17 +1,20 @@
 # Effective simulation precedent index
 
-**Current through:** Opening baseline, 1994-01-01; no simulated appeal decided.
+**Current through:** 1994-01-28 (United States v. Castillo).
 
 Historical law supplies the starting legal world. Relevant historical Supreme Court decisions, Second Circuit authority, statutes, rules, and other governing sources are researched for each event. This file is not an exhaustive restatement of 1994 law and imports nothing from `scotus-career`.
 
 No separate Holdings or Standards and Tests document is maintained. Final event records retain the holdings, applied tests, review standards, burdens, and qualifications. This file links to them and tracks later treatment; it does not replace those records.
 
-No simulation holdings have been entered. The fictional background opinion described in the character sheet has not been admitted as a separate controlling legal baseline.
+Simulation holdings are entered from final event records as they are decided. The fictional background opinion described in the character sheet has not been admitted as a separate controlling legal baseline.
 
 ## Indexed propositions
 
 | Area | Case and final event record | Effective date | Controlling proposition and actual joins | Precedential status and scope | Later treatment and source |
 |---|---|---|---|---|---|
+| Criminal evidence | [United States v. Castillo, No. 92-1279](../years/1994/cases/united-states-v-castillo/events/1994-01-28-decision.md), Part II.B | 1994-01-28 | Officers' repetition of a sole eyewitness's account of a firearm is not rehabilitation, and its use in summation as corroboration of the firearm is not harmless under *Kotteakos*. Part II.B: Lumbard and Stone; Oakes dissenting. Part II.A principles: all three. | Published; precedential to its holding; limited to the described record, not a categorical exclusion of clarifying consistent statements. | None yet. |
+| Post-trial procedure | [United States v. Castillo, No. 92-1279](../years/1994/cases/united-states-v-castillo/events/1994-01-28-decision.md), Part IV | 1994-01-28 | Rule 33 time limits bar a motion resting on attorney conduct the defendant already knew; applies *Dukes*. Unanimous. | Published; application of settled circuit law; no merits holding on the disputed attorney-client exchange. | None yet. |
+| Jury instructions | [United States v. Castillo, No. 92-1279](../years/1994/cases/united-states-v-castillo/events/1994-01-28-decision.md), Part V | 1994-01-28 | The reasonable-doubt "abiding conviction" charge as given is not error; applies *Torres*. Unanimous. | Published; decides only the charge as given. | None yet. |
 
 ## Update rules
 
