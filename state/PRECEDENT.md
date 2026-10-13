@@ -1,6 +1,6 @@
 # Effective simulation precedent index
 
-**Current through:** 1994-08-08 (City of New York v. Department of Commerce).
+**Current through:** 1994-08-08 (McCostis v. Home Insurance Co. of Indiana).
 
 Historical law supplies the starting legal world. Relevant historical Supreme Court decisions, Second Circuit authority, statutes, rules, and other governing sources are researched for each event. This file is not an exhaustive restatement of 1994 law and imports nothing from `scotus-career`.
 
@@ -25,6 +25,7 @@ Simulation holdings are entered from final event records as they are decided. Th
 | Constitutional review of census nonadjustment | [City of New York v. Department of Commerce, No. 93-6183](../years/1994/cases/city-of-new-york-v-department-of-commerce/events/1994-08-08-decision.md), Part III.B | 1994-08-08 | Administrative arbitrary-and-capricious review does not dispose of the constitutional claim; the district court must state and apply the constitutional standard to the Secretary's actual reasons (legitimate, genuinely held, record-supported, directed to the representational task). Kearse and Stone; Timbers dissenting. | Published; precedential on two joins; the measure of justification and the burden are left open; Part III.C (essentiality) is Kearse alone and is not law. | None yet. |
 | Census statutes | [City of New York v. Department of Commerce, No. 93-6183](../years/1994/cases/city-of-new-york-v-department-of-commerce/events/1994-08-08-decision.md), Part IV | 1994-08-08 | 13 U.S.C. 141(a) and 195 contain no command to adjust; whether the 195 exception forbids adjustment for apportionment is not decided. Kearse and Timbers; Stone not joining. | Published; precedential on two joins; limited to the statutory command question. | None yet. |
 | Census litigation, threshold and relief limits | [City of New York v. Department of Commerce, No. 93-6183](../years/1994/cases/city-of-new-york-v-department-of-commerce/events/1994-08-08-decision.md), Parts II and V.A | 1994-08-08 | Governmental plaintiffs' funding and representation injuries suffice for the merits; no order at the President; relief must be tailored to an identified census use, a claimant with record-proven injury and a lawful defendant. Unanimous. | Published; applies Carey and Franklin; no standing holding for any other plaintiff. | None yet. |
+| Insurance, duty to defend (New York law) | [McCostis v. Home Insurance Co. of Indiana, No. 93-9283](../years/1994/cases/mccostis-v-home-insurance-of-indiana/events/1994-08-08-decision.md), Parts II.B to II.D | 1994-08-08 | A fee-return exclusion is ambiguous as applied to alleged compensatory liability for amounts received by other participants; the New York sequence of text, extrinsic evidence, then construction against the insurer governs. Pratt, Walker and Stone; unanimous. | Published; precedential to its holding, on the footing that diversity jurisdiction exists; no holding on the portion measured by the plaintiff's own receipts, indemnity, waiver, estoppel or other policy terms. | None yet. |
 
 ## Update rules
 
