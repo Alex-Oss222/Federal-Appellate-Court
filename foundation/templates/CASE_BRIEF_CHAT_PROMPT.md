@@ -44,7 +44,7 @@ Primary sources supplied (links and pinpoints; include relevant date-eligible wr
 
 stone.md
 ## Status
-Case. Version (Version 1). Approval status (Proposed, not user-approved). Approval reference (Not yet approved). Legal cutoff and packet version. Conditions or delegated choices (only what I supply, else None).
+Case. Approval status (Proposed, not user-approved). Approval reference (Not yet approved). Legal cutoff and packet. Conditions or delegated choices (only what I supply, else None).
 ## Stone's position
 For each separable issue: Component. Jurisdiction and reach. Vote and disposition. Governing law (binding rule, review standard, burdens). Legal relationship (applying binding law; resolving an open question; or following a binding rule while urging lawful reconsideration). Proposed holding. Supporting reasoning (connect the governing rule, standard of review, and burdens to the decisive record facts; answer the strongest contrary argument; flag any unresolved point instead of inventing an answer). Remedy and remand. Limits and reserved questions. Acceptable narrower join or fallback (Not supplied unless I give one). Separate writing (only if I give one). Distinguish what binding law requires, what is open to the court, and what Stone would urge another court to change. His view never licenses ignoring precedent.
 

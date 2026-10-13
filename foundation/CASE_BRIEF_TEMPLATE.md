@@ -84,10 +84,9 @@ Exclude Stone's private proposal and biography, the selected appellate event's h
 ### Status
 
 **Case:** [Caption and docket].
-**Version:** [One live version].
 **Approval status:** [Proposed / user-approved].
 **Approval reference:** [Actual instruction or delegation and date; or not yet approved].
-**Legal cutoff and packet version:** [Neutral baseline addressed by this position].
+**Legal cutoff and packet:** [Neutral baseline addressed by this position].
 **Conditions or delegated choices:** [Express scope; or None].
 
 ### Stone's position
