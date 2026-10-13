@@ -28,7 +28,8 @@ None found. No certiorari grant, merits decision, vacatur or remand involving th
 ## Gaps
 
 - No Supreme Court docket for this matter was found. Pre-2000 dockets are not online at the permitted hosts.
-- Searches run: Library of Congress full-text search of the U.S. Reports tables and orders (1990 to 1999) for Shawmut, Magten, "LNC", "Charter National Life", "Secured Equipment", "Eastern Air Lines" (1994 to 1997), "United Jersey Bank" and "Collateral Trustee" (1994 to 1996), and name scans of the case.law metadata for 513 U.S. (pp. 864 to 1197), 514 U.S. (pp. 1005 to 1136) and 515 U.S. (pp. 1116 to 1309). The only near matches (Hudson v. First Fidelity Bank, 94-1529; Hansen v. Midlantic National Bank, 94-2125) are unrelated cases.
+- Searches run: Library of Congress full-text search of the U.S. Reports tables and orders (1990 to 1999) for Shawmut, Magten, "LNC", "Charter National Life", "Secured Equipment", "Eastern Air Lines" (1994 to 1997) and "United Jersey Bank" (1994 to 1997), and name scans of the case.law metadata for 513 U.S. (pp. 864 to 1197), 514 U.S. (pp. 1005 to 1136) and 515 U.S. (pp. 1116 to 1309). The only near matches in those volumes (Hudson v. First Fidelity Bank, 94-1529; Hansen v. Midlantic National Bank, 94-2125) are unrelated cases.
+- Unresolved search hits not examined: "Charter National" and "Asset Management" each match the 513 U.S. table and orders, and "Collateral Trustee" matches only the 519 U.S. orders (1996). No matching case name was found in the 513 U.S. name scans, and these are probably unrelated, but they are not ruled out.
 - Full-text search is OCR based and the metadata scans were automated, so a petition under an unexpected caption could be missed.
 - Rehearing, mandate and any docket-level activity could not be verified.
 
