@@ -8,7 +8,7 @@
 
 **Docket or citation:** 92-9341; 37 F.3d 881 (2d Cir. 1994).
 
-**Admission source:** [Sanitized primary-source header](#admission), identifying the Second Circuit, caption, docket, and submission in 37 F.3d 881. The selected appellate result is confined to the `history.md` section.
+**Admission source:** [Sanitized primary-source header](#admission), identifying the Second Circuit, caption, docket, and submission in 37 F.3d 881. The selected appellate result is withheld from this packet.
 
 **Coverage cycle:** 002.
 
@@ -18,7 +18,7 @@
 
 **Principal question:** Whether the selected complete scientific-article photocopies are fair use under § 107 on the stipulated record.
 
-**Selection reason:** Expressly included in the user’s 1994 canonical case request. No outcome-based selection or additional rotation rationale is asserted; policy rotation cannot be audited without CASE_SELECTION.md.
+**Selection reason:** Expressly included in the user’s 1994 case brief. Selected for coverage only; no outcome-based or rotation rationale is asserted.
 
 **Canonical case-list reference:** [1994 case list, entry 018](../../case-list.md), American Geophysical Union v. Texaco, Inc., docket 92-9341.
 
@@ -28,7 +28,7 @@
 
 **Requested appellate relief:** Texaco seeks reversal of the fair-use determination. The publishers seek affirmance as to the selected copying practice.
 
-**Historical entry stage and date:** Post-submission appellate consideration on 1994-12-23, immediately before the selected event. The argument/submission history remains as stated below; the event date is not proof of an earlier assignment.
+**Historical entry stage and date:** Post-submission appellate consideration on 1994-12-23, immediately before the selected event. Argument or submission history is stated below.
 
 **Historical argument or submission:** Oral argument on 1993-05-20. Source: selected proceeding’s header, reproduced without its disposition in the local admission extract.
 
@@ -38,13 +38,13 @@
 
 **Historical panel:** Jon O. Newman (Chief Judge, active circuit service); Ralph K. Winter, Jr. (Active Circuit Judge); Dennis Jacobs (Active Circuit Judge). Source: the [admission and service extract](#source-extract).
 
-**Member Stone replaces:** Dennis Jacobs; proposed seat substitution only, not user-approved.
+**Member Stone replaces:** Dennis Jacobs. Declared simulation premise; the assignment method is stated below.
 
-**Assignment method and reason:** Retain the earlier packet’s disclosed third-listed-seat convention uniformly across these eighteen cases. This provisional mechanical method is not based on an expected vote and is fixed before any future vote modeling. It must yield to an applicable approved selection/roster rule when supplied; it does not purport to reproduce a historical assignment order or remove the replaced judge from the roster.
+**Assignment method and reason:** Stone takes the third-listed seat of the published panel, a mechanical convention applied uniformly to these eighteen cases and fixed before any vote modeling. It is not based on an expected vote, author, or outcome; it does not reproduce a historical assignment order; and it does not remove the replaced judge from the roster.
 
-**Resulting panel:** Jon O. Newman (Chief Judge, active circuit service); Ralph K. Winter, Jr. (Active Circuit Judge); Judge Stone (proposed circuit member; assignment must be confirmed).
+**Resulting panel:** Jon O. Newman (Chief Judge, active circuit service); Ralph K. Winter, Jr. (Active Circuit Judge); Alex-Lamar Stone-Khoury (Active Circuit Judge).
 
-**Participation checks:** The historical members’ service at submission is supported by the header and Federal Judicial Center extracts. No adverse recusal fact is established, but conflict disclosures and the actual designation/assignment orders were not supplied. The proposed three-member configuration supplies the intended panel count; lawful participation under 28 U.S.C. §§ 46 and 292 and a valid quorum must be confirmed from the missing orders. No 1993 eligibility is inferred from a 1994 decision. Calabresi is not a member of this proposed panel.
+**Participation checks:** The historical members’ service at submission is supported by the header and Federal Judicial Center extracts. No recusal fact is established; conflict disclosures and the designation or assignment orders were not supplied. Panel composition and quorum are governed by 28 U.S.C. §§ 46 and 292. Calabresi is not on this panel.
 
 **Further panel departure:** None proposed. Any additional substitution would require an independently documented reason.
 
@@ -74,7 +74,7 @@ The full appellate briefs, appendix, trial or hearing transcripts, notices of ap
 
 **Related proceedings or dependencies:** The October 28, 1994 version of the same appeal precedes this amendment. No separate simulation judgment is assumed.
 
-**Missing facts, documents, or findings:** The record is deliberately limited to eight articles and a representative researcher; no general damages, injunction, or universal research-copying record is supplied. The full appellate briefs, appendix, trial or hearing transcripts, notices of appeal and docket-entry receipts were not supplied as independent documents. The reported opinion supplies a bounded account, not a substitute for every underlying document. The exact appellate-filing timeliness record therefore remains unverified unless specifically stated. CASE_SELECTION.md and its six-group definitions, the coverage-cycle register, the approved simulation roster, and any effective earlier simulation final records were not supplied.
+**Missing facts, documents, or findings:** The record is deliberately limited to eight articles and a representative researcher; no general damages, injunction, or universal research-copying record is supplied. The full appellate briefs, appendix, trial or hearing transcripts, notices of appeal and docket-entry receipts were not supplied as independent documents. The reported opinion supplies a bounded account, not a substitute for every underlying document. The exact appellate-filing timeliness record therefore remains unverified unless specifically stated.
 
 **Bounded reconstruction or scheduling premise:** Proposed papers resubmission on 1994-12-23, before consideration of the selected event, because Stone did not take part in the historical argument. This is a disclosed scheduling premise, not a historical docket event. No 1993 participation is attributed to him. No reconstruction decides a disputed fact, supplies a missing finding, approves a case-specific position, or invents an earlier simulation holding.
 
@@ -82,7 +82,7 @@ The full appellate briefs, appendix, trial or hearing transcripts, notices of ap
 
 **Legal cutoff:** 1994-12-23, immediately before the selected event. The dated authorities below and the selected source’s historical record were checked for their relation to this cutoff. The event under preparation is not treated as its own precedent. Source verification in 2026 does not introduce 2026 law; no exhaustive citator certification is asserted.
 
-**Effective earlier simulation records:** None supplied or verified in the authorized inputs. This is a source gap, not a finding that none exist. Historical circuit authorities remain the baseline unless an applicable approved final simulation record is supplied.
+**Effective earlier simulation records:** None. No earlier simulation record addresses these issues; historical circuit authorities are the baseline.
 
 ### Issue 1: Fair use of the eight complete scientific articles retained for research
 
@@ -134,15 +134,15 @@ Alternative: Hold the stipulated copying not fair if its substitute function and
 
 ## Sources and neutral handoff
 
-**Primary sources supplied:** 37 F.3d 881 (2d Cir. 1994), at 883-85, factual and lower-proceeding portions; see the supplied [sanitized record extract](#source-extract). The statutes, rules, and dated decisions identified issue by issue are the legal authorities for the stated propositions, with their pinpoints where available. The full selected comparator is cited only in the `history.md` section. Separately verified, issue-linked extracts of other pre-cutoff writings by each participating judge have not been assembled; no individual voting position may be inferred from this omission or from a case citation’s mere existence.
+**Primary sources supplied:** 37 F.3d 881 (2d Cir. 1994), at 883-85, factual and lower-proceeding portions; see the supplied [sanitized record extract](#source-extract). The statutes, rules, and dated decisions identified issue by issue are the legal authorities for the stated propositions, with their pinpoints where available. The full selected opinion is withheld from this packet. Separately verified, issue-linked extracts of other pre-cutoff writings by each participating judge have not been assembled; no individual voting position may be inferred from this omission or from a case citation’s mere existence.
 
 **Unavailable material and consequence:** The full appellate briefs, appendix, trial or hearing transcripts, notices of appeal and docket-entry receipts were not supplied as independent documents. The reported opinion supplies a bounded account, not a substitute for every underlying document. The exact appellate-filing timeliness record therefore remains unverified unless specifically stated. The record is deliberately limited to eight articles and a representative researcher; no general damages, injunction, or universal research-copying record is supplied. The missing selection policy prevents assignment of a numbered primary group or cycle. The missing simulation final records prevent a complete simulation-precedent check. The missing judge-specific writing extracts limit any later individual modeling. These are unresolved preparation gaps, not permission to supply results from recollection.
 
-**Date-eligibility check:** The operative record and legal propositions are limited to the stated cutoff; contemporaneous lower-court decisions remain legitimate input. Later reporting is used only for identity, version, and service verification. The selected appellate outcome, writing alignment, later rehearing and Supreme Court events, and private proposed positions are excluded from the `neutral.md` section. This combined brief is a reader document, not an isolated neutral-modeler execution or a neutral-only input.
+**Date-eligibility check:** The operative record and legal propositions are limited to the stated cutoff; contemporaneous lower-court decisions remain legitimate input. Later reporting is used only for identity, version, and service verification. The selected appellate outcome, writing alignment, later rehearing and Supreme Court events, and private proposed positions are excluded from this packet.
 
 ## Source extract
 
-**Source identity:** 37 F.3d 881 (2d Cir. 1994), court header and pre-entry factual/procedural account. This is an editorial extract and paraphrase, not a verbatim trial transcript. The full selected appellate opinion is cited in the `history.md` section.
+**Source identity:** 37 F.3d 881 (2d Cir. 1994), court header and pre-entry factual/procedural account. This is an editorial extract and paraphrase, not a verbatim trial transcript. The full selected appellate opinion is withheld from this packet.
 
 ### Admission
 

@@ -4,9 +4,9 @@
 **Status:** In progress; eighteen selected appeals admitted from the user's revised brief and prepared, none played.
 **Selected count:** 18.
 **Coverage rule:** Six groups, three cases per group, eighteen cases per cycle under the [selection policy](../../foundation/CASE_SELECTION.md). A cycle may span years; this calendar year has no independent quota.
-**First open cycle:** 001, with thirteen of eighteen slots admitted (group 3 has three unfilled slots and group 4 has two) and none played. Cycle 002 holds five admissions, in groups 1 and 5, because those groups were already full in Cycle 001 when their later 1994 cases arrived.
+**First open cycle:** 001, with thirteen of eighteen slots admitted (group 3 has three unfilled slots and group 4 has two) and none played. Cycle 002 holds five admissions, in groups 1 and 5, because those groups were already full in Cycle 001 when their later 1994 cases arrived. On 2026-10-13 the user directed that the open group slots not be filled for this run: the eighteen admitted appeals are the set to play, and the unfilled slots are carried in Standing State.
 
-**Replacements:** On the user's instruction of 2026-10-12, the revised 1994 case brief replaced the earlier case list. Sixteen earlier cases and their approved briefs were removed and remain in Git history (last present in commit 32f1e1a); Schenck and Shaoul appear in both lists.
+**Basis:** The user's revised 1994 case brief of 2026-10-12 is the source of this list; the earlier list and its briefs remain in Git history only.
 
 Use the [case-list template](../../foundation/templates/CASE_LIST.md). One primary group determines counting; secondary subjects record overlaps. Keep one canonical row per admitted case, linking its name to the case folder. Consolidated companion matters played as one unit count once. Explain any lack of a suitable historical case instead of inventing one.
 

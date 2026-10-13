@@ -21,7 +21,7 @@ Senior judges remain separately listed in the roster and require case-specific p
 
 ## Open coverage cycles
 
-Cycle 001 has 13 of eighteen slots admitted and none played; group 3 has three unfilled slots and group 4 has two, carried forward. Cycle 002 holds 5 admissions, in groups 1 and 5, because those groups were already full in Cycle 001 when their later 1994 cases arrived. Historical availability controls completion of any later cycle; unfinished slots carry across calendar years. These totals summarize the canonical case-list rows and do not create case entries.
+Cycle 001 has 13 of eighteen slots admitted and none played; group 3 has three unfilled slots and group 4 has two, carried forward. Cycle 002 holds 5 admissions, in groups 1 and 5, because those groups were already full in Cycle 001 when their later 1994 cases arrived. Historical availability controls completion of any later cycle; unfinished slots carry across calendar years. By the user's direction of 2026-10-13, the unfilled slots are not to be filled for the current run: the eighteen admitted appeals are the set to play, and no case selection runs until the user lifts that direction. These totals summarize the canonical case-list rows and do not create case entries.
 
 | Cycle | Primary group | Target | Admitted, including played | Played | Unfilled admission slots |
 |---|---|---|---|---|---|

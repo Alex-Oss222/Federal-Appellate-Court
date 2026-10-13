@@ -51,6 +51,7 @@ Launch independent agents in one message and wait for their completion notices r
 
 - Year scope: fill the unfilled slots of the lowest cycle that has any. Open a new cycle only when every existing cycle is fully played or the user asks; a fully admitted cycle that still awaits play is not a reason to select more cases. The search window is the simulation date through December 31 of the year. Admit only a case Stone could lawfully have heard; a submission before his oaths needs a supported reargument or resubmission premise recorded in `neutral.md` ([engine section 3](ENGINE.md)).
 - Session scope with no open case: admit at most one case for each group with an unfilled slot in that cycle, earliest verified dates first.
+- Carry instead of fill: when the user directs that open slots not be filled, record the direction and its date in Standing State and run no selection, in any scope, until the user lifts it. The slots stay open and carried; the plan's admission target is then informational only.
 - Research agents return row fields and sources only. A candidate that fails rule 6 leaves its slot unfilled with the gap noted; never invent a replacement.
 - Write ISO dates in the row's historical stage cell, set Departure to `Not yet assessed`, and keep rows in chronological order. An `admitted` row links to the case folder that the prepare stage will create, and `tools/court.py check` accepts that link until then.
 
