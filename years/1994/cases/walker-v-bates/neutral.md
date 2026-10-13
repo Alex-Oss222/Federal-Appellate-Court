@@ -38,15 +38,17 @@
 
 **Historical panel:** Wilfred Feinberg (Senior Circuit Judge); Roger J. Miner (Active Circuit Judge); J. Daniel Mahoney (Active Circuit Judge). Source: the [admission and service extract](#source-extract).
 
-**Member Stone replaces:** J. Daniel Mahoney; proposed seat substitution only, not user-approved.
+**Member Stone replaces:** Roger J. Miner
 
-**Assignment method and reason:** Retain the earlier packet’s disclosed third-listed-seat convention uniformly across these eighteen cases. This provisional mechanical method is not based on an expected vote and is fixed before any future vote modeling. It must yield to an applicable approved selection/roster rule when supplied; it does not purport to reproduce a historical assignment order or remove the replaced judge from the roster.
+**Replacement exclusions:** None.
 
-**Resulting panel:** Wilfred Feinberg (Senior Circuit Judge); Roger J. Miner (Active Circuit Judge); Judge Stone (proposed circuit member; assignment must be confirmed).
+**Assignment method and reason:** Reproduce with `python3 tools/court.py draw --case walker-v-bates`. The inputs are this packet's docket and three historical panelists. The first seat in the normalized SHA-256 ordering without a recorded legal exclusion is replaced. Exactly one seat changes, fixed before modeling; the other two historical panelists remain. Only a documented legal obstacle unrelated to votes or authorship permits skipping a seat. This is a simulation assignment, not a historical court order; participation and submission requirements still apply.
 
-**Participation checks:** The historical members’ service at submission is supported by the header and Federal Judicial Center extracts. No adverse recusal fact is established, but conflict disclosures and the actual designation/assignment orders were not supplied. The proposed three-member configuration supplies the intended panel count; lawful participation under 28 U.S.C. §§ 46 and 292 and a valid quorum must be confirmed from the missing orders. No 1993 eligibility is inferred from a 1994 decision. Calabresi is not a member of this proposed panel.
+**Resulting panel:** Wilfred Feinberg (Senior Circuit Judge); Judge Stone (Circuit Judge); J. Daniel Mahoney (Active Circuit Judge).
 
-**Further panel departure:** None proposed. Any additional substitution would require an independently documented reason.
+**Participation checks:** The historical members’ service at submission is supported by the header and Federal Judicial Center extracts. No adverse recusal fact is established, but conflict disclosures and the actual designation/assignment orders were not supplied. The resulting three-member configuration supplies the intended panel count; lawful participation under 28 U.S.C. §§ 46 and 292 and a valid quorum must be confirmed from the missing orders. No 1993 eligibility is inferred from a 1994 decision. Calabresi is not a member of this simulated panel.
+
+**Further panel departure:** None. Stone replaces exactly one historical panelist; the other two remain.
 
 ## Record and issues
 

@@ -45,9 +45,11 @@ Every selected appeal identifies:
 1. The verified historical panel and each member's status.
 2. The one member Stone replaces and the reason for the substitution.
 3. The resulting panel, with an eligibility and timing check for each member.
-4. Any further departure from history and its independently justified basis.
+4. Any legal exclusion from replacement, with its case-specific reason and source. Exactly one historical panelist is replaced; if that cannot produce a lawful panel, stop the affected case rather than substitute another member.
 
-If Calabresi appears on the historical panel, Stone normally occupies that place. Calabresi never joins this simulation court. If Calabresi was not on the panel, use a disclosed rotation or reproducible draw among eligible replacement positions, fixed before modeling votes. Preserve the other historical panelists when lawful. Record the method and result; do not redraw for a desired ideology, vote, author, or outcome. If no assignment method was supplied, preparation may propose one; identify it as a premise before Run.
+Stone replaces exactly one of the three historical panelists. If Calabresi appears on that panel, Stone takes his seat; Calabresi never joins this simulation court. Otherwise run `python3 tools/court.py draw --case <slug>`. The command reads the docket and historical panel from the case's neutral packet, normalizes their formatting, and orders the seats reproducibly. Use its first seat without a recorded legal exclusion. Only a seat that cannot lawfully be replaced for a reason unrelated to votes or authorship may be skipped; record the legal basis and source under `Replacement exclusions`. A blocked Calabresi substitution blocks the case, since retaining him would contradict the timeline.
+
+Copy the command's replaced judge, resulting panel, and assignment basis into the packet before any modeling. Preserve both remaining historical panelists. Re-running the command must reproduce those fields; `check` and staging validate the recorded assignment. Formatting changes must not become a redraw. Do not alter the docket, judge identities, or exclusions to obtain a desired ideology, vote, author, or result. The command fixes the simulation assignment; it does not establish missing qualifications, designations, or submission orders.
 
 Replacing a judge on one case does not remove that judge from the roster. A visiting judge or senior judge is not interchangeable with an active judge for all institutional purposes. Verify statutory composition, quorum, and designation requirements. Distinguish who can request or vote on rehearing from who can sit en banc. Use the rules effective then, not a permanently hard-coded roster or voting denominator.
 

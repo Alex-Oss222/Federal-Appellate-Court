@@ -18,7 +18,7 @@
 
 **Sources:** [Selected primary opinion, public reproduction](https://law.justia.com/cases/federal/appellate-courts/F3/37/881/509400/), 37 F.3d 881, at 885-905, majority and separate opinions; header for panel, date, and docket. Reporter pagination is used rather than a publisher’s current page layout.
 
-**Known differences in premises:** The historical argument occurred on 1993-05-20. The preparation baseline discloses a conditional 1994 resubmission for its proposed panel rather than claiming participation at that earlier argument. No resubmission order has been supplied. The historical opinion supplies no proof that this alternative scheduling actually occurred. The selected text is an amended version. No earlier final simulation record was supplied, so the existence of a historical earlier version does not establish an adopted prior simulation event. No difference in the parties’ underlying conduct is presumed, and no new vote is predicted.
+**Known differences in premises:** The historical argument occurred on 1993-05-20. The preparation baseline discloses a conditional 1994 resubmission for its substituted panel rather than claiming participation at that earlier argument. No resubmission order has been supplied. The historical opinion supplies no proof that this alternative scheduling actually occurred. The selected text is an amended version. No earlier final simulation record was supplied, so the existence of a historical earlier version does not establish an adopted prior simulation event. No difference in the parties’ underlying conduct is presumed, and no new vote is predicted.
 
 ### Reporter-version note, outside the legal cutoff
 

@@ -12,7 +12,7 @@ The latest user-approved `stone.md` is the sole source of Stone's case-specific 
 
 **Historical caption:** [Actual parties and case name].
 **Circuit:** Second Circuit.
-**Docket or citation:** [Verified identifier].
+**Docket or citation:** [Verified docket number(s), followed by the reported citation if available; do not invent a docket].
 **Admission source:** [Primary-source link and pinpoint establishing this circuit's proceeding].
 **Coverage cycle:** [Number].
 **Primary group:** [Number and label from the six-group selection policy].
@@ -27,12 +27,13 @@ The latest user-approved `stone.md` is the sole source of Stone's case-specific 
 **Historical argument or submission:** [Mode, date, and source].
 **Simulation argument or submission:** [Date and supported premise for any difference].
 **Proposed event date:** [Date and basis; not a preselected result].
-**Historical panel:** [Names, active/senior/visiting status, and source; withhold the result, author, and joins].
-**Member Stone replaces:** [Name].
-**Assignment method and reason:** [Disclosed method and basis fixed before modeling votes].
-**Resulting panel:** [Names and roles].
+**Historical panel:** [Exactly three full names separated by semicolons, with each role in parentheses; append Source: and the source. Withhold the result, author, and joins].
+**Replacement exclusions:** [None, or Full judge name = verified legal reason and source; never votes or authorship].
+**Member Stone replaces:** [Paste this field from python3 tools/court.py draw --case <slug>].
+**Assignment method and reason:** [Paste this field from the same command before any modeling].
+**Resulting panel:** [Paste this field from the same command; retain the two other historical panelists].
 **Participation checks:** [Qualification, recusal, designation, quorum, and timing; specific gaps if any].
-**Further panel departure:** [Separate justification for another replacement, if necessary; otherwise None].
+**Further panel departure:** None. Stone replaces exactly one historical panelist; if that cannot produce a lawful panel, stop the affected case.
 
 Apply the [selection policy](CASE_SELECTION.md). Calabresi never sits on this simulation court. Replacing another judge for one case does not remove that judge from the roster. A later decision date does not establish eligibility to participate in an earlier submission.
 

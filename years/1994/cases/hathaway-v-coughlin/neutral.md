@@ -32,21 +32,23 @@
 
 **Historical argument or submission:** Oral argument on 1994-04-18. Source: selected proceeding’s header, reproduced without its disposition in the local admission extract.
 
-**Simulation argument or submission:** Retain 1994-04-18 as the proposed argument date, subject to confirmation of Stone’s assignment to the panel. His exact qualification date is not supplied. A later opinion date does not establish earlier eligibility; otherwise a lawful resubmission must be documented before Run.
+**Simulation argument or submission:** Retain 1994-04-18 as the proposed argument date, for the panel selected below. Stone’s commission and required oaths are established on December 1, 1993 in the project roster. A later opinion date does not establish earlier eligibility; otherwise a lawful resubmission must be documented before Run.
 
 **Proposed event date:** 1994-09-29, retained from the expressly selected historical event as a scheduling reference. No disposition is selected in this neutral form.
 
 **Historical panel:** Frank X. Altimari (Active Circuit Judge); Joseph M. McLaughlin (Active Circuit Judge); Dennis Jacobs (Active Circuit Judge). Source: the [admission and service extract](#source-extract).
 
-**Member Stone replaces:** Dennis Jacobs; proposed seat substitution only, not user-approved.
+**Member Stone replaces:** Joseph M. McLaughlin
 
-**Assignment method and reason:** Retain the earlier packet’s disclosed third-listed-seat convention uniformly across these eighteen cases. This provisional mechanical method is not based on an expected vote and is fixed before any future vote modeling. It must yield to an applicable approved selection/roster rule when supplied; it does not purport to reproduce a historical assignment order or remove the replaced judge from the roster.
+**Replacement exclusions:** None.
 
-**Resulting panel:** Frank X. Altimari (Active Circuit Judge); Joseph M. McLaughlin (Active Circuit Judge); Judge Stone (proposed circuit member; assignment must be confirmed).
+**Assignment method and reason:** Reproduce with `python3 tools/court.py draw --case hathaway-v-coughlin`. The inputs are this packet's docket and three historical panelists. The first seat in the normalized SHA-256 ordering without a recorded legal exclusion is replaced. Exactly one seat changes, fixed before modeling; the other two historical panelists remain. Only a documented legal obstacle unrelated to votes or authorship permits skipping a seat. This is a simulation assignment, not a historical court order; participation and submission requirements still apply.
 
-**Participation checks:** The historical members’ service at submission is supported by the header and Federal Judicial Center extracts. No adverse recusal fact is established, but conflict disclosures and the actual designation/assignment orders were not supplied. The proposed three-member configuration supplies the intended panel count; lawful participation under 28 U.S.C. §§ 46 and 292 and a valid quorum must be confirmed from the missing orders. No 1993 eligibility is inferred from a 1994 decision. Calabresi is not a member of this proposed panel.
+**Resulting panel:** Frank X. Altimari (Active Circuit Judge); Judge Stone (Circuit Judge); Dennis Jacobs (Active Circuit Judge).
 
-**Further panel departure:** None proposed. Any additional substitution would require an independently documented reason.
+**Participation checks:** The historical members’ service at submission is supported by the header and Federal Judicial Center extracts. No adverse recusal fact is established, but conflict disclosures and the actual designation/assignment orders were not supplied. The resulting three-member configuration supplies the intended panel count; lawful participation under 28 U.S.C. §§ 46 and 292 and a valid quorum must be confirmed from the missing orders. No 1993 eligibility is inferred from a 1994 decision. Calabresi is not a member of this simulated panel.
+
+**Further panel departure:** None. Stone replaces exactly one historical panelist; the other two remain.
 
 ## Record and issues
 
@@ -72,7 +74,7 @@ The full appellate briefs, appendix, trial or hearing transcripts, notices of ap
 
 **Missing facts, documents, or findings:** The full Rule 50 papers and a separate finality certification were not supplied. Ordinary sufficiency review after a mistrial does not itself supply appellate jurisdiction. The full appellate briefs, appendix, trial or hearing transcripts, notices of appeal and docket-entry receipts were not supplied as independent documents. The reported opinion supplies a bounded account, not a substitute for every underlying document. The exact appellate-filing timeliness record therefore remains unverified unless specifically stated. CASE_SELECTION.md and its six-group definitions, the coverage-cycle register, the approved simulation roster, and any effective earlier simulation final records were not supplied.
 
-**Bounded reconstruction or scheduling premise:** Retain 1994-04-18 as the proposed argument date, subject to confirmation of Stone’s assignment to the panel. His exact qualification date is not supplied. A later opinion date does not establish earlier eligibility; otherwise a lawful resubmission must be documented before Run. No reconstruction decides a disputed fact, supplies a missing finding, approves a case-specific position, or invents an earlier simulation holding.
+**Bounded reconstruction or scheduling premise:** Retain 1994-04-18 as the proposed argument date, for the panel selected below. Stone’s commission and required oaths are established on December 1, 1993 in the project roster. A later opinion date does not establish earlier eligibility; otherwise a lawful resubmission must be documented before Run. No reconstruction decides a disputed fact, supplies a missing finding, approves a case-specific position, or invents an earlier simulation holding.
 
 ## Law entering the event
 
