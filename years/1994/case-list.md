@@ -1,7 +1,7 @@
 # 1994 selected appeals
 
 **Period:** 1994-01-01 through 1994-12-31, Stone's first full calendar year after his fictional December 1, 1993 commission and oaths.
-**Status:** In progress; eighteen selected appeals admitted from the user's revised brief and prepared; 18 played, 0 prepared.
+**Status:** In progress; eighteen selected appeals admitted from the user's revised brief, all 18 played (through 1994-12-23); not yet annually reconciled.
 **Selected count:** 18.
 **Coverage rule:** Six groups, three cases per group, eighteen cases per cycle under the [selection policy](../../foundation/CASE_SELECTION.md). A cycle may span years; this calendar year has no independent quota.
 **First open cycle:** 001, with thirteen of eighteen slots admitted (group 3 has three unfilled slots and group 4 has two) and 13 played. Cycle 002 holds five admissions, in groups 1 and 5, because those groups were already full in Cycle 001 when their later 1994 cases arrived. On 2026-10-13 the user directed that the open group slots not be filled for this run: the eighteen admitted appeals are the set to play, and the unfilled slots are carried in Standing State.

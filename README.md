@@ -31,7 +31,7 @@ The character's appointment chronology has been revised to make 1994 his first f
 
 Holdings and legal tests stay in the individual final decision records. There are no separate Holdings or Standards and Tests documents. The small precedent index links to those records and tracks later treatment; Standing State tracks the court and pending procedure.
 
-Folders named `years/` are simulation bookkeeping periods, not an assertion that the circuit follows Supreme Court October Terms. The initial period is January 1 through December 31, 1994. December 1993 is an appointment and transition baseline, not an extra played year. Eighteen 1994 appeals are admitted and prepared; none has been adjudicated yet.
+Folders named `years/` are simulation bookkeeping periods, not an assertion that the circuit follows Supreme Court October Terms. The initial period is January 1 through December 31, 1994. December 1993 is an appointment and transition baseline, not an extra played year. Eighteen 1994 appeals were admitted and all eighteen have been played, through the simulation date of 1994-12-23; the year has not yet been annually reconciled.
 
 Historical law and the historical procedural fate of a particular case are checked separately. A changed appellate judgment does not automatically inherit the historical certiorari result, Supreme Court disposition, or remand. An incompatible follow-up remains explicitly unresolved; this engine does not invent Supreme Court action.
 
