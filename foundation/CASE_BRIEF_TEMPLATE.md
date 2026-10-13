@@ -1,6 +1,6 @@
 # Appellate case-brief template
 
-Create a case folder under `years/YYYY/cases/<case-slug>/`. Fill the forms below as three separate files: `neutral.md`, `stone.md`, and `history.md`. Replace bracketed fields with supported information and omit inapplicable optional fields. Never send a combined completed template to the neutral modeler. One live version of each input is maintained, with superseded versions preserved in Git.
+Create a case folder under `years/YYYY/cases/<case-slug>/`. Fill the forms below as three separate files: `neutral.md`, `stone.md`, and `history.md`. Replace bracketed fields with supported information and omit inapplicable optional fields. Never send a combined completed template to the neutral modeler. Maintain one current file for each input; Git preserves earlier revisions. Omit editorial version tags, production dates, and revision commentary from case text. Preserve actual case dates, source information, approvals, material limitations, and required execution provenance.
 
 The brief prepares a case; it does not adjudicate it. Governing tests and review standards are researched here and preserved in the final decision when applied. No separate Holdings or Standards and Tests document is required.
 
@@ -84,10 +84,10 @@ Exclude Stone's private proposal and biography, the selected appellate event's h
 ### Status
 
 **Case:** [Caption and docket].
-**Version:** [One live version].
 **Approval status:** [Proposed / user-approved].
 **Approval reference:** [Actual instruction or delegation and date; or not yet approved].
-**Legal cutoff and packet version:** [Neutral baseline addressed by this position].
+**Legal cutoff:** [Date governing this position].
+**Neutral record:** [Link to the current neutral.md; identify applicable unresolved record or assignment limits].
 **Conditions or delegated choices:** [Express scope; or None].
 
 ### Stone's position

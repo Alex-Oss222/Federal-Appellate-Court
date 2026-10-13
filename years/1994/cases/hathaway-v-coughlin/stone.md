@@ -8,7 +8,9 @@
 
 **Approval reference:** Approved
 
-**Legal cutoff and packet version:** 1994-09-29; neutral baseline v2-2026-10-12 in [neutral.md](neutral.md). Its unresolved record, assignment, and simulation-precedent gaps remain applicable.
+**Legal cutoff:** 1994-09-29.
+
+**Neutral record:** [neutral.md](neutral.md). Unresolved record, assignment, and simulation-precedent gaps remain applicable.
 
 **Conditions or delegated choices:** No delegation to select final votes, negotiate an actual panel position, or adopt a fallback was supplied. This section retains the expressly supplied prior case-specific proposal.
 

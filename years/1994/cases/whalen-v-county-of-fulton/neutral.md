@@ -8,7 +8,7 @@
 
 **Docket or citation:** 93-7457; 19 F.3d 828 (2d Cir. 1994).
 
-**Admission source:** [Sanitized primary-source header](#admission), identifying the Second Circuit, caption, docket, and submission in 19 F.3d 828. The selected appellate result is confined to the `history.md` section.
+**Admission source:** [Sanitized primary-source header](#admission), identifying the Second Circuit, caption, docket, and submission in 19 F.3d 828. The selected appellate result is confined to `history.md`.
 
 **Coverage cycle:** 001.
 
@@ -74,7 +74,7 @@ The full appellate briefs, appendix, trial or hearing transcripts, notices of ap
 
 ## Law entering the event
 
-**Legal cutoff:** 1994-03-29, immediately before the selected event. The dated authorities below and the selected source’s historical record were checked for their relation to this cutoff. The event under preparation is not treated as its own precedent. Source verification in 2026 does not introduce 2026 law; no exhaustive citator certification is asserted.
+**Legal cutoff:** 1994-03-29, immediately before the selected event.
 
 **Effective earlier simulation records:** None supplied or verified in the authorized inputs. This is a source gap, not a finding that none exist. Historical circuit authorities remain the baseline unless an applicable approved final simulation record is supplied.
 
@@ -116,15 +116,15 @@ Alternative: Exercise limited review if the order actually and conclusively deni
 
 ## Sources and neutral handoff
 
-**Primary sources supplied:** 19 F.3d 828 (2d Cir. 1994), at 829-31, factual and lower-proceeding portions; see the supplied [sanitized record extract](#source-extract). The statutes, rules, and dated decisions identified issue by issue are the legal authorities for the stated propositions, with their pinpoints where available. The full selected comparator is cited only in the `history.md` section. Separately verified, issue-linked extracts of other pre-cutoff writings by each participating judge have not been assembled; no individual voting position may be inferred from this omission or from a case citation’s mere existence.
+**Primary sources supplied:** 19 F.3d 828 (2d Cir. 1994), at 829-31, factual and lower-proceeding portions; see the supplied [sanitized record extract](#source-extract). The statutes, rules, and dated decisions identified issue by issue are the legal authorities for the stated propositions, with their pinpoints where available. The full selected comparator is cited only in `history.md`. Separately verified, issue-linked extracts of other pre-cutoff writings by each participating judge have not been assembled; no individual voting position may be inferred from this omission or from a case citation’s mere existence.
 
 **Unavailable material and consequence:** The full appellate briefs, appendix, trial or hearing transcripts, notices of appeal and docket-entry receipts were not supplied as independent documents. The reported opinion supplies a bounded account, not a substitute for every underlying document. The exact appellate-filing timeliness record therefore remains unverified unless specifically stated. The actual discovery order, full motion papers, and timing of renewed immunity consideration were not supplied; those materials matter to functional conclusiveness. The missing selection policy prevents assignment of a numbered primary group or cycle. The missing simulation final records prevent a complete simulation-precedent check. The missing judge-specific writing extracts limit any later individual modeling. These are unresolved preparation gaps, not permission to supply results from recollection.
 
-**Date-eligibility check:** The operative record and legal propositions are limited to the stated cutoff; contemporaneous lower-court decisions remain legitimate input. Later reporting is used only for identity, version, and service verification. The selected appellate outcome, writing alignment, later rehearing and Supreme Court events, and private proposed positions are excluded from the `neutral.md` section. This combined brief is a reader document, not an isolated neutral-modeler execution or a neutral-only input.
+**Date-eligibility check:** The record and legal propositions are limited to the stated cutoff; contemporaneous lower-court decisions remain eligible. Later reporting verifies source identity, reporter versions, and judicial service only. Authority verification is limited to the cited sources. The selected appellate outcome, voting alignment, later proceedings, and Stone's private positions remain excluded.
 
 ## Source extract
 
-**Source identity:** 19 F.3d 828 (2d Cir. 1994), court header and pre-entry factual/procedural account. This is an editorial extract and paraphrase, not a verbatim trial transcript. The full selected appellate opinion is cited in the `history.md` section.
+**Source identity:** 19 F.3d 828 (2d Cir. 1994), court header and pre-entry factual/procedural account. This is an editorial extract and paraphrase, not a verbatim trial transcript. The full selected appellate opinion is cited in `history.md`.
 
 ### Admission
 

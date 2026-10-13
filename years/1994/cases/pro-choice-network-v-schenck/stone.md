@@ -8,7 +8,9 @@
 
 **Approval reference:** Approved
 
-**Legal cutoff and packet version:** 1994-09-06; neutral baseline in [neutral.md](neutral.md). Its unresolved record, assignment, and simulation-precedent gaps remain applicable.
+**Legal cutoff:** 1994-09-06.
+
+**Neutral record:** [neutral.md](neutral.md). Unresolved record, assignment, and simulation-precedent gaps remain applicable.
 
 **Conditions or delegated choices:** The revised positions and described fallbacks are approved as available positions. No actual final panel vote, co-judge agreement, opinion assignment, new factfinding, or selection among alternative dispositions is established. The eight-foot proposal is a possible remand remedy, not an existing factual finding, constitutional personal-space entitlement, or automatic exclusion attached to every person.
 
