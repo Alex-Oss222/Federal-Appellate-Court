@@ -4,9 +4,9 @@
 
 **Case:** Pro-Choice Network of Western New York v. Schenck, docket 92-7302, 93-7918
 
-**Approval status:** User-approved as a revised case-specific position on 2026-10-13. The approval encompasses preserving clinic protections and proposing a narrowly tailored rule against deliberate unwanted close approaches after an express refusal, with eight feet as a distance for consideration if the record and governing law justify it. The approval does not itself make eight feet constitutional, enter an injunction, determine Stone's final panel vote, or establish agreement from another judge. Approved fallback positions remain available, not selected; separate writing remains an authorized possibility, not an assigned opinion.
+**Approval status:** Approved
 
-**Approval reference:** User instruction of 2026-10-12 approving all eighteen 1994 briefs as written, followed by the 2026-10-13 approval of this revision and express direction that the clinics retain legal protection.
+**Approval reference:** Approved
 
 **Legal cutoff and packet version:** 1994-09-06; neutral baseline in [neutral.md](neutral.md). Its unresolved record, assignment, and simulation-precedent gaps remain applicable.
 
