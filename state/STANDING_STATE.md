@@ -9,15 +9,17 @@
 
 ## Current court
 
-The [opening roster](../foundation/COURT_ROSTER.md) controls the sourced membership snapshot. Chief judge: Jon O. Newman. Active judges: Newman, Kearse, Winter, Miner, Altimari, Mahoney, Walker, McLaughlin, Jacobs, Leval, and Stone. The Oakes and Cardamone vacancies remain open on this date. Calabresi is not a member of this simulation court.
+The [roster](../foundation/COURT_ROSTER.md) controls the sourced membership snapshot, with dated changes applied through the current simulation date. Chief judge: Jon O. Newman. Active judges: Newman, Kearse, Winter, Miner, Altimari, Mahoney, Walker, McLaughlin, Jacobs, Leval, Stone, Cabranes (commissioned 1994-08-10 to the Cardamone vacancy) and Parker (commissioned 1994-10-11 to the Oakes vacancy). The Oakes and Cardamone seats are no longer vacant; Oakes and Cardamone remain senior judges. Timbers's judicial service ended at his death on 1994-11-26. Calabresi is not a member of this simulation court.
 
-Senior judges remain separately listed in the roster and require case-specific participation checks. No visiting assignment, recusal, or first sitting for Stone has been established for a selected case. Future appointments and other dated changes in the roster are not yet part of this current snapshot.
+Roster changes applied this session: Cabranes (1994-08-10), Parker (1994-10-11), Timbers (1994-11-26). Their qualification and first sitting dates are not established. The only selected-case use of either new judge is Cabranes as a member of the historical panel in United States v. Shaoul, replaced by Stone. Pratt (1995-01-31) and Pierce (1995-03-31) are later scheduled changes and are not applied.
+
+Senior judges remain separately listed in the roster and require case-specific participation checks. No visiting assignment or recusal has been established for a selected case. Stone sits in each selected case only as the declared panel substitution recorded in that case's packet.
 
 ## Work inventory
 
 - [1994 case list](../years/1994/case-list.md): eighteen appeals admitted (thirteen in Cycle 001, five in Cycle 002); 18 played, 0 prepared.
 - Coverage follows the [case-selection policy](../foundation/CASE_SELECTION.md): six groups, three historical cases per group, eighteen cases per cycle. No separate annual quota applies.
-- [Precedent index](PRECEDENT.md): no simulation holdings.
+- [Precedent index](PRECEDENT.md): holdings from the eighteen 1994 final records, current through 1994-12-23.
 
 ## Open coverage cycles
 
