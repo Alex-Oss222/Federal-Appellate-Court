@@ -76,7 +76,7 @@ The full appellate briefs, appendix, trial or hearing transcripts, notices of ap
 
 **Legal cutoff:** 1994-04-29, immediately before the selected event. The dated authorities below and the selected source’s historical record were checked for their relation to this cutoff. The event under preparation is not treated as its own precedent. Source verification in 2026 does not introduce 2026 law; no exhaustive citator certification is asserted.
 
-**Effective earlier simulation records:** [Whalen v. County of Fulton, No. 93-7457, final record of 1994-03-29](../whalen-v-county-of-fulton/events/1994-03-29-decision.md), Part II, on appellate jurisdiction over qualified-immunity rulings. It does not decide the merits of qualified immunity or the content of clearly established law. No other earlier simulation record addresses these issues; historical circuit authorities are the baseline.
+**Effective earlier simulation records:** None. No earlier simulation record addresses these issues; historical circuit authorities are the baseline.
 
 ### Issue 1: Administrative reversal after punishment and the surviving due-process claim
 
@@ -98,7 +98,7 @@ That temporal qualification matters. Walker alleges that punishment began before
 
 **Other governing authority:** 42 U.S.C. § 1983; Patterson v. Coughlin, 761 F.2d 886, 893 (2d Cir. 1985); Young v. Hoffman, 970 F.2d 1154, 1155-56 (2d Cir. 1992); Russell v. Scully, 15 F.3d 219 (2d Cir. 1994); Sher and McCann on the period’s liberty-interest framework.
 
-**Applicable simulation holding:** Whalen v. County of Fulton, Part II (decided 1994-03-29, published; sanitized extract of its public decision). Rule: an order denying a qualified-immunity summary judgment motion without prejudice to renewal after discovery, reserving the defense for decision on a developed record, is not a conclusive determination and is not an appealable collateral order; labels do not control, and a functionally conclusive rejection of a purely legal immunity defense remains reviewable. Scope: appellate jurisdiction over that kind of order only; the decision does not reach the merits of qualified immunity, whether the asserted right was clearly established, or any due-process question. Later treatment: none.
+**Applicable simulation holding:** None supplied or verified. No proposed position in these briefs is an adopted holding.
 
 **Open question or conflict:** How the existing circuit cases treat punishment actually served before correction, while preserving defenses not decided below.
 

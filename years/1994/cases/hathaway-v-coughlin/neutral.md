@@ -78,7 +78,7 @@ The full appellate briefs, appendix, trial or hearing transcripts, notices of ap
 
 **Legal cutoff:** 1994-09-29, immediately before the selected event. The dated authorities below and the selected source’s historical record were checked for their relation to this cutoff. The event under preparation is not treated as its own precedent. Source verification in 2026 does not introduce 2026 law; no exhaustive citator certification is asserted.
 
-**Effective earlier simulation records:** [Whalen v. County of Fulton, No. 93-7457, final record of 1994-03-29](../whalen-v-county-of-fulton/events/1994-03-29-decision.md), Part II, on appellate jurisdiction over qualified-immunity rulings (Issue 1 only). It does not decide the merits of qualified immunity or review after a mistrial. No earlier simulation record addresses Issue 2; historical circuit authorities are the baseline for it.
+**Effective earlier simulation records:** None. No earlier simulation record addresses these issues; historical circuit authorities are the baseline.
 
 ### Issue 1: Interlocutory reach after a mistrial
 
@@ -92,7 +92,7 @@ The full appellate briefs, appendix, trial or hearing transcripts, notices of ap
 
 **Other governing authority:** 28 U.S.C. § 1291; Moffitt v. Town of Brookfield, 950 F.2d 880, 884 (2d Cir. 1991); Fed. R. Civ. P. 50.
 
-**Applicable simulation holding:** Whalen v. County of Fulton, Part II (decided 1994-03-29, published, Meskill and Stone with Walker dissenting; sanitized extract of its public decision). Rule: an order denying a qualified-immunity summary judgment motion without prejudice to renewal after discovery, reserving the defense for decision on a developed record, is not a conclusive determination and is not an appealable collateral order; labels do not control, and a functionally conclusive rejection of a purely legal immunity defense remains reviewable. Scope: appellate jurisdiction over that kind of order only; the decision does not reach the merits of qualified immunity, whether any right was clearly established, or review after a mistrial. Later treatment: none.
+**Applicable simulation holding:** None supplied or verified. No proposed position in these briefs is an adopted holding.
 
 **Open question or conflict:** Which portions of Foote’s appeal present a conclusive legal immunity question rather than ordinary factual sufficiency.
 
