@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Bookkeeping helper for the Second Circuit simulation (stdlib only).
 
-  plan [year|session]            file-derived ledger, next stage, and the task sentence for each case
+  plan [year|session] [--only A,B]  file-derived ledger, next stage, and the task sentence for each case
   stage SLUG STAGE --dest DIR    copy exactly the files an isolated stage may read
   accept SLUG STAGE --dest DIR   check a finished stage folder and file its single output in the case folder
   draw --case SLUG               reproducible ordering of the historical seats for Stone's substitution
@@ -260,6 +260,13 @@ def cmd_plan(args):
     for p in problems:
         print(f"PROBLEM {p}")
     open_cases = ordered(unfinished(cases))
+    if args.only:
+        wanted = [s.strip() for s in args.only.split(",") if s.strip()]
+        unknown = [s for s in wanted if s not in {c.slug for c in cases}]
+        if unknown:
+            sys.exit("unknown case(s): " + ", ".join(unknown))
+        open_cases = [c for c in open_cases if c.slug in wanted]
+        print(f"Narrowed to {len(open_cases)} named case(s); other unfinished cases stay unplayed and hold nothing here")
     cyc, gaps = target_cycle(cases, ss["table"])
     if cyc is None:
         print("Admission target: none; every existing cycle is fully admitted and awaits play")
@@ -279,7 +286,7 @@ def cmd_plan(args):
     for i, c in enumerate(open_cases, 1):
         stage = next_stage(c)
         brief = brief_state(c.folder)
-        earlier = [e.slug for e in ordered(unfinished(cases)) if e is not c and (event_date(e) or "9999") < (event_date(c) or "9999")]
+        earlier = [e.slug for e in open_cases if e is not c and (event_date(e) or "9999") < (event_date(c) or "9999")]
         hold = f" held-by={','.join(earlier)}" if stage in {"assemble", "render", "compare", "finalize"} and earlier else ""
         task = TASKS.get(stage, "").format(slug=c.slug)
         print(f" {i}. {event_date(c) or 'no-date':10} {c.slug} cycle={c.cycle} group={c.group} "
@@ -631,6 +638,7 @@ def main():
     sub = ap.add_subparsers(dest="cmd", required=True)
     p = sub.add_parser("plan")
     p.add_argument("scope", nargs="?", choices=["year", "session"], default="year")
+    p.add_argument("--only", help="comma-separated case slugs: plan a narrowed run; holds apply only among the named cases")
     p.set_defaults(fn=cmd_plan)
     s = sub.add_parser("stage")
     s.add_argument("slug")

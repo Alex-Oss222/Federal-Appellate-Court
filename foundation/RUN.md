@@ -9,7 +9,7 @@ Chat commands that drive the stages in [AGENTS.md](../AGENTS.md) and the [engine
 | run this year | `/run-year` | The current simulation year, from case selection through annual close. |
 | run this session | `/run-session` | The admitted, unfinished cases. If none is open, first admit one batch (see Selection). |
 
-The year is the calendar year of **Current simulation date** in [Standing State](../state/STANDING_STATE.md), never the real-world date. A later year cannot run until the current one is closed or its open matters are explicitly carried. A session is a working batch; the report labels it by the date range of its events. Words after the command can only narrow it (a case count, one group, one case) or delegate a stated kind of Stone choice as described under Gates. A run never continues into the next year on its own.
+The year is the calendar year of **Current simulation date** in [Standing State](../state/STANDING_STATE.md), never the real-world date. A later year cannot run until the current one is closed or its open matters are explicitly carried. A session is a working batch; the report labels it by the date range of its events. Words after the command can only narrow it (a case count, one group, one case) or delegate a stated kind of Stone choice as described under Gates. A narrowed run (`python3 tools/court.py plan session --only <slug>,<slug>`) holds finalization only against the cases it names; the unnamed earlier cases stay unplayed, and playing one of them later is a late-discovered earlier event under [engine section 3](ENGINE.md). Use a narrowed run for a test whose results the user intends to discard. A run never continues into the next year on its own.
 
 ## Before every run
 
