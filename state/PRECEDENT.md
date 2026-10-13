@@ -1,6 +1,6 @@
 # Effective simulation precedent index
 
-**Current through:** 1994-03-29 (Whalen v. County of Fulton).
+**Current through:** 1994-04-29 (Walker v. Bates).
 
 Historical law supplies the starting legal world. Relevant historical Supreme Court decisions, Second Circuit authority, statutes, rules, and other governing sources are researched for each event. This file is not an exhaustive restatement of 1994 law and imports nothing from `scotus-career`.
 
@@ -19,6 +19,7 @@ Simulation holdings are entered from final event records as they are decided. Th
 | Sentencing, Chapter Seven | [United States v. Anderson, No. 93-1097](../years/1994/cases/united-states-v-anderson/events/1994-02-17-decision.md), Part III | 1994-02-17 | Chapter Seven's recommended revocation range is advisory and must be considered, not a mandatory ceiling; applies *Bermudez*. Unanimous. | Published; application of settled circuit law. | None yet. |
 | Admiralty, Jones Act seaman status | [Latsis v. Chandris, Inc., No. 93-7704](../years/1994/cases/latsis-v-chandris/events/1994-03-24-decision.md), Part II (proposition 1) | 1994-03-24 | A vessel's repair or conversion status does not categorically make a worker's continuing assignment irrelevant to seaman status for an earlier shipboard injury at sea on a vessel in navigation; excluding that assignment from the jury's consideration was preserved error. Oakes and Stone; Kearse dissenting. | Published; precedential on two joins; limited to an earlier shipboard injury, with no holding on conversion-period injuries, a numerical threshold, or the unpreserved charge. | None yet. |
 | Appellate jurisdiction, qualified immunity (collateral order) | [Whalen v. County of Fulton, No. 93-7457](../years/1994/cases/whalen-v-county-of-fulton/events/1994-03-29-decision.md), Part II | 1994-03-29 | An order denying a qualified-immunity summary judgment motion without prejudice to renewal after discovery, reserving the defense for decision on a developed record, is not a conclusive determination and is not an appealable collateral order; labels do not control, and a functionally conclusive rejection of a purely legal immunity defense remains reviewable. Meskill and Stone; Walker dissenting. | Published; precedential on two joins; limited to that kind of order; does not decide the merits of immunity or any protected interest in sibling association. | None yet. |
+| Prison discipline, section 1983 procedural due process | [Walker v. Bates, No. 93-2107](../years/1994/cases/walker-v-bates/events/1994-04-29-decision.md), Part II | 1994-04-29 | Administrative reversal of a disciplinary determination after punitive confinement has begun is not, as a matter of law, a defense to a claim for punishment already served; Young v. Hoffman is followed and distinguished on its no-penalty-served premise. Feinberg, Miner and Stone; unanimous. | Published; precedential on three joins; limited to the cure question, with no holding on protected interest, witness-exclusion justification, immunity, post-reversal responsibility, causation or damages. | None yet. |
 
 ## Update rules
 

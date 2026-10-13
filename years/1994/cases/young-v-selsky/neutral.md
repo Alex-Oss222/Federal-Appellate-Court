@@ -80,7 +80,7 @@ The full appellate briefs, appendix, trial or hearing transcripts, notices of ap
 
 **Legal cutoff:** 1994-11-21, immediately before the selected event. The dated authorities below and the selected source’s historical record were checked for their relation to this cutoff. The event under preparation is not treated as its own precedent. Source verification in 2026 does not introduce 2026 law; no exhaustive citator certification is asserted.
 
-**Effective earlier simulation records:** None. No earlier simulation record addresses these issues; historical circuit authorities are the baseline.
+**Effective earlier simulation records:** [Walker v. Bates, No. 93-2107, final record of 1994-04-29](../walker-v-bates/events/1994-04-29-decision.md), Part II, on administrative reversal of prison discipline and the surviving due-process claim. It does not decide absolute immunity of a reviewing official. No other earlier simulation record addresses this issue; historical circuit authorities are the baseline.
 
 ### Issue 1: Functional absolute immunity for administrative review of prison discipline
 
@@ -106,7 +106,7 @@ The distinction between correction and compensation also matters. *Walker v. Bat
 
 **Other governing authority:** 42 U.S.C. § 1983; Dorman v. Higgins, 821 F.2d 133, 137 (2d Cir. 1987), concerning a probation officer’s court-integrated function, distinguishable; Richardson v. Selsky, 5 F.3d 616 (2d Cir. 1993), does not establish categorical absolute immunity; Shelly v. Johnson, 849 F.2d 228 (6th Cir. 1988), persuasive only. Wolff v. McDonnell, 418 U.S. 539 (1974), governs the distinct process claim with its limits.
 
-**Applicable simulation holding:** None supplied or verified. No proposed position in these briefs is an adopted holding.
+**Applicable simulation holding:** Walker v. Bates, Part II (decided 1994-04-29, published, unanimous; sanitized extract of its public decision). Rule: administrative reversal of a disciplinary determination after punitive confinement has begun is not, as a matter of law, a defense to a section 1983 claim for punishment already served; Young v. Hoffman is followed and distinguished on its premise that no penalty was served. Scope: the cure question only; the decision leaves undecided the protected-interest question, the justification for excluding witnesses, qualified immunity, responsibility for confinement after the reversal, causation and damages, and says nothing on absolute immunity of a reviewing official. Later treatment: none.
 
 **Open question or conflict:** Whether this particular review role is sufficiently courtlike under Butz and Cleavinger. Liability, qualified immunity, and remedy are not settled by the answer.
 
