@@ -32,21 +32,23 @@
 
 **Historical argument or submission:** Oral argument on 1994-04-13. Source: selected proceeding’s header, reproduced without its disposition in the local admission extract.
 
-**Simulation argument or submission:** Argued on 1994-04-13, as in the historical record; the panel substitution declared above is the only departure.
+**Simulation argument or submission:** Argued on 1994-04-13, as in the historical record; the panel substitution recorded in this packet is the only departure.
 
 **Proposed event date:** 1994-12-02, retained from the expressly selected historical event as a scheduling reference. No disposition is selected in this neutral form.
 
 **Historical panel:** Wilfred Feinberg (Senior Circuit Judge); Lawrence W. Pierce (Senior Circuit Judge); Roger J. Miner (Active Circuit Judge). Source: the [admission and service extract](#source-extract).
 
-**Member Stone replaces:** Roger J. Miner. Declared simulation premise; the assignment method is stated below.
+**Member Stone replaces:** Lawrence W. Pierce
 
-**Assignment method and reason:** Stone replaces the first seat in the reproducible draw defined in `foundation/RUN.md`, computed with `python3 tools/court.py draw --case united-states-v-duncan` from the docket key and the three historical panelists and fixed before any vote modeling. Draw order: 1. Roger J. Miner; 2. Lawrence W. Pierce; 3. Wilfred Feinberg. No seat is skipped. The draw is not based on an expected vote, author, or outcome; it does not reproduce a historical assignment order; and it does not remove the replaced judge from the roster.
+**Replacement exclusions:** None.
 
-**Resulting panel:** Wilfred Feinberg (Senior Circuit Judge); Lawrence W. Pierce (Senior Circuit Judge); Alex-Lamar Stone-Khoury (Active Circuit Judge).
+**Assignment method and reason:** Reproduce with `python3 tools/court.py draw --case united-states-v-duncan`. The inputs are this packet's docket and three historical panelists. The first seat in the normalized SHA-256 ordering without a recorded legal exclusion is replaced. Exactly one seat changes, fixed before modeling; the other two historical panelists remain. Only a documented legal obstacle unrelated to votes or authorship permits skipping a seat. This is a simulation assignment, not a historical court order; participation and submission requirements still apply.
+
+**Resulting panel:** Wilfred Feinberg (Senior Circuit Judge); Judge Stone (Circuit Judge); Roger J. Miner (Active Circuit Judge).
 
 **Participation checks:** The historical members’ service at submission is supported by the header and Federal Judicial Center extracts. No recusal fact is established; conflict disclosures and the designation or assignment orders were not supplied. Panel composition and quorum are governed by 28 U.S.C. §§ 46 and 292. Calabresi is not on this panel.
 
-**Further panel departure:** None proposed. Any additional substitution would require an independently documented reason.
+**Further panel departure:** None. Stone replaces exactly one historical panelist; the other two remain.
 
 ## Record and issues
 
@@ -74,11 +76,11 @@ The full appellate briefs, appendix, trial or hearing transcripts, notices of ap
 
 **Missing facts, documents, or findings:** Full testimony and verdict forms are not supplied independently; the reported express bank-fraud finding must not be replaced by a generic general-verdict assumption. The full appellate briefs, appendix, trial or hearing transcripts, notices of appeal and docket-entry receipts were not supplied as independent documents. The reported opinion supplies a bounded account, not a substitute for every underlying document. The exact appellate-filing timeliness record therefore remains unverified unless specifically stated.
 
-**Bounded reconstruction or scheduling premise:** Argued on 1994-04-13, as in the historical record; the panel substitution declared above is the only departure. No reconstruction decides a disputed fact, supplies a missing finding, approves a case-specific position, or invents an earlier simulation holding.
+**Bounded reconstruction or scheduling premise:** Argued on 1994-04-13, as in the historical record; the panel substitution recorded in this packet is the only departure. No reconstruction decides a disputed fact, supplies a missing finding, approves a case-specific position, or invents an earlier simulation holding.
 
 ## Law entering the event
 
-**Legal cutoff:** 1994-12-02, immediately before the selected event. The dated authorities below and the selected source’s historical record were checked for their relation to this cutoff. The event under preparation is not treated as its own precedent. Source verification in 2026 does not introduce 2026 law; no exhaustive citator certification is asserted.
+**Legal cutoff:** 1994-12-02, immediately before the selected event.
 
 **Effective earlier simulation records:** None. No earlier simulation record addresses these issues; historical circuit authorities are the baseline.
 
@@ -224,7 +226,7 @@ Alternative: Vacate the adjustment if the finding lacks support or rests only on
 
 **Unavailable material and consequence:** The full appellate briefs, appendix, trial or hearing transcripts, notices of appeal and docket-entry receipts were not supplied as independent documents. The reported opinion supplies a bounded account, not a substitute for every underlying document. The exact appellate-filing timeliness record therefore remains unverified unless specifically stated. Full testimony and verdict forms are not supplied independently; the reported express bank-fraud finding must not be replaced by a generic general-verdict assumption. The missing selection policy prevents assignment of a numbered primary group or cycle. The missing simulation final records prevent a complete simulation-precedent check. The missing judge-specific writing extracts limit any later individual modeling. These are unresolved preparation gaps, not permission to supply results from recollection.
 
-**Date-eligibility check:** The operative record and legal propositions are limited to the stated cutoff; contemporaneous lower-court decisions remain legitimate input. Later reporting is used only for identity, version, and service verification. The selected appellate outcome, writing alignment, later rehearing and Supreme Court events, and private proposed positions are excluded from this packet.
+**Date-eligibility check:** The record and legal propositions are limited to the stated cutoff; contemporaneous lower-court decisions remain eligible. Later reporting verifies source identity, reporter versions, and judicial service only. Authority verification is limited to the cited sources. The selected appellate outcome, voting alignment, later proceedings, and Stone's private positions remain excluded.
 
 ## Source extract
 

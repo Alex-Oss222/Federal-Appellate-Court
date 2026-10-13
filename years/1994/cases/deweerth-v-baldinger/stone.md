@@ -4,11 +4,13 @@
 
 **Case:** DeWeerth v. Baldinger, docket 93-7144, 93-7146
 
-**Approval status:** User-approved as written. Each component’s fallback position and separate writing remain subject to the label stated in that component.
+**Approval status:** Approved
 
-**Approval reference:** User instruction of 2026-10-12 approving all eighteen 1994 briefs as written ("all ... are approved").
+**Approval reference:** Approved
 
-**Legal cutoff and packet:** 1994-10-27; addresses the packet in [neutral.md](neutral.md).
+**Legal cutoff:** 1994-10-27.
+
+**Neutral record:** [neutral.md](neutral.md). Unresolved record, assignment, and simulation-precedent gaps remain applicable.
 
 **Conditions or delegated choices:** No delegation to select final votes, negotiate an actual panel position, or adopt a fallback was supplied. This section retains the expressly supplied prior case-specific proposal.
 

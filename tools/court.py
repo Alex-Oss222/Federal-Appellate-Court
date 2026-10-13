@@ -4,11 +4,10 @@
   plan [year|session] [--only A,B]  file-derived ledger, next stage, and the task sentence for each case
   stage SLUG STAGE --dest DIR    copy exactly the files an isolated stage may read
   accept SLUG STAGE --dest DIR   check a finished stage folder and file its single output in the case folder
-  draw --case SLUG               reproducible ordering of the historical seats for Stone's substitution
-  draw --docket D --panel "A;B"  the same ordering from typed inputs
+  draw --case SLUG               reproduce the packet's one-seat substitution
   author --case SLUG --eligible "A;B"
-                                 reproducible ordering of eligible majority judges for opinion authorship
-  check                          links, case lists, cycle counts, stage-file coherence, panel substitution
+                                 reproducible draw among the eligible majority judges for opinion authorship
+  check                          links, case lists, cycle counts, stage-file coherence
 
 Only `accept` writes inside the repository, and it writes one expected output file and nothing
 else. The script never decides legal meaning, votes, or approvals (AGENTS.md, working rules).
@@ -20,6 +19,7 @@ import re
 import shutil
 import subprocess
 import sys
+import unicodedata
 from dataclasses import dataclass
 from datetime import datetime
 from pathlib import Path
@@ -369,6 +369,10 @@ OUTPUT_NAME = {"neutral": "commitments.md", "reconcile": "reconciled.md", "assem
 
 def cmd_stage(args):
     c = find_case(args.slug)
+    if args.stage in {"neutral", "reconcile", "assemble"} and (c.folder / "neutral.md").is_file():
+        problems = assignment_errors(read(c.folder / "neutral.md"), c.slug)
+        if problems:
+            sys.exit("assignment must be fixed before staging: " + "; ".join(problems))
     if args.stage == "assemble" and not approval(c.folder / "stone.md")[0]:
         sys.exit("assemble needs a user-approved stone.md; Stone's position is not approved")
     frozen = {"reconcile": "commitments.md", "assemble": "reconciled.md"}.get(args.stage)
@@ -471,63 +475,170 @@ def cmd_accept(args):
 
 # ---------------------------------------------------------------- draw
 
-def seat_key(name):
-    """Normalized form of a judge's name for hashing: lower case, single spaces, no trailing period."""
-    return " ".join(name.lower().split()).rstrip(".")
+def plain_draw_text(value):
+    """Normalize typography, preserving a readable name for display."""
+    value = re.sub(r"\[([^\]]+)\]\([^)]*\)", r"\1", value)
+    value = unicodedata.normalize("NFKD", value)
+    value = "".join(c for c in value if not unicodedata.combining(c))
+    value = value.translate(str.maketrans({c: "-" for c in "‐‑‒–—−"}))
+    return " ".join(value.replace("*", "").replace("`", "").split())
 
 
-def packet_panel(c):
-    """(docket, [(name, role)]) read from the case's neutral.md 'Historical panel' and 'Docket or citation' lines."""
-    path = c.folder / "neutral.md"
-    if not path.is_file():
-        sys.exit(f"{c.slug}: neutral.md not found")
-    text = read(path)
-    m = re.search(r"^\*\*Historical panel:\*\*\s*(.*?)\s*Source:", text, re.M)
-    d = re.search(r"^\*\*Docket or citation:\*\*\s*([^;\n]+)", text, re.M)
-    if not m or not d:
-        sys.exit(f"{c.slug}: neutral.md needs 'Historical panel' (ending before 'Source:') and 'Docket or citation' lines")
-    seats = []
-    for part in m.group(1).split(";"):
-        part = re.sub(r"\)\.$", ")", part.strip())
-        if part:
-            role = re.search(r"\(([^)]*)\)\s*$", part)
-            seats.append((re.sub(r"\s*\([^)]*\)\s*$", "", part).strip(), role.group(1) if role else ""))
-    return d.group(1).strip(), seats
+def judge_name(value):
+    value = re.sub(r"\[([^\]]+)\]\([^)]*\)", r"\1", value)
+    value = re.sub(r"\([^)]*\)", "", value).strip()
+    value = " ".join(value.replace("*", "").replace("`", "").split())
+    titles = r"(?:(?:the|honorable|hon|chief|senior|active|visiting|circuit|district|judge|justice)\.?\s+)+"
+    return re.sub(r"^" + titles, "", value, flags=re.I).strip()
 
 
-def draw_order(docket, names, salt=""):
-    d = " ".join(docket.lower().split())
-    return sorted(names, key=lambda s: hashlib.sha256(f"{d}|{salt}{seat_key(s)}".encode()).hexdigest())
+def judge_key(value):
+    # Full names are required: this does not guess identities from surnames or initials.
+    return "".join(c for c in plain_draw_text(judge_name(value)).casefold() if c.isalnum())
+
+
+def normalized_docket(value):
+    value = plain_draw_text(value)
+    # Ignore a reporter citation appended to the docket list.
+    value = re.split(r";\s*\d+\s+F\.?\s*(?:\d+d)?\b", value, maxsplit=1, flags=re.I)[0]
+    numbers = re.findall(r"(?<!\w)(\d{2,4})\s*-\s*(\d{1,6})(?!\w)", value)
+    if not numbers:
+        raise ValueError("a verified year-number docket is required; a citation alone cannot seed a draw")
+    unique = sorted({(int(year), int(number)) for year, number in numbers})
+    return ",".join(f"{year:02d}-{number}" for year, number in unique)
+
+
+def panel_entries(value):
+    value = re.split(r"\s*\.?\s*\bSource\s*:", value, maxsplit=1, flags=re.I)[0]
+    entries = [part.strip().rstrip(".") for part in value.split(";") if part.strip()]
+    if len(entries) != 3:
+        raise ValueError("Historical panel must contain exactly three semicolon-separated names")
+    keys = [judge_key(entry) for entry in entries]
+    if any(not key for key in keys) or len(set(keys)) != 3:
+        raise ValueError("Historical panel must identify three distinct judges")
+    return entries
+
+
+def replacement_exclusions(value, panel):
+    """Recorded legal grounds are operator findings, never a machine eligibility judgment."""
+    if not value or plain_draw_text(value).casefold().rstrip(".") == "none":
+        return {}
+    allowed = {judge_key(entry) for entry in panel}
+    excluded = {}
+    for item in value.split(";"):
+        name, sep, reason = item.partition("=")
+        key = judge_key(name)
+        if not sep or not reason.strip() or key not in allowed or key in excluded:
+            raise ValueError("Replacement exclusions must be 'Full judge name = legal reason and source', separated by semicolons")
+        excluded[key] = reason.strip()
+    return excluded
+
+
+def panel_draw(docket_text, panel_text, exclusions_text="None"):
+    docket = normalized_docket(docket_text)
+    panel = panel_entries(panel_text)
+    exclusions = replacement_exclusions(exclusions_text, panel)
+    rank = lambda seat: (hashlib.sha256(f"{docket}|{judge_key(seat)}".encode("utf-8")).hexdigest(), judge_key(seat))
+    order = sorted(panel, key=rank)
+    calabresi = [seat for seat in panel if judge_key(seat).endswith("calabresi")]
+    if len(calabresi) > 1:
+        raise ValueError("ambiguous Calabresi identity")
+    if calabresi:
+        if judge_key(calabresi[0]) in exclusions:
+            raise ValueError("Calabresi cannot remain on the simulated panel; resolve the legal obstacle before proceeding")
+        order = calabresi + [seat for seat in order if seat != calabresi[0]]
+    selected = next((seat for seat in order if judge_key(seat) not in exclusions), None)
+    if selected is None:
+        raise ValueError("no historical seat is legally replaceable under the recorded exclusions")
+    return {"docket": docket, "panel": panel, "order": order, "exclusions": exclusions,
+            "selected": selected, "calabresi": bool(calabresi)}
+
+
+def packet_draw(text):
+    return panel_draw(field(text, "Docket or citation"), field(text, "Historical panel"),
+                      field(text, "Replacement exclusions"))
+
+
+def assignment_fields(slug, draw):
+    reason = "Calabresi's seat is replaced under the fixed rule." if draw["calabresi"] else "The first seat in the normalized SHA-256 ordering without a recorded legal exclusion is replaced."
+    return {
+        "Member Stone replaces": judge_name(draw["selected"]),
+        "Resulting panel": "; ".join("Judge Stone (Circuit Judge)" if seat == draw["selected"] else seat for seat in draw["panel"]) + ".",
+        "Assignment method and reason": f"Reproduce with `python3 tools/court.py draw --case {slug}`. The inputs are this packet's docket and three historical panelists. {reason} Exactly one seat changes, fixed before modeling; the other two historical panelists remain. Only a documented legal obstacle unrelated to votes or authorship permits skipping a seat. This is a simulation assignment, not a historical court order; participation and submission requirements still apply.",
+    }
+
+
+def assignment_errors(text, slug):
+    """Compare a packet's stored assignment with the draw, without deciding eligibility."""
+    try:
+        draw = packet_draw(text)
+        errors = []
+        if judge_key(field(text, "Member Stone replaces")) != judge_key(draw["selected"]):
+            errors.append("replaced judge does not match the reproducible draw")
+        expected = assignment_fields(slug, draw)
+        actual_panel = sorted(judge_key(seat) for seat in panel_entries(field(text, "Resulting panel")))
+        expected_panel = sorted(judge_key(seat) for seat in panel_entries(expected["Resulting panel"]))
+        if actual_panel != expected_panel:
+            errors.append("resulting panel must retain exactly the other two historical judges and Stone")
+        if field(text, "Assignment method and reason") != expected["Assignment method and reason"]:
+            errors.append("assignment basis does not match draw --case; regenerate its three fields")
+        return errors
+    except ValueError as exc:
+        return [str(exc)]
+
+
+def case_packet(slug):
+    if not re.fullmatch(r"[a-z0-9]+(?:-[a-z0-9]+)*", slug):
+        raise ValueError("case slug must contain lowercase letters, digits, and hyphens only")
+    matches = sorted((ROOT / "years").glob(f"*/cases/{slug}/neutral.md"))
+    if len(matches) != 1:
+        raise ValueError(f"case '{slug}' must identify exactly one neutral.md packet; found {len(matches)}")
+    return matches[0]
 
 
 def cmd_draw(args):
-    if args.case:
-        docket, seats = packet_panel(find_case(args.case))
-        names = [n for n, _ in seats]
-    elif args.docket and args.panel:
-        docket, names = args.docket, [s.strip() for s in args.panel.split(";") if s.strip()]
-    else:
-        sys.exit("give --case SLUG, or both --docket and --panel")
-    if any("calabresi" in s.lower() for s in names):
-        print("Calabresi is on the historical panel: Stone takes that seat. No draw.")
+    try:
+        if args.case:
+            if args.panel or args.docket:
+                raise ValueError("--case reads its own inputs; do not combine it with --docket or --panel")
+            draw = packet_draw(read(case_packet(args.case)))
+        else:
+            if not args.docket or not args.panel:
+                raise ValueError("use --case SLUG, or provide both --docket and --panel")
+            draw = panel_draw(args.docket, args.panel)
+        print(f"Normalized docket: {draw['docket']}")
+        print("Normalized panel identities: " + "; ".join(sorted(judge_key(seat) for seat in draw["panel"])))
+        print("Replacement order (Calabresi first when present):")
+        for i, seat in enumerate(draw["order"], 1):
+            reason = draw["exclusions"].get(judge_key(seat))
+            print(f"  {i}. {judge_name(seat)}" + (f" [excluded: {reason}]" if reason else ""))
+        if args.case:
+            for label, value in assignment_fields(args.case, draw).items():
+                print(f"**{label}:** {value}")
+        else:
+            print("Member Stone replaces: " + judge_name(draw["selected"]))
         return 0
-    print(f"Docket key: {' '.join(docket.lower().split())}")
-    print("Order (Stone replaces the first seat that can lawfully be replaced; a seat skipped for a reason unrelated to "
-          "votes or authorship is recorded):")
-    for i, s in enumerate(draw_order(docket, names), 1):
-        print(f"  {i}. {s}")
-    return 0
+    except ValueError as exc:
+        print(f"ERROR: {exc}", file=sys.stderr)
+        return 1
 
 
 def cmd_author(args):
-    docket, _ = packet_panel(find_case(args.case))
-    names = [s.strip() for s in args.eligible.split(";") if s.strip()]
-    if not names:
-        sys.exit("--eligible needs at least one judge")
-    print("Authorship draw (equal chance among the eligible majority judges; the first name is the drawn author):")
-    for i, s in enumerate(draw_order(docket, names, "author|"), 1):
-        print(f"  {i}. {s}")
-    return 0
+    try:
+        docket = normalized_docket(field(read(case_packet(args.case)), "Docket or citation"))
+        names = [s.strip() for s in args.eligible.split(";") if s.strip()]
+        keys = [judge_key(n) for n in names]
+        if not names or any(not k for k in keys) or len(set(keys)) != len(keys):
+            raise ValueError("--eligible needs one or more distinct full judge names separated by semicolons")
+        rank = lambda n: (hashlib.sha256(f"{docket}|author|{judge_key(n)}".encode("utf-8")).hexdigest(), judge_key(n))
+        print(f"Normalized docket: {docket}")
+        print("Authorship order (equal chance among the eligible majority judges; the first name is the drawn author):")
+        for i, n in enumerate(sorted(names, key=rank), 1):
+            print(f"  {i}. {judge_name(n)}")
+        return 0
+    except ValueError as exc:
+        print(f"ERROR: {exc}", file=sys.stderr)
+        return 1
 
 
 # ---------------------------------------------------------------- check
@@ -564,6 +675,9 @@ def cmd_check(args):
                 errors.append(f"{where}: duplicate {key[0]} also at {seen[key]}")
             seen[key] = where
         d = c.folder
+        if (d / "neutral.md").is_file():
+            packet = read(d / "neutral.md")
+            errors.extend(f"{c.slug}: {error}" for error in assignment_errors(packet, c.slug))
         has = lambda n: (d / n).is_file()
         finals = final_events(d)
         if has("commitments.md") and not has("neutral.md"):
@@ -584,16 +698,6 @@ def cmd_check(args):
             errors.append(f"{c.slug}: status played without a final record")
         if not event_date(c) and c.status != "withdrawn":
             errors.append(f"{c.slug}: no ISO event date in neutral.md or the case-list row")
-        if has("neutral.md") and c.status != "withdrawn":
-            ntext = read(d / "neutral.md")
-            rep = re.search(r"^\*\*Member Stone replaces:\*\*\s*(.*)$", ntext, re.M)
-            docket, seats = packet_panel(c) if rep else (None, [])
-            if rep and not any("calabresi" in n.lower() for n, _ in seats):
-                first = draw_order(docket, [n for n, _ in seats])[0]
-                declared = re.split(r"\.\s+Declared", rep.group(1))[0]
-                if seat_key(declared) != seat_key(first) and not re.search(r"^\*\*Seat skipped:\*\*", ntext, re.M):
-                    errors.append(f"{c.slug}: Stone replaces '{declared}' but the draw order starts with '{first}'; "
-                                  "follow the draw or record a '**Seat skipped:**' reason")
 
     for lst in sorted((ROOT / "years").glob("*/case-list.md")):
         dates = [event_date(c) or "" for c in cases if c.list_file == lst]
@@ -656,9 +760,9 @@ def main():
     a.add_argument("--replace", action="store_true", help="overwrite an existing output (user-authorized correction only)")
     a.set_defaults(fn=cmd_accept)
     d = sub.add_parser("draw")
-    d.add_argument("--case", help="case slug: reads the docket and historical panel from its neutral.md")
-    d.add_argument("--docket")
-    d.add_argument("--panel", help="semicolon-separated historical panel")
+    d.add_argument("--case", help="read docket, historical panel, and legal exclusions from this case packet")
+    d.add_argument("--docket", help="manual compatibility mode; cannot be combined with --case")
+    d.add_argument("--panel", help="three semicolon-separated full historical panelist names")
     d.set_defaults(fn=cmd_draw)
     au = sub.add_parser("author")
     au.add_argument("--case", required=True)

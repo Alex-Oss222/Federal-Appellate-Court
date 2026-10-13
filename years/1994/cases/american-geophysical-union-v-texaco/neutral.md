@@ -38,15 +38,17 @@
 
 **Historical panel:** Jon O. Newman (Chief Judge, active circuit service); Ralph K. Winter, Jr. (Active Circuit Judge); Dennis Jacobs (Active Circuit Judge). Source: the [admission and service extract](#source-extract).
 
-**Member Stone replaces:** Ralph K. Winter, Jr.. Declared simulation premise; the assignment method is stated below.
+**Member Stone replaces:** Ralph K. Winter, Jr.
 
-**Assignment method and reason:** Stone replaces the first seat in the reproducible draw defined in `foundation/RUN.md`, computed with `python3 tools/court.py draw --case american-geophysical-union-v-texaco` from the docket key and the three historical panelists and fixed before any vote modeling. Draw order: 1. Ralph K. Winter, Jr.; 2. Jon O. Newman; 3. Dennis Jacobs. No seat is skipped. The draw is not based on an expected vote, author, or outcome; it does not reproduce a historical assignment order; and it does not remove the replaced judge from the roster.
+**Replacement exclusions:** None.
 
-**Resulting panel:** Jon O. Newman (Chief Judge, active circuit service); Alex-Lamar Stone-Khoury (Active Circuit Judge); Dennis Jacobs (Active Circuit Judge).
+**Assignment method and reason:** Reproduce with `python3 tools/court.py draw --case american-geophysical-union-v-texaco`. The inputs are this packet's docket and three historical panelists. The first seat in the normalized SHA-256 ordering without a recorded legal exclusion is replaced. Exactly one seat changes, fixed before modeling; the other two historical panelists remain. Only a documented legal obstacle unrelated to votes or authorship permits skipping a seat. This is a simulation assignment, not a historical court order; participation and submission requirements still apply.
+
+**Resulting panel:** Jon O. Newman (Chief Judge, active circuit service); Judge Stone (Circuit Judge); Dennis Jacobs (Active Circuit Judge).
 
 **Participation checks:** The historical members’ service at submission is supported by the header and Federal Judicial Center extracts. No recusal fact is established; conflict disclosures and the designation or assignment orders were not supplied. Panel composition and quorum are governed by 28 U.S.C. §§ 46 and 292. Calabresi is not on this panel.
 
-**Further panel departure:** None proposed. Any additional substitution would require an independently documented reason.
+**Further panel departure:** None. Stone replaces exactly one historical panelist; the other two remain.
 
 ## Record and issues
 
@@ -80,7 +82,7 @@ The full appellate briefs, appendix, trial or hearing transcripts, notices of ap
 
 ## Law entering the event
 
-**Legal cutoff:** 1994-12-23, immediately before the selected event. The dated authorities below and the selected source’s historical record were checked for their relation to this cutoff. The event under preparation is not treated as its own precedent. Source verification in 2026 does not introduce 2026 law; no exhaustive citator certification is asserted.
+**Legal cutoff:** 1994-12-23, immediately before the selected event.
 
 **Effective earlier simulation records:** None. No earlier simulation record addresses these issues; historical circuit authorities are the baseline.
 
@@ -138,7 +140,7 @@ Alternative: Hold the stipulated copying not fair if its substitute function and
 
 **Unavailable material and consequence:** The full appellate briefs, appendix, trial or hearing transcripts, notices of appeal and docket-entry receipts were not supplied as independent documents. The reported opinion supplies a bounded account, not a substitute for every underlying document. The exact appellate-filing timeliness record therefore remains unverified unless specifically stated. The record is deliberately limited to eight articles and a representative researcher; no general damages, injunction, or universal research-copying record is supplied. The missing selection policy prevents assignment of a numbered primary group or cycle. The missing simulation final records prevent a complete simulation-precedent check. The missing judge-specific writing extracts limit any later individual modeling. These are unresolved preparation gaps, not permission to supply results from recollection.
 
-**Date-eligibility check:** The operative record and legal propositions are limited to the stated cutoff; contemporaneous lower-court decisions remain legitimate input. Later reporting is used only for identity, version, and service verification. The selected appellate outcome, writing alignment, later rehearing and Supreme Court events, and private proposed positions are excluded from this packet.
+**Date-eligibility check:** The record and legal propositions are limited to the stated cutoff; contemporaneous lower-court decisions remain eligible. Later reporting verifies source identity, reporter versions, and judicial service only. Authority verification is limited to the cited sources. The selected appellate outcome, voting alignment, later proceedings, and Stone's private positions remain excluded.
 
 ## Source extract
 

@@ -1,6 +1,6 @@
 # Appellate case-brief template
 
-Create a case folder under `years/YYYY/cases/<case-slug>/`. Fill the forms below as three separate files: `neutral.md`, `stone.md`, and `history.md`. Replace bracketed fields with supported information and omit inapplicable optional fields. Never send a combined completed template to the neutral modeler. One live version of each input is maintained, with superseded versions preserved in Git.
+Create a case folder under `years/YYYY/cases/<case-slug>/`. Fill the forms below as three separate files: `neutral.md`, `stone.md`, and `history.md`. Replace bracketed fields with supported information and omit inapplicable optional fields. Never send a combined completed template to the neutral modeler. Maintain one current file for each input; Git preserves earlier revisions. Omit editorial version tags, production dates, and revision commentary from case text. Preserve actual case dates, source information, approvals, material limitations, and required execution provenance.
 
 The brief prepares a case; it does not adjudicate it. Governing tests and review standards are researched here and preserved in the final decision when applied. No separate Holdings or Standards and Tests document is required.
 
@@ -12,7 +12,7 @@ The latest user-approved `stone.md` is the sole source of Stone's case-specific 
 
 **Historical caption:** [Actual parties and case name].
 **Circuit:** Second Circuit.
-**Docket or citation:** [Verified identifier].
+**Docket or citation:** [Verified docket number(s), followed by the reported citation if available; do not invent a docket].
 **Admission source:** [Primary-source link and pinpoint establishing this circuit's proceeding].
 **Coverage cycle:** [Number].
 **Primary group:** [Number and label from the six-group selection policy].
@@ -27,12 +27,13 @@ The latest user-approved `stone.md` is the sole source of Stone's case-specific 
 **Historical argument or submission:** [Mode, date, and source].
 **Simulation argument or submission:** [Date and supported premise for any difference].
 **Proposed event date:** [Date and basis; not a preselected result].
-**Historical panel:** [Names, active/senior/visiting status, and source; withhold the result, author, and joins].
-**Member Stone replaces:** [Name].
-**Assignment method and reason:** [Disclosed method and basis fixed before modeling votes].
-**Resulting panel:** [Names and roles].
+**Historical panel:** [Exactly three full names separated by semicolons, with each role in parentheses; append Source: and the source. Withhold the result, author, and joins].
+**Replacement exclusions:** [None, or Full judge name = verified legal reason and source; never votes or authorship].
+**Member Stone replaces:** [Paste this field from python3 tools/court.py draw --case <slug>].
+**Assignment method and reason:** [Paste this field from the same command before any modeling].
+**Resulting panel:** [Paste this field from the same command; retain the two other historical panelists].
 **Participation checks:** [Qualification, recusal, designation, quorum, and timing; specific gaps if any].
-**Further panel departure:** [Separate justification for another replacement, if necessary; otherwise None].
+**Further panel departure:** None. Stone replaces exactly one historical panelist; if that cannot produce a lawful panel, stop the affected case.
 
 Apply the [selection policy](CASE_SELECTION.md). Calabresi never sits on this simulation court. Replacing another judge for one case does not remove that judge from the roster. A later decision date does not establish eligibility to participate in an earlier submission.
 
@@ -86,7 +87,8 @@ Exclude Stone's private proposal and biography, the selected appellate event's h
 **Case:** [Caption and docket].
 **Approval status:** [Proposed / user-approved].
 **Approval reference:** [Actual instruction or delegation and date; or not yet approved].
-**Legal cutoff and packet:** [Neutral baseline addressed by this position].
+**Legal cutoff:** [Date governing this position].
+**Neutral record:** [Link to the current neutral.md; identify applicable unresolved record or assignment limits].
 **Conditions or delegated choices:** [Express scope; or None].
 
 ### Stone's position
