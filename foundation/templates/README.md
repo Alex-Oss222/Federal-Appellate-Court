@@ -4,6 +4,7 @@
 |---|---|---|
 | [Standing State](STANDING_STATE.md) | Current court, coverage cycles, pending proceedings, and carryovers | `state/STANDING_STATE.md` |
 | [Case brief](../CASE_BRIEF_TEMPLATE.md) | Separate neutral packet, Stone proposal, and historical comparator | `years/YYYY/cases/<case-slug>/neutral.md`, `stone.md`, and `history.md` |
+| [Chat-AI case-brief prompt](CASE_BRIEF_CHAT_PROMPT.md) | A self-contained prompt that has a chat AI prepare the three case-brief files for one case at a time | Pasted into a chat; the files it returns are saved to the case folder |
 | [Decision record](DECISION_RECORD.md) | Authoritative completed event, holdings, tests, remedy, and provenance | The case's `events/YYYY-MM-DD-<event>.md` |
 | [Render](RENDER.md) | Automatic eight-section output after every simulation turn; individual decision with written opinions; compact procedural event | `years/YYYY/output/YYYY-MM-DD-court-report.md` or the case's `output/YYYY-MM-DD-<event>.md` |
 | [Annual case list](CASE_LIST.md) | One canonical selection entry per historical case | `years/YYYY/case-list.md` |

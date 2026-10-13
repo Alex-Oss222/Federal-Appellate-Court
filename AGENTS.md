@@ -27,6 +27,10 @@ Use [the brief template](foundation/CASE_BRIEF_TEMPLATE.md) and these separate f
 
 Delegate the substantive neutral and reconciliation stages to separate scoped agents or equivalent fresh executions when running a case. Pass an explicit allowed-file list and no inherited conversation containing Stone or the comparator. A new filename, prompt section, or instruction to forget is not isolation. If fresh contexts are unavailable, finish preparation and report that specific limitation; do not claim an isolated Run occurred. These requirements do not call for agents when merely editing infrastructure.
 
+## Chat commands
+
+"Run this year" (`/run-year`) and "run this session" (`/run-session`) start the orchestrated run in [the runbook](foundation/RUN.md). The year is the simulation year in Standing State, not the real date. The command authorizes the run, not Stone's positions: `stone.md` is the user's case-specific brief, so stop that case until it exists and is user-approved, except for choices the user's own words delegate. Resume from the file ledger with `python3 tools/court.py plan`. The script checks bookkeeping and stages isolated inputs; it never chooses legal meaning or votes.
+
 ## Working rules
 
 - Supreme Court membership and decisions remain historical. Never generate a replacement Supreme Court vote, holding, grant, denial, or remand.

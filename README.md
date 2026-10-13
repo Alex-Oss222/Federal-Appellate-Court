@@ -7,6 +7,7 @@ The Supreme Court remains historical. Its actual decisions become governing auth
 ## Start here
 
 - [Operating instructions](AGENTS.md)
+- [Run commands](foundation/RUN.md): say "run this year" or "run this session" in chat; `tools/court.py` checks bookkeeping and stages isolated inputs
 - [Reusable templates](foundation/templates/README.md): Standing State, case brief, decision record, render, and case list
 - [Appellate engine](foundation/ENGINE.md)
 - [Case-selection policy](foundation/CASE_SELECTION.md) and [case-list template](foundation/templates/CASE_LIST.md)

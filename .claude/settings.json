@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:www.courtlistener.com)",
+      "WebFetch(domain:static.case.law)",
+      "WebFetch(domain:www.supremecourt.gov)",
+      "WebFetch(domain:www.oyez.org)",
+      "WebFetch(domain:www.law.cornell.edu)",
+      "WebFetch(domain:www.govinfo.gov)",
+      "WebFetch(domain:www.loc.gov)",
+      "WebFetch(domain:www.uscourts.gov)",
+      "WebFetch(domain:www.ca2.uscourts.gov)",
+      "WebFetch(domain:www.fjc.gov)"
+    ]
+  }
+}

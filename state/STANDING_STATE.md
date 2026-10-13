@@ -1,7 +1,7 @@
 # Second Circuit Standing State
 
 **Current simulation date:** 1994-01-01.
-**Posture:** Opening institutional baseline; no selected appeal has been prepared or adjudicated.
+**Posture:** Eighteen appeals admitted from the user's revised 1994 brief (thirteen in Cycle 001, five in Cycle 002): all eighteen prepared. None has been adjudicated.
 **Current bookkeeping period:** 1994-01-01 through 1994-12-31, Stone's first full calendar year.
 **Last completed simulation event:** None.
 **Controlled judge:** Alex-Lamar Stone-Khoury, circuit judge in the Meskill vacancy; fictional commission and required judicial oaths dated 1993-12-01.
@@ -15,24 +15,30 @@ Senior judges remain separately listed in the roster and require case-specific p
 
 ## Work inventory
 
-- [1994 case list](../years/1994/case-list.md): no selected cases.
+- [1994 case list](../years/1994/case-list.md): eighteen appeals admitted (thirteen in Cycle 001, five in Cycle 002); all eighteen prepared; none played.
 - Coverage follows the [case-selection policy](../foundation/CASE_SELECTION.md): six groups, three historical cases per group, eighteen cases per cycle. No separate annual quota applies.
 - [Precedent index](PRECEDENT.md): no simulation holdings.
 
 ## Open coverage cycles
 
-Cycle 001 is open for selection, with no admitted or played cases. Historical availability controls completion; unfinished slots carry across calendar years. These totals summarize the canonical case-list rows and do not create case entries.
+Cycle 001 has 13 of eighteen slots admitted and none played; group 3 has three unfilled slots and group 4 has two, carried forward. Cycle 002 holds 5 admissions, in groups 1 and 5, because those groups were already full in Cycle 001 when their later 1994 cases arrived. Historical availability controls completion of any later cycle; unfinished slots carry across calendar years. These totals summarize the canonical case-list rows and do not create case entries.
 
 | Cycle | Primary group | Target | Admitted, including played | Played | Unfilled admission slots |
 |---|---|---|---|---|---|
-| 001 | 1. Criminal law, sentencing, and post-conviction review | 3 | 0 | 0 | 3 |
-| 001 | 2. Constitutional rights, civil rights, and elections | 3 | 0 | 0 | 3 |
+| 001 | 1. Criminal law, sentencing, and post-conviction review | 3 | 3 | 0 | 0 |
+| 001 | 2. Constitutional rights, civil rights, and elections | 3 | 3 | 0 | 0 |
 | 001 | 3. Labor, employment, and employee benefits | 3 | 0 | 0 | 3 |
-| 001 | 4. Government powers, administrative law, and public regulation | 3 | 0 | 0 | 3 |
-| 001 | 5. Business, property, and private civil litigation | 3 | 0 | 0 | 3 |
-| 001 | 6. Federal courts, civil procedure, and remedies | 3 | 0 | 0 | 3 |
+| 001 | 4. Government powers, administrative law, and public regulation | 3 | 1 | 0 | 2 |
+| 001 | 5. Business, property, and private civil litigation | 3 | 3 | 0 | 0 |
+| 001 | 6. Federal courts, civil procedure, and remedies | 3 | 3 | 0 | 0 |
+| 002 | 1. Criminal law, sentencing, and post-conviction review | 3 | 3 | 0 | 0 |
+| 002 | 2. Constitutional rights, civil rights, and elections | 3 | 0 | 0 | 3 |
+| 002 | 3. Labor, employment, and employee benefits | 3 | 0 | 0 | 3 |
+| 002 | 4. Government powers, administrative law, and public regulation | 3 | 0 | 0 | 3 |
+| 002 | 5. Business, property, and private civil litigation | 3 | 2 | 0 | 1 |
+| 002 | 6. Federal courts, civil procedure, and remedies | 3 | 0 | 0 | 3 |
 
-Cycle 001 totals: 0 admitted, 0 played, 18 unfilled admission slots. No cycle audit is due yet. Audit a cycle when all eighteen selected events are played, three per group; pending later proceedings remain in the procedural tracker. If cycles overlap to preserve chronology, retain each open cycle's remaining slots. Preserve completed-cycle audit links for later subject rotation.
+Cycle 001 totals: 13 admitted, 0 played, 5 unfilled admission slots (group 3: 3, group 4: 2). Cycle 002 totals: 5 admitted, 0 played, 13 unfilled admission slots. No cycle audit is due yet. Audit a cycle when all eighteen selected events are played, three per group; pending later proceedings remain in the procedural tracker. If cycles overlap to preserve chronology, retain each open cycle's remaining slots. Preserve completed-cycle audit links for later subject rotation.
 
 ## Rolling Supreme Court follow-up
 
