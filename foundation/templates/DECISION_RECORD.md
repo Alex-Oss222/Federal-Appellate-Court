@@ -10,6 +10,7 @@ Create one file per actual completed simulation event under the case's `events/`
 - Status: final, or clearly marked draft not yet authoritative.
 - Legal cutoff, sources, and any material assumptions.
 - Historical panel; simulation panel; replaced member and assignment basis.
+- Opinion assignment: assigner and basis, eligible authors, authorship draw order, author, and any recorded departure from the draw.
 - Stage input references, frozen commitment references, and actual context-isolation record for a simulated adjudication.
 - Stone approval reference where applicable.
 - Correction lineage, only if this corrects an earlier entry with authorization.

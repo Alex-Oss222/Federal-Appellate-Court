@@ -38,11 +38,11 @@
 
 **Historical panel:** J. Edward Lumbard (Senior Circuit Judge); Frank X. Altimari (Active Circuit Judge); José A. Cabranes (Active Circuit Judge). Source: the [admission and service extract](#source-extract).
 
-**Member Stone replaces:** José A. Cabranes. Declared simulation premise; the assignment method is stated below.
+**Member Stone replaces:** Frank X. Altimari. Declared simulation premise; the assignment method is stated below.
 
-**Assignment method and reason:** Stone takes the third-listed seat of the published panel, a mechanical convention applied uniformly to these eighteen cases and fixed before any vote modeling. It is not based on an expected vote, author, or outcome; it does not reproduce a historical assignment order; and it does not remove the replaced judge from the roster.
+**Assignment method and reason:** Stone replaces the first seat in the reproducible draw defined in `foundation/RUN.md`, computed with `python3 tools/court.py draw --case united-states-v-shaoul` from the docket key and the three historical panelists and fixed before any vote modeling. Draw order: 1. Frank X. Altimari; 2. José A. Cabranes; 3. J. Edward Lumbard. No seat is skipped. The draw is not based on an expected vote, author, or outcome; it does not reproduce a historical assignment order; and it does not remove the replaced judge from the roster.
 
-**Resulting panel:** J. Edward Lumbard (Senior Circuit Judge); Frank X. Altimari (Active Circuit Judge); Alex-Lamar Stone-Khoury (Active Circuit Judge).
+**Resulting panel:** J. Edward Lumbard (Senior Circuit Judge); Alex-Lamar Stone-Khoury (Active Circuit Judge); José A. Cabranes (Active Circuit Judge).
 
 **Participation checks:** The historical members’ service at submission is supported by the header and Federal Judicial Center extracts. No recusal fact is established; conflict disclosures and the designation or assignment orders were not supplied. Panel composition and quorum are governed by 28 U.S.C. §§ 46 and 292. Calabresi is not on this panel.
 

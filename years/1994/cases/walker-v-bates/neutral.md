@@ -38,11 +38,11 @@
 
 **Historical panel:** Wilfred Feinberg (Senior Circuit Judge); Roger J. Miner (Active Circuit Judge); J. Daniel Mahoney (Active Circuit Judge). Source: the [admission and service extract](#source-extract).
 
-**Member Stone replaces:** J. Daniel Mahoney. Declared simulation premise; the assignment method is stated below.
+**Member Stone replaces:** Wilfred Feinberg. Declared simulation premise; the assignment method is stated below.
 
-**Assignment method and reason:** Stone takes the third-listed seat of the published panel, a mechanical convention applied uniformly to these eighteen cases and fixed before any vote modeling. It is not based on an expected vote, author, or outcome; it does not reproduce a historical assignment order; and it does not remove the replaced judge from the roster.
+**Assignment method and reason:** Stone replaces the first seat in the reproducible draw defined in `foundation/RUN.md`, computed with `python3 tools/court.py draw --case walker-v-bates` from the docket key and the three historical panelists and fixed before any vote modeling. Draw order: 1. Wilfred Feinberg; 2. Roger J. Miner; 3. J. Daniel Mahoney. No seat is skipped. The draw is not based on an expected vote, author, or outcome; it does not reproduce a historical assignment order; and it does not remove the replaced judge from the roster.
 
-**Resulting panel:** Wilfred Feinberg (Senior Circuit Judge); Roger J. Miner (Active Circuit Judge); Alex-Lamar Stone-Khoury (Active Circuit Judge).
+**Resulting panel:** Alex-Lamar Stone-Khoury (Active Circuit Judge); Roger J. Miner (Active Circuit Judge); J. Daniel Mahoney (Active Circuit Judge).
 
 **Participation checks:** The historical members’ service at submission is supported by the header and Federal Judicial Center extracts. No recusal fact is established; conflict disclosures and the designation or assignment orders were not supplied. Panel composition and quorum are governed by 28 U.S.C. §§ 46 and 292. Calabresi is not on this panel.
 

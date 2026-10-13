@@ -72,7 +72,7 @@ PROPOSED EVENT DATE (usually the decision date):
 OPINION LINK:
 OPINION TEXT (paste here if you cannot open links):
 COVERAGE CYCLE AND PRIMARY GROUP:
-ASSIGNMENT METHOD (default: Stone replaces the third-listed judge of the published panel):
+ASSIGNMENT METHOD (default: leave blank; Codex fixes the replaced judge with the reproducible draw in foundation/RUN.md):
 RESUBMISSION PREMISE (only if argued before December 1, 1993):
 STONE INSTRUCTIONS (my case-specific position in my own words, or NONE):
 ```

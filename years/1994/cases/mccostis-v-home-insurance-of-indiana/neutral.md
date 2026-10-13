@@ -40,7 +40,7 @@
 
 **Member Stone replaces:** Constance Baker Motley. Declared simulation premise; the assignment method is stated below.
 
-**Assignment method and reason:** Stone takes the third-listed seat of the published panel, a mechanical convention applied uniformly to these eighteen cases and fixed before any vote modeling. It is not based on an expected vote, author, or outcome; it does not reproduce a historical assignment order; and it does not remove the replaced judge from the roster.
+**Assignment method and reason:** Stone replaces the first seat in the reproducible draw defined in `foundation/RUN.md`, computed with `python3 tools/court.py draw --case mccostis-v-home-insurance-of-indiana` from the docket key and the three historical panelists and fixed before any vote modeling. Draw order: 1. Constance Baker Motley; 2. George C. Pratt; 3. John M. Walker, Jr.. No seat is skipped. The draw is not based on an expected vote, author, or outcome; it does not reproduce a historical assignment order; and it does not remove the replaced judge from the roster.
 
 **Resulting panel:** George C. Pratt (Senior Circuit Judge); John M. Walker, Jr. (Active Circuit Judge); Alex-Lamar Stone-Khoury (Active Circuit Judge).
 

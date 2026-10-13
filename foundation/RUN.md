@@ -16,7 +16,7 @@ The year is the calendar year of **Current simulation date** in [Standing State]
 1. `python3 tools/court.py check`. Fix bookkeeping errors inside the scope; report the rest.
 2. `python3 tools/court.py plan year` or `plan session`. The plan is derived from the files. After an interruption or a context reset, run it again and continue from it instead of relying on memory of earlier turns.
 
-The plan lists each case in event-date order with its next stage: prepare, neutral, reconcile, brief, assemble, render, finalize, done, or blocked and withdrawn. It also shows each case's brief as missing, proposed, or approved.
+The plan lists each case in event-date order with its next stage (prepare, neutral, reconcile, brief, assemble, render, compare, finalize, done, or blocked and withdrawn) and the task sentence that starts it. It also shows each case's brief as missing, proposed, or approved.
 
 ## Stages
 
@@ -24,28 +24,47 @@ The plan lists each case in event-date order with its next stage: prepare, neutr
 |---|---|---|---|---|
 | select | Case-list row with a verified source ([rule 6](CASE_SELECTION.md)) | One research agent per group with an open slot | Selection policy, case lists, primary sources | Row, status `admitted` |
 | prepare | `neutral.md` and `history.md` exist | Preparer agent; it may read the historical opinion and returns only paths and gaps, never a disposition or rationale | [Brief template](CASE_BRIEF_TEMPLATE.md), engine sections 3 to 5, primary sources | `neutral.md`, `history.md`, optional `historical-follow-up.md` |
-| neutral | `commitments.md` exists | Fresh agent | Staged inputs | `commitments.md`, committed alone |
-| reconcile | `reconciled.md` exists | A second fresh agent | Staged inputs | `reconciled.md`, committed alone |
+| neutral | `commitments.md` exists | Fresh agent or task | Staged inputs | `commitments.md`, committed alone |
+| reconcile | `reconciled.md` exists | A second fresh agent or task | Staged inputs | `reconciled.md`, committed alone |
 | brief | `stone.md` exists and shows user-approved with a reference | The user supplies and approves it; this context may only format the user's case-specific instructions into the template, marked Proposed | The user's instructions and `neutral.md`; never `history.md` | `stone.md` |
-| assemble | A final event record exists and validates | Fresh agent | Staged inputs | `events/YYYY-MM-DD-<event>.md` |
-| render | The case's `output/` holds the individual decision | Fresh agent | Staged Public decision section | `output/YYYY-MM-DD-<event>.md` |
-| finalize | Status `played`; Departure cell written; Standing State and [precedent index](../state/PRECEDENT.md) updated | This context, plus a comparator agent for the Departure cell and follow-up compatibility | Public decision section; `history.md` and `historical-follow-up.md` for the comparator only | Case list, `state/` files |
+| assemble | A final event record exists and validates | Fresh agent or task | Staged inputs | `events/YYYY-MM-DD-<event>.md` |
+| render | The case's `output/` holds the individual decision | Fresh agent or task | Staged Public decision section | `output/YYYY-MM-DD-<event>.md` |
+| compare | `comparison.md` exists | Fresh agent or task | Staged Public decision section; `history.md`; `historical-follow-up.md` if present | `comparison.md`: the Departure text, a comparison extract of at most 180 words, and the follow-up compatibility table |
+| finalize | Status `played`; Departure cell written; Standing State and [precedent index](../state/PRECEDENT.md) updated | This context | `comparison.md` and the Public decision section | Case list, `state/` files |
 
 Neutral and reconcile never read the brief, so they proceed while the user supplies or approves it. No stage, agent, or script opens `stone/JURISPRUDENCE.md`, which is archival storage, and `stone/CHARACTER.md` supplies biography only; neither appears in any allowed-file list.
 
-Before accepting an assembled record, run `check` and read the judgment, joins, and remedy for arithmetic and consistency; send defects back to the assembling agent. Finalize updates the simulation date to the decision date, the last-event pointer, the cycle table from the case list, and the final record's origin year and review follow-up reference, and adds pending proceedings only for events the engine supports ([section 8](ENGINE.md)).
+Before accepting an assembled record, run `check` and read the judgment, joins, and remedy for arithmetic and consistency; send defects back to the assembling agent. Finalize (after the render and `comparison.md` exist) updates the simulation date to the decision date, the last-event pointer, the cycle table from the case list, and the final record's origin year and review follow-up reference, and adds pending proceedings only for events the engine supports ([section 8](ENGINE.md)).
 
 ## Isolation
 
-Each isolated stage runs in a fresh `general-purpose` agent, never a `fork`, which inherits this conversation. Stage its inputs with:
+Each isolated stage (neutral, reconcile, assemble, render, compare) runs in a fresh context that sees only its staged files: a fresh task in Codex cloud, a fresh `general-purpose` subagent in Claude Code, or an equivalent. Never fork or continue a conversation that contains Stone's brief or the comparator. The procedure is the same on every platform:
 
-`python3 tools/court.py stage <slug> <neutral|reconcile|assemble|render|compare> --dest <scratch>/<slug>-<stage>`
+1. `python3 tools/court.py stage <slug> <stage> --dest <scratch>/<slug>-<stage>` copies exactly the permitted files (render and compare receive only the final record's Public decision section) and prints the one file the stage may write. The scratch folder is outside the repository.
+2. The stage context is told the folder, the printed file list, the one output file, and these limits: read nothing outside the folder, run no git commands, do not search the repository, and in the neutral stage do not look up this case's own appellate opinion or anything dated after the legal cutoff.
+3. When the stage finishes, `python3 tools/court.py accept <slug> <stage> --dest <folder> [--mode "..."] [--agent <id>]` checks that the folder holds only the staged inputs, unchanged, plus one new file; files it in the case folder; and completes the execution record (mode, permitted inputs, input commit, date). Commit `commitments.md` and `reconciled.md` each on its own so Git shows the freeze.
+4. If a stage reports reading outside its list, discard its output and rerun the stage in a new context.
 
-The command copies exactly the permitted files and prints the list; render and compare receive only the final record's Public decision section. The agent's prompt carries the stage task from the engine, the staging directory, the printed list, the one output file, and these limits: read nothing outside the staging directory, run no git commands, do not search the repository, and in the neutral stage do not look up this case's own appellate opinion or anything dated after the legal cutoff.
+Claim no more than a fresh context and a staged allowlist; this is not an operating-system sandbox. In a full checkout, as in Codex cloud, the withheld files are on disk, so the stage is scoped by instruction and the execution record says so. If fresh contexts are unavailable, finish preparation, state the limitation, and do not claim a Run. Where the platform allows, launch independent stages together and wait for their completion rather than polling.
 
-When the agent finishes, confirm the only new file is the expected output, copy it into the case folder, and add a short block with the agent id (or that none was exposed), the permitted list, the input commit from `git rev-parse HEAD`, and the date. Claim no more than a fresh context and a staged allowlist; this is not an operating-system sandbox. Commit `commitments.md` and `reconciled.md` each on its own so Git shows the freeze. If an agent reports reading outside its list, discard its output and rerun the stage in a new agent. If fresh agents are unavailable, finish preparation, state the limitation, and do not claim a Run.
+## Codex cloud
 
-Launch independent agents in one message and wait for their completion notices rather than polling.
+Setup, once: connect the repository; environment image `universal`; no setup script (the tools use only the Python standard library); internet **Limited** with an allowlist of the research hosts listed under Research sources; run each task on the branch that holds the current work.
+
+A cloud task cannot start another task, so each isolated stage is its own task, merged before the next one begins. `python3 tools/court.py plan` prints the sentence to give for each case's next stage.
+
+| Task sentence | What the task does |
+|---|---|
+| Run this session / Run this year | Reads Standing State and the case list, runs `check` and `plan`, and does the work that needs no isolation: preparation checks, the panel draw, follow-up checks, and finalize steps whose inputs exist. It never runs an isolated stage itself. It ends with the Form A report and the list of next task sentences. |
+| Prepare <slug> | Builds or repairs `neutral.md`, `history.md`, and any follow-up file; fixes the panel with `draw --case`; may read the historical opinion; returns paths and gaps only. |
+| Neutral stage: <slug> | Stages, models, accepts, and commits `commitments.md` alone. |
+| Reconcile stage: <slug> | The same for `reconciled.md`. |
+| Assemble stage: <slug> | The same for the final event record; needs an approved `stone.md`. |
+| Render stage: <slug> | The same for the individual decision. |
+| Compare stage: <slug> | The same for `comparison.md`. |
+| Finalize: <slug> | In its own context: runs the follow-up check, writes the Departure cell from `comparison.md`, updates the case list, Standing State, and precedent index, moves the date, and ends with the Form A report. |
+
+Stage tasks for different cases may run in any order, but assemble, render, compare, and finalize follow "Order and chronology". Where the same stage covers several cases with no overlap hold, one task may take them in turn. A stage task is part of a turn, not a turn of its own: it ends with a one-line status and the next task sentence, and the turn's Form A report comes from the Finalize or Run task that closes it.
 
 ## Selection
 
@@ -55,11 +74,11 @@ Launch independent agents in one message and wait for their completion notices r
 - Research agents return row fields and sources only. A candidate that fails rule 6 leaves its slot unfilled with the gap noted; never invent a replacement.
 - Write ISO dates in the row's historical stage cell, set Departure to `Not yet assessed`, and keep rows in chronological order. An `admitted` row links to the case folder that the prepare stage will create, and `tools/court.py check` accepts that link until then.
 
-Panel substitution when the user has supplied no method: if Calabresi sat on the historical panel, Stone takes that seat. Otherwise run `python3 tools/court.py draw --docket "<docket>" --panel "<A>;<B>;<C>"` before any vote is modeled. The first seat in its output is replaced; if that seat cannot lawfully be replaced for a reason unrelated to votes or authorship, record the reason and take the next. Record the method, inputs, and result in `neutral.md` as a declared simulation premise. Never redraw for any other reason.
+Panel substitution: Stone replaces exactly one of the three historical panelists. If Calabresi sat on the historical panel, Stone takes that seat. Otherwise run `python3 tools/court.py draw --case <slug>` before any vote is modeled; it reads the docket key and the historical panel from the packet, so the result does not depend on how names are typed. The first seat in its output is replaced; if that seat cannot lawfully be replaced for a reason unrelated to votes or authorship, record the reason in a `**Seat skipped:**` line and take the next. A method the user supplies for a case controls over the draw. Record the method, draw order, and result in `neutral.md` as a declared simulation premise; `check` verifies that the packet matches the draw. Never redraw for any other reason.
 
 ## Research sources
 
-Research and preparation agents use these hosts, which `.claude/settings.json` pre-approves for WebFetch. Last tested 2026-10-12.
+Research and preparation agents use these hosts. The environment must allow them: in Codex cloud, the internet allowlist (the hosts below, with `www.courtlistener.com`, `static.case.law`, `www.supremecourt.gov`, `www.oyez.org`, `www.law.cornell.edu`, `www.govinfo.gov`, `www.loc.gov`, `www.uscourts.gov`, `www.ca2.uscourts.gov`, and `www.fjc.gov`); in Claude Code, `.claude/settings.json`. Last tested 2026-10-12, from Claude Code only.
 
 | Host | Use |
 |---|---|
@@ -97,6 +116,6 @@ Year scope only, once every admitted case of the year is final, blocked, withdra
 
 ## Turn output and commits
 
-Every run turn ends with the eight-section Form A report, displayed in the response and saved at `years/YYYY/output/YYYY-MM-DD-court-report.md` under the [render contract](RENDER_CONTRACT.md). Build the allowed-input packet in scratch from permitted sources only; it never contains `stone.md`, `history.md`, `commitments.md`, or `reconciled.md`. Sections 7 and 8 come from the follow-up check and cover only selected circuit cases and their review proceedings; add nothing for unrelated Supreme Court cases. When a brief or approval is pending, put that request first and close with the report, which says only that Stone's position is awaited.
+Every run turn ends with the eight-section Form A report (in Codex cloud, a turn ends with the Finalize or Run task, not with each stage task), displayed in the response and saved at `years/YYYY/output/YYYY-MM-DD-court-report.md` under the [render contract](RENDER_CONTRACT.md). Build the allowed-input packet in scratch from permitted sources only; it never contains `stone.md`, `history.md`, `commitments.md`, or `reconciled.md`. Sections 7 and 8 come from the follow-up check and cover only selected circuit cases and their review proceedings; add nothing for unrelated Supreme Court cases. When a brief or approval is pending, put that request first and close with the report, which says only that Stone's position is awaited.
 
 Commit after each stage group with a message naming the case and stage, following the session's attribution instructions. Push the working branch at the end of every turn and before waiting at a gate, because the container is ephemeral. Do not open a pull request unless asked.

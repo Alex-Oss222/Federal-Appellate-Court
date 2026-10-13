@@ -40,7 +40,7 @@
 
 **Member Stone replaces:** Frank X. Altimari. Declared simulation premise; the assignment method is stated below.
 
-**Assignment method and reason:** Stone takes the third-listed seat of the published panel, a mechanical convention applied uniformly to these eighteen cases and fixed before any vote modeling. It is not based on an expected vote, author, or outcome; it does not reproduce a historical assignment order; and it does not remove the replaced judge from the roster.
+**Assignment method and reason:** Stone replaces the first seat in the reproducible draw defined in `foundation/RUN.md`, computed with `python3 tools/court.py draw --case pagnucco-v-pan-american-world-airways` from the docket key and the three historical panelists and fixed before any vote modeling. Draw order: 1. Frank X. Altimari; 2. Richard J. Cardamone; 3. Ellsworth A. Van Graafeiland. No seat is skipped. The draw is not based on an expected vote, author, or outcome; it does not reproduce a historical assignment order; and it does not remove the replaced judge from the roster.
 
 **Resulting panel:** Ellsworth A. Van Graafeiland (Senior Circuit Judge); Richard J. Cardamone (Senior Circuit Judge); Alex-Lamar Stone-Khoury (Active Circuit Judge).
 
