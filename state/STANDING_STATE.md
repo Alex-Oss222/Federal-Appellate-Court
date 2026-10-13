@@ -1,9 +1,9 @@
 # Second Circuit Standing State
 
-**Current simulation date:** 1994-06-13.
-**Posture:** Eighteen appeals admitted from the user's revised 1994 brief (thirteen in Cycle 001, five in Cycle 002): 6 adjudicated, 12 prepared and awaiting decision.
+**Current simulation date:** 1994-08-08.
+**Posture:** Eighteen appeals admitted from the user's revised 1994 brief (thirteen in Cycle 001, five in Cycle 002): 7 adjudicated, 11 prepared and awaiting decision.
 **Current bookkeeping period:** 1994-01-01 through 1994-12-31, Stone's first full calendar year.
-**Last completed simulation event:** 1994-06-13, United States v. Johns, No. 92-1775, panel decision; [final record](../years/1994/cases/united-states-v-johns/events/1994-06-13-decision.md)
+**Last completed simulation event:** 1994-08-08, City of New York v. United States Department of Commerce, No. 93-6183, panel decision; [final record](../years/1994/cases/city-of-new-york-v-department-of-commerce/events/1994-08-08-decision.md)
 **Controlled judge:** Alex-Lamar Stone-Khoury, circuit judge in the Meskill vacancy; fictional commission and required judicial oaths dated 1993-12-01.
 **Supreme Court setting:** Historical membership and actual decisions. No separate Supreme Court simulation law is admitted.
 
@@ -15,20 +15,20 @@ Senior judges remain separately listed in the roster and require case-specific p
 
 ## Work inventory
 
-- [1994 case list](../years/1994/case-list.md): eighteen appeals admitted (thirteen in Cycle 001, five in Cycle 002); 6 played, 12 prepared.
+- [1994 case list](../years/1994/case-list.md): eighteen appeals admitted (thirteen in Cycle 001, five in Cycle 002); 7 played, 11 prepared.
 - Coverage follows the [case-selection policy](../foundation/CASE_SELECTION.md): six groups, three historical cases per group, eighteen cases per cycle. No separate annual quota applies.
 - [Precedent index](PRECEDENT.md): no simulation holdings.
 
 ## Open coverage cycles
 
-Cycle 001 has 13 of eighteen slots admitted and 6 played; group 3 has three unfilled slots and group 4 has two, carried forward. Cycle 002 holds 5 admissions, in groups 1 and 5, because those groups were already full in Cycle 001 when their later 1994 cases arrived. Historical availability controls completion of any later cycle; unfinished slots carry across calendar years. By the user's direction of 2026-10-13, the unfilled slots are not to be filled for the current run: the eighteen admitted appeals are the set to play, and no case selection runs until the user lifts that direction. These totals summarize the canonical case-list rows and do not create case entries.
+Cycle 001 has 13 of eighteen slots admitted and 7 played; group 3 has three unfilled slots and group 4 has two, carried forward. Cycle 002 holds 5 admissions, in groups 1 and 5, because those groups were already full in Cycle 001 when their later 1994 cases arrived. Historical availability controls completion of any later cycle; unfinished slots carry across calendar years. By the user's direction of 2026-10-13, the unfilled slots are not to be filled for the current run: the eighteen admitted appeals are the set to play, and no case selection runs until the user lifts that direction. These totals summarize the canonical case-list rows and do not create case entries.
 
 | Cycle | Primary group | Target | Admitted, including played | Played | Unfilled admission slots |
 |---|---|---|---|---|---|
 | 001 | 1. Criminal law, sentencing, and post-conviction review | 3 | 3 | 3 | 0 |
 | 001 | 2. Constitutional rights, civil rights, and elections | 3 | 3 | 1 | 0 |
 | 001 | 3. Labor, employment, and employee benefits | 3 | 0 | 0 | 3 |
-| 001 | 4. Government powers, administrative law, and public regulation | 3 | 1 | 0 | 2 |
+| 001 | 4. Government powers, administrative law, and public regulation | 3 | 1 | 1 | 2 |
 | 001 | 5. Business, property, and private civil litigation | 3 | 3 | 1 | 0 |
 | 001 | 6. Federal courts, civil procedure, and remedies | 3 | 3 | 1 | 0 |
 | 002 | 1. Criminal law, sentencing, and post-conviction review | 3 | 3 | 0 | 0 |
@@ -38,13 +38,13 @@ Cycle 001 has 13 of eighteen slots admitted and 6 played; group 3 has three unfi
 | 002 | 5. Business, property, and private civil litigation | 3 | 2 | 0 | 1 |
 | 002 | 6. Federal courts, civil procedure, and remedies | 3 | 0 | 0 | 3 |
 
-Cycle 001 totals: 13 admitted, 6 played, 5 unfilled admission slots (group 3: 3, group 4: 2). Cycle 002 totals: 5 admitted, 0 played, 13 unfilled admission slots. No cycle audit is due yet. Audit a cycle when all eighteen selected events are played, three per group; pending later proceedings remain in the procedural tracker. If cycles overlap to preserve chronology, retain each open cycle's remaining slots. Preserve completed-cycle audit links for later subject rotation.
+Cycle 001 totals: 13 admitted, 7 played, 5 unfilled admission slots (group 3: 3, group 4: 2). Cycle 002 totals: 5 admitted, 0 played, 13 unfilled admission slots. No cycle audit is due yet. Audit a cycle when all eighteen selected events are played, three per group; pending later proceedings remain in the procedural tracker. If cycles overlap to preserve chronology, retain each open cycle's remaining slots. Preserve completed-cycle audit links for later subject rotation.
 
 ## Rolling Supreme Court follow-up
 
 **Primary review years:** 1994 (selected circuit decisions finalized from 1994-01-28 onward).
 **Older open matters:** None.
-**Latest follow-up check:** Performed before each date advance, most recently through 1994-06-13; no review event had come due by then. Sources are the segregated historical follow-up files and each case's comparison.
+**Latest follow-up check:** Performed before each date advance, most recently through 1994-08-08; no review event had come due by then. Sources are the segregated historical follow-up files and each case's comparison.
 **Check limitations:** The historical follow-up files are partial for every case (filing dates, rehearing and mandate dates are mostly not established); an unverified filing is a research gap, not a pending proceeding.
 **New review events this turn:** None.
 
