@@ -4,9 +4,9 @@
 
 **Case:** United States v. Castillo, docket 92-1279
 
-**Approval status:** User-approved as written. Each component’s fallback position and separate writing remain subject to the label stated in that component.
+**Approval status:** Approved
 
-**Approval reference:** User instruction of 2026-10-12 approving all eighteen 1994 briefs as written ("all ... are approved").
+**Approval reference:** Approved
 
 **Legal cutoff and packet version:** 1994-01-28; neutral baseline v2-2026-10-12 in [neutral.md](neutral.md). Its unresolved record, assignment, and simulation-precedent gaps remain applicable.
 
