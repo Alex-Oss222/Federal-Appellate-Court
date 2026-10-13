@@ -1,6 +1,6 @@
 # Effective simulation precedent index
 
-**Current through:** 1994-10-11 (Scanio v. United States).
+**Current through:** 1994-10-17 (In re Secured Equipment Trust of Eastern Air Lines).
 
 Historical law supplies the starting legal world. Relevant historical Supreme Court decisions, Second Circuit authority, statutes, rules, and other governing sources are researched for each event. This file is not an exhaustive restatement of 1994 law and imports nothing from `scotus-career`.
 
@@ -42,6 +42,7 @@ Simulation holdings are entered from final event records as they are decided. Th
 | Collateral review, section 2255 custody | [Scanio v. United States, No. 94-2002](../years/1994/cases/scanio-v-united-states/events/1994-10-11-decision.md), Part II | 1994-10-11 | A section 2255 dismissal for want of custody cannot stand on a record that does not establish when the term of supervised release legally began and ended; the dismissal rested on the label probation and the physical release date. Pierce and Stone; Van Graafeiland dissenting. | Published; precedential on two joins; does not decide when the term began or ended. | None yet. |
 | Time computation, Rule 6(a) and custody | [Scanio v. United States, No. 94-2002](../years/1994/cases/scanio-v-united-states/events/1994-10-11-decision.md), Part III | 1994-10-11 | Rule 6(a) and the next-business-day principle do not by their own force continue a fully expired sentence. Stone and Van Graafeiland; Pierce not joining. | Published; precedential on two joins; the vacatur does not depend on this Part. | None yet. |
 | Collateral review, attempted filing | [Scanio v. United States, No. 94-2002](../years/1994/cases/scanio-v-united-states/events/1994-10-11-decision.md), Part IV | 1994-10-11 | No constructive-lodging rule is adopted on this record; the question is committed to the district court on notice to both parties and findings, with the burden on the movant, and dismissal if custody had expired and the theory is unavailable or unproved. Pierce and Stone. | Published; precedential on two joins; procedure on remand only. | None yet. |
+| Bankruptcy, business-trust eligibility (11 U.S.C. 101(9)(A)(v)) | [In re Secured Equipment Trust of Eastern Air Lines, Inc., No. 94-5015, 94-5017](../years/1994/cases/in-re-secured-equipment-trust-of-eastern-air-lines/events/1994-10-17-decision.md), Opinion of the court | 1994-10-17 | A certificate-financed, trustee-operated equipment enterprise is a business trust where its original arrangement includes substantial continuing commercial leasing and management powers and those powers were in fact exercised; a fixed return and secured-financing economics do not alone exclude it, and the absence of a residual profit interest does not defeat classification. Kearse and Stone; Altimari dissenting. | Published; precedential on two joins; rejects any rule that post-default management alone suffices or that every collateral trustee qualifies; no order for relief and no decision on creditor qualification, grounds for relief, priorities or plan treatment. | None yet. |
 
 ## Update rules
 

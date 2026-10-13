@@ -1,9 +1,9 @@
 # Second Circuit Standing State
 
-**Current simulation date:** 1994-10-11.
-**Posture:** Eighteen appeals admitted from the user's revised 1994 brief (thirteen in Cycle 001, five in Cycle 002): 12 adjudicated, 6 prepared and awaiting decision.
+**Current simulation date:** 1994-10-17.
+**Posture:** Eighteen appeals admitted from the user's revised 1994 brief (thirteen in Cycle 001, five in Cycle 002): 13 adjudicated, 5 prepared and awaiting decision.
 **Current bookkeeping period:** 1994-01-01 through 1994-12-31, Stone's first full calendar year.
-**Last completed simulation event:** 1994-10-11, Scanio v. United States, No. 94-2002, panel decision; [final record](../years/1994/cases/scanio-v-united-states/events/1994-10-11-decision.md)
+**Last completed simulation event:** 1994-10-17, In re Secured Equipment Trust of Eastern Air Lines, Inc., Nos. 94-5015 and 94-5017, panel decision; [final record](../years/1994/cases/in-re-secured-equipment-trust-of-eastern-air-lines/events/1994-10-17-decision.md)
 **Controlled judge:** Alex-Lamar Stone-Khoury, circuit judge in the Meskill vacancy; fictional commission and required judicial oaths dated 1993-12-01.
 **Supreme Court setting:** Historical membership and actual decisions. No separate Supreme Court simulation law is admitted.
 
@@ -15,7 +15,7 @@ Senior judges remain separately listed in the roster and require case-specific p
 
 ## Work inventory
 
-- [1994 case list](../years/1994/case-list.md): eighteen appeals admitted (thirteen in Cycle 001, five in Cycle 002); 12 played, 6 prepared.
+- [1994 case list](../years/1994/case-list.md): eighteen appeals admitted (thirteen in Cycle 001, five in Cycle 002); 13 played, 5 prepared.
 - Coverage follows the [case-selection policy](../foundation/CASE_SELECTION.md): six groups, three historical cases per group, eighteen cases per cycle. No separate annual quota applies.
 - [Precedent index](PRECEDENT.md): no simulation holdings.
 
@@ -35,18 +35,18 @@ Cycle 001 has 13 of eighteen slots admitted and 11 played; group 3 has three unf
 | 002 | 2. Constitutional rights, civil rights, and elections | 3 | 0 | 0 | 3 |
 | 002 | 3. Labor, employment, and employee benefits | 3 | 0 | 0 | 3 |
 | 002 | 4. Government powers, administrative law, and public regulation | 3 | 0 | 0 | 3 |
-| 002 | 5. Business, property, and private civil litigation | 3 | 2 | 0 | 1 |
+| 002 | 5. Business, property, and private civil litigation | 3 | 2 | 1 | 1 |
 | 002 | 6. Federal courts, civil procedure, and remedies | 3 | 0 | 0 | 3 |
 
-Cycle 001 totals: 13 admitted, 11 played, 5 unfilled admission slots (group 3: 3, group 4: 2). Cycle 002 totals: 5 admitted, 1 played, 13 unfilled admission slots. No cycle audit is due yet. Audit a cycle when all eighteen selected events are played, three per group; pending later proceedings remain in the procedural tracker. If cycles overlap to preserve chronology, retain each open cycle's remaining slots. Preserve completed-cycle audit links for later subject rotation.
+Cycle 001 totals: 13 admitted, 11 played, 5 unfilled admission slots (group 3: 3, group 4: 2). Cycle 002 totals: 5 admitted, 2 played, 13 unfilled admission slots. No cycle audit is due yet. Audit a cycle when all eighteen selected events are played, three per group; pending later proceedings remain in the procedural tracker. If cycles overlap to preserve chronology, retain each open cycle's remaining slots. Preserve completed-cycle audit links for later subject rotation.
 
 ## Rolling Supreme Court follow-up
 
 **Primary review years:** 1994 (selected circuit decisions finalized from 1994-01-28 onward).
 **Older open matters:** None.
-**Latest follow-up check:** Performed before each date advance, most recently through 1994-10-11. Events admitted are listed under pending proceedings and follow-up research tasks; sources are the segregated historical follow-up files and each case's comparison.
+**Latest follow-up check:** Performed before each date advance, most recently through 1994-10-17. Events admitted are listed under pending proceedings and follow-up research tasks; sources are the segregated historical follow-up files and each case's comparison.
 **Check limitations:** The historical follow-up files are partial for every case (filing dates, rehearing and mandate dates are mostly not established); an unverified filing is a research gap, not a pending proceeding.
-**New review events this turn:** Castillo: historical certiorari denial of 1994-10-03, verified and not attached to the simulated judgment (unresolved: historical path incompatible). Anderson: one candidate entry of the same date, not admitted.
+**New review events this turn:** Castillo: historical certiorari denial of 1994-10-03, verified and not attached to the simulated judgment (unresolved: historical path incompatible). Anderson: one candidate entry of the same date, not admitted. Latsis: certiorari granted 1994-10-17 (No. 94-325), compatible with the simulated judgment.
 
 As the calendar advances, check the current year and previous two decision years plus every older unresolved matter. Historical event dates control; a three-year view does not guarantee a result two years after a circuit decision. Link new review events to their original case and carry pending mandates and remands until resolved. This configuration does not advance the current simulation date.
 
@@ -56,6 +56,7 @@ No rehearing, certiorari proceeding, mandate issue, or remand return has been es
 
 | Origin year | Case and circuit docket | Supreme Court docket, if established | Latest effective event and source | Current stage | Live action, mandate, or relief | Verified deadline or next event | Dependency or blocker |
 |---|---|---|---|---|---|---|---|
+| 1994 | [Latsis v. Chandris, Inc., No. 93-7704](../years/1994/cases/latsis-v-chandris/events/1994-03-24-decision.md) | No. 94-325, Chandris, Inc., et al. v. Latsis, 513 U.S. 945 | Certiorari granted 1994-10-17 on the defendants' petition ([comparison](../years/1994/cases/latsis-v-chandris/comparison.md)) | certiorari granted; awaiting briefing and argument | The simulated judgment vacates the judgment below and remands for a new trial, the posture the petition addressed; simulated mandate status not established | No argument date established by 1994-10-17 | Event fits the simulated judgment. The historical Supreme Court merits law enters only on its own date |
 | 1994 | [United States v. Castillo, No. 92-1279](../years/1994/cases/united-states-v-castillo/events/1994-01-28-decision.md) | Historical No. 93-8879, not attached to the simulated judgment | Simulated panel decision 1994-01-28 (vacatur of the firearm count and sentence, remand). Historical certiorari denial 1994-10-03, 513 U.S. 829, verified but not attached ([comparison](../years/1994/cases/united-states-v-castillo/comparison.md)) | unresolved: historical path incompatible | Simulated mandate not issued; no rehearing or certiorari petition on the simulated judgment is established | None established | The historical petition sought review of an affirmance; a denial is not approval of any reasoning. Rehearing, mandate and any petition on the simulated judgment are a research task, not a pending filing |
 
 Use precise stages such as petition for panel rehearing filed, rehearing en banc pending, mandate stayed, certiorari petition filed, certiorari granted, certiorari denied, Supreme Court merits disposition verified, remanded, awaiting proceedings below, or unresolved: historical path incompatible. Do not write a stage merely because it occurred in the historical version of the case.
