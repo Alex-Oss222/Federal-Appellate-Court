@@ -8,7 +8,7 @@
 
 **Docket or citation:** 92-1775; 27 F.3d 31 (2d Cir. 1994).
 
-**Admission source:** [Sanitized primary-source header](#admission), identifying the Second Circuit, caption, docket, and submission in 27 F.3d 31. The selected appellate result is confined to `history.md`.
+**Admission source:** [Sanitized primary-source header](#admission), identifying the Second Circuit, caption, docket, and submission in 27 F.3d 31. The selected appellate result is withheld from this packet.
 
 **Coverage cycle:** 001.
 
@@ -18,7 +18,7 @@
 
 **Principal question:** Whether the commentary’s denial-of-guilt exception forecloses obstruction punishment for the presentence denials, and how that affects acceptance of responsibility.
 
-**Selection reason:** Expressly included in the user’s 1994 canonical case request. No outcome-based selection or additional rotation rationale is asserted; policy rotation cannot be audited without CASE_SELECTION.md.
+**Selection reason:** Expressly included in the user’s 1994 case brief. Selected for coverage only; no outcome-based or rotation rationale is asserted.
 
 **Canonical case-list reference:** [1994 case list, entry 006](../../case-list.md), United States v. Johns, docket 92-1775.
 
@@ -28,11 +28,11 @@
 
 **Requested appellate relief:** Johns seeks removal of the obstruction adjustment and reconsideration of acceptance credit. The United States seeks to sustain the sentence based on material falsehoods.
 
-**Historical entry stage and date:** Post-submission appellate consideration on 1994-06-13, immediately before the selected event. The argument/submission history remains as stated below; the event date is not proof of an earlier assignment.
+**Historical entry stage and date:** Post-submission appellate consideration on 1994-06-13, immediately before the selected event. Argument or submission history is stated below.
 
 **Historical argument or submission:** Oral argument on 1994-04-19. Source: selected proceeding’s header, reproduced without its disposition in the local admission extract.
 
-**Simulation argument or submission:** Retain 1994-04-19 as the proposed argument date, for the panel selected below. Stone’s commission and required oaths are established on December 1, 1993 in the project roster. A later opinion date does not establish earlier eligibility; otherwise a lawful resubmission must be documented before Run.
+**Simulation argument or submission:** Argued on 1994-04-19, as in the historical record; the panel substitution recorded in this packet is the only departure.
 
 **Proposed event date:** 1994-06-13, retained from the expressly selected historical event as a scheduling reference. No disposition is selected in this neutral form.
 
@@ -46,7 +46,7 @@
 
 **Resulting panel:** Judge Stone (Circuit Judge); Joseph M. McLaughlin (Active Circuit Judge); Dennis Jacobs (Active Circuit Judge).
 
-**Participation checks:** The historical members’ service at submission is supported by the header and Federal Judicial Center extracts. No adverse recusal fact is established, but conflict disclosures and the actual designation/assignment orders were not supplied. The resulting three-member configuration supplies the intended panel count; lawful participation under 28 U.S.C. §§ 46 and 292 and a valid quorum must be confirmed from the missing orders. No 1993 eligibility is inferred from a 1994 decision. Calabresi is not a member of this simulated panel.
+**Participation checks:** The historical members’ service at submission is supported by the header and Federal Judicial Center extracts. No recusal fact is established; conflict disclosures and the designation or assignment orders were not supplied. Panel composition and quorum are governed by 28 U.S.C. §§ 46 and 292. Calabresi is not on this panel.
 
 **Further panel departure:** None. Stone replaces exactly one historical panelist; the other two remain.
 
@@ -66,15 +66,15 @@ The full appellate briefs, appendix, trial or hearing transcripts, notices of ap
 
 **Related proceedings or dependencies:** Initial counsel sought withdrawal under Anders; replacement counsel briefed the sentencing issue.
 
-**Missing facts, documents, or findings:** The record must distinguish the conduct denied, the offense of conviction, and the applicable Guidelines version when reconsidering acceptance. The full appellate briefs, appendix, trial or hearing transcripts, notices of appeal and docket-entry receipts were not supplied as independent documents. The reported opinion supplies a bounded account, not a substitute for every underlying document. The exact appellate-filing timeliness record therefore remains unverified unless specifically stated. CASE_SELECTION.md and its six-group definitions, the coverage-cycle register, the approved simulation roster, and any effective earlier simulation final records were not supplied.
+**Missing facts, documents, or findings:** The record must distinguish the conduct denied, the offense of conviction, and the applicable Guidelines version when reconsidering acceptance. The full appellate briefs, appendix, trial or hearing transcripts, notices of appeal and docket-entry receipts were not supplied as independent documents. The reported opinion supplies a bounded account, not a substitute for every underlying document. The exact appellate-filing timeliness record therefore remains unverified unless specifically stated.
 
-**Bounded reconstruction or scheduling premise:** Retain 1994-04-19 as the proposed argument date, for the panel selected below. Stone’s commission and required oaths are established on December 1, 1993 in the project roster. A later opinion date does not establish earlier eligibility; otherwise a lawful resubmission must be documented before Run. No reconstruction decides a disputed fact, supplies a missing finding, approves a case-specific position, or invents an earlier simulation holding.
+**Bounded reconstruction or scheduling premise:** Argued on 1994-04-19, as in the historical record; the panel substitution recorded in this packet is the only departure. No reconstruction decides a disputed fact, supplies a missing finding, approves a case-specific position, or invents an earlier simulation holding.
 
 ## Law entering the event
 
 **Legal cutoff:** 1994-06-13, immediately before the selected event.
 
-**Effective earlier simulation records:** None supplied or verified in the authorized inputs. This is a source gap, not a finding that none exist. Historical circuit authorities remain the baseline unless an applicable approved final simulation record is supplied.
+**Effective earlier simulation records:** None. No earlier simulation record addresses these issues; historical circuit authorities are the baseline.
 
 ### Issue 1: Obstruction adjustment for presentence denial of alleged misconduct
 
@@ -148,7 +148,7 @@ Alternative: Retain denial of credit if independently supported under the correc
 
 ## Sources and neutral handoff
 
-**Primary sources supplied:** 27 F.3d 31 (2d Cir. 1994), at 32-34, factual and lower-proceeding portions; see the supplied [sanitized record extract](#source-extract). The statutes, rules, and dated decisions identified issue by issue are the legal authorities for the stated propositions, with their pinpoints where available. The full selected comparator is cited only in `history.md`. Separately verified, issue-linked extracts of other pre-cutoff writings by each participating judge have not been assembled; no individual voting position may be inferred from this omission or from a case citation’s mere existence.
+**Primary sources supplied:** 27 F.3d 31 (2d Cir. 1994), at 32-34, factual and lower-proceeding portions; see the supplied [sanitized record extract](#source-extract). The statutes, rules, and dated decisions identified issue by issue are the legal authorities for the stated propositions, with their pinpoints where available. The full selected opinion is withheld from this packet. Separately verified, issue-linked extracts of other pre-cutoff writings by each participating judge have not been assembled; no individual voting position may be inferred from this omission or from a case citation’s mere existence.
 
 **Unavailable material and consequence:** The full appellate briefs, appendix, trial or hearing transcripts, notices of appeal and docket-entry receipts were not supplied as independent documents. The reported opinion supplies a bounded account, not a substitute for every underlying document. The exact appellate-filing timeliness record therefore remains unverified unless specifically stated. The record must distinguish the conduct denied, the offense of conviction, and the applicable Guidelines version when reconsidering acceptance. The missing selection policy prevents assignment of a numbered primary group or cycle. The missing simulation final records prevent a complete simulation-precedent check. The missing judge-specific writing extracts limit any later individual modeling. These are unresolved preparation gaps, not permission to supply results from recollection.
 
@@ -156,7 +156,7 @@ Alternative: Retain denial of credit if independently supported under the correc
 
 ## Source extract
 
-**Source identity:** 27 F.3d 31 (2d Cir. 1994), court header and pre-entry factual/procedural account. This is an editorial extract and paraphrase, not a verbatim trial transcript. The full selected appellate opinion is cited in `history.md`.
+**Source identity:** 27 F.3d 31 (2d Cir. 1994), court header and pre-entry factual/procedural account. This is an editorial extract and paraphrase, not a verbatim trial transcript. The full selected appellate opinion is withheld from this packet.
 
 ### Admission
 

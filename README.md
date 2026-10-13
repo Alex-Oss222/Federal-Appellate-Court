@@ -31,9 +31,21 @@ The character's appointment chronology has been revised to make 1994 his first f
 
 Holdings and legal tests stay in the individual final decision records. There are no separate Holdings or Standards and Tests documents. The small precedent index links to those records and tracks later treatment; Standing State tracks the court and pending procedure.
 
-Folders named `years/` are simulation bookkeeping periods, not an assertion that the circuit follows Supreme Court October Terms. The initial period is January 1 through December 31, 1994. December 1993 is an appointment and transition baseline, not an extra played year. No case has been selected or adjudicated yet.
+Folders named `years/` are simulation bookkeeping periods, not an assertion that the circuit follows Supreme Court October Terms. The initial period is January 1 through December 31, 1994. December 1993 is an appointment and transition baseline, not an extra played year. Eighteen 1994 appeals are admitted and prepared; none has been adjudicated yet.
 
 Historical law and the historical procedural fate of a particular case are checked separately. A changed appellate judgment does not automatically inherit the historical certiorari result, Supreme Court disposition, or remand. An incompatible follow-up remains explicitly unresolved; this engine does not invent Supreme Court action.
+
+## Running it (Codex cloud)
+
+Codex reads [AGENTS.md](AGENTS.md) first. Setup, once: connect this repository to Codex cloud, use the `universal` environment image with no setup script (the tools use only the Python standard library), and set internet access to **Limited** with the research hosts in [the runbook](foundation/RUN.md) on the allowlist. Run each task on the branch that holds the current work.
+
+`python3 tools/court.py plan session` prints each unfinished case and the task sentence for its next stage. Because a cloud task cannot start another task, each isolated stage is its own task, merged before the next begins:
+
+1. `Run this session` (or `Run this year`): checks state, does the work that needs no isolation, and lists the next task sentences.
+2. `Neutral stage: <slug>`, then `Reconcile stage: <slug>`, then `Assemble stage: <slug>` (needs your approved `stone.md`), then `Render stage: <slug>` and `Compare stage: <slug>`.
+3. `Finalize: <slug>`: updates the case list, Standing State, and precedent index, and ends with the court report.
+
+Stone replaces one of the three historical panelists, chosen by the reproducible draw (`python3 tools/court.py draw --case <slug>`), and each opinion's author is drawn from the eligible majority judges (`python3 tools/court.py author`). A cloud checkout holds every file, so a stage is scoped by instruction, not blind; each execution record says so. If a task cannot start a fresh context, it finishes preparation and discloses that instead of claiming an isolated Run.
 
 See [migration notes](foundation/MIGRATION.md) for what was adapted from the Supreme Court framework.
 

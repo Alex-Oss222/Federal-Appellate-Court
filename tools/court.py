@@ -1,13 +1,17 @@
 #!/usr/bin/env python3
 """Bookkeeping helper for the Second Circuit simulation (stdlib only).
 
-  plan [year|session]            file-derived ledger and next stage for each case
+  plan [year|session] [--only A,B]  file-derived ledger, next stage, and the task sentence for each case
   stage SLUG STAGE --dest DIR    copy exactly the files an isolated stage may read
+  accept SLUG STAGE --dest DIR   check a finished stage folder and file its single output in the case folder
   draw --case SLUG               reproduce the packet's one-seat substitution
+  author --case SLUG --eligible "A;B"
+                                 reproducible draw among the eligible majority judges for opinion authorship
   check                          links, case lists, cycle counts, stage-file coherence
 
-It writes nothing inside the repository and never decides legal meaning, votes, or
-approvals (AGENTS.md, working rules). See foundation/RUN.md.
+Only `accept` writes inside the repository, and it writes one expected output file and nothing
+else. The script never decides legal meaning, votes, or approvals (AGENTS.md, working rules).
+See foundation/RUN.md.
 """
 import argparse
 import hashlib
@@ -185,12 +189,24 @@ def next_stage(c):
         return "assemble" if brief_state(d) == "approved" else "brief"
     if not list((d / "output").glob("*.md")):
         return "render"
+    if not (d / "comparison.md").is_file():
+        return "compare"
     if c.status != "played" or c.departure.lower().startswith("not yet assessed"):
         return "finalize"
     return "done"
 
 
 TERMINAL = {"done", "blocked", "withdrawn"}
+
+TASKS = {
+    "prepare": "Prepare {slug}",
+    "neutral": "Neutral stage: {slug}",
+    "reconcile": "Reconcile stage: {slug}",
+    "assemble": "Assemble stage: {slug}",
+    "render": "Render stage: {slug}",
+    "compare": "Compare stage: {slug}",
+    "finalize": "Finalize: {slug}",
+}
 
 
 def unfinished(cases):
@@ -244,6 +260,13 @@ def cmd_plan(args):
     for p in problems:
         print(f"PROBLEM {p}")
     open_cases = ordered(unfinished(cases))
+    if args.only:
+        wanted = [s.strip() for s in args.only.split(",") if s.strip()]
+        unknown = [s for s in wanted if s not in {c.slug for c in cases}]
+        if unknown:
+            sys.exit("unknown case(s): " + ", ".join(unknown))
+        open_cases = [c for c in open_cases if c.slug in wanted]
+        print(f"Narrowed to {len(open_cases)} named case(s); other unfinished cases stay unplayed and hold nothing here")
     cyc, gaps = target_cycle(cases, ss["table"])
     if cyc is None:
         print("Admission target: none; every existing cycle is fully admitted and awaits play")
@@ -263,10 +286,11 @@ def cmd_plan(args):
     for i, c in enumerate(open_cases, 1):
         stage = next_stage(c)
         brief = brief_state(c.folder)
-        earlier = [e.slug for e in ordered(unfinished(cases)) if e is not c and (event_date(e) or "9999") < (event_date(c) or "9999")]
-        hold = f" held-by={','.join(earlier)}" if stage in {"assemble", "render", "finalize"} and earlier else ""
+        earlier = [e.slug for e in open_cases if e is not c and (event_date(e) or "9999") < (event_date(c) or "9999")]
+        hold = f" held-by={','.join(earlier)}" if stage in {"assemble", "render", "compare", "finalize"} and earlier else ""
+        task = TASKS.get(stage, "").format(slug=c.slug)
         print(f" {i}. {event_date(c) or 'no-date':10} {c.slug} cycle={c.cycle} group={c.group} "
-              f"stage={stage} brief={brief}{hold}")
+              f"stage={stage} brief={brief}{hold}" + (f'\n      task: "{task}"' if task else ""))
         if brief == "missing":
             missing.append(c.slug)
         elif brief == "proposed":
@@ -317,12 +341,34 @@ def stage_plan(c, stage, event):
     return plans[stage]
 
 
-def cmd_stage(args):
+def find_case(slug):
     cases, _ = load_cases()
-    match = [c for c in cases if c.slug == args.slug]
+    match = [c for c in cases if c.slug == slug]
     if len(match) != 1:
-        sys.exit(f"case '{args.slug}' not found in the case lists" if not match else f"slug '{args.slug}' is ambiguous")
-    c = match[0]
+        sys.exit(f"case '{slug}' not found in the case lists" if not match else f"slug '{slug}' is ambiguous")
+    return match[0]
+
+
+def stage_items(c, stage, event=None):
+    """[(source path, staged name, is_extract)] for the files an isolated stage may read."""
+    items = []
+    for item in stage_plan(c, stage, event):
+        if isinstance(item, tuple) and item[0] == "extract":
+            items.append((item[1], item[2], True))
+        elif isinstance(item, tuple) and item[0] == "optional":
+            if item[1].is_file():
+                items.append((item[1], item[1].name, False))
+        else:
+            items.append((item, item.name, False))
+    return items
+
+
+OUTPUT_NAME = {"neutral": "commitments.md", "reconcile": "reconciled.md", "assemble": "<YYYY-MM-DD>-<event>.md",
+               "render": "<YYYY-MM-DD>-<event>.md", "compare": "comparison.md"}
+
+
+def cmd_stage(args):
+    c = find_case(args.slug)
     if args.stage in {"neutral", "reconcile", "assemble"} and (c.folder / "neutral.md").is_file():
         problems = assignment_errors(read(c.folder / "neutral.md"), c.slug)
         if problems:
@@ -337,15 +383,7 @@ def cmd_stage(args):
         sys.exit("--dest must be outside the repository")
     if dest.exists() and any(dest.iterdir()):
         sys.exit(f"{dest} is not empty")
-    items = []
-    for item in stage_plan(c, args.stage, args.event):
-        if isinstance(item, tuple) and item[0] == "extract":
-            items.append((item[1], item[2], True))
-        elif isinstance(item, tuple) and item[0] == "optional":
-            if item[1].is_file():
-                items.append((item[1], item[1].name, False))
-        else:
-            items.append((item, item.name, False))
+    items = stage_items(c, args.stage, args.event)
     missing = [str(s.relative_to(ROOT)) for s, _, _ in items if not s.is_file()]
     if missing:
         sys.exit("missing required input(s): " + ", ".join(missing))
@@ -355,12 +393,83 @@ def cmd_stage(args):
             (dest / name).write_text(public_decision(src), encoding="utf-8")
         else:
             shutil.copyfile(src, dest / name)
-    output = {"neutral": "commitments.md", "reconcile": "reconciled.md", "assemble": "<YYYY-MM-DD>-<event>.md",
-              "render": "<YYYY-MM-DD>-<event>.md", "compare": "comparison.md"}[args.stage]
     print(f"Staged in {dest}:")
     for _, name, _ in items:
         print(f"  {name}")
-    print(f"The agent may write only: {output}")
+    print(f"The agent may write only: {OUTPUT_NAME[args.stage]}")
+    return 0
+
+
+STAGE_TITLE = {"neutral": "Neutral modeling", "reconcile": "Historical reconciliation", "assemble": "Assembly",
+               "render": "Render", "compare": "Comparison"}
+
+
+def git_head():
+    r = subprocess.run(["git", "-C", str(ROOT), "rev-parse", "--short", "HEAD"], capture_output=True, text=True)
+    return r.stdout.strip() or "not established"
+
+
+def cmd_accept(args):
+    """File the single output of a finished isolated stage; refuse anything unexpected."""
+    c = find_case(args.slug)
+    dest = Path(args.dest).resolve()
+    if not dest.is_dir():
+        sys.exit(f"{dest} is not a directory")
+    items = stage_items(c, args.stage, args.event)
+    staged = {name for _, name, _ in items}
+    if any(p.is_dir() for p in dest.iterdir()):
+        sys.exit("the stage folder contains a subdirectory; only the staged inputs and one output file are allowed")
+    present = {p.name for p in dest.iterdir()}
+    for src, name, extract in items:
+        if name not in present:
+            sys.exit(f"staged input {name} is missing from the stage folder")
+        if not extract and (dest / name).read_bytes() != src.read_bytes():
+            sys.exit(f"staged input {name} was modified")
+    new = sorted(present - staged)
+    if args.stage in ("assemble", "render"):
+        ok = len(new) == 1 and re.fullmatch(r"\d{4}-\d{2}-\d{2}-[\w.-]+\.md", new[0])
+    else:
+        ok = new == [OUTPUT_NAME[args.stage]]
+    if not ok:
+        sys.exit(f"expected exactly one new file ({OUTPUT_NAME[args.stage]}); found: {', '.join(new) or 'none'}")
+    out_name = new[0]
+    folder = {"assemble": "events", "render": "output"}.get(args.stage)
+    target = (c.folder / folder / out_name) if folder else (c.folder / out_name)
+    if target.exists() and not args.replace:
+        sys.exit(f"{target.relative_to(ROOT)} already exists; pass --replace only for a user-authorized correction")
+    text = read(dest / out_name)
+    mode = args.mode or "a fresh Codex cloud task started for this stage"
+    who = f"{mode} ({args.agent})" if args.agent else mode
+    inputs = ", ".join(sorted(staged))
+    today = datetime.now().strftime("%Y-%m-%d")
+    caveat = "A fresh context with an allowed-file list, not an operating-system sandbox."
+    if args.stage in ("neutral", "reconcile"):
+        if "## Execution record" not in text:
+            text = text.rstrip() + (f"\n\n---\n\n## Execution record\n\n- Stage: {STAGE_TITLE[args.stage]} (ENGINE.md section 6).\n"
+                                   f"- Execution: {who}. {caveat}\n- Permitted inputs: {inputs}.\n"
+                                   f"- Input commit: {git_head()}.\n- Date run: {today}.\n")
+    elif args.stage == "assemble":
+        line = (f"- **Execution record:** Assembly run by {who}, working only with {inputs}; input commit {git_head()}; "
+                f"run {today}. {caveat} commitments.md and reconciled.md were each committed alone before this stage; "
+                "commitments.md was not staged to it.")
+        text, n = re.subn(r"^- \*\*Execution record:\*\*.*$", lambda m: line, text, count=1, flags=re.M)
+        if n != 1:
+            sys.exit("the assembled record has no '- **Execution record:**' line to complete")
+        if not re.search(r"^- \*\*Status:\*\*\s*(final|draft)", text, re.M):
+            sys.exit("the assembled record has no '- **Status:** final' or 'draft, blocked' line")
+    elif args.stage == "render":
+        finals = final_events(c.folder)
+        if len(finals) != 1:
+            sys.exit("render needs exactly one final event record to link")
+        ref = f"[years/{c.year}/cases/{c.slug}/events/{finals[0].name}](../events/{finals[0].name})"
+        text, n = re.subn(r"^(Final record:).*$", lambda m: f"{m.group(1)} {ref}", text, count=1, flags=re.M)
+        if n != 1:
+            sys.exit("the render has no 'Final record:' line")
+    target.parent.mkdir(exist_ok=True)
+    target.write_text(text, encoding="utf-8")
+    rel = target.relative_to(ROOT)
+    print(f"Filed {rel}")
+    print(f"Commit it alone: git add {rel} && git commit -m \"{c.slug}: {args.stage} stage\"")
     return 0
 
 
@@ -514,6 +623,24 @@ def cmd_draw(args):
         return 1
 
 
+def cmd_author(args):
+    try:
+        docket = normalized_docket(field(read(case_packet(args.case)), "Docket or citation"))
+        names = [s.strip() for s in args.eligible.split(";") if s.strip()]
+        keys = [judge_key(n) for n in names]
+        if not names or any(not k for k in keys) or len(set(keys)) != len(keys):
+            raise ValueError("--eligible needs one or more distinct full judge names separated by semicolons")
+        rank = lambda n: (hashlib.sha256(f"{docket}|author|{judge_key(n)}".encode("utf-8")).hexdigest(), judge_key(n))
+        print(f"Normalized docket: {docket}")
+        print("Authorship order (equal chance among the eligible majority judges; the first name is the drawn author):")
+        for i, n in enumerate(sorted(names, key=rank), 1):
+            print(f"  {i}. {judge_name(n)}")
+        return 0
+    except ValueError as exc:
+        print(f"ERROR: {exc}", file=sys.stderr)
+        return 1
+
+
 # ---------------------------------------------------------------- check
 
 def md_files():
@@ -615,6 +742,7 @@ def main():
     sub = ap.add_subparsers(dest="cmd", required=True)
     p = sub.add_parser("plan")
     p.add_argument("scope", nargs="?", choices=["year", "session"], default="year")
+    p.add_argument("--only", help="comma-separated case slugs: plan a narrowed run; holds apply only among the named cases")
     p.set_defaults(fn=cmd_plan)
     s = sub.add_parser("stage")
     s.add_argument("slug")
@@ -622,11 +750,24 @@ def main():
     s.add_argument("--dest", required=True)
     s.add_argument("--event")
     s.set_defaults(fn=cmd_stage)
+    a = sub.add_parser("accept")
+    a.add_argument("slug")
+    a.add_argument("stage", choices=["neutral", "reconcile", "assemble", "render", "compare"])
+    a.add_argument("--dest", required=True)
+    a.add_argument("--event")
+    a.add_argument("--mode", help="how the stage ran, recorded in the execution record")
+    a.add_argument("--agent", help="task or agent identifier, if exposed")
+    a.add_argument("--replace", action="store_true", help="overwrite an existing output (user-authorized correction only)")
+    a.set_defaults(fn=cmd_accept)
     d = sub.add_parser("draw")
     d.add_argument("--case", help="read docket, historical panel, and legal exclusions from this case packet")
     d.add_argument("--docket", help="manual compatibility mode; cannot be combined with --case")
     d.add_argument("--panel", help="three semicolon-separated full historical panelist names")
     d.set_defaults(fn=cmd_draw)
+    au = sub.add_parser("author")
+    au.add_argument("--case", required=True)
+    au.add_argument("--eligible", required=True, help="semicolon-separated majority judges who join every proposition")
+    au.set_defaults(fn=cmd_author)
     sub.add_parser("check").set_defaults(fn=cmd_check)
     args = ap.parse_args()
     sys.exit(args.fn(args))

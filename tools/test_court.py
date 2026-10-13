@@ -125,5 +125,39 @@ class PanelDrawTests(unittest.TestCase):
                     court.cmd_stage(args)
 
 
+class AuthorDrawTests(unittest.TestCase):
+    def run_author(self, eligible):
+        with tempfile.TemporaryDirectory() as folder:
+            path = Path(folder) / 'neutral.md'
+            path.write_text(packet(), encoding='utf-8')
+            out, err = io.StringIO(), io.StringIO()
+            with patch.object(court, 'case_packet', return_value=path), \
+                    contextlib.redirect_stdout(out), contextlib.redirect_stderr(err):
+                code = court.cmd_author(argparse.Namespace(case='example-case', eligible=eligible))
+        return code, out.getvalue(), err.getvalue()
+
+    @staticmethod
+    def order(output):
+        return [court.judge_key(line.split('. ', 1)[1]) for line in output.splitlines() if line.startswith('  ')]
+
+    def test_order_ignores_name_formatting_and_list_order(self):
+        _, first, _ = self.run_author('James L. Oakes; Thomas J. Meskill; Alex-Lamar Stone-Khoury')
+        _, second, _ = self.run_author('Alex-Lamar Stone-Khoury;  THOMAS J MESKILL;  james l oakes.')
+        self.assertEqual(len(self.order(first)), 3)
+        self.assertEqual(self.order(first), self.order(second))
+
+    def test_authorship_draw_is_independent_of_the_panel_draw(self):
+        names = 'James L. Oakes; Thomas J. Meskill; Frank X. Altimari'
+        _, author, _ = self.run_author(names)
+        replace = [court.judge_key(s) for s in court.panel_draw(DOCKET, PANEL)['order']]
+        self.assertEqual(sorted(self.order(author)), sorted(replace))
+
+    def test_duplicate_or_empty_eligible_list_is_rejected(self):
+        for eligible in ('', 'James L. Oakes; james l oakes'):
+            code, out, err = self.run_author(eligible)
+            self.assertEqual(code, 1)
+            self.assertIn('distinct', err)
+
+
 if __name__ == '__main__':
     unittest.main()

@@ -8,7 +8,7 @@
 
 **Docket or citation:** 93-2107; 23 F.3d 652 (2d Cir. 1994).
 
-**Admission source:** [Sanitized primary-source header](#admission), identifying the Second Circuit, caption, docket, and submission in 23 F.3d 652. The selected appellate result is confined to `history.md`.
+**Admission source:** [Sanitized primary-source header](#admission), identifying the Second Circuit, caption, docket, and submission in 23 F.3d 652. The selected appellate result is withheld from this packet.
 
 **Coverage cycle:** 001.
 
@@ -18,7 +18,7 @@
 
 **Principal question:** Whether administrative reversal after punitive segregation has begun categorically defeats the prisoner’s due-process damages action.
 
-**Selection reason:** Expressly included in the user’s 1994 canonical case request. No outcome-based selection or additional rotation rationale is asserted; policy rotation cannot be audited without CASE_SELECTION.md.
+**Selection reason:** Expressly included in the user’s 1994 case brief. Selected for coverage only; no outcome-based or rotation rationale is asserted.
 
 **Canonical case-list reference:** [1994 case list, entry 005](../../case-list.md), Walker v. Bates, docket 93-2107.
 
@@ -28,7 +28,7 @@
 
 **Requested appellate relief:** Walker seeks reversal and further proceedings on his witness-denial claim. Bates seeks affirmance because administrative review allegedly cured the hearing defect.
 
-**Historical entry stage and date:** Post-submission appellate consideration on 1994-04-29, immediately before the selected event. The argument/submission history remains as stated below; the event date is not proof of an earlier assignment.
+**Historical entry stage and date:** Post-submission appellate consideration on 1994-04-29, immediately before the selected event. Argument or submission history is stated below.
 
 **Historical argument or submission:** Oral argument on 1993-12-15. Source: selected proceeding’s header, reproduced without its disposition in the local admission extract.
 
@@ -46,7 +46,7 @@
 
 **Resulting panel:** Wilfred Feinberg (Senior Circuit Judge); Judge Stone (Circuit Judge); J. Daniel Mahoney (Active Circuit Judge).
 
-**Participation checks:** The historical members’ service at submission is supported by the header and Federal Judicial Center extracts. No adverse recusal fact is established, but conflict disclosures and the actual designation/assignment orders were not supplied. The resulting three-member configuration supplies the intended panel count; lawful participation under 28 U.S.C. §§ 46 and 292 and a valid quorum must be confirmed from the missing orders. No 1993 eligibility is inferred from a 1994 decision. Calabresi is not a member of this simulated panel.
+**Participation checks:** The historical members’ service at submission is supported by the header and Federal Judicial Center extracts. No recusal fact is established; conflict disclosures and the designation or assignment orders were not supplied. Panel composition and quorum are governed by 28 U.S.C. §§ 46 and 292. Calabresi is not on this panel.
 
 **Further panel departure:** None. Stone replaces exactly one historical panelist; the other two remain.
 
@@ -70,7 +70,7 @@ The full appellate briefs, appendix, trial or hearing transcripts, notices of ap
 
 **Related proceedings or dependencies:** Donald Selsky’s February 1991 administrative reversal is part of the record, not a separate simulation.
 
-**Missing facts, documents, or findings:** The original order and docket are needed to reconcile the printed date. Bates’s reasons for denying the witnesses, post-reversal responsibility, and compensatory injury remain to be developed. The full appellate briefs, appendix, trial or hearing transcripts, notices of appeal and docket-entry receipts were not supplied as independent documents. The reported opinion supplies a bounded account, not a substitute for every underlying document. The exact appellate-filing timeliness record therefore remains unverified unless specifically stated. CASE_SELECTION.md and its six-group definitions, the coverage-cycle register, the approved simulation roster, and any effective earlier simulation final records were not supplied.
+**Missing facts, documents, or findings:** The original order and docket are needed to reconcile the printed date. Bates’s reasons for denying the witnesses, post-reversal responsibility, and compensatory injury remain to be developed. The full appellate briefs, appendix, trial or hearing transcripts, notices of appeal and docket-entry receipts were not supplied as independent documents. The reported opinion supplies a bounded account, not a substitute for every underlying document. The exact appellate-filing timeliness record therefore remains unverified unless specifically stated.
 
 **Bounded reconstruction or scheduling premise:** Proposed papers resubmission on 1994-04-29, before consideration of the selected event, because Stone did not take part in the historical argument. This is a disclosed scheduling premise, not a historical docket event. No 1993 participation is attributed to him. No reconstruction decides a disputed fact, supplies a missing finding, approves a case-specific position, or invents an earlier simulation holding.
 
@@ -78,7 +78,7 @@ The full appellate briefs, appendix, trial or hearing transcripts, notices of ap
 
 **Legal cutoff:** 1994-04-29, immediately before the selected event.
 
-**Effective earlier simulation records:** None supplied or verified in the authorized inputs. This is a source gap, not a finding that none exist. Historical circuit authorities remain the baseline unless an applicable approved final simulation record is supplied.
+**Effective earlier simulation records:** None. No earlier simulation record addresses these issues; historical circuit authorities are the baseline.
 
 ### Issue 1: Administrative reversal after punishment and the surviving due-process claim
 
@@ -120,7 +120,7 @@ Alternative: Reverse the categorical administrative-cure dismissal and remand fo
 
 ## Sources and neutral handoff
 
-**Primary sources supplied:** 23 F.3d 652 (2d Cir. 1994), at 653-55, factual and lower-proceeding portions; see the supplied [sanitized record extract](#source-extract). The statutes, rules, and dated decisions identified issue by issue are the legal authorities for the stated propositions, with their pinpoints where available. The full selected comparator is cited only in `history.md`. Separately verified, issue-linked extracts of other pre-cutoff writings by each participating judge have not been assembled; no individual voting position may be inferred from this omission or from a case citation’s mere existence.
+**Primary sources supplied:** 23 F.3d 652 (2d Cir. 1994), at 653-55, factual and lower-proceeding portions; see the supplied [sanitized record extract](#source-extract). The statutes, rules, and dated decisions identified issue by issue are the legal authorities for the stated propositions, with their pinpoints where available. The full selected opinion is withheld from this packet. Separately verified, issue-linked extracts of other pre-cutoff writings by each participating judge have not been assembled; no individual voting position may be inferred from this omission or from a case citation’s mere existence.
 
 **Unavailable material and consequence:** The full appellate briefs, appendix, trial or hearing transcripts, notices of appeal and docket-entry receipts were not supplied as independent documents. The reported opinion supplies a bounded account, not a substitute for every underlying document. The exact appellate-filing timeliness record therefore remains unverified unless specifically stated. The original order and docket are needed to reconcile the printed date. Bates’s reasons for denying the witnesses, post-reversal responsibility, and compensatory injury remain to be developed. The missing selection policy prevents assignment of a numbered primary group or cycle. The missing simulation final records prevent a complete simulation-precedent check. The missing judge-specific writing extracts limit any later individual modeling. These are unresolved preparation gaps, not permission to supply results from recollection.
 
@@ -128,7 +128,7 @@ Alternative: Reverse the categorical administrative-cure dismissal and remand fo
 
 ## Source extract
 
-**Source identity:** 23 F.3d 652 (2d Cir. 1994), court header and pre-entry factual/procedural account. This is an editorial extract and paraphrase, not a verbatim trial transcript. The full selected appellate opinion is cited in `history.md`.
+**Source identity:** 23 F.3d 652 (2d Cir. 1994), court header and pre-entry factual/procedural account. This is an editorial extract and paraphrase, not a verbatim trial transcript. The full selected appellate opinion is withheld from this packet.
 
 ### Admission
 
