@@ -1,9 +1,9 @@
 # Second Circuit Standing State
 
-**Current simulation date:** 1994-11-21.
-**Posture:** Eighteen appeals admitted from the user's revised 1994 brief (thirteen in Cycle 001, five in Cycle 002): 15 adjudicated, 3 prepared and awaiting decision.
+**Current simulation date:** 1994-12-01.
+**Posture:** Eighteen appeals admitted from the user's revised 1994 brief (thirteen in Cycle 001, five in Cycle 002): 16 adjudicated, 2 prepared and awaiting decision.
 **Current bookkeeping period:** 1994-01-01 through 1994-12-31, Stone's first full calendar year.
-**Last completed simulation event:** 1994-11-21, Young (Ramadan) v. Selsky, No. 93-2567, panel decision; [final record](../years/1994/cases/young-v-selsky/events/1994-11-21-decision.md)
+**Last completed simulation event:** 1994-12-01, United States v. Shaoul, No. 94-1093, panel decision; [final record](../years/1994/cases/united-states-v-shaoul/events/1994-12-01-decision.md)
 **Controlled judge:** Alex-Lamar Stone-Khoury, circuit judge in the Meskill vacancy; fictional commission and required judicial oaths dated 1993-12-01.
 **Supreme Court setting:** Historical membership and actual decisions. No separate Supreme Court simulation law is admitted.
 
@@ -15,7 +15,7 @@ Senior judges remain separately listed in the roster and require case-specific p
 
 ## Work inventory
 
-- [1994 case list](../years/1994/case-list.md): eighteen appeals admitted (thirteen in Cycle 001, five in Cycle 002); 15 played, 3 prepared.
+- [1994 case list](../years/1994/case-list.md): eighteen appeals admitted (thirteen in Cycle 001, five in Cycle 002); 16 played, 2 prepared.
 - Coverage follows the [case-selection policy](../foundation/CASE_SELECTION.md): six groups, three historical cases per group, eighteen cases per cycle. No separate annual quota applies.
 - [Precedent index](PRECEDENT.md): no simulation holdings.
 
@@ -31,20 +31,20 @@ Cycle 001 has 13 of eighteen slots admitted and 13 played; group 3 has three unf
 | 001 | 4. Government powers, administrative law, and public regulation | 3 | 1 | 1 | 2 |
 | 001 | 5. Business, property, and private civil litigation | 3 | 3 | 3 | 0 |
 | 001 | 6. Federal courts, civil procedure, and remedies | 3 | 3 | 3 | 0 |
-| 002 | 1. Criminal law, sentencing, and post-conviction review | 3 | 3 | 1 | 0 |
+| 002 | 1. Criminal law, sentencing, and post-conviction review | 3 | 3 | 2 | 0 |
 | 002 | 2. Constitutional rights, civil rights, and elections | 3 | 0 | 0 | 3 |
 | 002 | 3. Labor, employment, and employee benefits | 3 | 0 | 0 | 3 |
 | 002 | 4. Government powers, administrative law, and public regulation | 3 | 0 | 0 | 3 |
 | 002 | 5. Business, property, and private civil litigation | 3 | 2 | 1 | 1 |
 | 002 | 6. Federal courts, civil procedure, and remedies | 3 | 0 | 0 | 3 |
 
-Cycle 001 totals: 13 admitted, 13 played, 5 unfilled admission slots (group 3: 3, group 4: 2). Cycle 002 totals: 5 admitted, 2 played, 13 unfilled admission slots. No cycle audit is due yet. Audit a cycle when all eighteen selected events are played, three per group; pending later proceedings remain in the procedural tracker. If cycles overlap to preserve chronology, retain each open cycle's remaining slots. Preserve completed-cycle audit links for later subject rotation.
+Cycle 001 totals: 13 admitted, 13 played, 5 unfilled admission slots (group 3: 3, group 4: 2). Cycle 002 totals: 5 admitted, 3 played, 13 unfilled admission slots. No cycle audit is due yet. Audit a cycle when all eighteen selected events are played, three per group; pending later proceedings remain in the procedural tracker. If cycles overlap to preserve chronology, retain each open cycle's remaining slots. Preserve completed-cycle audit links for later subject rotation.
 
 ## Rolling Supreme Court follow-up
 
 **Primary review years:** 1994 (selected circuit decisions finalized from 1994-01-28 onward).
 **Older open matters:** None.
-**Latest follow-up check:** Performed before each date advance, most recently through 1994-11-21. Events admitted are listed under pending proceedings and follow-up research tasks; sources are the segregated historical follow-up files and each case's comparison.
+**Latest follow-up check:** Performed before each date advance, most recently through 1994-12-01. Events admitted are listed under pending proceedings and follow-up research tasks; sources are the segregated historical follow-up files and each case's comparison.
 **Check limitations:** The historical follow-up files are partial for every case (filing dates, rehearing and mandate dates are mostly not established); an unverified filing is a research gap, not a pending proceeding.
 **New review events this turn:** Castillo: historical certiorari denial of 1994-10-03, verified and not attached to the simulated judgment (unresolved: historical path incompatible). Anderson: one candidate entry of the same date, not admitted. Latsis: certiorari granted 1994-10-17 (No. 94-325), compatible with the simulated judgment. DeWeerth: certiorari denied 1994-11-14 (No. 94-550, 513 U.S. 1001), compatible with the simulated judgment as the Supreme Court action on this case (petition filing date and target decision not established).
 
