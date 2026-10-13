@@ -80,7 +80,7 @@ The full appellate briefs, appendix, trial or hearing transcripts, notices of ap
 
 **Legal cutoff:** 1994-12-02, immediately before the selected event. The dated authorities below and the selected source’s historical record were checked for their relation to this cutoff. The event under preparation is not treated as its own precedent. Source verification in 2026 does not introduce 2026 law; no exhaustive citator certification is asserted.
 
-**Effective earlier simulation records:** None. No earlier simulation record addresses these issues; historical circuit authorities are the baseline.
+**Effective earlier simulation records:** [United States v. Castillo, No. 92-1279, final record of 1994-01-28](../united-states-v-castillo/events/1994-01-28-decision.md), Part VI, on the U.S.S.G. § 3B1.1(c) role adjustment (Issue 4 only). No earlier simulation record addresses Issues 1 through 3; historical circuit authorities are the baseline for those.
 
 ### Issue 1: Investigating-agent expertise, legal conclusions, and criminal harmlessness
 
@@ -200,7 +200,7 @@ Section 3B1.1(a) supplies the four-level increase for an organizer or leader of 
 
 **Other governing authority:** U.S.S.G. § 3B1.1(a); 18 U.S.C. § 3742; Garcia supplies the governing factual review.
 
-**Applicable simulation holding:** None supplied or verified. No proposed position in these briefs is an adopted holding.
+**Applicable simulation holding:** United States v. Castillo, Part VI (decided 1994-01-28, published, unanimous on this part; sanitized extract of its public decision). Rule: the finding of role under U.S.S.G. § 3B1.1(c) is reviewed for clear error and the meaning of the guideline independently, citing *United States v. Beaulieau*, 959 F.2d 375, 380 (2d Cir. 1992); the government must establish organizing or supervisory facts by a preponderance of the evidence; possession of drugs or proceeds is not by itself a basis for the adjustment; the court looks to the discretion exercised, the nature and degree of the role in planning or organizing the offense, and the control and authority held over other participants. Application: an inference of an organizing role drawn from weighing and packaging the product and holding most of the purchase money was permissible and not clearly erroneous on that record. Scope: confined to the record described; not a rule that receipt of proceeds or possession of drugs supports an inference of supervision, and no general rule about role enhancements. Later treatment: none.
 
 **Open question or conflict:** Whether the supported finding is clearly erroneous, not whether an appellate judge would rank the participants differently.
 
