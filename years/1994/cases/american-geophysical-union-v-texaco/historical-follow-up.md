@@ -17,14 +17,14 @@
 
 ## Supreme Court merits decision, if any
 
-None. The Supreme Court heard no argument and issued no opinion. Certiorari in No. 94-1726 was dismissed on 1995-12-04 under Rule 46.1 (516 U.S. 1005). The Second Circuit judgment in its further amended form therefore stayed in place without Supreme Court review. Whether Rule 46.1 was invoked by agreement of the parties was not checked against the 1990 Rule text, and a settlement is not established.
+None. No argument or opinion. Certiorari in No. 94-1726 was dismissed on 1995-12-04 under Rule 46.1 (516 U.S. 1005), so the Second Circuit judgment, in its further amended form, stood without Supreme Court review. The order states no reason; a settlement is not established.
 
 ## Dependence on the historical judgment
 
-- **Rehearing denial (1994-12-23):** sought by the party aggrieved by the affirmance of the no-fair-use ruling (Texaco, inferred). It rested on the 2-1 affirmance, the four-factor treatment of the retained articles and the licensing-market evidence. Jacobs's vote to grant matches a petition from the losing side.
-- **July 1995 amendment:** it modified the same affirmance; trigger unknown.
-- **Certiorari No. 94-1726:** Texaco filed as the losing appellant from an interlocutory § 1292(b) appeal that affirmed the no-fair-use ruling. It depends on an adverse judgment. A reversal for Texaco would make the publishers the possible petitioners and would not fit Texaco's petition or the Rule 46.1 dismissal.
-- **Remand and later proceedings:** depend on the partial, fair-use-only nature of the affirmance, which left damages, injunction and other issues to the district court.
+- **Rehearing denial (1994-12-23):** sought by the party aggrieved by the affirmance of the no-fair-use ruling (Texaco, inferred), addressing the four-factor treatment of the retained articles and the licensing-market evidence. It depends on an adverse affirmance.
+- **July 1995 amendment:** modified the same affirmance; trigger unknown.
+- **Certiorari No. 94-1726:** Texaco petitioned as the losing appellant in an interlocutory § 1292(b) appeal. It depends on an adverse judgment. A reversal in Texaco's favor would make the publishers the possible petitioners and would not fit this petition or its dismissal.
+- **Remand and later proceedings:** depend on the fair-use-only scope of the affirmance, which left damages, injunction and other issues to the district court.
 
 ## Gaps
 

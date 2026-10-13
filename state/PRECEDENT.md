@@ -1,6 +1,6 @@
 # Effective simulation precedent index
 
-**Current through:** 1994-01-28 (United States v. Castillo).
+**Current through:** 1994-02-17 (United States v. Anderson).
 
 Historical law supplies the starting legal world. Relevant historical Supreme Court decisions, Second Circuit authority, statutes, rules, and other governing sources are researched for each event. This file is not an exhaustive restatement of 1994 law and imports nothing from `scotus-career`.
 
@@ -15,6 +15,8 @@ Simulation holdings are entered from final event records as they are decided. Th
 | Criminal evidence | [United States v. Castillo, No. 92-1279](../years/1994/cases/united-states-v-castillo/events/1994-01-28-decision.md), Part II.B | 1994-01-28 | Officers' repetition of a sole eyewitness's account of a firearm is not rehabilitation, and its use in summation as corroboration of the firearm is not harmless under *Kotteakos*. Part II.B: Lumbard and Stone; Oakes dissenting. Part II.A principles: all three. | Published; precedential to its holding; limited to the described record, not a categorical exclusion of clarifying consistent statements. | None yet. |
 | Post-trial procedure | [United States v. Castillo, No. 92-1279](../years/1994/cases/united-states-v-castillo/events/1994-01-28-decision.md), Part IV | 1994-01-28 | Rule 33 time limits bar a motion resting on attorney conduct the defendant already knew; applies *Dukes*. Unanimous. | Published; application of settled circuit law; no merits holding on the disputed attorney-client exchange. | None yet. |
 | Jury instructions | [United States v. Castillo, No. 92-1279](../years/1994/cases/united-states-v-castillo/events/1994-01-28-decision.md), Part V | 1994-01-28 | The reasonable-doubt "abiding conviction" charge as given is not error; applies *Torres*. Unanimous. | Published; decides only the charge as given. | None yet. |
+| Sentencing, supervised release | [United States v. Anderson, No. 93-1097](../years/1994/cases/united-states-v-anderson/events/1994-02-17-decision.md), Part II | 1994-02-17 | A court revoking supervised release may not select or lengthen imprisonment to promote the defendant's rehabilitation. Kearse and Stone; Oakes dissenting. | Published; precedential on two joins; qualifications on other lawful considerations and treatment recommendations are not applied to the record. | None yet. |
+| Sentencing, Chapter Seven | [United States v. Anderson, No. 93-1097](../years/1994/cases/united-states-v-anderson/events/1994-02-17-decision.md), Part III | 1994-02-17 | Chapter Seven's recommended revocation range is advisory and must be considered, not a mandatory ceiling; applies *Bermudez*. Unanimous. | Published; application of settled circuit law. | None yet. |
 
 ## Update rules
 
