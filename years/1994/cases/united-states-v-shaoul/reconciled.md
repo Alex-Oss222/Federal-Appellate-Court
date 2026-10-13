@@ -1,72 +1,68 @@
-# Reconciled positions: United States of America v. Jack Shaoul, No. 94-1093 (2d Cir.)
+# Reconciled positions: United States v. Shaoul, No. 94-1093 (2d Cir.)
 
 **Stage:** historical reconciliation. **Inputs:** neutral.md, commitments.md, history.md, ENGINE.md.
 
+Components used below: (A) denial of the new-trial motion on the juror relationship; (B) unanimity, the overt-act response, and the remaining unpreserved charge objections. The convictions and sentence are not independently challenged.
+
 ## Historical comparison
 
-History (41 F.3d 811, 1994-12-01) affirmed the criminal judgment. The panel was Lumbard, Altimari and Cabranes. Cabranes wrote, Lumbard and Altimari joined, and there were no separate writings. As summarized in history.md, the grounds were: the conceded honest omission did not satisfy McDonough; the indirect relationship to an uninvolved prosecutor did not independently require automatic disqualification; the charge, including the falsity direction and the supplemental overt-act answer, did not establish reversible plain error; and the remaining charge objections failed. No new trial and no sentencing relief; the mandate date is unknown.
+History.md reports an affirmance of the criminal judgment, with no new trial and no sentencing relief. The opinion was authored by the judge the simulation replaces, joined by both retained judges, with no separate writing. It rested on three stated premises: the conceded honest voir dire omission did not satisfy McDonough; the indirect relationship to an uninvolved prosecutor did not independently require automatic disqualification; and the charge, including the specific falsity direction and the supplemental overt-act answer, did not establish reversible plain error, so the remaining charge objections also failed. Mandate date and stay status are unknown.
 
-That result rested on premises that survive here: the same record, counsel's concession of good faith and waiver of juror examination, the same unobjected-to charge and Rule 52(b) posture, the same pre-cutoff law, and the same argument date.
-
-One premise changed: Cabranes's seat is filled by a different judge. Lumbard's and Altimari's historical joins were joins in a text another judge wrote, so history is strong evidence of their votes on judgment and on the grounds history.md states, but not of how either would answer a differently worded rationale. Their join limits govern wording. The change gives neither a reason to depart from history on judgment, ground or remedy.
-
-Both commitments affirm in full, as history did. The only differences are in level of generality and where history.md, a short summary, is silent: it does not say which Olano step resolved the charge claims, whether the abstract overt-act question was decided, or whether independent bias was said to stay available.
+Those premises survive in this simulation. The record, the 1994-12-01 legal cutoff, the argument date, and the two retained judges are unchanged, and the commitments were formed without exposure to the result. The only changed premise is the third seat. That change removes the historical author, so the wording the retained judges joined is not available, but it does not change the record or the law either retained judge applied. History is therefore strong evidence of the retained judges' dispositions and of the narrow grounds they accepted. It is weak evidence of whether either would join a differently worded or broader rationale, because history.md gives only holding-level summaries.
 
 ## J. Edward Lumbard
 
-**Reconciled disposition:** Affirm in full, by component. The Rule 33 denial was not an abuse of discretion. There was no error, and so no plain error, in the overt-act response and unanimity charge. There was no plain error in the remaining charge objections (description of the alleged falsehoods; mailing stipulation). The sentence is undisturbed.
+**Reconciled disposition:** (A) Affirm denial of a new trial. (B) Affirm; no plain error.
 
-**Ground:** Juror claim: the conceded honest omission fails the first McDonough requirement. The relationship (uncle of the wife of an uninvolved assistant U.S. attorney) neither shows actual bias nor warrants presuming it, and no per se rule disqualifies a relative of any office lawyer (Colombo). Independent actual or implied bias remains a distinct claim, but it must be proved, and counsel waived the only chance to develop it. Review is for abuse of discretion, with the legal tests reviewed independently. Charge: read as a whole under Schiff, Harris and Olano, a general unanimity instruction plus two explicit unanimity-on-falsity directions was adequate. The jury asked whether every overt act must be proved, not which act occurred. The court need not decide whether agreement on a specific overt act is required, because the charge suffices even if it is. History's plain-error framing is compatible; he would accept the charge ground stated as "no error" or as "no plain error because no error is shown."
+**Ground:** (A) McDonough fails on counsel's express concession of good faith, and Langford does not remove that element. Implied bias is not established for a juror related through a spouse to a prosecutor who had no role in the case (Colombo, Dennis, Brown). Actual bias is unproved because counsel relinquished questioning, and that evidentiary gap is counsel's own. The legal claim stays reviewable. (B) Review is under Rule 52(b) and Olano. The general unanimity charge plus two express unanimity directions on material falsity suffices. The jury note is read as asking whether every act must be proved (DiLapi). An overt-act agreement requirement may be assumed without decision. The stipulation sentence is read within the whole charge. No error is plain.
 
-**Remedy:** Affirm. No remand and no further juror inquiry.
+**Remedy:** Affirm the judgment and the Rule 33 denial. No remand for a juror hearing, since the opportunity was offered and relinquished. No sentencing relief.
 
-**Join limits:** As committed. He joins any affirmance that keeps independent actual or implied bias available, and not a rationale treating a relative of any office lawyer as disqualified. He does not join a holding that settles the abstract overt-act unanimity question. He may rest the factual side of the bias claim on counsel's waiver (Blume, Sacco) and reach only the legal question of implied bias, with the same result. History does not disturb these limits.
+**Join limits:** Unchanged from the commitment. He would not join a per se disqualification of any relative of any office lawyer, a rationale making McDonough's honesty element dispensable, an order for a juror hearing despite counsel's waiver, or a holding that a particularized unanimity or overt-act charge is required. He would ordinarily join narrower or alternative affirmance grounds.
 
-**Basis for any departure from the commitment or from history:** None. The commitment says "no error" where history.md says "no reversible plain error," and history.md is silent on the open-bias and abstract-question points. No changed premise explains either, and silence is not contrary evidence, so the commitment stands.
+**Basis for any departure from the commitment or from history:** None. The commitment and history agree on disposition and on every ground history.md states. History neither contradicts nor confirms the waiver-based reasoning.
 
 ## Frank X. Altimari
 
-**Reconciled disposition:** Affirm in full, by the same components: Rule 33 denial not an abuse of discretion; no error and no plain error on the overt-act response and unanimity charge; no plain error on the remaining objections; sentence undisturbed.
+**Reconciled disposition:** (A) Affirm denial of a new trial. (B) Affirm; no error, and no plain error.
 
-**Ground:** Juror claim: the honest omission fails McDonough, and the record shows neither actual nor presumed bias. Garcia supports requiring proof beyond a bare relationship, and counsel's waiver left no actual-bias showing. Charge: read as a whole, with a defendant required to show prejudice from it; Schiff, Harris and Olano make a general unanimity charge plus the two falsity directions sufficient, and the overt-act answer did not disturb that command. He need not decide the abstract overt-act question. His substantial-rights point is a fallback only; history's "did not establish reversible plain error" is consistent with it, though history.md does not identify the step.
+**Ground:** (A) McDonough fails on the conceded honest omission. On independent bias, Garcia requires proof of actual bias, with deference to the trial court's finding of impartiality. The indirect, uninvolved relationship is outside Colombo's concern, and Dennis and Haynes refuse to infer bias from status. The record holds no finding or testimony of partiality. Whether the juror claim is also waived need not be resolved. (B) Under Locascio the charge is read as a whole. It required unanimity on falsity and contained no error, so the plain-error steps are not reached. If they were reached, no substantial-rights showing exists (Olano; defendant's burden).
 
-**Remedy:** Affirm. No remand or evidentiary hearing.
+**Remedy:** Affirm. No remand; the district court's discretion on the record presented was not abused. No sentencing relief.
 
-**Join limits:** As committed. Routine agreement with an affirmance on the same grounds. He does not join a rationale making a relationship to any office prosecutor disqualifying as a matter of law, or one making McDonough the exclusive route to a bias claim, and he resists deciding the overt-act question where the charge suffices on either view. History does not disturb these limits.
+**Join limits:** Unchanged from the commitment. He would not join an implied-bias rule keyed only to kinship or office-wide employment, a rationale dispensing with McDonough's honesty element, or a holding that specific unanimity is mandatory. He would ordinarily join narrower or alternative affirmance grounds.
 
-**Basis for any departure from the commitment or from history:** None. Same level-of-generality difference, no changed premise. His commitment rests on Garcia and general charge decisions, none addressing a juror related to a government lawyer, and history supplies no contrary signal.
+**Basis for any departure from the commitment or from history:** None on disposition. One difference in ground is possible: the commitment says "no error" on (B), while history.md says only that plain error was not established, and does not say whether the court found no error or assumed error. No changed premise explains this, so the commitment stands. His own commitment states that a no-substantial-rights alternative applies if error is reached, so a writing that assumes error is within what he would join.
 
 ## Agreement between the two modeled judges (by component)
 
-- **Judgment:** Agree. Both affirm in full.
-- **Juror claim, disposition:** Agree. The Rule 33 denial stands.
-- **Juror claim, ground:** Agree on an overlapping core. The honest omission fails McDonough; the uninvolved-prosecutor relationship neither shows nor presumes bias; no per se rule; the burden to prove independent bias is unmet after counsel's waiver. Both treat independent bias as available but unproved: Altimari's commitment names "impliedly presumed bias" and treats actual bias as independently available, and Lumbard requires implied bias to stay open. Altimari's Garcia emphasis on actual bias and Lumbard's insistence on implied bias do not conflict on the commitments' words. They would conflict only if a draft held implied bias categorically unavailable, which history.md does not show and Lumbard could not join.
-- **Charge, overt-act response and unanimity:** Agree on no error and no plain error on the whole charge, and on declining to settle the abstract overt-act question. Altimari alone adds the substantial-rights fallback. Lumbard's commitment does not reach later Olano steps, so his joining that fallback is unconfirmed and it should not be counted as a joined proposition.
-- **Remaining charge objections:** Agree on no plain error, on the basis of the complete charge keeping the charged offense and the scheme nexus. Lumbard also cites Schmuck for the mailing nexus; Altimari's commitment does not separately cite it.
-- **Sentence:** Agree. Undisturbed.
-- **Remedy:** Agree. Affirm; no remand, hearing or further juror inquiry.
-- **Join limits:** Compatible. Neither joins a per se relative-of-any-office-lawyer rule or a ruling on the abstract overt-act question. Each adds a narrower limit (Lumbard against honest-answer immunity; Altimari against McDonough exclusivity), and one affirmance can satisfy both.
-- **Authorship and separate writings:** History shows authorship by the replaced judge and no separate writing by either retained judge. Neither commitment calls for one. Authorship is for assembly and does not follow from history.
+- **Disposition, (A):** Agree. Both affirm denial of the new trial.
+- **Disposition, (B):** Agree. Both affirm. They differ only in label, as Lumbard says "no plain error" with the overt-act requirement assumed, and Altimari says "no error, and no plain error".
+- **Sufficient ground, (A):** Agree on the shared core. The honest, conceded omission defeats the McDonough route. Implied bias is not established by this indirect relationship to an uninvolved prosecutor, with no per se rule for relatives of office lawyers. No actual bias is shown on this record. They differ in supporting reasoning: Lumbard attributes the evidentiary gap to counsel's waiver, while Altimari relies on Garcia's proof requirement and leaves waiver unresolved. Each strand therefore has one modeled vote.
+- **Sufficient ground, (B):** Agree on the shared core. Under Olano, the whole charge, with its general unanimity direction and express falsity unanimity directions, does not support reversal. They differ in supporting reasoning. Lumbard assumes the overt-act requirement and Altimari finds no error. Both avoid deciding whether overt-act unanimity is required.
+- **Remedy:** Agree. Affirm, with no remand, no juror hearing (stated expressly by Lumbard, consistent with Altimari's no-remand position), and no sentencing relief.
+- **Join limits:** Compatible and overlapping. Both reject per se kinship disqualification, a rationale dispensing with McDonough's honesty element, and a mandatory particularized unanimity charge. Lumbard's added limit on a juror-hearing order has no counterpart in Altimari's commitment but does not conflict with it.
+- **Separate writings:** Neither commitment signals one, and history shows none.
 
-Two of the three panel votes therefore exist without the third seat for affirmance in full and for the overlapping core grounds above, but not for propositions only one endorses (Altimari's fallback; Lumbard's waiver-reach variation).
+**Result:** Without the third judge, two actual votes exist to affirm both components. Two joins also exist for these narrow propositions: (1) the conceded honest omission defeats McDonough; (2) this indirect relationship to an uninvolved prosecutor does not by itself compel disqualification; (3) no actual bias is shown on this record and no juror hearing is warranted; (4) the charge supports no plain error on unanimity, the overt-act response, or the remaining objections, without deciding whether overt-act agreement is required. A writing that goes beyond these (a waiver-only holding, a holding of no error in (B), or a broad statement on implied bias) needs a further actual join. Authorship and circulated text are for assembly.
 
 ## Remaining uncertainty and notes on the record
 
-- **Level of the charge holding:** history.md says "no reversible plain error"; the commitments say "no error." Which Olano step the unseen opinion resolved is unknown, and the reconciled positions do not depend on it.
-- **Silent points in history.md:** if the opinion decided the abstract overt-act question, or said independent bias stays open, and the retained judges joined it, that would bear on their join limits. The summary does not show it, so the commitments are kept.
-- **history.md inconsistencies:** its Sources line refers to "majority and separate opinions" while its Separate opinions line says none. It calls the assignment premise "unapproved," while neutral.md calls it declared and fixed before modeling. Neither was changed.
-- **neutral.md stale text:** its unavailable-material paragraph says the selection policy is missing and no group or cycle can be assigned, yet the packet states cycle 002, group 1 and entry 016. The commitments disclose that one search result showed this appeal's caption, date and panel metadata and was not opened; no outcome information is reflected in them.
-- **Possible miscite in commitments.md:** Lumbard's authorities list reads "18 U.S.C. §§ 371, 1341, 1291." Section 1291 is in Title 28, as neutral.md states. Not corrected.
-- **Possible miscite in neutral.md:** Garland v. United States, 182 F.2d 801 is labeled 4th Cir. 1950. I could not verify this, and my recollection is that the circuit label may be wrong. It is persuasive only and unused by either judge, so nothing turns on it. Not corrected.
-- **Carried-over limits from the commitments:** pinpoints and short quotations (including Garcia's "actual bias" fragment) are unverified against the reporter; the opinion authors of Colombo and Langford, the 1994 texts of Rules 30 and 33, and Boothe's "Young" authority are unverified.
-- **Mandate:** issuance date and any stay or recall are unknown, and no mandate component is reconciled here.
+- **Waiver framing:** The commitments are internally in tension. Lumbard says the legal claim "stays reviewable" yet also describes a narrower waiver path as plausible, and the Boothe waiver analogy is an inference, since Boothe concerned a witness question. A waiver-only rationale cannot be assumed to attract his join. A waiver of the factual inquiry, as opposed to the legal claim, is consistent with the packet.
+- **History's reasoning is thin:** grounds the retained judges would accept under a differently drafted text rest on the commitments, not on history.
+- **Not independently verified here:** the packet's account of Langford (the first McDonough element stands) and of Colombo's scope; Dennis, a government-employee juror case applied by analogy to a prosecutor's in-law; the neutral.md pinpoints; the commitments' author attributions for Calbas, Boothe, Tortora, Garcia, Locascio, and Collins; and the 1994 wording of Rules 30 and 52(b).
+- **Packet error, Schiff:** neutral.md quotes "unusual complexity", but the commitments report that Schiff as retrieved speaks of complexity or other factors creating a danger of jury confusion. They also report that Remington said the requested instruction "was right" but its refusal was not reversible, which sits uneasily with neutral.md's use of it. Neither affects the result, since the charge is adequate under either formulation.
+- **Packet inconsistencies:** neutral.md assigns Cycle 002 and Group 1 yet later says the missing selection policy prevents that assignment. It also says the district court denied "the instruction challenge" although no trial objection was made, without saying how that challenge was raised below. Neither bears on the merits.
+- **Participation records:** The conflict disclosures and assignment orders for the simulated panel were not supplied, as neutral.md and history.md note.
+- **Provenance:** The commitments' execution record says an earlier neutral run relied on another appeal's reported opinion and was replaced by this rerun. The commitments cite nothing from the historical opinion, so convergence with history is not evidence of leakage. Because both rest on the same McDonough and Colombo line, it is also not fully independent confirmation.
+- **Mandate and stay status:** Unknown per history.md; not decided here.
 
 ---
 
 ## Execution record
 
-- Stage: Historical reconciliation (ENGINE.md section 6).
-- Execution: fresh general-purpose agent a0586586b98e6af21, working only in a staged directory; this is a fresh context with an allowed-file list, not an operating-system sandbox.
+- Stage: Historical reconciliation (ENGINE.md section 6); redone from the replaced commitments.
+- Execution: fresh general-purpose agent a26ed7266f9cb0c44, working only in a staged directory; this is a fresh context with an allowed-file list, not an operating-system sandbox.
 - Permitted inputs: neutral.md, commitments.md, history.md, ENGINE.md.
-- Input commit: 2df4a8c.
+- Input commit: 44b1b5e.
 - Date run: 2026-10-13.
